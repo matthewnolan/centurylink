@@ -1,6 +1,6 @@
 <?php include_once "header.php";?>
+
 <div id="bussiness">
-	<div class="fix-header"></div>
 	<div class="hero">
 	<div class="container wrapper">
 		<div class="hero-container">
@@ -22,6 +22,15 @@
 
 <div class="sticky-nav">
 	<div class="container wrapper">
+		<div class="padding-fix">
+		<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
+			<ul id="sticky-nav">
+				<li><a href="#bhosted">Hosted Applications</a></li>
+				<li><a href="#bhdb">Data Backup</a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<div class="sticky-call">Call 123.456.7890</div>
+		</div>
 	</div>
 </div>
 
@@ -29,9 +38,9 @@
 	<div class="container wrapper">
 	<div class="padding-fix">
 		<p class="why-ctl-content">
-			Just because yours bussiness doaen't have 1000 employees doean't mean<br/>
+			Just because yours bussiness doesn't have 1000 employees doean't mean<br/>
 			you can't perform like you do.Centurylink provides the lasted cloud-based software<br/>
-			and solutions to hrlp youi do just that easily and cost effectively.<br/>
+			and solutions to help you do just that easily and cost effectively.<br/>
 			The only thing you will be missing is the headache.
 		</p>
 		<div class="box">
@@ -42,16 +51,10 @@
 	</div>
 </div>
 	
-	
-	
+			
 	
 	<div id="bhosted">
-		<div class="fix-header"></div>
 		<?php include_once "b-hosted.php"; ?>
-	</div>
-	<div id="bdata">
-		<div class="fix-header"></div>
-		<?php include_once "b-data.php"; ?>
 	</div>
 </div>
 <?php include_once "footer.php";?>

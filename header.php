@@ -2,18 +2,21 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Insert a very descriptive title here.</title>
+<title>CenturyLink</title>
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <script type="text/javascript"  src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript"  src="js/jquery.easing.min.js"></script>
 <script type="text/javascript"  src="dist/js/bootstrap.min.js"></script>
+<script type="text/javascript"  src="js/jquery.scrollUp.min.js"></script>
 <script type="text/javascript"  src="js/jquery.nav.js"></script>
 <script type="text/javascript"  src="js/jquery.scrollTo.js"></script>
 <script type="text/javascript"  src="js/jquery.sidr.min.js"></script>
 <script type="text/javascript"  src="js/jquery.sticky.js"></script>
+<script type="text/javascript"  src="js/readmore.min.js"></script>
 
 <!--[if !IE 7]>
 	<style type="text/css">
@@ -25,13 +28,21 @@
 <![endif]-->
 <script type="text/javascript">
 jQuery(document).ready(function($) {
-	$('#mainnav').onePageNav();
+	$.scrollUp({
+		  scrollImg: true
+	});
+	$(".sticky-nav").sticky({
+			topSpacing:0,
+			getWidthFrom: $('body')
+		});
+	$('#sticky-nav').onePageNav();
+	
 });
 </script>
 </head>
-<body data-spy="scroll" data-target="#mainnav">
+<body>
 <div id="wrapper">
-<header id="header" class="navbar navbar-fixed-top" >
+<header id="header" class="navbar" >
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row header-container">
@@ -40,7 +51,7 @@ jQuery(document).ready(function($) {
 				</div>
 				<div id="header-right" class="col-md-5 hidden-xs">
 					<ul id="mainnav">
-						<li class="current"><a href="#home" title="">Home</a></li>
+						<li class="current"><a href="/" title="">Home</a></li>
 						<li id="globalnav-container">
 							<a href="javascript:void(0)">Our Solutions</a>
 							<span class="arrow-bottom"></span>
@@ -48,40 +59,40 @@ jQuery(document).ready(function($) {
 								<li>
 									<ul>
 										<li>Bussiness Owner</li>
-										<li><a href="#bhosted" title="">Hosted Applications</a></li>
-										<li><a href="#bdata" title="">Data Backup</a></li>
+										<li><a href="bussiness.html" title="">Hosted Applications</a></li>
+										<li><a href="bussiness-databackup.html" title="">Data Backup</a></li>
 									</ul>
 								</li>
 								<li>
 									<ul>
 										<li>IT Leader</li>
-										<li><a href="#ihosted" title="">Hosted Applications</a></li>
-										<li><a href="#idata" title="">Data Backup</a></li>
+										<li><a href="itleader.html" title="">Hosted Applications</a></li>
+										<li><a href="itleader-databackup.html" title="">Data Backup</a></li>
 									</ul>
 								</li>
 							</ul>
 						</li>
-						<li><a href="#backup" title="">Blog</a></li>
+						<li><a href="" title="">Blog</a></li>
 						<li class="social-icon">
-							<a href="" title="">
+							<a href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
 								<i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
 							</span>
 							</a>
-							<a href="" title="">
+							<a href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook">
 								<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 								</span>
 							</a>
-							<a href="" title="">
+							<a href="https://plus.google.com/u/0/117080893855557903730/posts" title="Follow us on Google Plus">
 								<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
 								</span>
 							</a>
-							<a href="" title="">
+							<a href="http://www.linkedin.com/company/1434913?trk=tyah" title="Follow us on Linkedin">
 								<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -98,15 +109,15 @@ jQuery(document).ready(function($) {
 			<li>
 				<ul>
 					<li>Bussiness Owner</li>
-					<li><a href="#bhosted" title="">Hosted Applications</a></li>
-					<li><a href="#bdata" title="">Data Backup</a></li>
+					<li><a href="bussiness.html" title="">Hosted Applications</a></li>
+					<li><a href="bussiness-databackup.html" title="">Data Backup</a></li>
 				</ul>
 			</li>
 			<li>
 				<ul>
 					<li>IT Leader</li>
-					<li><a href="#ihosted" title="">Hosted Applications</a></li>
-					<li><a href="#idata" title="">Data Backup</a></li>
+					<li><a href="itleader.html" title="">Hosted Applications</a></li>
+					<li><a href="itleader-databackup.html" title="">Data Backup</a></li>
 				</ul>
 			</li>
 			<li>

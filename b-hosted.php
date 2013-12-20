@@ -34,8 +34,8 @@
 				</div>
 			</div>
 			
-			<div class="block-seperator"></div>
-			<div class="row">
+	
+			<div id="bhdb" class="row">		
 				<div class="col-md-6 image-block">
 				<img src="images/deposit.png" alt=""/>
 				</div>
@@ -44,7 +44,7 @@
 						<a href="">CenturyLink Data Backup</a>
 					</p>
 					<h3 class="block-title">
-						If data is the crown jewel of your<br/>bussiness, you should have the<br/>perfect safety deposit box.
+						If data is the crown jewel of <br/> your bussiness, you should <br/> have the perfect safety deposit box.
 					</h3>
 					<p class="block-content">
 						Is your data being backed up? After all, business depends on you having access to critical information when and where you need it. Don't leave backing up your data to chance or someonce's memory. With CentiryLink<br/>
@@ -84,21 +84,21 @@
 					</div>
 				</div>
 			</div>
-			<div class="child-video">
+			<div class="child-video row">
 				<hr class="videohr"/>
-				<div class="video-container">
+				<div class="video-container col-md-4">
 					<iframe width="223" height="125"
 						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>
-				<div class="video-container">
+				<div class="video-container col-md-4">
 					<iframe width="223" height="125"
 						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>
-				<div class="video-container">
+				<div class="video-container col-md-4">
 					<iframe width="223" height="125"
 						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
 					</iframe>
