@@ -215,10 +215,10 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row video-container">
-				<div class="video-left col-md-8">
+				<div class="video-left col-sm-8">
 					<iframe width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<div class="video-right col-md-4">
+				<div class="video-right col-sm-4">
 					<div>
 						<h3>Lorem Ipsum.</h3>
 						<p>

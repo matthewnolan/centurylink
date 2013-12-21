@@ -46,10 +46,10 @@ jQuery(document).ready(function($) {
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row header-container">
-				<div id="logo" class="col-md-7">
+				<div id="logo" class="col-md-7 col-sm-6">
 					<a href="" title="Century Link"><img src="images/logo.png"/></a>
 				</div>
-				<div id="header-right" class="col-md-5 hidden-xs">
+				<div id="header-right" class="col-md-5 col-sm-6 hidden-xs">
 					<ul id="mainnav">
 						<li class="current"><a href="/" title="">Home</a></li>
 						<li id="globalnav-container">

@@ -3,20 +3,20 @@
 	<div class="container wrapper">
 		<div class="padding-fix footer-content">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-sm-3">
 					<h3>FOR THE BUSSINESS OWNER</h3>
 					<p><a href="bussiness.html" title="">Hosted Applications</a></p>
 					<p><a href="bussiness-databackup.html" title="">Data Backup</a></p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-sm-3">
 					<h3>FOR THE IT LEADER</h3>
 					<p><a href="itleader.html" title="">Hosted Applications</a></p>
 					<p><a href="itleader-databackup.html" title="">Data Backup</a></p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-sm-3">
 					<h3>FOR SMALL BIZ SOLUTIONS</h3>
 				</div>
-				<div class="col-md-3">
+				<div class="col-sm-3">
 					<h3>CONNECT WITH US</h3>
 					<p><a href="" title="">View our blog</a></p>
 					<p class="social-icon">
