@@ -216,9 +216,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-md-8">
-					<iframe width="560" height="316"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
-					</iframe>
+					<iframe width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="video-right col-md-4">
 					<div>

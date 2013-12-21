@@ -235,19 +235,27 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 /*STICKY NAV*/
 
 .sticky-nav{
-	max-height:70px;
+	height:70px;
 	background-color:#8cc63e;
 	z-index:999;
 	text-align:center;
 }
+.sticky-nav .padding-fix{
+	position:relative;
+}
 .sticky-nav .nav-logo{
 	float:left;
 	padding-top:20px;
-	margin-right:70px;	
+}
+.fix-center{
+	width:141px;
+	height:1px;
+	float:right;
 }
 .sticky-call{
-	float:right;
-	margin-right:0;
+	position:absolute;
+	right:0;
+	top:70px;
 	background:#ffa02f;
 	font-size:16px;
 	font-weight:bold;
@@ -257,24 +265,26 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 .sticky-nav ul{
 	list-style:none;
+	display:inline-block;
 	margin:0;
 	padding:0;
-	float:left;
-	display:inline;
 }
 .sticky-nav li{
 	list-style:none;
 	margin:0;
 	padding:0;
-	float:left;
-	display:inline;
+	display:inline-block;
 	font-size:16px;
-	line-height:70px;
+	line-height:30px;
+	padding-top:20px;
 	color:#ffffff;
 }
 .sticky-nav a{
 	color:#ffffff;
 	padding-right:30px;
+}
+.sticky-nav ul li:last-child a{
+	padding-right:0;
 }
 .sticky-nav li.current a{
 	font-weight:bold;

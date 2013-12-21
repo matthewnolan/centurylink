@@ -29,7 +29,6 @@
 				<li><a href="#console">Management Console</a></li>
 				<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
 			</ul>
-			<div class="clearfix"></div>
 			<div class="sticky-call">Call 123.456.7890</div>
 		</div>
 	</div>

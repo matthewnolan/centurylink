@@ -23,12 +23,12 @@
 <div class="sticky-nav">
 	<div class="container wrapper">
 		<div class="padding-fix">
-		<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
+			<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
 			<ul id="sticky-nav">
 				<li><a href="#bhosted">Hosted Applications</a></li>
 				<li><a href="#bhdb">Data Backup</a></li>
 			</ul>
-			<div class="clearfix"></div>
+			<div class="fix-center"></div>
 			<div class="sticky-call">Call 123.456.7890</div>
 		</div>
 	</div>

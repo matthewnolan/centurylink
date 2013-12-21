@@ -94,9 +94,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-md-8">
-					<iframe width="560" height="316"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
-					</iframe>
+					<iframe width="560" height="315" src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<div class="video-right col-md-4">
 					<div>
@@ -109,19 +107,19 @@
 				<hr class="videohr"/>
 				<div class="video-container">
 					<iframe width="223" height="125"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
+						src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen>
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>
 				<div class="video-container">
 					<iframe width="223" height="125"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
+						src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen>
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>
 				<div class="video-container">
 					<iframe width="223" height="125"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
+						src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen>
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>

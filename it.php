@@ -30,7 +30,7 @@
 				<li><a href="#ihosted">Hosted Applications</a></li>
 				<li><a href="#ihdb">Data Backup</a></li>
 			</ul>
-			<div class="clearfix"></div>
+			<div class="fix-center"></div>
 			<div class="sticky-call">Call 123.456.7890</div>
 		</div>
 	</div>
