@@ -250,4 +250,12 @@ a, a:hover, a:active {
 	margin-top:107px;
 }
 
+#video_modifferent {
+	 border:3px solid black;
+}
+
+#row_top_modifferent {
+	 padding-bottom:100px;
+}
+
 /* END MODifferent */
