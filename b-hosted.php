@@ -34,8 +34,8 @@
 				</div>
 			</div>
 			
-			<div class="block-seperator"></div>
-			<div class="row">
+	
+			<div id="bhdb" class="row">		
 				<div class="col-md-6 image-block">
 				<img src="images/deposit.png" alt=""/>
 				</div>
@@ -44,7 +44,7 @@
 						<a href="">CenturyLink Data Backup</a>
 					</p>
 					<h3 class="block-title">
-						If data is the crown jewel of your<br/>bussiness, you should have the<br/>perfect safety deposit box.
+						If data is the crown jewel of <br/> your bussiness, you should <br/> have the perfect safety deposit box.
 					</h3>
 					<p class="block-content">
 						Is your data being backed up? After all, business depends on you having access to critical information when and where you need it. Don't leave backing up your data to chance or someonce's memory. With CentiryLink<br/>
@@ -72,35 +72,33 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row video-container">
-				<div class="video-left col-md-8">
-					<iframe width="560" height="316"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
-					</iframe>
+				<div class="video-left col-sm-8">
+					<iframe width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<div class="video-right col-md-4">
+				<div class="video-right col-sm-4">
 					<div>
 						<h3>Cloud as flexible<br/> as you are.</h3>
 						<p>CenturyLink computing let you and your employees work from anywhere, anytime, and starts working right away. Now that agility. </p>
 					</div>
 				</div>
 			</div>
-			<div class="child-video">
+			<div class="child-video row">
 				<hr class="videohr"/>
-				<div class="video-container">
+				<div class="video-container col-md-4">
 					<iframe width="223" height="125"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
+						src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen>
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>
-				<div class="video-container">
+				<div class="video-container col-md-4">
 					<iframe width="223" height="125"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
+						src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen>
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>
-				<div class="video-container">
+				<div class="video-container col-md-4">
 					<iframe width="223" height="125"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
+						src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen>
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>

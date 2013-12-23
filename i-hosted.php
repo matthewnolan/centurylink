@@ -15,6 +15,34 @@
 					</p>
 					<p class="block-more"> Get product details and find out how we manage applications. <a href="">Learn More</a>
 					</p>
+				</div>
+				<div class="col-md-5 image-block">
+				<img src="images/it-fpo.png" alt="IFPO"/>
+				</div>
+			</div>
+			
+			
+			<div class="row logo">
+				<div class="col-md-4 logo-block">
+					<p>Email & Collaboration</p>
+					<img src="images/logo1.png" alt="LOGO"/>
+					<img src="images/logo2.png" alt="LOGO"/>
+					<img src="images/logo3.png" alt="LOGO"/>
+				</div>
+				<div class="col-md-4 logo-block">
+					<p>Sercurity & Backup</p>
+					<img src="images/logo4.png" alt="LOGO"/>
+					<img src="images/logo5.png" alt="LOGO"/>
+				</div>
+				<div class="col-md-4 logo-block">
+					<p>Web Management</p>
+					<img src="images/logo6.png" alt="LOGO"/>
+					<img src="images/logo7.png" alt="LOGO"/>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-7 copy-block">
 					<div class="testimonial">
 						<img src="images/bob.jpg" alt="TESTIMONIAL"/>
 						<div>
@@ -25,36 +53,33 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-5 image-block">
-				<img src="images/it-fpo.png" alt="IFPO"/>
-				</div>
 			</div>
 			
 			<div class="block-seperator"></div>
-			<div class="row">
+			<div class="row" id="ihdb">
 				<div class="col-md-6 image-block">
-				<img src="images/deposit.png" alt=""/>
+				<img src="images/it-fpo2.png" alt=""/>
 				</div>
 				<div class="col-md-6 copy-block">
 					<p class="block-link">
 						<a href="">CenturyLink Data Backup</a>
 					</p>
 					<h3 class="block-title">
-						If data is the crown jewel of your<br/>bussiness, you should have the<br/>perfect safety deposit box.
+						Save data, time and money.
 					</h3>
 					<p class="block-content">
-						Is your data being backed up? After all, business depends on you having access to critical information when and where you need it. Don't leave backing up your data to chance or someonce's memory. With CentiryLink<br/>
-						Cloud Service data backup is sercure and automatic.
+						If you're like most IT managers youre already backing up your data, but you're probably doing it onsite. For you, that's time consuming- and time is money. With CenturyLink Cloud Data Backup you can protect your data, manage it the way you want, and do it all automatically. That's one less thing for you to worry about, and one more way you can control your budget.
+
 					</p>
-					<p class="block-more"> Backup data without a second thought. <a href="">Start Now</a>
+					<p class="block-more"> Backup that's secure, simple and automatic. <a href="">Learn More</a>
 					</p>
 					<div class="testimonial">
-						<img src="images/testi2.jpg" alt="TESTIMONIAL"/>
+						<img src="images/ittesti.jpg" alt="TESTIMONIAL"/>
 						<div>
 							<p class="first">
-								"I used to worry about the sercurity of my client data and software.But now with CenturyLink Data Backup, I don't even have to think about it anymore. "
+								"CenturyLink Cloud means agility for my organization, and that means a good night's sleep for me. "
 							</p>
-							<p class="last">Mike White, Universal Healthcare</p>
+							<p class="last">Susan Briggs, City Floral Market</p>
 						</div>
 					</div>
 				</div>
@@ -68,15 +93,13 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row video-container">
-				<div class="video-left col-md-8">
-					<iframe width="560" height="316"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
-					</iframe>
+				<div class="video-left col-sm-8">
+					<iframe width="560" height="315" src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<div class="video-right col-md-4">
+				<div class="video-right col-sm-4">
 					<div>
-						<h3>Cloud as flexible<br/> as you are.</h3>
-						<p>CenturyLink computing let you and your employees work from anywhere, anytime, and starts working right away. Now that agility. </p>
+						<h3>Lorem Ipsum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et egestas dolor, non iaculis dolor. Integer ut elit quis ante varius dignissim.</p>
 					</div>
 				</div>
 			</div>
@@ -84,19 +107,19 @@
 				<hr class="videohr"/>
 				<div class="video-container">
 					<iframe width="223" height="125"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
+						src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen>
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>
 				<div class="video-container">
 					<iframe width="223" height="125"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
+						src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen>
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>
 				<div class="video-container">
 					<iframe width="223" height="125"
-						src="http://www.youtube.com/watch?v=ZqpxHipyB-c">
+						src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen>
 					</iframe>
 					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>

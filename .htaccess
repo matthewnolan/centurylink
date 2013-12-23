@@ -1,0 +1,8 @@
+ Options +FollowSymLinks
+  RewriteEngine on
+  RewriteBase /
+  RewriteRule ^index\.html$ index.php [T=application/x-httpd-php,L]
+  RewriteRule ^bussiness\.html$ bussiness.php [T=application/x-httpd-php,L]
+  RewriteRule ^bussiness-databackup\.html$ bussiness-databackup.php [T=application/x-httpd-php,L]
+  RewriteRule ^itleader\.html$ it.php [T=application/x-httpd-php,L]
+  RewriteRule ^itleader-databackup\.html$ itleader-databackup.php [T=application/x-httpd-php,L]
