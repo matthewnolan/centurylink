@@ -2,7 +2,7 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row">
-				<div class="col-md-6 copy-block">
+				<div class="col-sm-6 copy-block">
 					<p class="block-link">
 						<a href="">CenturyLink Hosted Applications</a>
 					</p>
@@ -19,7 +19,7 @@
 					</p>
 					<p class="block-more"> Apps make easy. <a href="">Let's Go</a>
 					</p>
-					<div class="testimonial">
+					<div class="testimonial hidden-xs">
 						<img src="images/testi1.jpg" alt="TESTIMONIAL"/>
 						<div>
 							<p class="first">
@@ -29,17 +29,29 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 image-block">
-				<img src="images/microsoft-cloud.png" alt="MICROSOFT CLOUD"/>
+				<div class="col-sm-6 image-block">
+					<img src="images/microsoft-cloud.png" alt="MICROSOFT CLOUD"/>
+				</div>
+				<div class="testimonial visible-xs">
+					<img src="images/testi1.jpg" alt="TESTIMONIAL"/>
+					<div>
+						<p class="first">
+							"in real estate, markets can change on a dime and so do ours client needs. And with CenturyLink Cloud, it's easier for us to keep up."
+						</p>
+						<p class="last">Don Atkinson, Hallmark Real Estate</p>
+					</div>
 				</div>
 			</div>
 			
+			
+			<hr class="block-hr"/>
+			
 	
 			<div id="bhdb" class="row">		
-				<div class="col-md-6 image-block">
-				<img src="images/deposit.png" alt=""/>
+				<div class="col-sm-6 image-block hidden-xs">
+					<img src="images/deposit.png" alt=""/>
 				</div>
-				<div class="col-md-6 copy-block">
+				<div class="col-sm-6 copy-block">
 					<p class="block-link">
 						<a href="">CenturyLink Data Backup</a>
 					</p>
@@ -52,6 +64,20 @@
 					</p>
 					<p class="block-more"> Backup data without a second thought. <a href="">Start Now</a>
 					</p>
+					<div class="testimonial hidden-sm hidden-xs">
+						<img src="images/testi2.jpg" alt="TESTIMONIAL"/>
+						<div>
+							<p class="first">
+								"I used to worry about the sercurity of my client data and software.But now with CenturyLink Data Backup, I don't even have to think about it anymore. "
+							</p>
+							<p class="last">Mike White, Universal Healthcare</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 image-block visible-xs">
+					<img src="images/deposit.png" alt=""/>
+				</div>
+				<div class="col-sm-6 copy-block visible-sm visible-xs">
 					<div class="testimonial">
 						<img src="images/testi2.jpg" alt="TESTIMONIAL"/>
 						<div>

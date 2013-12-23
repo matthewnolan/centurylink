@@ -23,18 +23,31 @@
 	</div>
 	
 	<div class="sticky-nav">
-	<div class="container wrapper">
-		<div class="padding-fix">
-		<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
-			<ul id="sticky-nav">
+		<div class="container wrapper hidden-xs">
+			<div class="padding-fix">
+			<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
+				<ul id="sticky-nav">
+					<li><a href="#ihosted">Hosted Applications</a></li>
+					<li><a href="#ihdb">Data Backup</a></li>
+				</ul>
+				<div class="fix-center"></div>
+				<div class="sticky-call">Call 123.456.7890</div>
+			</div>
+		</div>
+		
+		<div class="mobile-sticky-nav visible-xs">
+			<ul id="mobile-sticky-nav" class="collapse">
 				<li><a href="#ihosted">Hosted Applications</a></li>
 				<li><a href="#ihdb">Data Backup</a></li>
+				<li><div class="mobile-sticky-call">Call 123.456.7890</div></li>
 			</ul>
-			<div class="fix-center"></div>
-			<div class="sticky-call">Call 123.456.7890</div>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 		</div>
 	</div>
-</div>
 	
 	<div class="why-ctl">
 		<div class="container wrapper">

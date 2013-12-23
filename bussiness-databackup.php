@@ -21,10 +21,10 @@
 
 
 <div class="sticky-nav">
-	<div class="container wrapper">
+	<div class="container wrapper hidden-xs">
 		<div class="padding-fix">
 		<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
-			<ul id="sticky-nav">
+			<ul class="multi" id="sticky-nav">
 				<li><a href="#easy">Easy Management</a></li>
 				<li><a href="#safe">Safe & Available</a></li>
 				<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
@@ -34,6 +34,22 @@
 			<div class="sticky-call">Call 123.456.7890</div>
 		</div>
 	</div>
+	
+	<div class="mobile-sticky-nav visible-xs">
+		<ul id="mobile-sticky-nav" class="collapse">
+			<li><a href="#easy">Easy Management</a></li>
+			<li><a href="#safe">Safe & Available</a></li>
+			<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
+			<li><a href="#pricing">Pricing</a></li>
+			<li><div class="mobile-sticky-call">Call 123.456.7890</div></li>
+		</ul>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
+	
 </div>
 
 

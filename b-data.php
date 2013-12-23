@@ -22,7 +22,7 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row">
-				<div class="col-md-6 copy-block">
+				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
 						Back up your files like a pro. <br/>No experience required. 
 					</h3>
@@ -30,7 +30,7 @@
 						With CenturyLink Cloud Solutions, your employees' files are backed up automatically. And with our easy-to-use management console, you'll get the admin tools you need to install and schedule backups or delete old and archived files--letting you literally set it and forget it. 
 					</p>
 				</div>
-				<div class="col-md-6 image-block">
+				<div class="col-sm-6 image-block">
 				<img src="images/bdb-fpo1.png" alt="FPO"/>
 				</div>
 			</div>
@@ -39,10 +39,10 @@
 			<hr class="block-hr"/>
 			
 			<div class="row" id="safe">
-				<div class="col-md-6 image-block">
+				<div class="col-sm-6 image-block">
 				<img src="images/bdb-fpo2.png" alt=""/>
 				</div>
-				<div class="col-md-6 copy-block">
+				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
 						The business world <br/>doesnt run smoothly. <br/>Your data backups can. 
 					</h3>
@@ -61,7 +61,7 @@
 			<hr class="block-hr"/>
 			
 			<div class="row" id="ffb">
-				<div class="col-md-7 copy-block">
+				<div class="col-sm-7 copy-block">
 					<h3 class="block-title">
 						Onboard effortlessly <br/>and get started today.
 					</h3>
@@ -73,7 +73,7 @@
 					</p>
 					
 				</div>
-				<div class="col-md-5 image-block">
+				<div class="col-sm-5 image-block">
 					<img id="onboard-image" src="images/onboard-closed.png" alt="ONBOARD"/>
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 			<div class="block-seperator"></div>
 			
 			<div class="row onboard3col">
-				<div class="col-md-4 ">
+				<div class="col-sm-4 ">
 					<img src="images/gears.png" alt="GEARS"/>
 					<div class="onboard-title">Do it Yourself</div>
 					<div class="onboard-content readmore">
@@ -91,22 +91,24 @@
 					
 					</div>
 				</div>
-				<div class="col-md-4 ">
+				<div class="col-sm-4 ">
 					<img src="images/talk.png" alt="TALK"/>
 					<div class="onboard-title">We Help You Get Started</div>
 					<div class="onboard-content readmore">
 						With our guided activation, one of our Cloud experts will walk you through the
 						<span class="3dot">...</span><div class="details"></div>
 						 initial steps of setup in order to make sure your business is taking full advantage of the Cloud and can back up all of your files safely and securely.
+						<div class="fix-readmore-height"></div>
 					</div>
 				</div>
-				<div class="col-md-4 ">
+				<div class="col-sm-4 ">
 					<img src="images/join.png" alt="Join"/>
 					<div class="onboard-title">We Take Care of Every Step</div>
 					<div class="onboard-content readmore">
 						Need additional support? A CenturyLink Cloud expert will work closely with you to
 						<span class="3dot">...</span><div class="details"></div>
 						customize a plan that meets all your business needs and data backup requirements while getting you to the Cloud quickly and affordably. 
+						<div class="fix-readmore-height"></div>
 					</div>
 				</div>
 			</div>
@@ -116,10 +118,10 @@
 			<hr class="block-hr"/>
 			
 			<div class="row"  id="pricing">
-				<div class="col-md-6 image-block">
+				<div class="col-sm-6 image-block">
 					<img src="images/bdb-fpo3.png" alt=""/>
 				</div>
-				<div class="col-md-6 copy-block">
+				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
 						The solutions are in the cloud. <br/>The pricing is down to earth.
 					</h3>
@@ -140,15 +142,15 @@
 				</div>
 				<div class="clearfix"></div>
 				<div class="row cost-content">
-					<div class="col-md-4 cost-circle">
+					<div class="col-sm-4 cost-circle">
 						<div class="top">10<span class="sub">GB</span></div>
 						<div class="bot">4.<sup>99</sup>/month</div>
 					</div>
-					<div class="col-md-4 mid cost-circle">
+					<div class="col-sm-4 mid cost-circle">
 						<div class="top">25<span class="sub">GB</span></div>
 						<div class="bot">9.<sup>99</sup>/month</div>
 					</div>
-					<div class="col-md-4 last cost-circle">
+					<div class="col-sm-4 last cost-circle">
 						<div class="top">100<span class="sub">GB</span></div>
 						<div class="bot">24.<sup>99</sup>/month</div>
 					</div>

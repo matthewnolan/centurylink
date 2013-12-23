@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
 			getWidthFrom: $('body')
 		});
 	$('#sticky-nav').onePageNav();
-	
+	$('#mobile-sticky-nav').onePageNav();	
 });
 </script>
 </head>

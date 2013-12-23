@@ -2,7 +2,7 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row">
-				<div class="col-md-7 copy-block">
+				<div class="col-sm-7 copy-block">
 					<p class="block-link">
 						<a href="">CenturyLink Hosted Applications</a>
 					</p>
@@ -16,25 +16,25 @@
 					<p class="block-more"> Get product details and find out how we manage applications. <a href="">Learn More</a>
 					</p>
 				</div>
-				<div class="col-md-5 image-block">
+				<div class="col-sm-5 image-block">
 				<img src="images/it-fpo.png" alt="IFPO"/>
 				</div>
 			</div>
 			
 			
 			<div class="row logo">
-				<div class="col-md-4 logo-block">
+				<div class="col-sm-4 logo-block">
 					<p>Email & Collaboration</p>
 					<img src="images/logo1.png" alt="LOGO"/>
 					<img src="images/logo2.png" alt="LOGO"/>
 					<img src="images/logo3.png" alt="LOGO"/>
 				</div>
-				<div class="col-md-4 logo-block">
+				<div class="col-sm-4 logo-block">
 					<p>Sercurity & Backup</p>
 					<img src="images/logo4.png" alt="LOGO"/>
 					<img src="images/logo5.png" alt="LOGO"/>
 				</div>
-				<div class="col-md-4 logo-block">
+				<div class="col-sm-4 logo-block">
 					<p>Web Management</p>
 					<img src="images/logo6.png" alt="LOGO"/>
 					<img src="images/logo7.png" alt="LOGO"/>
@@ -54,13 +54,12 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="block-seperator"></div>
+			<hr class="block-hr"/>
 			<div class="row" id="ihdb">
-				<div class="col-md-6 image-block">
-				<img src="images/it-fpo2.png" alt=""/>
+				<div class="col-sm-6 image-block hidden-xs">
+					<img src="images/it-fpo2.png" alt=""/>
 				</div>
-				<div class="col-md-6 copy-block">
+				<div class="col-sm-6 copy-block">
 					<p class="block-link">
 						<a href="">CenturyLink Data Backup</a>
 					</p>
@@ -73,6 +72,21 @@
 					</p>
 					<p class="block-more"> Backup that's secure, simple and automatic. <a href="">Learn More</a>
 					</p>
+					<div class="testimonial hidden-sm hidden-xs">
+						<img src="images/ittesti.jpg" alt="TESTIMONIAL"/>
+						<div>
+							<p class="first">
+								"CenturyLink Cloud means agility for my organization, and that means a good night's sleep for me. "
+							</p>
+							<p class="last">Susan Briggs, City Floral Market</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 image-block visible-xs">
+					<img src="images/it-fpo2.png" alt=""/>
+				</div>
+				<div class="col-sm-6 copy-block visible-sm visible-xs">
+				
 					<div class="testimonial">
 						<img src="images/ittesti.jpg" alt="TESTIMONIAL"/>
 						<div>

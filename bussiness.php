@@ -21,7 +21,7 @@
 </div>
 
 <div class="sticky-nav">
-	<div class="container wrapper">
+	<div class="container wrapper hidden-xs">
 		<div class="padding-fix">
 			<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
 			<ul id="sticky-nav">
@@ -32,7 +32,22 @@
 			<div class="sticky-call">Call 123.456.7890</div>
 		</div>
 	</div>
+	
+	<div class="mobile-sticky-nav visible-xs">
+		<ul id="mobile-sticky-nav" class="collapse">
+			<li><a href="#bhosted">Hosted Applications</a></li>
+			<li><a href="#bhdb">Data Backup</a></li>
+			<li><div class="mobile-sticky-call">Call 123.456.7890</div></li>
+		</ul>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
 </div>
+
+
 
 <div class="why-ctl">
 	<div class="container wrapper">
