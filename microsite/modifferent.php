@@ -1,6 +1,6 @@
 <div id="MODifferent">
 	<div class="content-wrapper">
-		<div class="row" style="padding-bottom:100px;">
+		<div class="row" id="row_top_modifferent">
 			<div class="col-md-6">
 				<div id="div_left_modifferent">
 					<h2>What makes Managed Office different?</h2>
@@ -20,7 +20,7 @@
 	    <div class="row">
 			<div class="col-md-6">
 				<div id="div_left2_modifferent">
-					<video width="485" height="298" style="border:3px solid black;" controls>
+					<video width="485" height="298" id="video_modifferent" controls>
 					    <source src="video/movie.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
