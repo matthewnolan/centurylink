@@ -1,0 +1,333 @@
+/* START COMMON */
+
+body {
+	font-size:12px;
+	color: #000;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+#container {
+	width: 1316px;
+	max-width: 1316px;
+	margin: 0 auto;
+}
+
+.content-wrapper {
+	width: 1000px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.font-green-mormal {
+	color: #77b800;
+}
+
+.font-white-mormal {
+	color: white;
+}
+
+.font-gray-mormal {
+	color: #616265;
+}
+
+.span-menu-normal {
+	padding-right: 20px;
+}
+
+/* END COMMON */
+
+
+/* START HEADER */
+
+#header {
+	padding: 20px 0;
+	height: 800px;
+	background-image: url("../images/bg_welcome.png");
+}
+
+#img_phone_header {
+	padding-right:10px;
+	padding-bottom:5px;
+}
+
+#img_schedule_header {
+	padding-right:7px;
+}
+
+#div_social_header {
+	text-align:right;
+}
+
+.fa-bg-header {
+	color: #000;
+}
+
+/* END HEADER */
+
+
+/* START FOOTER */
+
+#footer {
+	background-color: #000;
+	padding: 30px 0 56px 0;
+	margin-top: -15px;
+}
+
+#div_img_footer {
+	padding-top:34px;
+}
+
+#div-social-footer {
+	border-left:3px solid #555;
+	padding-left:55px;
+}
+
+.fa-bg-footer {
+	color: #555;
+}
+
+/* END FOOTER */
+
+
+/* START WELCOME */
+
+#img_computer_welcome {
+	position: absolute;
+	margin-left: -70px;
+	margin-top: -200px;
+	z-index: 10;
+}
+
+#img_dataServer_welcome {
+	position: absolute;
+	margin-left: -140px;
+	margin-top: -50px;
+}
+
+#img_phone_welcome {
+	position: absolute;
+	margin-left: -25px;
+	margin-top: -150px;
+}
+
+#txt_MData_welcome {
+	position: absolute;
+	margin-left: 312px;
+	margin-top: -400px;
+	text-align: left;
+	width: 120px;
+	height: 70px;
+}
+
+#txt_MVoice_welcome {
+	position: absolute;
+	margin-left: 290px;
+	margin-top: -115px;
+	width: 115px;
+	height: 70px;
+	text-align: left;
+}
+
+#txt_MApps_welcome {
+	position: absolute;
+	margin-left: 75px;
+	margin-top: -115px;
+	width: 150px;
+	height: 70px;
+	text-align: left;
+}
+
+#down_arrow_welcome {
+	margin-left:469px;
+	margin-top:120px;
+}
+
+#div_left_welcome {
+	width:360px;
+	padding-top:170px;
+}
+
+#div_right_welcome {
+	padding-top:100px;
+	text-align:center;
+}
+
+/* END WELCOME */
+
+
+/* START NAV-STICKY */
+
+#div_navsticky {
+	padding: 10px 0;
+	width: 1316px;
+	margin: 0 auto;
+	background-color: white;
+	z-index: 999;
+}
+
+#div_phone_navsticky {
+	padding-bottom:10px;
+}
+
+#div_menu_navsticky {
+	padding:21px 0;
+}
+
+/* END NAV-STICKY */
+
+
+/* START TESTIMONIAL */
+
+#div_testimonial {
+	background: #757575;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#left_text_testimonial {
+	padding:20px 0;
+	width:130px;
+	text-align:right;
+	float:right;
+}
+
+#right_text_testimonial {
+	padding:20px 0;
+	float:left;
+	width:440px;
+}
+
+#left_arrow_testimonial {
+	padding-top:30px;
+	width:50px;
+	float:left;
+}
+
+#right_arrow_testimonial {
+	padding-top:30px;
+	width:50px;
+	float:left;
+	text-align:right;
+}
+
+/* END TESTIMONIAL */
+
+
+/* START MODifferent */
+
+#MODifferent {
+	padding: 20px 0;
+	background-image: url("../images/bg_modifferent.png");
+	height: 1229px;
+	margin-top: -15px;
+}
+
+#div_left_modifferent {
+	width:360px;
+	padding-top:170px;
+}
+
+#div_right_modifferent {
+	padding-top:100px;
+	text-align:center;
+}
+
+#div_left2_modifferent {
+	padding-top:50px;
+}
+
+#div_right2_modifferent {
+	padding-top:125px;
+	width: 350px;
+	margin: auto;
+}
+
+#down_arrow_modifferent {
+	margin-left:469px;
+	margin-top:107px;
+}
+
+#video_modifferent {
+	 border:3px solid black;
+}
+
+#row_top_modifferent {
+	 padding-bottom:100px;
+}
+
+/* END MODifferent */
+
+
+/* START MOBusiness */
+
+#MOBusiness {
+	padding: 20px 0;
+	height: 712px;
+	margin-top: -15px;
+}
+
+#div_left_mobusiness {
+	width:320px;
+	padding-top:170px;
+}
+
+#down_arrow_mobusiness {
+	margin-left:469px;
+	margin-top:120px;
+}
+
+.tile-it-mobusiness {
+	background-color: #000;
+	padding: 3px 7px;
+}
+
+.img_mobusiness {
+	text-align:center;
+	padding-top: 100px;
+	padding-bottom: 15px;
+}
+
+.content-it-mobusiness {
+	padding-top: 10px;
+}
+
+/* END MOBusiness */
+
+
+/* START MOCost */
+
+#MOCost {
+	padding: 20px 0;
+	height: 680px;
+	margin-top: -15px;
+}
+
+#div_left_mobusiness {
+	width:320px;
+	padding-top:170px;
+}
+
+#down_arrow_mocost {
+	margin-left:469px;
+	margin-top:-50px;
+}
+
+.tile-it-mobusiness {
+	background-color: #000;
+	padding: 3px 7px;
+}
+
+.img_mobusiness {
+	text-align:center;
+	padding-top: 100px;
+	padding-bottom: 15px;
+}
+
+.content-it-mobusiness {
+	padding-top: 10px;
+}
+
+/* END MOCost */
