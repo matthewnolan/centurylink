@@ -1137,6 +1137,21 @@ h3.easy-title{
 	padding-top:36px;
 }
 
+/*FIX ALL*/
+.new-bussiness p{
+	margin-top:15px;
+}
+.new-bussiness a{
+	color:#8cc63f;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.new-bussiness .new-fix-height1{
+	height:21px;
+}
+.new-bussiness .new-fix-height2{
+	height:6px;
+}
 /*SCROLLUP*/
 #scrollUp{
   bottom: 20px;

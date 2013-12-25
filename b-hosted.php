@@ -1,3 +1,21 @@
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('.readmore').readmore({
+			maxHeight:40,
+			moreLink: '<a href="#"><div class="plus"><i class="fa fa-plus"></i></div></a>',
+			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>',
+			afterToggle: function(trigger, element, more) {
+				if(more){
+					element.find('.3dot').html('');
+					element.find('.details').attr('style','display:inline');
+				}else{
+					element.find('.3dot').html('...');
+					element.find('.details').attr('style','display:block');
+				}
+			}
+		});
+	});
+</script>
 <div class="bhosted">
 	<div class="container wrapper">
 		<div class="padding-fix">
@@ -22,33 +40,35 @@
 			<div class="block-seperator"></div>
 			<div class="row onboard3col">
 				<div class="col-sm-4 ">
-					<img src="images/gears.png" alt="GEARS"/>
-					<div class="onboard-title">Do it Yourself</div>
-					<div class="onboard-content readmore">
-						Maybe you want the flexibility to set up and activate our Cloud services on your own.
+					<img src="images/exchange.png" alt="GEARS"/>
+					<div class="onboard-title">Microsoft Hosted Exchange</div>
+					<div class="onboard-content new-bussiness readmore">
+						Emails, invites, calendars, the works. Enjoy bigger and more reliable mailboxes
 						<span class="3dot">...</span><div class="details"></div>
-						Well, we'll still make it easy. Using nothing more than an Internet connection, you can start backing up your files to the Cloud quickly, whenever you want.  CenturyLink provides easy access to your data with our intuitive online Management Console.
-					
+						and added security. Wherever you work, youll work smarter even though youre working offsite or away from home.
+						<p><a href="">Download</a> the details   <img src="images/pdf.png"/></p>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
-					<img src="images/talk.png" alt="TALK"/>
-					<div class="onboard-title">We Help You Get Started</div>
-					<div class="onboard-content readmore">
-						With our guided activation, one of our Cloud experts will walk you through the
+					<img src="images/sharepoint.png" alt="TALK"/>
+					<div class="onboard-title">Microsoft Hosted SharePoint</div>
+					<div class="onboard-content new-bussiness readmore">
+						This is collaboration at its best. Share ideas and documents, organize, build, manage,
 						<span class="3dot">...</span><div class="details"></div>
-						 initial steps of setup in order to make sure your business is taking full advantage of the Cloud and can back up all of your files safely and securely.
-						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
+						and best of all, discover a new way to workfrom anywhere.
+						<p><a href="">Download</a> the details   <img src="images/pdf.png"/></p>
+						<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
-					<img src="images/join.png" alt="Join"/>
-					<div class="onboard-title">We Take Care of Every Step</div>
-					<div class="onboard-content readmore">
-						Need additional support? A CenturyLink Cloud expert will work closely with you to
+					<img src="images/lync.png" alt="Join"/>
+					<div class="onboard-title">Microsoft Hosted Lync</div>
+					<div class="onboard-content new-bussiness readmore">
+						Now you can host online meetings, video calls and instant messages.
 						<span class="3dot">...</span><div class="details"></div>
-						customize a plan that meets all your business needs and data backup requirements while getting you to the Cloud quickly and affordably. 
-						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
+							<p>This is the capability to meet in person, without being there in person.</p>
+							<p><a href="">Download</a> the details   <img src="images/pdf.png"/></p>
+						<div class="new-fix-height2 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 			</div>
@@ -59,44 +79,58 @@
 	
 			<div id="bhdb" class="row">		
 				<div class="col-sm-6 image-block hidden-xs">
-					<img src="images/deposit.png" alt=""/>
+					<img src="images/bdb-fpo2.png" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="">CenturyLink Data Backup</a>
+						<a href="">Protect your business</a>
 					</p>
 					<h3 class="block-title">
-						If data is the crown jewel of <br/> your bussiness, you should <br/> have the perfect safety deposit box.
+						Take security off manual, <br/>and put it on automatic.
 					</h3>
 					<p class="block-content">
-						Is your data being backed up? After all, business depends on you having access to critical information when and where you need it. Don't leave backing up your data to chance or someonce's memory. With CentiryLink<br/>
-						Cloud Service data backup is sercure and automatic.
+						It's just human nature. The things we can't see, we tend to take for granted. Like computer viruses and our network security. That's why McAfee is so important. It makes your security automatic.
+						This is a hosted app that proactively checks anti-virus software, updates patches and protects against threats to open applications.
+						
+						Put it this way, McAfee is software that's vigilant&#8212;even when you and your employees aren't.
 					</p>
-					<p class="block-more"> Backup data without a second thought. <a href="">Start Now</a>
-					</p>
-					<div class="testimonial hidden-sm hidden-xs">
-						<div>
-							<p class="first">
-								"A security breach can cost me clients and revenue. I'm not going to settle for second-rate protection. "
-							</p>
-							<p class="last">John Sommatino, 20 years of network and systems administration</p>
-						</div>
-					</div>
+				
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<img src="images/deposit.png" alt=""/>
-				</div>
-				<div class="col-sm-6 copy-block visible-sm visible-xs">
-					<div class="testimonial">
-						<div>
-							<p class="first">
-								"A security breach can cost me clients and revenue. I'm not going to settle for second-rate protection."
-							</p>
-							<p class="last">John Sommatino, 20 years of network and systems administration</p>
-						</div>
-					</div>
+					<img src="images/bdb-fpo2.png" alt=""/>
 				</div>
 			</div>
+			<div class="block-seperator"></div>
+			<div class="row onboard3col">		
+				<div class="col-sm-6">
+				<img src="images/mcafee.png" alt="MCAFEE"/>
+				<div class="onboard-title">McAfee</div>
+				<div class="onboard-content new-bussiness readmore">
+					This is collaboration at its best. Share ideas and documents, organize, build, manage,
+					<span class="3dot">...</span><div class="details"></div>
+					This is a hosted application that makes your security automatic. It proactively checks for viruses, updates patches and protects against threats. McAfee is software that's vigilant, even when you can't be.
+					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+				</div>
+				
+					
+				</div>
+				<div class="col-sm-6">
+				<img src="images/mes-solution.png" alt="MESSAGE SOLUTIONS"/>
+				<div class="onboard-title">MessageSolution</div>
+				<div class="onboard-content new-bussiness readmore">
+					This is collaboration at its best. Share ideas and documents, organize, build, manage,
+					<span class="3dot">...</span><div class="details"></div>
+					Now you ll have the ability to capture, archive and organize unstructured emails and files. In fact, MessageSolution allows you and your staff to retrieve that critical information in a heartbeat.
+That means when you need historical emails recovered immediately for legal and regulatory compliance, you've got it.
+					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+				</div>
+				
+					
+				</div>
+			</div>
+			
+			<div class="block-seperator"></div>
+			<hr class="block-hr"/>
 			
 		</div>
 	</div>
