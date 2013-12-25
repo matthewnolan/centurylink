@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
 
 <!--[if IE]>
 	<script src="js/html5shiv.js"></script>
-	<script src="js/css3-mediaqueries.js"></script>
+	<script src="js/respond.js"></script>
 <![endif]-->
 <!--[if lt IE 10]>
 	<link rel="stylesheet" type="text/css" href="css/ie.css">
