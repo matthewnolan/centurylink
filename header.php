@@ -8,10 +8,18 @@
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if IE]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
 <!--[if lt IE 10]>
 	<link rel="stylesheet" type="text/css" href="css/ie.css">
 <![endif]-->
-
+<!--[if lt IE 8]
+	<style>
+	.container { width: 100%; }
+	</style>
+<![endif]-->
 <script type="text/javascript"  src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript"  src="js/jquery.easing.min.js"></script>
 <script type="text/javascript"  src="dist/js/bootstrap.min.js"></script>
@@ -20,15 +28,6 @@
 <script type="text/javascript"  src="js/jquery.scrollTo.js"></script>
 <script type="text/javascript"  src="js/jquery.sticky.js"></script>
 <script type="text/javascript"  src="js/readmore.min.js"></script>
-
-<!--[if !IE 7]>
-	<style type="text/css">
-		#wrapper {
-			display:table;
-			height:100%
-		}
-	</style>
-<![endif]-->
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	$.scrollUp({

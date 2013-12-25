@@ -73,6 +73,7 @@ img,iframe{
 
 .hero{
 	overflow:hidden;
+	clear: both;
 }
 .fix-readmore-height{
 	height:42px;
@@ -1076,11 +1077,12 @@ img,iframe{
 	position: relative;
 	height:197px;
 	margin-top: -197px;
-	background-image:url("../images/footer-seperator.jpg");
-	background-repeat:no-repeat;
-	background-position:0 0;
-	background-size:contain;
+	background:url("../images/footer-seperator-opt.jpg") top repeat-x;
 	background-color:#fbfbfb;
+}
+.footer-sep{
+  background:url("../images/footer-seperator-r.jpg") top right no-repeat;
+  height: 100%;
 }
 .footer-content{
 	padding-top:69px;
