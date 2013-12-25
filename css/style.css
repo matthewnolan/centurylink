@@ -19,13 +19,9 @@ a,a:hover{
 /*STICKY FOOTER TRICK*/
 #wrapper{
 	min-height: 100%;
-<<<<<<< HEAD
 	padding-bottom:351px;
-=======
-	padding-bottom:197px;
 	display: block;
 	width: 100%;
->>>>>>> 415d6a1c7714035e6e2a8f30981bbb1283553c6d
 }
 .wrapper{
 	padding:0;
@@ -77,6 +73,7 @@ img,iframe{
 
 .hero{
 	overflow:hidden;
+	clear: both;
 	position:relative;
 }
 .fix-readmore-height{
@@ -480,9 +477,6 @@ img,iframe{
 #home .hero-left-content{
 	margin-top:90px;
 }
-<<<<<<< HEAD
-
-=======
 #home .hero-right{
 	position:absolute;
 	top:0;
@@ -490,7 +484,6 @@ img,iframe{
 	overflow: visible;
 	width: 100%;
 }
->>>>>>> 415d6a1c7714035e6e2a8f30981bbb1283553c6d
 #home .hero-right img.people{
 	position:absolute;
 	top:23px;
@@ -1097,13 +1090,14 @@ h3.easy-title{
 
 .footer{
 	position: relative;
+	background:url("../images/footer-seperator-opt.jpg") top repeat-x;
 	height:351px;
 	margin-top: -351px;
-	background-image:url("../images/footer-seperator.jpg");
-	background-repeat:no-repeat;
-	background-position:0 0;
-	background-size:contain;
 	background-color:#fbfbfb;
+}
+.footer-sep{
+  background:url("../images/footer-seperator-r.jpg") top right no-repeat;
+  height: 100%;
 }
 .footer-content{
 	padding-top:69px;
