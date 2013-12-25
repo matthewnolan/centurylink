@@ -1,14 +1,14 @@
 <?php include_once "header.php";?>
 <div id="it">
 	
-	<div class="hero">
+	<div class="hero hidden-xs">
 		<div class="container wrapper">
 			<div class="hero-container">
 				<div class="hero-left">
 					<img class="hero-label" src="images/it-label.jpg" alt="IT LEADER"/>
 					<div class="hero-left-content">
 						<p class="headline">Instead of taking<br/> one thing off your plate, <br/>how about two or three?</p>
-						<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 days. </a></h3>
+						<h3 class="offer"><a href="">Try CenturyLink Cloud FREE for<br/> 30 Days.* </a></h3>
 						<p class="call">Call 123.256.7890</p>
 					</div>
 				</div>
@@ -22,6 +22,20 @@
 		</div>	
 	</div>
 	
+	<div class="mobile-hero visible-xs">
+	<div class="main-hero">
+		<img src="images/mobile-it-hero.png"/>
+	</div>
+	<div class="container wrapper">
+		<div class="padding-fix">
+			<div class="mobile-hero-content">
+				<p class="headline">Instead of taking one thing off your plate, how about two or three?</p>
+				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+			</div>
+		</div>
+	</div>
+</div>
+	
 	<div class="sticky-nav">
 		<div class="container wrapper hidden-xs">
 			<div class="padding-fix">
@@ -30,8 +44,7 @@
 					<li><a href="#ihosted">Hosted Applications</a></li>
 					<li><a href="#ihdb">Data Backup</a></li>
 				</ul>
-				<div class="fix-center"></div>
-				<div class="sticky-call">Call 123.456.7890</div>
+				<div class="fix-center">Call 123.456.7890</div>
 			</div>
 		</div>
 		
@@ -39,7 +52,6 @@
 			<ul id="mobile-sticky-nav" class="collapse">
 				<li><a href="#ihosted">Hosted Applications</a></li>
 				<li><a href="#ihdb">Data Backup</a></li>
-				<li><div class="mobile-sticky-call">Call 123.456.7890</div></li>
 			</ul>
 			<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
 				<span class="icon-bar"></span>

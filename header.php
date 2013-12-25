@@ -2,11 +2,15 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CenturyLink</title>
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if lt IE 10]>
+	<link rel="stylesheet" type="text/css" href="css/ie.css">
+<![endif]-->
 
 <script type="text/javascript"  src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript"  src="js/jquery.easing.min.js"></script>
@@ -14,7 +18,6 @@
 <script type="text/javascript"  src="js/jquery.scrollUp.min.js"></script>
 <script type="text/javascript"  src="js/jquery.nav.js"></script>
 <script type="text/javascript"  src="js/jquery.scrollTo.js"></script>
-<script type="text/javascript"  src="js/jquery.sidr.min.js"></script>
 <script type="text/javascript"  src="js/jquery.sticky.js"></script>
 <script type="text/javascript"  src="js/readmore.min.js"></script>
 
@@ -72,7 +75,6 @@ jQuery(document).ready(function($) {
 								</li>
 							</ul>
 						</li>
-						<li><a href="" title="">Blog</a></li>
 						<li class="social-icon">
 							<a href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter">
 							<span class="fa-stack fa-lg">

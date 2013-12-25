@@ -98,7 +98,7 @@
 						With our guided activation, one of our Cloud experts will walk you through the
 						<span class="3dot">...</span><div class="details"></div>
 						 initial steps of setup in order to make sure your business is taking full advantage of the Cloud and can back up all of your files safely and securely.
-						<div class="fix-readmore-height"></div>
+						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
@@ -108,7 +108,7 @@
 						Need additional support? A CenturyLink Cloud expert will work closely with you to
 						<span class="3dot">...</span><div class="details"></div>
 						customize a plan that meets all your business needs and data backup requirements while getting you to the Cloud quickly and affordably. 
-						<div class="fix-readmore-height"></div>
+						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 			</div>
@@ -136,25 +136,12 @@
 					
 			<div class="cost">
 				<div class="cost-title">
-					<span></span>
+					<span class="hidden-sm hidden-xs"></span>
 					<h3>Our flexible model allows you to scale your storage so you only <br/> pay for just what you need.</h3>
-					<span></span>
+					<span class="hidden-sm hidden-xs"></span>
 				</div>
 				<div class="clearfix"></div>
-				<div class="row cost-content">
-					<div class="col-sm-4 cost-circle">
-						<div class="top">10<span class="sub">GB</span></div>
-						<div class="bot">4.<sup>99</sup>/month</div>
-					</div>
-					<div class="col-sm-4 mid cost-circle">
-						<div class="top">25<span class="sub">GB</span></div>
-						<div class="bot">9.<sup>99</sup>/month</div>
-					</div>
-					<div class="col-sm-4 last cost-circle">
-						<div class="top">100<span class="sub">GB</span></div>
-						<div class="bot">24.<sup>99</sup>/month</div>
-					</div>
-				</div>
+				<img src="images/it-pricing.png"/>
 				<div class="cost-more">
 					Call us so we can show you how CenturyLink can reduce your costs.<br/>
 					<strong>123.456.7890</strong>

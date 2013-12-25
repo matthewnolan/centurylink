@@ -1,10 +1,10 @@
-<div class="hero">
+<div class="hero  hidden-xs">
 	<div class="container wrapper">
 		<div class="hero-container">
 			<div class="hero-left clearfix">
-				<div class="hero-left-content hidden-xs">
-					<p class="headline">Cloud solutions that fit <br/> your needs and your bugget.</p>
-					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 days. </a></h3>
+				<div class="hero-left-content">
+					<p class="headline">Cloud solutions that <br/> deliver greater access<br/> and greater control.</p>
+					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE for<br/> 30 Days.* </a></h3>
 					<p class="call">Call 123.256.7890</p>
 				</div>
 			</div>
@@ -14,12 +14,21 @@
 				<img class="small-cloud" src="images/small-cloud.png" alt="CENTURYLINK"/>
 			</div>
 		</div>
-		<div class="visible-xs mobile-hero">
-			<p class="headline">Cloud solutions that fit <br/> your needs and your bugget.</p>
-			<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 days. </a></h3>
-			<p class="call">Call 123.256.7890</p>
-		</div>
 	</div>	
+</div>
+
+<div class="mobile-hero visible-xs">
+	<div class="main-hero">
+		<img src="images/mobile-home-hero.png"/>
+	</div>
+	<div class="container wrapper">
+		<div class="padding-fix">
+			<div class="mobile-hero-content">
+				<p class="headline">Cloud solutions that deliver greater access and greater control.</p>
+				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="selector-link">
@@ -28,8 +37,8 @@
 			<div class="row  home-bucket">
 				<div class="col-sm-6">
 					<div class="bussiness-selector">
-						<p>I'm running</p>
-						<h3>A BUSSINESS and <br> MANAGING IT.</h3>
+						<p>I'm running a</p>
+						<h3>BUSSINESS and <br> MANAGING IT.</h3>
 						<p class="button-holder"><a href="bussiness.html" title=""><span></span></a></p>
 					</div>
 				</div>
@@ -49,13 +58,13 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row video-container">
-				<div class="video-left col-sm-8">
+				<div class="video-left col-sm-7">
 					<iframe width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<div class="video-right col-sm-4">
+				<div class="video-right col-sm-5">
 					<div>
-						<h3>Get the most<br/> of Yours Cloud.</h3>
-						<p>The fact is all Cloud solutions aren't created equal.They don't deliver the same benifits, and they definitely don't deliver for the same price. Ultilmately, what you want to do is get the most out of your cloud services. Watch the video and find out hoe CenturyLink can give you more. </p>
+						<h3>Wondering how to take the first step to the cloud?</h3>
+						<p>With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.</p>
 					</div>
 				</div>
 			</div>

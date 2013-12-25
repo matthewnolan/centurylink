@@ -1,7 +1,7 @@
 <?php include_once "header.php";?>
 
 <div id="it-db">
-	<div class="hero">
+	<div class="hero hidden-xs">
 	<div class="container wrapper">
 		<div class="hero-container">
 			<div class="hero-left">
@@ -19,6 +19,20 @@
 	</div>	
 </div>
 
+<div class="mobile-hero visible-xs">
+	<div class="main-hero">
+		<img src="images/mobile-it-db-hero.png"/>
+	</div>
+	<div class="container wrapper">
+		<div class="padding-fix">
+			<div class="mobile-hero-content">
+				<p class="headline">Restore company data quicker than management can make a decision.</p>
+				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 days. </a></h3>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="sticky-nav">
 	<div class="container wrapper hidden-xs">
 		<div class="padding-fix">
@@ -29,7 +43,7 @@
 				<li><a href="#console">Management Console</a></li>
 				<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
 			</ul>
-			<div class="sticky-call">Call 123.456.7890</div>
+			<div class="fix-center">Call 123.456.7890</div>
 		</div>
 	</div>
 	

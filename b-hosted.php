@@ -14,36 +14,18 @@
 						Access the lasted tools of the trade, 
 						like Microsoft Hosted Exchange and SharePoint,
 						 so you can effortlessly keep up with your customers and employees.
-						 Plus, easily ad new capabilities to your website, like ecommerce--without having to spend big bucks on hardware and software.
+						 Plus, easily ad new capabilities to your website, like ecommerce&#8212;without having to spend big bucks on hardware and software.
 						 And all without the headaches of managing software yourself.
 					</p>
 					<p class="block-more"> Apps make easy. <a href="">Let's Go</a>
 					</p>
-					<div class="testimonial hidden-xs">
-						<img src="images/testi1.jpg" alt="TESTIMONIAL"/>
-						<div>
-							<p class="first">
-								"in real estate, markets can change on a dime and so do ours client needs. And with CenturyLink Cloud, it's easier for us to keep up."
-							</p>
-							<p class="last">Don Atkinson, Hallmark Real Estate</p>
-						</div>
-					</div>
 				</div>
 				<div class="col-sm-6 image-block">
 					<img src="images/microsoft-cloud.png" alt="MICROSOFT CLOUD"/>
 				</div>
-				<div class="testimonial visible-xs">
-					<img src="images/testi1.jpg" alt="TESTIMONIAL"/>
-					<div>
-						<p class="first">
-							"in real estate, markets can change on a dime and so do ours client needs. And with CenturyLink Cloud, it's easier for us to keep up."
-						</p>
-						<p class="last">Don Atkinson, Hallmark Real Estate</p>
-					</div>
-				</div>
 			</div>
 			
-			
+			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
 			
 	
@@ -65,12 +47,11 @@
 					<p class="block-more"> Backup data without a second thought. <a href="">Start Now</a>
 					</p>
 					<div class="testimonial hidden-sm hidden-xs">
-						<img src="images/testi2.jpg" alt="TESTIMONIAL"/>
 						<div>
 							<p class="first">
-								"I used to worry about the sercurity of my client data and software.But now with CenturyLink Data Backup, I don't even have to think about it anymore. "
+								"A security breach can cost me clients and revenue. I'm not going to settle for second-rate protection. "
 							</p>
-							<p class="last">Mike White, Universal Healthcare</p>
+							<p class="last">John Sommatino, 20 years of network and systems administration</p>
 						</div>
 					</div>
 				</div>
@@ -79,12 +60,11 @@
 				</div>
 				<div class="col-sm-6 copy-block visible-sm visible-xs">
 					<div class="testimonial">
-						<img src="images/testi2.jpg" alt="TESTIMONIAL"/>
 						<div>
 							<p class="first">
-								"I used to worry about the sercurity of my client data and software.But now with CenturyLink Data Backup, I don't even have to think about it anymore. "
+								"A security breach can cost me clients and revenue. I'm not going to settle for second-rate protection."
 							</p>
-							<p class="last">Mike White, Universal Healthcare</p>
+							<p class="last">John Sommatino, 20 years of network and systems administration</p>
 						</div>
 					</div>
 				</div>
@@ -98,37 +78,49 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row video-container">
-				<div class="video-left col-sm-8">
-					<iframe width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
+				<div class="video-left col-sm-7">
+					<iframe id="bussiness-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
+					<ul class="video-list">
+						<li><a href="javascript:void(0)" class="active" data-src="//www.youtube.com/embed/ZqpxHipyB-c" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
+							<span>Wondering how to take the first step to the cloud?</span>
+							<i class="fa fa-play-circle-o"></i>
+						</a></li>
+						<li>
+							<a href="javascript:void(0)" data-src="//www.youtube.com/embed/PfOEqfbQ6gE" data-content="Please filled me.">
+								<span>Learn why you can depend on the cloud.</span>
+								<i class="fa fa-play-circle-o"></i>
+							</a></li>
+						<li><a href="javascript:void(0)" data-src="//www.youtube.com/embed/7sxwi2Owec8" data-content="Please filled me.">
+							<span>Cloud as flexible as you are.</span>
+							<i class="fa fa-play-circle-o"></i>
+						</a></li>
+					</ul>
+					<div class="clearfix"></div>
 				</div>
-				<div class="video-right col-sm-4">
-					<div>
-						<h3>Cloud as flexible<br/> as you are.</h3>
-						<p>CenturyLink computing let you and your employees work from anywhere, anytime, and starts working right away. Now that agility. </p>
+				<div class="video-right col-sm-5">
+					<div id="about-bussiness-video">
+						<h3>Wondering how to take the first step to the cloud?</h3>
+						<p>With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.</p>
 					</div>
-				</div>
-			</div>
-			<div class="child-video row">
-				<hr class="videohr"/>
-				<div class="video-container col-md-4">
-					<iframe width="223" height="125"
-						src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen>
-					</iframe>
-					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
-				</div>
-				<div class="video-container col-md-4">
-					<iframe width="223" height="125"
-						src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen>
-					</iframe>
-					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
-				</div>
-				<div class="video-container col-md-4">
-					<iframe width="223" height="125"
-						src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen>
-					</iframe>
-					<p>Lorem ipsum dolor simet, consectetur adipiscing elit.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$('.video-list a').click(function(){
+		var player = $('#bussiness-video');
+		var title = $('#about-bussiness-video h3');
+		var content = $('#about-bussiness-video p');
+		var src = $(this).attr('data-src');
+		var new_title = $(this).find('span').html();
+		var new_content = $(this).attr('data-content');
+		player.attr('src',src);
+		title.html(new_title);
+		content.html(new_content);
+		$(this).parents('.video-list').find('a').removeClass('active');
+		$(this).addClass('active');
+	});
+});
+</script>
