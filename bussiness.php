@@ -36,10 +36,12 @@
 <div class="sticky-nav">
 	<div class="container wrapper hidden-xs">
 		<div class="padding-fix">
-			<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
-			<ul id="sticky-nav">
-				<li><a href="#bhosted">Hosted Applications</a></li>
-				<li><a href="#bhdb">Data Backup</a></li>
+		<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
+			<ul class="multi" id="sticky-nav">
+				<li><a href="#email">Email & Collaboration</a></li>
+				<li><a href="#safe">Security</a></li>
+				<li><a href="#webmanagement">Web Management</a></li>
+				<li><a href="#ffb">Onboading</a></li>
 			</ul>
 			<div class="fix-center">Call 123.456.7890</div>
 		</div>
@@ -47,8 +49,10 @@
 	
 	<div class="mobile-sticky-nav visible-xs">
 		<ul id="mobile-sticky-nav" class="collapse">
-			<li><a href="#bhosted">Hosted Applications</a></li>
-			<li><a href="#bhdb">Data Backup</a></li>
+			<li><a href="#email">Email & Collaboration</a></li>
+			<li><a href="#safe">Security</a></li>
+			<li><a href="#webmanagement">Web Management</a></li>
+			<li><a href="#ffb">Onboading</a></li>
 		</ul>
 		<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
 			<span class="icon-bar"></span>
@@ -56,6 +60,7 @@
 			<span class="icon-bar"></span>
 		</button>
 	</div>
+	
 </div>
 
 

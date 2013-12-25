@@ -19,7 +19,7 @@
 <div class="bhosted">
 	<div class="container wrapper">
 		<div class="padding-fix">
-			<div class="row">
+			<div class="row" id="email">
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
 						Now you can be on the same page, and you can share the page too.
@@ -77,7 +77,7 @@
 			<hr class="block-hr"/>
 			
 	
-			<div id="bhdb" class="row">		
+			<div id="safe" class="row">		
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="images/bdb-fpo2.png" alt=""/>
 				</div>
@@ -102,27 +102,27 @@
 			</div>
 			<div class="block-seperator"></div>
 			<div class="row onboard3col">		
-				<div class="col-sm-6">
+				<div class="col-sm-4 col-sm-offset-2">
 				<img src="images/mcafee.png" alt="MCAFEE"/>
 				<div class="onboard-title">McAfee</div>
 				<div class="onboard-content new-bussiness readmore">
-					This is collaboration at its best. Share ideas and documents, organize, build, manage,
+					This is a hosted application that makes your security automatic. It proactively
 					<span class="3dot">...</span><div class="details"></div>
 					This is a hosted application that makes your security automatic. It proactively checks for viruses, updates patches and protects against threats. McAfee is software that's vigilant, even when you can't be.
-					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+					<p><a href="">Download</a> the details   <img src="images/pdf.png"/></p>
+					<div class="new-fix-height3 hidden-xs hidden-sm"></div>
 				</div>
 				
 					
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-4">
 				<img src="images/mes-solution.png" alt="MESSAGE SOLUTIONS"/>
 				<div class="onboard-title">MessageSolution</div>
 				<div class="onboard-content new-bussiness readmore">
-					This is collaboration at its best. Share ideas and documents, organize, build, manage,
+					Now you'll have the ability to capture, archive and organize unstructured emails
 					<span class="3dot">...</span><div class="details"></div>
-					Now you ll have the ability to capture, archive and organize unstructured emails and files. In fact, MessageSolution allows you and your staff to retrieve that critical information in a heartbeat.
-That means when you need historical emails recovered immediately for legal and regulatory compliance, you've got it.
-					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+					Now you'll have the ability to capture, archive and organize unstructured emails and files. In fact, MessageSolution allows you and your staff to retrieve that critical information in a heartbeat.
+					<p>That means when you need historical emails recovered immediately for legal and regulatory compliance, you've got it.</p>
 				</div>
 				
 					
@@ -132,9 +132,154 @@ That means when you need historical emails recovered immediately for legal and r
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
 			
+			<div id="webmanagement" class="row">		
+				<div class="col-sm-6 copy-block">
+					<h3 class="block-title">
+						Your website should work <br/>as hard as you do.
+					</h3>
+					<p class="block-content">
+						Web hosting from CenturyLink Cloud Services provides you with a secure, easy-to-manage and dependable online presence. 
+						Add to that the fact that every Web hosting plan includes free 1-year domain name registration, Webmail, FTP access, the Site Builder tool,
+						and 50 or 100GB of storage. 
+						
+					</p>
+					<p class="block-content">You can also add capabilities to your website with any of these hosted applications.</p>
+				
+				</div>
+				<div class="col-sm-6 image-block">
+					<img src="images/new-bussiness-fpo2.png" alt=""/>
+				</div>
+			</div>
+			<div class="block-seperator"></div>
+			<div class="row fivecolumns onboard3col">		
+				<div class="col-sm-2">
+				<img src="images/attra.png" alt="LOGO"/>
+				<div class="onboard-title">Attracta</div>
+				<div class="onboard-content new-bussiness readmore">
+					Potential customers need to be able to find
+					<span class="3dot">...</span><div class="details"></div>
+					 your website, easily and quickly. Attracta is a search visibility tool that increases your presence&#8212;moving your business to the top of the search page.
+				</div>
+				
+				</div>
+				<div class="col-sm-2">
+				<img src="images/pinna.png" alt="LOGO"/>
+				<div class="onboard-title">Pinnacle Cart</div>
+				<div class="onboard-content new-bussiness readmore">
+					Ecommerce is a vital part of doing business
+					<span class="3dot">...</span><div class="details"></div>
+					 on the Web. Pinnacle gives you an immediate plug-in ecommerce capability. So now, your business has a prime location on the Web's Main Street.
+				</div>
+				
+					
+				</div>
+				<div class="col-sm-2">
+				<img src="images/gomobile.png" alt="LOGO"/>
+				<div class="onboard-title">goMobi</div>
+				<div class="onboard-content new-bussiness readmore">
+					Take your Web presence mobile.
+					<span class="3dot">...</span><div class="details"></div>
+					 goMobi is an easy-to-use hosted application that allows you to create a high-quality mobile site quickly and cost- efficiently. 	
+					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+				</div>
+				
+					
+				</div>
+				<div class="col-sm-2">
+				<img src="images/sitelock.png" alt="LOGO"/>
+				<div class="onboard-title">SiteLock</div>
+				<div class="onboard-content new-bussiness readmore">
+					Protection from hackers, malware and
+					<span class="3dot">...</span><div class="details"></div>
+					 other threats. In other words, this is a service that safeguards your website. It's like a healthcare plan for your business and your online reputation. 
+				</div>
+				
+					
+				</div>
+				<div class="col-sm-2">
+				<img src="images/stop.png" alt="LOGO"/>
+				<div class="onboard-title">StopTheHacker</div>
+				<div class="onboard-content new-bussiness readmore">
+					StopTheHacker is technology that
+					<span class="3dot">...</span><div class="details"></div>
+					 insures the security of your website. 
+					It not only protects, it also detects any hacking, including all subdomains and all pages of your website.
+					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+				</div>
+				
+					
+				</div>
+			</div>
+			<div class="block-seperator"></div>
+			<hr class="block-hr"/>
+			
+			<div class="row" id="ffb">
+				<div class="col-sm-7 copy-block">
+					<h3 class="block-title">
+						Onboard effortlessly <br/>and get started today.
+					</h3>
+					<p class="block-content">
+						Nothing should stand in the way of your business taking full advantage of our cloud services, 
+						or getting the convenience and security that comes with backing up your data to the Cloud. With FREE FastForward Onboarding&#8480;, 
+						getting started is easy. Just choose from one of our three onboarding options based on your timing and budget, and get started with ease.
+						<a href=>Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans. 
+					</p>
+					
+				</div>
+				<div class="col-sm-5 image-block">
+					<img id="onboard-image" src="images/onboard-closed.png" alt="ONBOARD"/>
+				</div>
+			</div>
+			
+			<div class="block-seperator"></div>
+			<div class="row onboard3col">
+				<div class="col-sm-4 ">
+					<img src="images/gears.png" alt="GEARS"/>
+					<div class="onboard-title">Do it Yourself</div>
+					<div class="onboard-content readmore">
+						Maybe you want the flexibility to set up and activate our Cloud services on your own.
+						<span class="3dot">...</span><div class="details"></div>
+						Well, we'll still make it easy. Using nothing more than an Internet connection, you can start backing up your files to the Cloud quickly, whenever you want.  CenturyLink provides easy access to your data with our intuitive online Management Console.
+					
+					</div>
+				</div>
+				<div class="col-sm-4 ">
+					<img src="images/talk.png" alt="TALK"/>
+					<div class="onboard-title">We Help You Get Started</div>
+					<div class="onboard-content readmore">
+						With our guided activation, one of our Cloud experts will walk you through the
+						<span class="3dot">...</span><div class="details"></div>
+						 initial steps of setup in order to make sure your business is taking full advantage of the Cloud and can back up all of your files safely and securely.
+						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
+					</div>
+				</div>
+				<div class="col-sm-4 ">
+					<img src="images/join.png" alt="Join"/>
+					<div class="onboard-title">We Take Care of Every Step</div>
+					<div class="onboard-content readmore">
+						Need additional support? A CenturyLink Cloud expert will work closely with you to
+						<span class="3dot">...</span><div class="details"></div>
+						customize a plan that meets all your business needs and data backup requirements while getting you to the Cloud quickly and affordably. 
+						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="it-present">
+				<h3>Want your own IT staff?</h3>
+				<p>
+					Right now you can upgrade to our <strong>Remote IT Support Pack for only $19.99/month.</strong><br/>
+					CenturyLink will handle maintenance, networking, and troubleshooting for all devices.
+				</p>
+				<p>
+					<strong>Call 123.456.7890</strong> to learn more about our remote IT support pack.
+				</p>
+			</div>
+			
 		</div>
 	</div>
 </div>
+<div class="block-seperator"></div>
 <hr class="home-hr"/>
 <div class="video">
 	<div class="container wrapper">
@@ -142,47 +287,14 @@ That means when you need historical emails recovered immediately for legal and r
 			<div class="row video-container">
 				<div class="video-left col-sm-7">
 					<iframe id="bussiness-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
-					<ul class="video-list">
-						<li><a href="javascript:void(0)" class="active" data-src="//www.youtube.com/embed/ZqpxHipyB-c" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
-							<span>Wondering how to take the first step to the cloud?</span>
-							<i class="fa fa-play-circle-o"></i>
-						</a></li>
-						<li>
-							<a href="javascript:void(0)" data-src="//www.youtube.com/embed/PfOEqfbQ6gE" data-content="Please filled me.">
-								<span>Learn why you can depend on the cloud.</span>
-								<i class="fa fa-play-circle-o"></i>
-							</a></li>
-						<li><a href="javascript:void(0)" data-src="//www.youtube.com/embed/7sxwi2Owec8" data-content="Please filled me.">
-							<span>Cloud as flexible as you are.</span>
-							<i class="fa fa-play-circle-o"></i>
-						</a></li>
-					</ul>
-					<div class="clearfix"></div>
 				</div>
 				<div class="video-right col-sm-5">
 					<div id="about-bussiness-video">
-						<h3>Wondering how to take the first step to the cloud?</h3>
-						<p>With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.</p>
+						<h3>Cloud as flexible as you are.</h3>
+						<p>CenturyLink Cloud Computing lets you and your employees work from virtually anywhere, anytime, and start working right away. Now that's agility.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-	$('.video-list a').click(function(){
-		var player = $('#bussiness-video');
-		var title = $('#about-bussiness-video h3');
-		var content = $('#about-bussiness-video p');
-		var src = $(this).attr('data-src');
-		var new_title = $(this).find('span').html();
-		var new_content = $(this).attr('data-content');
-		player.attr('src',src);
-		title.html(new_title);
-		content.html(new_content);
-		$(this).parents('.video-list').find('a').removeClass('active');
-		$(this).addClass('active');
-	});
-});
-</script>
