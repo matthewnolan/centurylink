@@ -20,6 +20,8 @@ a,a:hover{
 #wrapper{
 	min-height: 100%;
 	padding-bottom:197px;
+	display: block;
+	width: 100%;
 }
 .wrapper{
 	padding:0;
@@ -461,6 +463,8 @@ img,iframe{
 	position:absolute;
 	top:0;
 	right:0;
+	overflow: visible;
+	width: 100%;
 }
 #home .hero-right img.people{
 	position:absolute;
@@ -1118,7 +1122,6 @@ img,iframe{
 
 @media screen and (max-width:1200px){
 	.hero-container{
-		overflow:hidden;
 	}	
 }
 
