@@ -39,11 +39,12 @@ jQuery(document).ready(function($) {
 			getWidthFrom: $('body')
 		});
 	$('#sticky-nav').onePageNav();
-	$('#mobile-sticky-nav').onePageNav();	
+	$('#mobile-sticky-nav').onePageNav();
 });
 </script>
 </head>
 <body>
+<?php @include 'includes/develop_bar.php'?>
 <div id="wrapper">
 <header id="header" class="navbar" >
 	<div class="container wrapper">
