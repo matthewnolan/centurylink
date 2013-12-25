@@ -19,7 +19,13 @@ a,a:hover{
 /*STICKY FOOTER TRICK*/
 #wrapper{
 	min-height: 100%;
+<<<<<<< HEAD
 	padding-bottom:351px;
+=======
+	padding-bottom:197px;
+	display: block;
+	width: 100%;
+>>>>>>> 415d6a1c7714035e6e2a8f30981bbb1283553c6d
 }
 .wrapper{
 	padding:0;
@@ -474,7 +480,17 @@ img,iframe{
 #home .hero-left-content{
 	margin-top:90px;
 }
+<<<<<<< HEAD
 
+=======
+#home .hero-right{
+	position:absolute;
+	top:0;
+	right:0;
+	overflow: visible;
+	width: 100%;
+}
+>>>>>>> 415d6a1c7714035e6e2a8f30981bbb1283553c6d
 #home .hero-right img.people{
 	position:absolute;
 	top:23px;
@@ -1135,7 +1151,6 @@ h3.easy-title{
 
 @media screen and (max-width:1200px){
 	.hero-container{
-		overflow:hidden;
 	}	
 }
 

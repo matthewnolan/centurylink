@@ -1,4 +1,5 @@
-<div class="hero  hidden-xs">
+
+<div class="hero hidden-xs">
 	<div class="container wrapper">
 		<div class="hero-container">
 			<div class="hero-left clearfix">
@@ -14,7 +15,7 @@
 				<img class="small-cloud" src="images/small-cloud.png" alt="CENTURYLINK"/>
 			</div>
 		</div>
-	</div>	
+	</div>
 </div>
 
 <div class="mobile-hero visible-xs">
