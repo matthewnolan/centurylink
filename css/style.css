@@ -18,8 +18,10 @@ a,a:hover{
 }
 /*STICKY FOOTER TRICK*/
 #wrapper{
+	display: block;
 	min-height: 100%;
 	padding-bottom:197px;
+	width: 100%;
 }
 .wrapper{
 	padding:0;
@@ -436,6 +438,65 @@ img,iframe{
 
 
 /*HOME*/
+#home .banner{
+  height: 426px;
+  overflow: hidden;
+  background:url("../images/hero-bg-opt.png");
+  width: 100%;
+  position: relative;
+}
+#home .banner .img-layer{
+  height: 426px;
+  width: 1040px;
+  position: absolute;
+  right: 50%;
+  margin-right: -520px;
+  overflow: visible;
+}
+#home .banner .img-layer img{
+  height: 426px;
+  width: 1040px;
+  position: relative;
+  right: -258px;
+}
+#home .banner .cloud-layer{
+  position: absolute;
+  width: 790px;
+  height: 426px;
+  right: 50%;
+  margin-right: -150px;
+}
+#home .banner .txt-layer{
+	position: absolute;
+  width: 440px;
+  top: 90px;
+  right: 50%;
+}
+#home .banner {
+  font-size: 36px;
+}
+#home .banner .call{
+  max-width:246px;
+  font-size: 64%;
+  color:#fff;
+  padding:10px 25px;
+  background-color:#ffa02f;
+  font-weight:bold;
+}
+#home .banner .headline{
+  line-height:40px;
+  color:#727272;
+  font-weight:300;
+}
+#home .banner .offer{
+  font-size: 78%;
+}
+#home .banner .offer a{
+  line-height:37px;
+  color:#00853f;
+  font-weight:bold;
+}
+
 
 #home .hero{
 	height:426px;
@@ -1176,6 +1237,16 @@ img,iframe{
 	}
 	
 	/*HERO*/
+	#home .banner .txt-layer{
+	  width: 337px;
+	  font-size: 90%;
+	  right: auto;
+	  left: 40px;
+	}
+	#home .banner .txt-layer .offer a{
+	  font-size: 22px;
+	  line-height: 27px;
+	}
 	#home .hero-left{
 		margin-left:-230px;
 		padding-left:230px;

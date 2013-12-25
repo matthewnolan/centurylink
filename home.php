@@ -1,20 +1,15 @@
-<div class="hero  hidden-xs">
-	<div class="container wrapper">
-		<div class="hero-container">
-			<div class="hero-left clearfix">
-				<div class="hero-left-content">
-					<p class="headline">Cloud solutions that <br/> deliver greater access<br/> and greater control.</p>
-					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE for<br/> 30 Days.* </a></h3>
-					<p class="call">Call 123.256.7890</p>
-				</div>
-			</div>
-			<div class="hero-right">
-				<img class="people" src="images/people.png" alt="CENTURYLINK"/>
-				<img class="icon" src="images/icon.png" alt="CENTURYLINK"/>
-				<img class="small-cloud" src="images/small-cloud.png" alt="CENTURYLINK"/>
-			</div>
-		</div>
-	</div>	
+<div class="banner hidden-xs">
+	<div class="img-layer">
+		<img class="people" src="images/home-mainbanner.png" alt="CENTURYLINK"/>
+	</div>
+	<div class="cloud-layer">
+		<img class="people" src="images/white-cloud.png" alt="CENTURYLINK"/>
+	</div>
+	<div class="txt-layer">
+		<p class="headline">Cloud solutions that <br/> deliver greater access<br/> and greater control.</p>
+		<h3 class="offer"><a href="">Try CenturyLink Cloud FREE for<br/> 30 Days.* </a></h3>
+		<p class="call">Call 123.256.7890</p>
+	</div>
 </div>
 
 <div class="mobile-hero visible-xs">
