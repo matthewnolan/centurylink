@@ -53,7 +53,6 @@
 			<li><a href="#tco">TCO</a></li>
 			<li><a href="#console">Management Console</a></li>
 			<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
-			<li><div class="mobile-sticky-call">Call 123.456.7890</div></li>
 		</ul>
 		<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
 			<span class="icon-bar"></span>

@@ -44,7 +44,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
-						The business world <br/>doesnt run smoothly. <br/>Your data backups can. 
+						The business world <br/>doesn't run smoothly. <br/>Your data backups can. 
 					</h3>
 					<p class="block-content">
 						Here's one worry you can cross off your list. With our 99.95% uptime service level agreement, you can rest assured that your files are always safe, securely accessible and automatically backed up offsite.
@@ -53,6 +53,8 @@
 						<img src="images/bdb-logo3.jpg" alt="LOGO"/>
 						<img src="images/bdb-logo1.jpg" alt="LOGO"/>
 						<img src="images/bdb-logo2.jpg" alt="LOGO"/>
+						<img src="images/bdb-logo4.jpg" alt="LOGO"/>
+						<img src="images/bdb-logo5.jpg" alt="LOGO"/>
 					</p>
 				</div>
 			</div>
@@ -113,6 +115,17 @@
 				</div>
 			</div>
 			
+			<div class="it-present">
+				<h3>Want your own IT staff?</h3>
+				<p>
+					Right now you can upgrade to our <strong>Remote IT Support Pack for only $19.99/month.</strong><br/>
+					CenturyLink will handle maintenance, networking, and troubleshooting for all devices.
+				</p>
+				<p>
+					<strong>Call 123.456.7890</strong> to learn more about our remote IT support pack.
+				</p>
+			</div>
+			
 			
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
@@ -141,7 +154,7 @@
 					<span class="hidden-sm hidden-xs"></span>
 				</div>
 				<div class="clearfix"></div>
-				<img src="images/it-pricing.png"/>
+				<img src="images/bs-pricing.png"/>
 				<div class="cost-more">
 					Call us so we can show you how CenturyLink can reduce your costs.<br/>
 					<strong>123.456.7890</strong>
@@ -156,15 +169,14 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row video-container">
-				<div class="video-left col-sm-8">
+				<div class="video-left col-sm-7">
 					<iframe width="560" height="315" src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<div class="video-right col-sm-4">
+				<div class="video-right col-sm-5">
 					<div>
-						<h3>A back up solution that's both data friendly and user friendly.</h3>
+						<h3>Learn why you can depend on the cloud through thick and thin.</h3>
 						<p>
-							CenturyLink has a simple, flexible approach to backing up your data. 
-							It's simple, secure and it's friendly to something else in your office. Your budget.
+							Every business faces adversity&#8212;but when you have the cloud backing up your data, surviving disasters great and small is a whole lot easier. Watch the video to find out more.
 						</p>
 					</div>
 				</div>

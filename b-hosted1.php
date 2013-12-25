@@ -3,53 +3,25 @@
 		<div class="padding-fix">
 			<div class="row">
 				<div class="col-sm-6 copy-block">
+					<p class="block-link">
+						<a href="">CenturyLink Hosted Applications</a>
+					</p>
 					<h3 class="block-title">
-						Now you can be on the same page, and you can share the page too.
+						Hardworking solutions<br/>
+						without the hard work.
 					</h3>
 					<p class="block-content">
-						Here, there, or somewhere between here and there, is where you and your employees need to work. It's the new workspace&#8212;without walls. 
-						It's where you need to have access to everything on any device. 
-						You don't want to compromise. You want to be productive and competitive. And the good news is, you can be.
-						All from the most trusted name in business productivity. Microsoft. 
-						
+						Access the lasted tools of the trade, 
+						like Microsoft Hosted Exchange and SharePoint,
+						 so you can effortlessly keep up with your customers and employees.
+						 Plus, easily ad new capabilities to your website, like ecommerce&#8212;without having to spend big bucks on hardware and software.
+						 And all without the headaches of managing software yourself.
 					</p>
-					
+					<p class="block-more"> Apps make easy. <a href="">Let's Go</a>
+					</p>
 				</div>
 				<div class="col-sm-6 image-block">
-					<img src="images/new-bussiness-fpo1.png" alt="MICROSOFT CLOUD"/>
-				</div>
-			</div>
-			<div class="block-seperator"></div>
-			<div class="row onboard3col">
-				<div class="col-sm-4 ">
-					<img src="images/gears.png" alt="GEARS"/>
-					<div class="onboard-title">Do it Yourself</div>
-					<div class="onboard-content readmore">
-						Maybe you want the flexibility to set up and activate our Cloud services on your own.
-						<span class="3dot">...</span><div class="details"></div>
-						Well, we'll still make it easy. Using nothing more than an Internet connection, you can start backing up your files to the Cloud quickly, whenever you want.  CenturyLink provides easy access to your data with our intuitive online Management Console.
-					
-					</div>
-				</div>
-				<div class="col-sm-4 ">
-					<img src="images/talk.png" alt="TALK"/>
-					<div class="onboard-title">We Help You Get Started</div>
-					<div class="onboard-content readmore">
-						With our guided activation, one of our Cloud experts will walk you through the
-						<span class="3dot">...</span><div class="details"></div>
-						 initial steps of setup in order to make sure your business is taking full advantage of the Cloud and can back up all of your files safely and securely.
-						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
-					</div>
-				</div>
-				<div class="col-sm-4 ">
-					<img src="images/join.png" alt="Join"/>
-					<div class="onboard-title">We Take Care of Every Step</div>
-					<div class="onboard-content readmore">
-						Need additional support? A CenturyLink Cloud expert will work closely with you to
-						<span class="3dot">...</span><div class="details"></div>
-						customize a plan that meets all your business needs and data backup requirements while getting you to the Cloud quickly and affordably. 
-						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
-					</div>
+					<img src="images/microsoft-cloud.png" alt="MICROSOFT CLOUD"/>
 				</div>
 			</div>
 			
