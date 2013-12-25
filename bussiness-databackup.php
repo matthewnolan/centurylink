@@ -27,7 +27,7 @@
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
 				<p class="headline">Two steps to backing up data. Turning it on. And forgetting it.</p>
-				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days. </a></h3>
+				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
 			</div>
 		</div>
 	</div>
@@ -54,7 +54,6 @@
 			<li><a href="#safe">Safe & Available</a></li>
 			<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
 			<li><a href="#pricing">Pricing</a></li>
-			<li><div class="mobile-sticky-call">Call 123.456.7890</div></li>
 		</ul>
 		<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
 			<span class="icon-bar"></span>
