@@ -8,7 +8,7 @@
 				<img class="hero-label" src="images/itdb-label.jpg" alt="DATA BACKUP"/>
 				<div class="hero-left-content">
 					<p class="headline">Restore company data <br/>quicker than management <br/>can make a decision.</p>
-					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 days. </a></h3>
+					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 Days.* </a></h3>
 					<p class="call">Call 123.256.7890</p>
 				</div>
 			</div>
@@ -27,7 +27,7 @@
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
 				<p class="headline">Restore company data quicker than management can make a decision.</p>
-				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 days. </a></h3>
+				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
 			</div>
 		</div>
 	</div>
