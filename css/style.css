@@ -1265,21 +1265,29 @@ h3.easy-title{
 		position:relative;
 	}
 	.hero-left-content{
-		padding-left:40px;	
-	}
-	.hero-left-content .call{
-		font-size:18px;
-	}
-	.hero-left-content .headline{
-		font-size:32px;
-		line-height:36px;
-	}
-	.hero-left-content .offer a{
-		font-size:22px;
-		line-height:27px;
+		padding-left:60px;	
 	}
 	.sticky-nav li.current a:after{
 	    border:0;
+	}
+			
+	#bussiness .hero-right img.icon{
+		right:-302px;
+	}
+
+	#bussiness-db .hero-right img.icon{
+		right:-244px;
+	}
+	
+	#it .hero-right img.people{
+		right:-57px;
+	}
+	#it .hero-right img.icon, #it .hero-right img.icon1, #it .hero-right img.icon2{
+		display:none;
+	}
+
+	#it-db .hero-right img.icon{
+		right:-237px;
 	}
 	
 }
