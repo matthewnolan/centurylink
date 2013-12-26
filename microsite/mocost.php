@@ -12,13 +12,13 @@
 		    </div>
 		    <div class="col-md-6">
 				<div id="div_right_modifferent">
-					<img src="images/diagram_modifferent.png">
+					<img src="images/diagram_modifferent.png" alt="">
 			    </div>
 		    </div>
 	    </div>
 	    
 	    <div id="down_arrow_mocost">
-    		<img src="images/down_arrow.png">&nbsp;&nbsp;&nbsp;WHAT'S IN IT FOR YOU?
+    		<img src="images/down_arrow.png" alt="">&nbsp;&nbsp;&nbsp;WHAT'S IN IT FOR YOU?
 		</div>
 	</div>
 </div>

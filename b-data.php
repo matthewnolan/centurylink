@@ -71,7 +71,7 @@
 						Nothing should stand in the way of your business taking full advantage of our cloud services,
 						or getting the convenience and security that comes with backing up your data to the Cloud. With FREE FastForward Onboarding&#8480;,
 						getting started is easy. Just choose from one of our three onboarding options based on your timing and budget, and get started with ease.
-						<a href=>Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
+						<a href="">Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
 					</p>
 					
 				</div>
@@ -83,7 +83,7 @@
 			<div class="block-seperator"></div>
 			
 			<div class="row onboard3col">
-				<div class="col-sm-4 ">
+				<div class="col-sm-4">
 					<img src="images/gears.png" alt="GEARS"/>
 					<div class="onboard-title">Do it Yourself</div>
 					<div class="onboard-content readmore">
@@ -154,7 +154,7 @@
 					<span class="hidden-sm hidden-xs"></span>
 				</div>
 				<div class="clearfix"></div>
-				<img src="images/bs-pricing.png"/>
+				<img src="images/bs-pricing.png" alt=""/>
 				<div class="cost-more">
 					Call us so we can show you how CenturyLink can reduce your costs.<br/>
 					<strong>123.456.7890</strong>

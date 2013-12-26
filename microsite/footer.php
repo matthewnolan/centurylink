@@ -41,7 +41,7 @@
 			      
 			  </div>
 			</div>
-			<div id="div_img_footer"><img src="images/img_footer.png"></div>
+			<div id="div_img_footer"><img src="images/img_footer.png" alt=""></div>
 		</div>
 	</footer>
 </div><!-- #wrapper -->

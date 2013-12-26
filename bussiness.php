@@ -21,7 +21,7 @@
 
 <div class="mobile-hero visible-xs">
 	<div class="main-hero">
-		<img src="images/new-mobile-bussiness-hero.png"/>
+		<img src="images/new-mobile-bussiness-hero.png" alt=""/>
 	</div>
 	<div class="container wrapper">
 		<div class="padding-fix">
@@ -36,7 +36,7 @@
 <div class="sticky-nav">
 	<div class="container wrapper hidden-xs">
 		<div class="padding-fix">
-		<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
+		<a href="."><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
 			<ul class="multi" id="sticky-nav">
 				<li><a href="#email">Email & Collaboration</a></li>
 				<li><a href="#safe">Security</a></li>

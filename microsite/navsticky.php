@@ -8,10 +8,10 @@
 	</div>
 	<div class="col-md-3">
 		<div id="div_phone_navsticky">
-            <img id="img_phone_header" src="images/phone_icon_gray.png"/> <b>123.456.7890</b>
+            <img id="img_phone_header" src="images/phone_icon_gray.png" alt=""/> <b>123.456.7890</b>
         </div>
         <div>
-            <img id="img_schedule_header" src="images/schedule_icon_gray.png"/> <b>Schedule a meeting</b>
+            <img id="img_schedule_header" src="images/schedule_icon_gray.png" alt=""/> <b>Schedule a meeting</b>
         </div>
-	</div>	
+	</div>
 </div>

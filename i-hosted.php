@@ -22,7 +22,7 @@
 			</div>
 			
 			
-			<div class="logo"><img src="images/logos.png"/></div>
+			<div class="logo"><img src="images/logos.png" alt=""/></div>
 			
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>

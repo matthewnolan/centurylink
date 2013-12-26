@@ -8,27 +8,27 @@
 	    </div>
     </div>
     <div class="col-md-6" id="div_right_welcome">
-    	<img id="img_circle_welcome" src="images/circle.png">
+    	<img id="img_circle_welcome" src="images/circle.png" alt="">
     	
         <div id="txt_MData_welcome">
-        	<img id="img_dataServer_welcome" src="images/data_server.png">
+        	<img id="img_dataServer_welcome" src="images/data_server.png" alt="">
         	<span class="font-green-mormal"><b>Managed DATA</b></span><br>
         	Ethernet connection to the CenturyLink network
         </div>
         
         <div id="txt_MApps_welcome">
-        	<img id="img_computer_welcome" src="images/computer.png">
+        	<img id="img_computer_welcome" src="images/computer.png" alt="">
         	<span class="font-green-mormal"><b>Managed APPLICATIONS</b></span>
         	Cloud-based applications with advanced messaging and collaboration
         </div>
         
         <div id="txt_MVoice_welcome">
-        	<img id="img_phone_welcome" src="images/phone.png">
+        	<img id="img_phone_welcome" src="images/phone.png" alt="">
         	<span class="font-green-mormal"><b>Managed VOICE</b></span>
         	Hosted VoIP on the industry-leading Broadsoft<sup>&reg;</sup> platform
         </div>
     </div>
 </div>
 <div id="down_arrow_welcome">
-    <img src="images/down_arrow.png">&nbsp;&nbsp;&nbsp;LEARN HOW WITH MANAGED OFFICE
+    <img src="images/down_arrow.png" alt="">&nbsp;&nbsp;&nbsp;LEARN HOW WITH MANAGED OFFICE
 </div>
