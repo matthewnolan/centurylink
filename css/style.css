@@ -1386,6 +1386,7 @@ h3.easy-title{
 	}
 	.bussiness-selector,.it-selector,.biz-selector{
 		max-width:100%;
+		height:auto;
 	}
 
 }
