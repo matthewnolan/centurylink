@@ -156,7 +156,7 @@
 				</div>
 				<div class="col-sm-7 copy-block">
 					<h3 class="block-title">
-						Now you can be hands-on and<br/> hands-off at the same time.
+						Now you can be hands-on and hands-off at the same time.
 					</h3>
 					<p class="block-content">
 						Our Management Console gives you the visibility and control you need over all backup and restore activities. Get a single consolidated view of all aspects of the service, with the ability to drill down on specific parameters. Enable automatic, set-it and forget-it scheduling, so your backups are always up-to-date.
