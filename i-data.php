@@ -169,7 +169,7 @@
 			<div class="row easy">
 				<div class="col-sm-4">
 					<div class="row">
-						<div class="easy-icon col-sm-3"><i class="fa fa-eye"></i></div>
+						<div class="easy-icon col-sm-3"><i class="fa icon-eye-1"></i></div>
 						<div class="col-sm-9">
 							<h3 class="easy-title">Manage tickets</h3>
 							<div class="easy-content">
