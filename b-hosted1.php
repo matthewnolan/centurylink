@@ -81,16 +81,16 @@
 				<div class="video-left col-sm-7">
 					<iframe id="bussiness-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
 					<ul class="video-list">
-						<li><a href="javascript:void(0)" class="active" data-src="//www.youtube.com/embed/ZqpxHipyB-c" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
+						<li><a href="javascript:;" class="active" data-src="//www.youtube.com/embed/ZqpxHipyB-c" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
 							<span>Wondering how to take the first step to the cloud?</span>
 							<i class="fa fa-play-circle-o"></i>
 						</a></li>
 						<li>
-							<a href="javascript:void(0)" data-src="//www.youtube.com/embed/PfOEqfbQ6gE" data-content="Please filled me.">
+							<a href="javascript:;" data-src="//www.youtube.com/embed/PfOEqfbQ6gE" data-content="Please filled me.">
 								<span>Learn why you can depend on the cloud.</span>
 								<i class="fa fa-play-circle-o"></i>
 							</a></li>
-						<li><a href="javascript:void(0)" data-src="//www.youtube.com/embed/7sxwi2Owec8" data-content="Please filled me.">
+						<li><a href="javascript:;" data-src="//www.youtube.com/embed/7sxwi2Owec8" data-content="Please filled me.">
 							<span>Cloud as flexible as you are.</span>
 							<i class="fa fa-play-circle-o"></i>
 						</a></li>
