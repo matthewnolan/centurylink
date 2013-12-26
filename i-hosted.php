@@ -11,7 +11,7 @@
 						and give yourself more control.
 					</h3>
 					<p class="block-content">
-						Managing your company's applications can be a fulltime job all by itself.Time intensive and problematic. Our hosted Microsoft Exchange gives employees the performamce and access they demand, and gives you the sercurity you demand. We have a whole family of cloud based applications that you can put to work right away. 
+						Managing your company's applications can be a fulltime job all by itself.Time intensive and problematic. Our hosted Microsoft Exchange gives employees the performamce and access they demand, and gives you the sercurity you demand. We have a whole family of cloud based applications that you can put to work right away.
 					</p>
 					<p class="block-more"> Get product details and find out how we manage applications. <a href="">Learn More</a>
 					</p>
@@ -77,7 +77,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-sm-7">
-					<iframe width="560" height="315" src="//www.youtube.com/embed/PfOEqfbQ6gE" frameborder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="//www.youtube.com/embed/PfOEqfbQ6gE" frameBorder="0" allowfullscreen></iframe>
 				</div>
 				<div class="video-right col-sm-5">
 					<div>

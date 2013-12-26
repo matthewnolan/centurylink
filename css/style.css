@@ -16,6 +16,21 @@ a,a:hover{
 .padding-fix{
 	padding:0 40px;
 }
+
+#develop{
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 5px;
+    max-width: 100%;
+    opacity: .5;
+    line-height: 1;
+  }
+
 /*STICKY FOOTER TRICK*/
 #wrapper{
 	min-height: 100%;
@@ -566,6 +581,9 @@ img,iframe{
 .video{
 	padding-top:25px;
 	background-color:#eeeeed;
+}
+.video iframe{
+  border: none;
 }
 .video-container{
 	padding-bottom:50px;

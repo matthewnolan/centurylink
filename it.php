@@ -19,7 +19,7 @@
 					<img class="icon2" src="images/iticon3.png" alt="IT LEADER"/>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 	
 	<div class="mobile-hero visible-xs">
@@ -53,11 +53,11 @@
 				<li><a href="#ihosted">Hosted Applications</a></li>
 				<li><a href="#ihdb">Data Backup</a></li>
 			</ul>
-			<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+			<a class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
-			</button>
+			</a>
 		</div>
 	</div>
 	

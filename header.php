@@ -61,11 +61,11 @@ jQuery(document).ready(function($) {
 		<div class="padding-fix">
 			<div class="row header-container">
 				<div id="logo" class="col-md-7 col-sm-6">
-					<a href="" title="Century Link"><img src="images/logo.png"/></a>
+					<a href="." title="Century Link"><img src="images/logo.png" alt="Century Link Logo"/></a>
 				</div>
 				<div id="header-right" class="col-md-5 col-sm-6 hidden-xs">
 					<ul id="mainnav">
-						<li class="current"><a href="/" title="">Home</a></li>
+						<li class="current"><a href="." title="">Home</a></li>
 						<li id="globalnav-container">
 							<a href="javascript:void(0)">Our Solutions</a>
 							<span class="arrow-bottom"></span>
@@ -166,10 +166,10 @@ jQuery(document).ready(function($) {
 			</li>
 		
 		</ul>
-		<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobilenav">
+		<a class="navbar-toggle" data-toggle="collapse" href="#mobilenav">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
-		</button>
+		</a>
 	</div>
 </header>

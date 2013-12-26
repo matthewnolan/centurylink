@@ -16,7 +16,7 @@
 				<img class="icon" src="images/new-bussiness-icon.png" alt="APPLICATIONS"/>
 			</div>
 		</div>
-	</div>	
+	</div>
 </div>
 
 <div class="mobile-hero visible-xs">
@@ -54,11 +54,11 @@
 			<li><a href="#webmanagement">Web Management</a></li>
 			<li><a href="#ffb">Onboading</a></li>
 		</ul>
-		<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+		<a class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
-		</button>
+		</a>
 	</div>
 	
 </div>

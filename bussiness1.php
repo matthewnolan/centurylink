@@ -17,7 +17,7 @@
 				<img class="icon" src="images/b-icon.png" alt="BUSSINESS OWNER"/>
 			</div>
 		</div>
-	</div>	
+	</div>
 </div>
 
 <div class="mobile-hero visible-xs">
@@ -51,11 +51,11 @@
 			<li><a href="#bhosted">Hosted Applications</a></li>
 			<li><a href="#bhdb">Data Backup</a></li>
 		</ul>
-		<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+		<a class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
-		</button>
+		</a>
 	</div>
 </div>
 
