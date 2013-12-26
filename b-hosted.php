@@ -25,10 +25,10 @@
 						Now you can be on the same page, and you can share the page too.
 					</h3>
 					<p class="block-content">
-						Here, there, or somewhere between here and there, is where you and your employees need to work. It's the new workspace&#8212;without walls. 
-						It's where you need to have access to everything on any device. 
+						Here, there, or somewhere between here and there, is where you and your employees need to work. It's the new workspace&#8212;without walls.
+						It's where you need to have access to everything on any device.
 						You don't want to compromise. You want to be productive and competitive. And the good news is, you can be.
-						All from the most trusted name in business productivity. Microsoft. 
+						All from the most trusted name in business productivity. Microsoft.
 						
 					</p>
 					
@@ -46,7 +46,7 @@
 						Emails, invites, calendars, the works. Enjoy bigger and more reliable mailboxes
 						<span class="3dot">...</span><div class="details"></div>
 						and added security. Wherever you work, youll work smarter even though youre working offsite or away from home.
-						<p><a href="">Download</a> the details   <img src="images/pdf.png"/></p>
+						<p><a href="">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
@@ -56,7 +56,7 @@
 						This is collaboration at its best. Share ideas and documents, organize, build, manage,
 						<span class="3dot">...</span><div class="details"></div>
 						and best of all, discover a new way to workfrom anywhere.
-						<p><a href="">Download</a> the details   <img src="images/pdf.png"/></p>
+						<p><a href="">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
 						<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
@@ -67,7 +67,7 @@
 						Now you can host online meetings, video calls and instant messages.
 						<span class="3dot">...</span><div class="details"></div>
 							<p>This is the capability to meet in person, without being there in person.</p>
-							<p><a href="">Download</a> the details   <img src="images/pdf.png"/></p>
+							<p><a href="">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
 						<div class="new-fix-height2 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
@@ -77,7 +77,7 @@
 			<hr class="block-hr"/>
 			
 	
-			<div id="safe" class="row">		
+			<div id="safe" class="row">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="images/bdb-fpo2.png" alt=""/>
 				</div>
@@ -101,7 +101,7 @@
 				</div>
 			</div>
 			<div class="block-seperator"></div>
-			<div class="row onboard3col">		
+			<div class="row onboard3col">
 				<div class="col-sm-4 col-sm-offset-2">
 				<img src="images/mcafee.png" alt="MCAFEE"/>
 				<div class="onboard-title">McAfee</div>
@@ -109,7 +109,7 @@
 					This is a hosted application that makes your security automatic. It proactively
 					<span class="3dot">...</span><div class="details"></div>
 					This is a hosted application that makes your security automatic. It proactively checks for viruses, updates patches and protects against threats. McAfee is software that's vigilant, even when you can't be.
-					<p><a href="">Download</a> the details   <img src="images/pdf.png"/></p>
+					<p><a href="">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
 					<div class="new-fix-height3 hidden-xs hidden-sm"></div>
 				</div>
 				
@@ -132,15 +132,15 @@
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
 			
-			<div id="webmanagement" class="row">		
+			<div id="webmanagement" class="row">
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
 						Your website should work <br/>as hard as you do.
 					</h3>
 					<p class="block-content">
-						Web hosting from CenturyLink Cloud Services provides you with a secure, easy-to-manage and dependable online presence. 
+						Web hosting from CenturyLink Cloud Services provides you with a secure, easy-to-manage and dependable online presence.
 						Add to that the fact that every Web hosting plan includes free 1-year domain name registration, Webmail, FTP access, the Site Builder tool,
-						and 50 or 100GB of storage. 
+						and 50 or 100GB of storage.
 						
 					</p>
 					<p class="block-content">You can also add capabilities to your website with any of these hosted applications.</p>
@@ -151,7 +151,7 @@
 				</div>
 			</div>
 			<div class="block-seperator"></div>
-			<div class="row fivecolumns onboard3col">		
+			<div class="row fivecolumns onboard3col">
 				<div class="col-sm-2">
 				<img src="images/attra.png" alt="LOGO"/>
 				<div class="onboard-title">Attracta</div>
@@ -179,7 +179,7 @@
 				<div class="onboard-content new-bussiness readmore">
 					Take your Web presence mobile.
 					<span class="3dot">...</span><div class="details"></div>
-					 goMobi is an easy-to-use hosted application that allows you to create a high-quality mobile site quickly and cost- efficiently. 	
+					 goMobi is an easy-to-use hosted application that allows you to create a high-quality mobile site quickly and cost- efficiently.
 					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 				</div>
 				
@@ -191,7 +191,7 @@
 				<div class="onboard-content new-bussiness readmore">
 					Protection from hackers, malware and
 					<span class="3dot">...</span><div class="details"></div>
-					 other threats. In other words, this is a service that safeguards your website. It's like a healthcare plan for your business and your online reputation. 
+					 other threats. In other words, this is a service that safeguards your website. It's like a healthcare plan for your business and your online reputation.
 				</div>
 				
 					
@@ -202,7 +202,7 @@
 				<div class="onboard-content new-bussiness readmore">
 					StopTheHacker is technology that
 					<span class="3dot">...</span><div class="details"></div>
-					 insures the security of your website. 
+					 insures the security of your website.
 					It not only protects, it also detects any hacking, including all subdomains and all pages of your website.
 					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 				</div>
@@ -219,10 +219,10 @@
 						Onboard effortlessly <br/>and get started today.
 					</h3>
 					<p class="block-content">
-						Nothing should stand in the way of your business taking full advantage of our cloud services, 
-						or getting the convenience and security that comes with backing up your data to the Cloud. With FREE FastForward Onboarding&#8480;, 
+						Nothing should stand in the way of your business taking full advantage of our cloud services,
+						or getting the convenience and security that comes with backing up your data to the Cloud. With FREE FastForward Onboarding&#8480;,
 						getting started is easy. Just choose from one of our three onboarding options based on your timing and budget, and get started with ease.
-						<a href=>Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans. 
+						<a href="">Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
 					</p>
 					
 				</div>
@@ -259,7 +259,7 @@
 					<div class="onboard-content readmore">
 						Need additional support? A CenturyLink Cloud expert will work closely with you to
 						<span class="3dot">...</span><div class="details"></div>
-						customize a plan that meets all your business needs and data backup requirements while getting you to the Cloud quickly and affordably. 
+						customize a plan that meets all your business needs and data backup requirements while getting you to the Cloud quickly and affordably.
 						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
 					</div>
 				</div>
@@ -286,7 +286,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-sm-7">
-					<iframe id="bussiness-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
+					<iframe id="bussiness-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
 				</div>
 				<div class="video-right col-sm-5">
 					<div id="about-bussiness-video">

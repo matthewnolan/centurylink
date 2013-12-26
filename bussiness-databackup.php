@@ -16,12 +16,12 @@
 				<img class="icon" src="images/bussinessdb-icon.png" alt="DATA BACKUP"/>
 			</div>
 		</div>
-	</div>	
+	</div>
 </div>
 
 <div class="mobile-hero visible-xs">
 	<div class="main-hero">
-		<img src="images/mobile-bussiness-db-hero.png"/>
+		<img src="images/mobile-bussiness-db-hero.png" alt=""/>
 	</div>
 	<div class="container wrapper">
 		<div class="padding-fix">
@@ -37,7 +37,7 @@
 <div class="sticky-nav">
 	<div class="container wrapper hidden-xs">
 		<div class="padding-fix">
-		<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
+		<a href="."><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
 			<ul class="multi" id="sticky-nav">
 				<li><a href="#easy">Easy Management</a></li>
 				<li><a href="#safe">Safe & Available</a></li>
@@ -55,11 +55,11 @@
 			<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
 			<li><a href="#pricing">Pricing</a></li>
 		</ul>
-		<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+		<a class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
-		</button>
+		</a>
 	</div>
 	
 </div>
@@ -69,7 +69,7 @@
 	<div class="container wrapper">
 	<div class="padding-fix">
 		<p class="why-ctl-content">
-			Not only simple, but effective. CenturyLink Data Back up means never worrying <br/> about backing up critical information again. It also means being able to retrieve files, organize them <br/>and restore data with the press of a button. 
+			Not only simple, but effective. CenturyLink Data Back up means never worrying <br/> about backing up critical information again. It also means being able to retrieve files, organize them <br/>and restore data with the press of a button.
 		</p>
 	</div>
 	</div>

@@ -11,7 +11,7 @@
 						without the hard work.
 					</h3>
 					<p class="block-content">
-						Access the lasted tools of the trade, 
+						Access the lasted tools of the trade,
 						like Microsoft Hosted Exchange and SharePoint,
 						 so you can effortlessly keep up with your customers and employees.
 						 Plus, easily ad new capabilities to your website, like ecommerce&#8212;without having to spend big bucks on hardware and software.
@@ -29,7 +29,7 @@
 			<hr class="block-hr"/>
 			
 	
-			<div id="bhdb" class="row">		
+			<div id="bhdb" class="row">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="images/deposit.png" alt=""/>
 				</div>
@@ -79,7 +79,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-sm-7">
-					<iframe id="bussiness-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
+					<iframe id="bussiness-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
 					<ul class="video-list">
 						<li><a href="javascript:void(0)" class="active" data-src="//www.youtube.com/embed/ZqpxHipyB-c" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
 							<span>Wondering how to take the first step to the cloud?</span>

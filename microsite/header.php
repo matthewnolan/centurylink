@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
 		<div class="content-wrapper">
 			<div class="row">
 			    <div class="col-md-3">
-			        <a href="" title="Century Link"><img width="168" height="33" src="images/logo.png"/></a>
+			        <a href="." title="Century Link"><img width="168" height="33" src="images/logo.png" alt=""/></a>
 			    </div>
 			  
 			    <div class="col-md-4" style="padding-top:10px;">
@@ -34,10 +34,10 @@ jQuery(document).ready(function($) {
 			  
 			    <div class="col-md-3" style="margin-top:-10px;">
 		            <div>
-		                <img id="img_phone_header" src="images/phone_icon.png"/> <b>123.456.7890</b>
+		                <img id="img_phone_header" src="images/phone_icon.png" alt=""/> <b>123.456.7890</b>
 		            </div>
 		            <div>
-		                <img id="img_schedule_header" src="images/schedule_icon.png"/> <b>SCHEDULE A MEETING</b>
+		                <img id="img_schedule_header" src="images/schedule_icon.png" alt=""/> <b>SCHEDULE A MEETING</b>
 		            </div>
 			    </div>
 			  

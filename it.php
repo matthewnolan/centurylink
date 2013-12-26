@@ -19,12 +19,12 @@
 					<img class="icon2" src="images/iticon3.png" alt="IT LEADER"/>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 	
 	<div class="mobile-hero visible-xs">
 	<div class="main-hero">
-		<img src="images/mobile-it-hero.png"/>
+		<img src="images/mobile-it-hero.png" alt=""/>
 	</div>
 	<div class="container wrapper">
 		<div class="padding-fix">
@@ -39,7 +39,7 @@
 	<div class="sticky-nav">
 		<div class="container wrapper hidden-xs">
 			<div class="padding-fix">
-			<a href=""><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
+			<a href="."><img class="nav-logo" src="images/nav-logo.png" alt="HOME"/></a>
 				<ul id="sticky-nav">
 					<li><a href="#ihosted">Hosted Applications</a></li>
 					<li><a href="#ihdb">Data Backup</a></li>
@@ -53,11 +53,11 @@
 				<li><a href="#ihosted">Hosted Applications</a></li>
 				<li><a href="#ihdb">Data Backup</a></li>
 			</ul>
-			<button type="button" class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+			<a class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
-			</button>
+			</a>
 		</div>
 	</div>
 	

@@ -42,7 +42,7 @@
 					<div class="secure-image hidden-xs"></div>
 					<div class="row secure-detail">
 						<div class="col-sm-4 first">
-							<img class="visible-xs" src="images/customer-data.jpg"/>
+							<img class="visible-xs" src="images/customer-data.jpg" alt=""/>
 							<h3>Only Cloud Backup <br/>Service to Receive <br/><span>FIPS 140-2 certification</span></h3>
 							<div class="sreadmore">
 								<p>Asigra's agentless cloud backup and recovery offers and industry-leading compliant solution:</p>
@@ -61,7 +61,7 @@
 					
 						</div>
 						<div class="col-sm-4 mid">
-							<img class="visible-xs" src="images/network.jpg"/>
+							<img class="visible-xs" src="images/network.jpg" alt=""/>
 							<h3>End-to-end<br/><span>SSL Encryption</span></h3>
 							<div class="sreadmore">
 								<p>SSl connection with X.509 certificate utilizes CenturyLink network with:</p>
@@ -79,7 +79,7 @@
 					
 						</div>
 						<div class="col-sm-4 last">
-							<img class="visible-xs" src="images/sercurity.jpg"/>
+							<img class="visible-xs" src="images/sercurity.jpg" alt=""/>
 							<h3>Highly Secure &<br/><span>Compliant Centers</span></h3>
 							<div class="sreadmore">
 								<p>Your data is protected in highly secure data centers:</p>
@@ -133,7 +133,7 @@
 				<span class="hidden-sm hidden-xs"></span>
 			</div>
 			<div class="clearfix"></div>
-			<img src="images/it-pricing.png"/>
+			<img src="images/it-pricing.png" alt=""/>
 			<div class="cost-more">
 				Call us so we can show you how CenturyLink can reduce your costs.<br/>
 				<strong>123.456.7890</strong>
@@ -282,7 +282,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-sm-7">
-					<iframe width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameborder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
 				</div>
 				<div class="video-right col-sm-5">
 					<div>

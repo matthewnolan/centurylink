@@ -10,12 +10,12 @@
 		    </div>
 		    <div class="col-md-6">
 				<div id="div_right_modifferent">
-					<img src="images/diagram_modifferent.png">
+					<img src="images/diagram_modifferent.png" alt="">
 			    </div>
 		    </div>
 	    </div>
 	    
-	    <img src="images/rule_opaque.png">
+	    <img src="images/rule_opaque.png" alt="">
 	    
 	    <div class="row">
 			<div class="col-md-6">
@@ -35,7 +35,7 @@
 	    </div>
 	    
 	    <div id="down_arrow_modifferent">
-    		<img src="images/down_arrow.png">&nbsp;&nbsp;&nbsp;IS MANAGED OFFICE RIGHT FOR YOUR BUSINESS
+    		<img src="images/down_arrow.png"  alt="">&nbsp;&nbsp;&nbsp;IS MANAGED OFFICE RIGHT FOR YOUR BUSINESS
 		</div>
 	</div>
 </div>
