@@ -24,7 +24,7 @@
 			<div class="row">
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
-						Back up your files like a pro. <br/>No experience required.
+						Back up your files like a pro. No experience required.
 					</h3>
 					<p class="block-content">
 						With CenturyLink Cloud Solutions, your employees' files are backed up automatically. And with our easy-to-use management console, you'll get the admin tools you need to install and schedule backups or delete old and archived files--letting you literally set it and forget it.
@@ -44,7 +44,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
-						The business world <br/>doesn't run smoothly. <br/>Your data backups can.
+						The business world doesn't run smoothly. Your data backups can.
 					</h3>
 					<p class="block-content">
 						Here's one worry you can cross off your list. With our 99.95% uptime service level agreement, you can rest assured that your files are always safe, securely accessible and automatically backed up offsite.
@@ -65,7 +65,7 @@
 			<div class="row" id="ffb">
 				<div class="col-sm-7 copy-block">
 					<h3 class="block-title">
-						Onboard effortlessly <br/>and get started today.
+						Onboard effortlessly and get started today.
 					</h3>
 					<p class="block-content">
 						Nothing should stand in the way of your business taking full advantage of our cloud services,
@@ -136,7 +136,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
-						The solutions are in the cloud. <br/>The pricing is down to earth.
+						The solutions are in the cloud. The pricing is down to earth.
 					</h3>
 					<p class="block-content">
 						When it comes to backing up your critical data, every business has its own needs.

@@ -7,7 +7,7 @@
 						<a href="">CenturyLink Hosted Applications</a>
 					</p>
 					<h3 class="block-title">
-						Give user more access, <br/>
+						Give user more access,
 						and give yourself more control.
 					</h3>
 					<p class="block-content">

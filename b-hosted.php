@@ -86,7 +86,7 @@
 						<a href="">Protect your business</a>
 					</p>
 					<h3 class="block-title">
-						Take security off manual, <br/>and put it on automatic.
+						Take security off manual, and put it on automatic.
 					</h3>
 					<p class="block-content">
 						It's just human nature. The things we can't see, we tend to take for granted. Like computer viruses and our network security. That's why McAfee is so important. It makes your security automatic.
@@ -135,7 +135,7 @@
 			<div id="webmanagement" class="row">
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
-						Your website should work <br/>as hard as you do.
+						Your website should work as hard as you do.
 					</h3>
 					<p class="block-content">
 						Web hosting from CenturyLink Cloud Services provides you with a secure, easy-to-manage and dependable online presence.
@@ -216,7 +216,7 @@
 			<div class="row" id="ffb">
 				<div class="col-sm-7 copy-block">
 					<h3 class="block-title">
-						Onboard effortlessly <br/>and get started today.
+						Onboard effortlessly and get started today.
 					</h3>
 					<p class="block-content">
 						Nothing should stand in the way of your business taking full advantage of our cloud services,
