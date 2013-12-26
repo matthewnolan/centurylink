@@ -55,6 +55,10 @@ jQuery(document).ready(function($) {
 
 </head>
 <body>
+<<<<<<< HEAD
+=======
+<?php #@include 'includes/develop_bar.php'?>
+>>>>>>> ad8bf5277d112b6082e7ce340d834d16df9d59c0
 <div id="wrapper">
 <header id="header" class="navbar" >
 	<div class="container wrapper">
@@ -67,7 +71,7 @@ jQuery(document).ready(function($) {
 					<ul id="mainnav">
 						<li class="current"><a href="." title="">Home</a></li>
 						<li id="globalnav-container">
-							<a href="javascript:void(0)">Our Solutions</a>
+							<a href="javascript:;">Our Solutions</a>
 							<span class="arrow-bottom"></span>
 							<ul class="globalnav">
 								<li>
@@ -87,25 +91,25 @@ jQuery(document).ready(function($) {
 							</ul>
 						</li>
 						<li class="social-icon">
-							<a class="twitter" href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter">
+							<a class="twitter" href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter" target="_blank">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
 								<i class="fa icon-twitter fa-stack-1x fa-inverse"></i>
 							</span>
 							</a>
-							<a class="facebook" href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook">
+							<a class="facebook" href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook" target="_blank">
 								<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 								</span>
 							</a>
-							<a class="google-plus" href="https://plus.google.com/u/0/117080893855557903730/posts" title="Follow us on Google Plus">
+							<a class="google-plus" href="https://plus.google.com/u/0/117080893855557903730/posts" title="Follow us on Google Plus" target="_blank">
 								<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
 								</span>
 							</a>
-							<a class="linkedin" href="http://www.linkedin.com/company/1434913?trk=tyah" title="Follow us on Linkedin">
+							<a class="linkedin" href="http://www.linkedin.com/company/1434913?trk=tyah" title="Follow us on Linkedin" target="_blank">
 								<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
