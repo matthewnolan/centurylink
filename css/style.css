@@ -543,6 +543,8 @@ img,iframe{
 	line-height:30px;
 	color:#ffffff;
 	text-align:left;
+	background-repeat:no-repeat;
+	background-size:contain;
 }
 .bussiness-selector h3 ,.it-selector h3,.biz-selector h3{
 	font-weight:bold;
@@ -566,14 +568,14 @@ img,iframe{
 	display:block;
 	height:45px;
 	width:132px;
-	background:url("../images/find-out-more.png") no-repeat;
+	background-image:url("../images/find-out-more.png");
 }
 .bussiness-selector{
-	background:url("../images/bussiness-selector.jpg") no-repeat;
+	background-image:url("../images/bussiness-selector.jpg");
 	float:right;
 }
 .it-selector{
-	background:url("../images/it-selector.jpg") no-repeat;
+	background-image:url("../images/it-selector.jpg");
 }
 .biz-selector{
 	background:url("../images/biz-selector.jpg") no-repeat;	
@@ -1381,6 +1383,9 @@ h3.easy-title{
 	}
 	.sticky-nav li.current a:after{
 	    border:0;
+	}
+	.bussiness-selector,.it-selector,.biz-selector{
+		max-width:100%;
 	}
 
 }
