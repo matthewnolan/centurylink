@@ -20,7 +20,7 @@
 						<a class="twitter" href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter">
 						<span class="fa-stack fa-lg">
 							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+							<i class="fa icon-twitter fa-stack-1x fa-inverse"></i>
 						</span>
 						</a>
 						<a class="facebook" href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook">

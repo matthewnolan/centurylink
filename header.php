@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/fontello.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="css/ie.css">
@@ -90,7 +91,7 @@ jQuery(document).ready(function($) {
 							<a class="twitter" href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter" target="_blank">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+								<i class="fa icon-twitter fa-stack-1x fa-inverse"></i>
 							</span>
 							</a>
 							<a class="facebook" href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook" target="_blank">
@@ -140,7 +141,7 @@ jQuery(document).ready(function($) {
 						<a class="twitter" href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
+								<i class="fa icon-twitter fa-stack-1x fa-inverse"></i>
 							</span>
 							</a>
 							<a class="facebook" href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook">
