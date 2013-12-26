@@ -54,7 +54,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 /*COMMON*/
 img,iframe{
-	max-width:100%;
+	max-width:100% !important;
 }
 
 .home-hr{
