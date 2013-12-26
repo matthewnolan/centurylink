@@ -17,30 +17,30 @@
 				<div class="col-sm-3">
 					<h3>CONNECT WITH US</h3>
 					<p class="social-icon">
-						<a href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter">
+						<a class="twitter" href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter">
 						<span class="fa-stack fa-lg">
 							<i class="fa fa-circle fa-stack-2x"></i>
 							<i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
 						</span>
-					</a>
-					<a href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-						</span>
-					</a>
-					<a href="https://plus.google.com/u/0/117080893855557903730/posts" title="Follow us on Google Plus">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-						</span>
-					</a>
-					<a href="http://www.linkedin.com/company/1434913?trk=tyah" title="Follow us on Linkedin">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-						</span>
-					</a>
+						</a>
+						<a class="facebook" href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a class="google-plus" href="https://plus.google.com/u/0/117080893855557903730/posts" title="Follow us on Google Plus">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a class="linkedin" href="http://www.linkedin.com/company/1434913?trk=tyah" title="Follow us on Linkedin">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
 					</p>
 				</div>
 			</div>
@@ -70,8 +70,5 @@
   ga('send', 'pageview');
 
 </script>
-<!-- BEGIN LivePerson Monitor. -->
-<script language='javascript'> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "56948775",'lpProtocol' : (document.location.toString().indexOf('https:')==0) ? 'https' : 'http'}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);</script>
-<!-- END LivePerson Monitor. -->
 </body>
 </html>

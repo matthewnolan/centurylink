@@ -177,7 +177,7 @@ img,iframe{
 	color:#8cc63f;
 }
 #mainnav li:hover ul.globalnav,#mainnav li:hover .arrow-bottom{
-	display:block;
+	display:inline-block;
 }
 #globalnav-container{
 	padding-bottom:24px;
@@ -203,12 +203,11 @@ img,iframe{
 	width: 0px;
 	height: 0px;
 	position:relative;
-	top:14px;
-	left:65px;
+	top:21px;
+	left:-50px;
 	background: #ffffff; 
 	z-index:2000;
 	display:none;
-	border: 1px solid #cccccc;
 }
 
 .arrow-bottom:after, .arrow-bottom:before {
@@ -230,7 +229,7 @@ img,iframe{
 }
 .arrow-bottom:before {
 	border-color: rgba(204, 204, 204, 0);
-	border-bottom-color: #cccccc;
+	border-bottom-color:#cccccc;
 	border-width: 16px;
 	margin-left: -16px;
 }
