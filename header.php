@@ -8,6 +8,9 @@
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="css/ie.css">
+<![endif]-->
 
 <script type="text/javascript"  src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript"  src="js/jquery.easing.min.js"></script>
@@ -36,14 +39,7 @@ jQuery(document).ready(function($) {
 	<script src="js/html5shiv.js"></script>
 	<script src="js/respond.js"></script>
 <![endif]-->
-<!--[if lt IE 10]>
-	<link rel="stylesheet" type="text/css" href="css/ie.css">
-<![endif]-->
-<!--[if lt IE 8]
-	<style>
-	.container { width: 100%; }
-	</style>
-<![endif]-->
+
 </head>
 <body>
 <?php @include 'includes/develop_bar.php'?>

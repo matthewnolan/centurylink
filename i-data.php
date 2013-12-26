@@ -36,13 +36,13 @@
 			<div class="itdb-secure">
 				<h3 class="secure-title">Secure yet Available</h3>
 				<div class="secure-content">
-					Provide your users with access to the data they need whenever they need it. 
+					Provide your users with access to the data they need whenever they need it.
 					Our 99.95% uptime SLA is backed by the investments we've made in our network and data center to provide a secure,
 					compliant environments for your data. We provide end-to-end security from device based encryption, across the network and within our carrier grade data centers.
 					<div class="secure-image hidden-xs"></div>
 					<div class="row secure-detail">
 						<div class="col-sm-4 first">
-							<img class="visible-xs" src="images/customer-data.jpg"/> 
+							<img class="visible-xs" src="images/customer-data.jpg"/>
 							<h3>Only Cloud Backup <br/>Service to Receive <br/><span>FIPS 140-2 certification</span></h3>
 							<div class="sreadmore">
 								<p>Asigra's agentless cloud backup and recovery offers and industry-leading compliant solution:</p>
@@ -61,7 +61,7 @@
 					
 						</div>
 						<div class="col-sm-4 mid">
-							<img class="visible-xs" src="images/network.jpg"/> 
+							<img class="visible-xs" src="images/network.jpg"/>
 							<h3>End-to-end<br/><span>SSL Encryption</span></h3>
 							<div class="sreadmore">
 								<p>SSl connection with X.509 certificate utilizes CenturyLink network with:</p>
@@ -79,7 +79,7 @@
 					
 						</div>
 						<div class="col-sm-4 last">
-							<img class="visible-xs" src="images/sercurity.jpg"/> 
+							<img class="visible-xs" src="images/sercurity.jpg"/>
 							<h3>Highly Secure &<br/><span>Compliant Centers</span></h3>
 							<div class="sreadmore">
 								<p>Your data is protected in highly secure data centers:</p>
@@ -105,7 +105,7 @@
 			</div>
 		</div>
 	</div>
-</div>	
+</div>
 	
 	
 <div class="pricing" id="tco">
@@ -146,9 +146,9 @@
 </div>
 	
 	
-<div class="idata" id="console">	
+<div class="idata" id="console">
 	<div class="container wrapper">
-		<div class="padding-fix">	
+		<div class="padding-fix">
 			
 			<div class="row">
 				<div class="col-sm-5 image-block">
@@ -206,9 +206,9 @@
 			<div class="itdb-secure" id="ffb">
 				<h3 class="secure-title">Fast Onboarding to Speed Migration</h3>
 				<div class="secure-content">
-					When it comes to onboarding, the faster and easier, the better. 
-					The CenturyLink team of experts can take you through the onboarding process, beginning with the initial user setup and system configuration. 
-					We continue with 24X7 real-time assistance for technical questions, product application training and incremental setup. 
+					When it comes to onboarding, the faster and easier, the better.
+					The CenturyLink team of experts can take you through the onboarding process, beginning with the initial user setup and system configuration.
+					We continue with 24X7 real-time assistance for technical questions, product application training and incremental setup.
 				</div>
 			</div>
 			
