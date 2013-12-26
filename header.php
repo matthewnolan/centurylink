@@ -54,7 +54,7 @@ jQuery(document).ready(function($) {
 
 </head>
 <body>
-<?php @include 'includes/develop_bar.php'?>
+<?php #@include 'includes/develop_bar.php'?>
 <div id="wrapper">
 <header id="header" class="navbar" >
 	<div class="container wrapper">
