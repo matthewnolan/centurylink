@@ -31,7 +31,7 @@
                         <a href="#" title="Century Link" id="logo" class="sprite">Century Link</a>
                     </div>
                     <div class="col-xs-8 col-sm-5 col-md-5">
-                        <nav class="navbar navbar-default" role="navigation">
+                        <nav class="navbar navbar-default hidden-xs" role="navigation">
                           <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobi-nav-collapse">
@@ -50,6 +50,64 @@
                             </div>
                         </nav>
                     </div>
+                    
+                    
+                    
+                    <nav class="mobile-global-nav visible-xs">
+							<div class="mobile-nav-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-nav-content">
+                                <span class="icon-bar"></span>
+                               	<span class="icon-bar"></span>
+                            	<span class="icon-bar"></span>
+                             </div>
+                            <div class="collapse navbar-collapse" id="mobile-nav-content">
+                                <ul class="nav navbar-nav">
+									<li class="active"><a href="#">HOME</a></li>
+                                  	<li class="mid">
+                                  		<strong>PRODUCT COMPONENTS</strong>
+	                                  	<ul>
+											<li><a href="#">MANAGED DATA</a></li>
+											<li><a href="#">MANAGED VOICE</a></li>
+											<li><a href="#">MANAGED APPLICATIONS</a></li>
+	                                  	</ul>
+                                  	</li>
+                                  	<li class="last">
+                                  		<div class="col-xs-6 phone"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>				                                           
+                                  		<div class="col-xs-6 social-header">
+					                        <a href="#">
+					                            <span class="fa-stack">
+					                                <i class="fa fa-square fa-stack-2x"></i>
+					                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					                            </span>
+					                        </a>
+					                      
+					                        <a href="#">
+					                            <span class="fa-stack">
+					                                <i class="fa fa-square fa-stack-2x"></i>
+					                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+					                            </span>
+					                        </a>
+					                      
+					                        <a href="#">
+					                            <span class="fa-stack">
+					                                <i class="fa fa-square fa-stack-2x"></i>
+					                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+					                            </span>
+					                        </a>
+					                      
+					                        <a href="#">
+					                            <span class="fa-stack fa-lg">
+					                                <i class="fa fa-square fa-stack-2x"></i>
+					                                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+					                            </span>
+					                        </a>
+					                    </div>
+                                  	</li>
+                                </ul>
+                            </div>
+                        </nav>
+                        
+                        
+                        
                     <div class="col-xs-0 col-sm-4 col-md-3 hidden-xs">
                         <ul class="fa-ul">
                           <li><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></li>
