@@ -102,7 +102,7 @@
 						With our guided activation, one of our Cloud experts will walk you through the
 						<span class="3dot">...</span><div class="details"></div>
 						 initial steps of setup in order to make sure your business is taking full advantage of the Cloud and can back up all of your files safely and securely.
-						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
+						<div class="new-fix-height4 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
@@ -112,7 +112,7 @@
 						Need additional support? A CenturyLink Cloud expert will work closely with you to
 						<span class="3dot">...</span><div class="details"></div>
 						customize a plan that meets all your business needs and data backup requirements while getting you to the Cloud quickly and affordably.
-						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
+						<div class="new-fix-height4 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 			</div>

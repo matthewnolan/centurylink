@@ -112,7 +112,7 @@
 					<span class="3dot">...</span><div class="details"></div>
 					This is a hosted application that makes your security automatic. It proactively checks for viruses, updates patches and protects against threats. McAfee is software that's vigilant, even when you can't be.
 					<p><a href="">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
-					<div class="new-fix-height3 hidden-xs hidden-sm"></div>
+					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 				</div>
 				
 					
@@ -171,6 +171,7 @@
 					Ecommerce is a vital part of doing business
 					<span class="3dot">...</span><div class="details"></div>
 					 on the Web. Pinnacle gives you an immediate plug-in ecommerce capability. So now, your business has a prime location on the Web's Main Street.
+					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 				</div>
 				
 					
@@ -182,7 +183,7 @@
 					Take your Web presence mobile.
 					<span class="3dot">...</span><div class="details"></div>
 					 goMobi is an easy-to-use hosted application that allows you to create a high-quality mobile site quickly and cost- efficiently.
-					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+					<div class="new-fix-height3 hidden-xs hidden-sm"></div>
 				</div>
 				
 					
@@ -194,6 +195,7 @@
 					Protection from hackers, malware and
 					<span class="3dot">...</span><div class="details"></div>
 					 other threats. In other words, this is a service that safeguards your website. It's like a healthcare plan for your business and your online reputation.
+					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 				</div>
 				
 					
