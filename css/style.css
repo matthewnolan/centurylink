@@ -180,6 +180,10 @@ img,iframe{
 	color:#505050;
 	font-size: 14px;
 	padding-left:20px;
+	text-decoration:none;
+}
+#mainnav a:hover, #mainnav a:focus, #mainnav a:active{
+	text-decoration:none;
 }
 #mainnav li.social-icon{
 	float:right;
@@ -359,6 +363,7 @@ img,iframe{
 	background-color:#8cc63e;
 	z-index:999;
 	text-align:center;
+	width:100%;
 }
 .sticky-nav .padding-fix{
 	position:relative;

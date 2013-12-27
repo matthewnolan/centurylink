@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>CenturyLink</title>
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
@@ -28,9 +28,8 @@ jQuery(document).ready(function($) {
 		  scrollImg: true
 	});
 	$(".sticky-nav").sticky({
-			topSpacing:0,
-			getWidthFrom: $('body')
-		});
+			topSpacing:0
+	});
 	$('#sticky-nav').onePageNav();
 	$('#mobile-sticky-nav').onePageNav();
 	$('.twitter').on('click', function() {

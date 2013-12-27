@@ -8,9 +8,14 @@
 				if(more){
 					element.find('.3dot').html('');
 					element.find('.details').attr('style','display:inline');
+					element.removeClass('hid');
+					element.addClass('visible');
+					console.log(element);
 				}else{
 					element.find('.3dot').html('...');
 					element.find('.details').attr('style','display:block');
+					element.removeClass('visible');
+					element.addClass('hid');
 				}
 			}
 		});
@@ -30,6 +35,14 @@
 		});
 	});
 </script>
+<style>
+.visible{
+overflow:visible !important;
+}
+.hid{
+overflow:hidden !important;
+}
+</style>
 <div class="idata" id="safe">
 	<div class="container wrapper">
 		<div class="padding-fix">
