@@ -3,6 +3,10 @@ body {
 }
 
 #header {
+	
+}
+
+.bgwelcome {
 	height: 800px;
 	background: url("../images/bg_welcome.png") no-repeat transparent;
 	background-size: cover;
@@ -508,6 +512,50 @@ a.btreadmore {
 	margin: 30px 0;
 }
 
+.fs13 {
+	font-size: 13px;
+}
+
+.fs13b {
+	font-size: 13px;
+	font-weight: 900;
+}
+
+.fs14 {
+	font-size: 14px;
+}
+
+.fs14b {
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.fs16 {
+	font-size: 16px;
+}
+
+.fs16b {
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.paddingtop20 {
+	padding-top: 20px;
+}
+
+.livechat {
+	background: url(../images/livechat.png) no-repeat transparent;
+	width: 17px;
+	height: 103px;
+	position: fixed;
+	top: 200px;
+	left: 10px;
+}
+
+p.lead {
+	color: #000;
+}
+
 @media(min-width:1200px){
 	.container {
 		width:1030px;
@@ -526,5 +574,21 @@ a.btreadmore {
 }
 
 /*=====# Data Page #=====*/
+.bgdata {
+	height: 800px;
+	background: url("../images/bg_header_data.jpg") no-repeat transparent;
+	background-size: cover;
+}
 
+.overlay-ethernet {
+	background:url(../images/overlay_ethernet.png) right bottom no-repeat transparent;
+	height: 420px;
+	width: 100%;
+}
 /*===# End Data Page #===*/
+
+#contentpagevoice {
+	background: url(../images/overlay_voice2.png) left bottom no-repeat transparent;
+	height: 100%;
+	width: 100%;
+}

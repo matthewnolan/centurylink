@@ -34,7 +34,7 @@
                         <nav class="navbar navbar-default" role="navigation">
                           <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobi-nav-collapse">
                                   <span class="sr-only">Toggle navigation</span>
                                   <span class="icon-bar"></span>
                                   <span class="icon-bar"></span>
@@ -42,7 +42,7 @@
                                 </button>
                                 <!--<a href="#" class="navbar-brand visible-xs">Menu</a>-->
                             </div>
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <div class="collapse navbar-collapse" id="mobi-nav-collapse">
                                 <ul class="nav navbar-nav">
                                   <li class="active"><a href="#">HOME</a></li>
                                   <li><a href="#">PRODUCT COMPONENTS</a></li>
