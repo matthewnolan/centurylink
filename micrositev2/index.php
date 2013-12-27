@@ -62,13 +62,13 @@
                              </div> 
                             <div class="collapse navbar-collapse" id="mobile-nav-content">
                                 <ul class="nav navbar-nav">
-									<li class="active"><a href="#">HOME</a></li>
+									<li class="active"><a href="index.php">HOME</a></li>
                                   	<li class="mid">
                                   		<strong>PRODUCT COMPONENTS</strong>
 	                                  	<ul>
-											<li><a href="#">MANAGED DATA</a></li>
-											<li><a href="#">MANAGED VOICE</a></li>
-											<li><a href="#">MANAGED APPLICATIONS</a></li>
+											<li><a href="data.php">MANAGED DATA</a></li>
+											<li><a href="voice.php">MANAGED VOICE</a></li>
+											<li><a href="apps.php">MANAGED APPLICATIONS</a></li>
 	                                  	</ul>
                                   	</li>
                                   	<li class="last">
@@ -679,14 +679,14 @@
 	<div class="container">
 		<div class="row">
 			  <div class="col-md-2 font-ccc-mormal">
-			      <span><b>HOME</b></span>
+			      <a href="index.php"><span><b>HOME</b></span></a>
 			  </div>
 			  
 			  <div class="col-md-3 font-ccc-mormal">
 			      <span><b>PRODUCT COMPONENTS</b></span><br><br>
-			      <span><b>MANAGED DATA</b></span><br>
-			      <span><b>MANAGED VOICE</b></span><br>
-			      <span><b>MANAGED APPLICATIONS</b></span>
+			      <a href="data.php"><span><b>MANAGED DATA</b></span></a><br>
+			      <a href="voice.php"><span><b>MANAGED VOICE</b></span></a><br>
+			      <a href="apps.php"><span><b>MANAGED APPLICATIONS</b></span></a>
 			  </div>
 			  
 			  <div class="col-md-4 font-ccc-mormal">

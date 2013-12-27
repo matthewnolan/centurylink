@@ -51,6 +51,58 @@
                             </div>
                         </nav>
                     </div>
+                    <nav class="mobile-global-nav visible-xs">
+							<div class="mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav-content">
+                                <span class="icon-bar"></span>
+                               	<span class="icon-bar"></span>
+                            	<span class="icon-bar"></span>
+                             </div> 
+                            <div class="collapse navbar-collapse" id="mobile-nav-content">
+                                <ul class="nav navbar-nav">
+									<li class="active"><a href="index.php">HOME</a></li>
+                                  	<li class="mid">
+                                  		<strong>PRODUCT COMPONENTS</strong>
+	                                  	<ul>
+											<li><a href="data.php">MANAGED DATA</a></li>
+											<li><a href="voice.php">MANAGED VOICE</a></li>
+											<li><a href="apps.php">MANAGED APPLICATIONS</a></li>
+	                                  	</ul>
+                                  	</li>
+                                  	<li class="last">
+                                  		<div class="col-xs-6 phone"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>				                                           
+                                  		<div class="col-xs-6 social-header">
+					                        <a href="#">
+					                            <span class="fa-stack">
+					                                <i class="fa fa-square fa-stack-2x"></i>
+					                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					                            </span>
+					                        </a>
+					                      
+					                        <a href="#">
+					                            <span class="fa-stack">
+					                                <i class="fa fa-square fa-stack-2x"></i>
+					                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+					                            </span>
+					                        </a>
+					                      
+					                        <a href="#">
+					                            <span class="fa-stack">
+					                                <i class="fa fa-square fa-stack-2x"></i>
+					                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+					                            </span>
+					                        </a>
+					                      
+					                        <a href="#">
+					                            <span class="fa-stack fa-lg">
+					                                <i class="fa fa-square fa-stack-2x"></i>
+					                                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+					                            </span>
+					                        </a>
+					                    </div>
+                                  	</li>
+                                </ul>
+                            </div>
+                    </nav>
                     <div class="col-xs-0 col-sm-4 col-md-3 hidden-xs">
                         <ul class="fa-ul">
                           <li><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></li>
@@ -269,14 +321,14 @@
 	<div class="container">
 		<div class="row">
 			  <div class="col-md-2 font-ccc-mormal">
-			      <span><b>HOME</b></span>
+			      <a href="index.php"><span><b>HOME</b></span></a>
 			  </div>
 			  
 			  <div class="col-md-3 font-ccc-mormal">
 			      <span><b>PRODUCT COMPONENTS</b></span><br><br>
-			      <span><b>MANAGED DATA</b></span><br>
-			      <span><b>MANAGED VOICE</b></span><br>
-			      <span><b>MANAGED APPLICATIONS</b></span>
+			      <a href="data.php"><span><b>MANAGED DATA</b></span></a><br>
+			      <a href="voice.php"><span><b>MANAGED VOICE</b></span></a><br>
+			      <a href="apps.php"><span><b>MANAGED APPLICATIONS</b></span></a>
 			  </div>
 			  
 			  <div class="col-md-4 font-ccc-mormal">
