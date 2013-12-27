@@ -8,14 +8,11 @@
 				if(more){
 					element.find('.3dot').html('');
 					element.find('.details').attr('style','display:inline');
-					element.removeClass('hid');
-					element.addClass('visible');
-					console.log(element);
+					element.addClass('fix-fixed-height');
 				}else{
 					element.find('.3dot').html('...');
 					element.find('.details').attr('style','display:block');
-					element.removeClass('visible');
-					element.addClass('hid');
+					element.removeClass('fix-fixed-height');
 				}
 			}
 		});
@@ -25,24 +22,14 @@
 			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
-					element.find('.3dot').html('');
-					element.find('.details').attr('style','display:inline');
+					element.addClass('fix-fixed-height');
 				}else{
-					element.find('.3dot').html('...');
-					element.find('.details').attr('style','display:block');
+					element.removeClass('fix-fixed-height');
 				}
 			}
 		});
 	});
 </script>
-<style>
-.visible{
-overflow:visible !important;
-}
-.hid{
-overflow:hidden !important;
-}
-</style>
 <div class="idata" id="safe">
 	<div class="container wrapper">
 		<div class="padding-fix">

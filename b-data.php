@@ -9,10 +9,12 @@
 					$('#onboard-image').attr('src','images/onboard.png');
 					element.find('.3dot').html('');
 					element.find('.details').attr('style','display:inline');
+					element.addClass('fix-fixed-height');
 				}else{
 					$('#onboard-image').attr('src','images/onboard-closed.png');
 					element.find('.3dot').html('...');
 					element.find('.details').attr('style','display:block');
+					element.removeClass('fix-fixed-height');
 				}
 			}
 		});

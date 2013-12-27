@@ -140,6 +140,10 @@ img,iframe{
 .it-present p{
 }
 
+.fix-fixed-height{
+	height:auto !important;
+}
+
 /*HEADER*/
 #header{
 	height:64px;

@@ -8,9 +8,11 @@
 				if(more){
 					element.find('.3dot').html('');
 					element.find('.details').attr('style','display:inline');
+					element.addClass('fix-fixed-height');
 				}else{
 					element.find('.3dot').html('...');
 					element.find('.details').attr('style','display:block');
+					element.removeClass('fix-fixed-height');
 				}
 			}
 		});
