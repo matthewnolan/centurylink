@@ -848,6 +848,7 @@ img, iframe{
 	background-color:#f6f4f4;
 	padding:8px;
 	margin:20px auto;
+	text-align:center;
 }
 .onboard3col .plus i,.onboard3col .minus i, .secure-detail .plus i, .secure-detail .minus i{
 	font-size:26px;
@@ -1073,7 +1074,7 @@ img, iframe{
 	line-height:20px;
 }
 .secure-detail h3 span{
-	font-size:28px;
+	font-size:26px;
 	line-height:30px;
 }
 .secure-detail .first{
