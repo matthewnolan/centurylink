@@ -23,6 +23,12 @@
 <script type="text/javascript"  src="js/readmore.min.js"></script>
 
 <script type="text/javascript">
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+if(isAndroid) {
+	var winw = jQuery(window).width(); 
+	jQuery('iframe').css('max-width',winw);
+}
 jQuery(document).ready(function($) {
 	$.scrollUp({
 		  scrollImg: true

@@ -53,7 +53,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 /*COMMON*/
-img,iframe{
+img, iframe{
 	max-width:100% !important;
 }
 
@@ -593,7 +593,7 @@ img,iframe{
 	background-color:#eeeeed;
 }
 .video iframe{
-  border: none;
+  border: 0;
 }
 .video-container{
 	padding-bottom:50px;
@@ -1300,6 +1300,9 @@ h3.easy-title{
 	#it-db .hero-right img.icon{
 		right:-237px;
 	}
+	.it-present{
+		padding:40px 20px;
+	}
 	
 }
 
@@ -1406,6 +1409,9 @@ h3.easy-title{
 	.bussiness-selector,.it-selector,.biz-selector{
 		max-width:100%;
 		height:auto;
+	}
+	.it-present{
+		padding:40px 20px;
 	}
 
 }
