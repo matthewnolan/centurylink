@@ -22,7 +22,8 @@
 
 <body>
 <header id="header">
-	<div class="container">
+	<div class="bgwelcome">
+	  <div class="container">
             <div class="space38 hidden-xs"></div>
             <div class="space10 visible-xs"></div>
             <div class="row">
@@ -195,6 +196,7 @@
                 </a>
             </div>
 	</div><!--./container-->
+  </div>
 </header>
 
 <div id="div-navsticky">
