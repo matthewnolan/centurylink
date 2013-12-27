@@ -124,7 +124,7 @@
                     	<div class="space38 visible-lg"></div>
                         <h2>How does Managed <span class="font-green-mormal">Data</span> work within Managed Office?</h2>
                         <p class="lead fs14b">Managed Office includes a fully managed, high-performance service connection to the secure CenturyLink IP/MPLS network. We manage your switches and routers and all the equipment you need, based on the number of seats you purchase. </p>
-                        <p class="font-gray-mormal lead fs14">
+                        <p class="font-gray-mormal fs14">
                             You get: <br />
                             &bull;  10/10Mbps or 100/100Mbps Ethernet connection <br />
                             &bull;  IQ Internet or Enhanced Port (based on locations) <br />
@@ -193,7 +193,7 @@
                     <div class="visible-xs">
                         <img src="images/mobi/ethernet_connection.png" alt="" class="img-responsive" />
                     </div>
-                    <p class="lead fs14b">
+                    <p class="fs14b">
                     &bull; Depending on your needs and the number of seats you purchase, Managed Office comes with either a 10/10Mbps Ethernet connection (10-20 seats) or a 100/100Mbps Ethernet connection (21+ seats)   <br />
     &bull; For single-site installations, Managed Office uses CenturyLink Internet Port offering Tier 1 reliability  <br />
     &bull; For multi-site installations, Managed Office uses dedicated Ethernet access<br />
@@ -219,7 +219,7 @@
                     <div class="visible-xs">
                         <img src="images/mobi/router.png" alt="" class="img-responsive" />
                     </div>
-                    <p class="lead fs14b">
+                    <p class="fs14b">
                    With Managed Office, CenturyLink handles the installation, configuration, maintenance, software updates, and repair of all your switches and routers. The equipment varies based on the number of seats you purchase. Each phone, printer, wireless access point, etc., requires that you purchase a "seat" to connect it to the network.
                     </p>
                    

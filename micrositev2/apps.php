@@ -123,7 +123,7 @@
                     <div id="div-left-welcome">
                     	<div class="space38 visible-lg"></div>
                         <h2>How do Managed <span class="font-green-mormal">Applications</span> work within Managed Office?</h2>
-                        <p class="lead fs14b">Managed Office provides your business with a wide range of business applications that you get as a service, which essentially means you'll never have to purchase or upgrade your software again. Managed Office frees you up to focus on your core business, rather than the underlying technology that makes it work day to day.  </p>
+                        <p class="fs14b">Managed Office provides your business with a wide range of business applications that you get as a service, which essentially means you'll never have to purchase or upgrade your software again. Managed Office frees you up to focus on your core business, rather than the underlying technology that makes it work day to day.  </p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -180,18 +180,18 @@
                 <div class="col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2>Our Messaging and Collaboration includes:</h2>
-                    <p class="lead font-gray-mormal fs14b">
+                    <p class="font-gray-mormal fs14b">
                         &bull; Microsoft Hosted Exchange email box with Outlook and 25GB of space per seat <br />
                         &bull; Microsoft SharePoint and 100GB storage per location <br />
                         &bull; Domain name transfer or registration for up to 5 domains <br />
                     </p>
                    	<h2>Our Virtual Server includes:</h2>
-                    <p class="lead font-gray-mormal fs14b">
+                    <p class="font-gray-mormal fs14b">
                         &bull; Online data backup: 10GB per seat  <br />
 						&bull; Fips 140-2 service certified with built-in data redundancy for disaster recovery <br />
                     </p>
                     <h2>Our Managed Office Security includes:</h2>
-                    <p class="lead font-gray-mormal fs14b">
+                    <p class="font-gray-mormal fs14b">
                     	&bull; Email Protection and Continuity: inbound email filtering, proactive attack detection, and policy enforcement <br />
 						&bull; Email Archiving: 1-year email retention <br />
 						&bull; Endpoint Protection: virus, spyware, spam, Web security, phishing, and desktop firewall protection <br />

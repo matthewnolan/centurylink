@@ -123,7 +123,7 @@
                     <div id="div-left-welcome">
                     	<div class="space38 visible-lg"></div>
                         <h2>How does Managed <span class="font-green-mormal">voice</span> work within Managed Office?</h2>
-                        <p class="lead fs14b">The voice component of Managed Office is powered by CenturyLink's Hosted VoIP.  We also provide and install all the equipment you need to make calls.  </p>
+                        <p class="fs14b">The voice component of Managed Office is powered by CenturyLink's Hosted VoIP.  We also provide and install all the equipment you need to make calls.  </p>
                         <p class="font-gray-mormal fs14">
                             You get: <br />
                             &bull; Anywhere availability with voice over IP or mobile access to every call<br />
@@ -190,10 +190,10 @@
         <div class="row" style="padding-bottom: 60px;">
        		<div class="col-md-6">
                     <div class="space38 hidden-xs"></div>
-                    <p class="lead fs14b">
+                    <p class="fs14b">
                     	Prior to installation, a CenturyLink representative will meet with you to determine the specific type and quantity of IP phones that will work best for your business. 
                     </p>
-                    <p class="lead fs14b">
+                    <p class="fs14b">
                     	Once installed, CenturyLink Hosted VoIP allows you to:
                     </p>
                     <p class="font-gray-mormal">
@@ -224,7 +224,7 @@
                 <div class="col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2>What's included with each seat you purchase?</h2>
-                    <p class="lead fs14b">
+                    <p class="fs14b">
                     	With CenturyLink Managed Office, each seat you purchase includes: 
                     </p>
                     <p class="font-gray-mormal">
