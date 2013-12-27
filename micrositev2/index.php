@@ -54,11 +54,11 @@
                     
                     
                     <nav class="mobile-global-nav visible-xs">
-							<div class="mobile-nav-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-nav-content">
+							<div class="mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav-content">
                                 <span class="icon-bar"></span>
                                	<span class="icon-bar"></span>
                             	<span class="icon-bar"></span>
-                             </div>
+                             </div> 
                             <div class="collapse navbar-collapse" id="mobile-nav-content">
                                 <ul class="nav navbar-nav">
 									<li class="active"><a href="#">HOME</a></li>
