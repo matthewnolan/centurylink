@@ -441,8 +441,7 @@ img,iframe{
 
 /*MOBILE STICKY NAV*/
 .mobile-sticky-nav{
-	position:absolute;
-	right:0;
+	float: right;
 }
 .mobile-sticky-nav .navbar-toggle{
 	background-color:#9f9f9f;
