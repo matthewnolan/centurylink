@@ -23,6 +23,7 @@
 <body>
 <header id="header">
 	<div class="bgwelcome">
+      <div class="livechat"></div>
 	  <div class="container">
             <div class="space38 hidden-xs"></div>
             <div class="space10 visible-xs"></div>
