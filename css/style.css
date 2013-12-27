@@ -369,6 +369,9 @@ img, iframe{
 	text-align:center;
 	width:100%;
 }
+.sticky-nav a, .sticky-nav a:hover, .sticky-nav a:focus, .sticky-nav a:active{
+	text-decoration: none;
+}
 .sticky-nav .padding-fix{
 	position:relative;
 }
