@@ -45,7 +45,7 @@
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                  <li class="active"><a href="#">HOME</a></li>
+                                  <li class="active"><a href="index.php">HOME</a></li>
                                   <li><a href="#">PRODUCT COMPONENTS</a></li>
                                 </ul>
                             </div>

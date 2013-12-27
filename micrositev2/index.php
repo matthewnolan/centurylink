@@ -45,7 +45,7 @@
                             </div>
                             <div class="collapse navbar-collapse" id="mobi-nav-collapse">
                                 <ul class="nav navbar-nav">
-                                  <li class="active"><a href="#">HOME</a></li>
+                                  <li class="active"><a href="index.php">HOME</a></li>
                                   <li><a href="#">PRODUCT COMPONENTS</a></li>
                                 </ul>
                             </div>
@@ -561,7 +561,7 @@
                 <p class="font-gray-mormal">
                 Managed Office not only makes sure every employee is connected to the Internet, CenturyLink makes sure everyone in your office is connected to our privately owned and operated network.
                 </p>
-                <a href="#" class="sprite btreadmore">Read more</a>
+                <a href="data.php" class="sprite btreadmore">Read more</a>
             </div>
             <div class="col-md-6">
             	<div class="overlay-caro hidden-xs">
@@ -584,7 +584,7 @@
                     <p class="font-gray-mormal">
                     Managed Office gives you everything you need to make calls, including the phones themselves, and a wide variety of advanced features.
                     </p>
-                    <a href="#" class="sprite btreadmore">Read more</a>
+                    <a href="voice.php" class="sprite btreadmore">Read more</a>
                 </div>
                 <div class="col-md-6">
                     <div class="hidden-xs">
@@ -608,7 +608,7 @@
                     <p class="font-gray-mormal">
                     The days of buying and updating software are over. With Managed Applications, you get the essential business applications you need without having to buy licenses or worry about installation.
                     </p>
-                    <a href="#" class="sprite btreadmore">Read more</a>
+                    <a href="apps.php" class="sprite btreadmore">Read more</a>
                 </div>
                 <div class="col-md-6">
                     <div class="hidden-xs">
