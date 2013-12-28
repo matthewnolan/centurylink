@@ -37,11 +37,11 @@
 		<div class="padding-fix">
 			<div class="row  home-bucket">
 				<div class="col-sm-6">
-					<div class="bussiness-selector">
-						<a href="bussiness.html" title=""><img src="images/bussiness-bucket.jpg" alt=""/></a>
+					<div class="business-selector">
+						<a href="business.html" title=""><img src="images/business-bucket.jpg" alt=""/></a>
 						<!--<p>I'm running a</p>
-						<h3>BUSSINESS and <br> MANAGING IT.</h3>
-						<p class="button-holder"><a href="bussiness.html" title=""><span></span></a></p>-->
+						<h3>business and <br> MANAGING IT.</h3>
+						<p class="button-holder"><a href="business.html" title=""><span></span></a></p>-->
 					</div>
 				</div>
 				<div class="col-sm-6">

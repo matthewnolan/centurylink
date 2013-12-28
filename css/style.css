@@ -547,7 +547,7 @@ img, iframe{
 	padding:30px 0;
 	background:#ffffff;
 }
-.bussiness-selector,.it-selector,.biz-selector{
+.business-selector,.it-selector,.biz-selector{
 	width:380px;
 	height:187px;
 	font-size:18px;
@@ -557,32 +557,32 @@ img, iframe{
 	background-repeat:no-repeat;
 	background-size:contain;
 }
-.bussiness-selector h3 ,.it-selector h3,.biz-selector h3{
+.business-selector h3 ,.it-selector h3,.biz-selector h3{
 	font-weight:bold;
 	font-size:26px;
 	line-height:30px;
 	padding-left:30px;
 	margin:0;	
 }
-.bussiness-selector p,.it-selector p,.biz-selector p{
+.business-selector p,.it-selector p,.biz-selector p{
 	padding-left:30px;
 	padding-top:20px;
 	margin-bottom:0;
 }
-.bussiness-selector p.button-holder,.biz-selector p.button-holder{
+.business-selector p.button-holder,.biz-selector p.button-holder{
 	padding-top:18px;
 }
 .it-selector p.button-holder{
 	padding-top:46px;
 }
-.bussiness-selector span,.it-selector span,.biz-selector span{
+.business-selector span,.it-selector span,.biz-selector span{
 	display:block;
 	height:45px;
 	width:132px;
 	background-image:url("../images/find-out-more.png");
 }
-.bussiness-selector{
-	background-image:url("../images/bussiness-selector.jpg");
+.business-selector{
+	background-image:url("../images/business-selector.jpg");
 	float:right;
 }
 .it-selector{
@@ -633,13 +633,13 @@ img, iframe{
 	color:#7c7c7c;
 }
 
-/*BUSSINESS*/
-#bussiness .hero{
+/*business*/
+#business .hero{
 	height:363px;
 	background-color:#d5e9f2;
 }
 /*
-#bussiness .hero-left{
+#business .hero-left{
 	height:363px;
 	margin-left:-185px;
 	padding-left:185px;
@@ -648,24 +648,24 @@ img, iframe{
 	background-position: 0 -10px;
 }
 */
-#bussiness .hero-left{
+#business .hero-left{
 	height:363px;
 	margin-left:-112px;
 	padding-left:112px;
-	background-image:url("../images/bussiness-cloud.png");
+	background-image:url("../images/business-cloud.png");
 	background-repeat:no-repeat;
 	background-position: 0 -126px;
 }
-#bussiness .hero-container{
+#business .hero-container{
 	position:relative;
 }
-#bussiness .hero-right img.people{
+#business .hero-right img.people{
 	position:absolute;
 	top:0;
 	right:-70px;
 	z-index:6;
 }
-#bussiness .hero-right img.icon{
+#business .hero-right img.icon{
 	position:absolute;
 	top:43px;
 	right:-102px;
@@ -793,38 +793,38 @@ img, iframe{
 	height:80px;
 }
 
-/*BUSSINESS DATABACKUP*/
-#bussiness-db .hero{
+/*business DATABACKUP*/
+#business-db .hero{
 	height:363px;
 	background-color:#d5e9f2;
 }
-#bussiness-db .hero-left{
+#business-db .hero-left{
 	height:363px;
 	margin-left:-112px;
 	padding-left:112px;
-	background-image:url("../images/bussiness-cloud.png");
+	background-image:url("../images/business-cloud.png");
 	background-repeat:no-repeat;
 	background-position: 0 -126px;
 }
-#bussiness-db .hero-container{
+#business-db .hero-container{
 	position:relative;
 }
-#bussiness-db .hero-right img.icon{
+#business-db .hero-right img.icon{
 	position:absolute;
 	top:16px;
 	right:-24px;
 	z-index:5;
 }
-#bussiness-db .why-ctl-content{
+#business-db .why-ctl-content{
 	font-size:18px;
 	line-height:30px;
 	color:#535353;
 }
-#bussiness-db .block-images img{
+#business-db .block-images img{
 	padding-right:10px;
 }
 
-#bussiness-db .copy-block .block-content{
+#business-db .copy-block .block-content{
 	color:#535353;
 }
 
@@ -1027,7 +1027,7 @@ img, iframe{
 	height:363px;
 	margin-left:-112px;
 	padding-left:112px;
-	background-image:url("../images/bussiness-cloud.png");
+	background-image:url("../images/business-cloud.png");
 	background-repeat:no-repeat;
 	background-position: 0 -126px;
 }
@@ -1182,10 +1182,10 @@ h3.easy-title{
 }
 
 /*FIX ALL*/
-.new-bussiness p{
+.new-business p{
 	margin-top:15px;
 }
-.new-bussiness a{
+.new-business a{
 	color:#8cc63f;
 	text-decoration:underline;
 	font-weight:bold;
@@ -1286,11 +1286,11 @@ h3.easy-title{
 	    border:0;
 	}
 			
-	#bussiness .hero-right img.icon{
+	#business .hero-right img.icon{
 		right:-302px;
 	}
 
-	#bussiness-db .hero-right img.icon{
+	#business-db .hero-right img.icon{
 		right:-244px;
 	}
 	
@@ -1376,7 +1376,7 @@ h3.easy-title{
 		padding:0 0 15px;
 	}
 	
-	.bussiness-selector{
+	.business-selector{
 		float:none;
 		margin-bottom:20px;
 	}
@@ -1410,7 +1410,7 @@ h3.easy-title{
 	.sticky-nav li.current a:after{
 	    border:0;
 	}
-	.bussiness-selector,.it-selector,.biz-selector{
+	.business-selector,.it-selector,.biz-selector{
 		max-width:100%;
 		height:auto;
 	}

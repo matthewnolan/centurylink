@@ -1,11 +1,11 @@
 <?php include_once "header.php";?>
 
-<div id="bussiness">
+<div id="business">
 	<div class="hero hidden-xs">
 	<div class="container wrapper">
 		<div class="hero-container">
 			<div class="hero-left">
-				<img class="hero-label" src="images/new-bussiness-label.jpg" alt="APPLICATIONS"/>
+				<img class="hero-label" src="images/new-business-label.jpg" alt="APPLICATIONS"/>
 				<div class="hero-left-content">
 					<p class="headline">In business, bigger isn't better.<br/> Better is better.</p>
 					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 Days.* </a></h3>
@@ -13,7 +13,7 @@
 				</div>
 			</div>
 			<div class="hero-right">
-				<img class="icon" src="images/new-bussiness-icon.png" alt="APPLICATIONS"/>
+				<img class="icon" src="images/new-business-icon.png" alt="APPLICATIONS"/>
 			</div>
 		</div>
 	</div>
@@ -21,7 +21,7 @@
 
 <div class="mobile-hero visible-xs">
 	<div class="main-hero">
-		<img src="images/new-mobile-bussiness-hero.png" alt=""/>
+		<img src="images/new-mobile-business-hero.png" alt=""/>
 	</div>
 	<div class="container wrapper">
 		<div class="padding-fix">

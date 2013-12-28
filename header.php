@@ -78,9 +78,9 @@ jQuery(document).ready(function($) {
 							<ul class="globalnav">
 								<li>
 									<ul>
-										<li>Bussiness Owner</li>
-										<li><a href="bussiness.html" title="">Hosted Applications</a></li>
-										<li><a href="bussiness-databackup.html" title="">Data Backup</a></li>
+										<li>Business Owner</li>
+										<li><a href="business.html" title="">Hosted Applications</a></li>
+										<li><a href="business-databackup.html" title="">Data Backup</a></li>
 									</ul>
 								</li>
 								<li>
@@ -127,9 +127,9 @@ jQuery(document).ready(function($) {
 		<ul id="mobilenav" class="collapse">
 			<li>
 				<ul>
-					<li>Bussiness Owner</li>
-					<li><a href="bussiness.html" title="">Hosted Applications</a></li>
-					<li><a href="bussiness-databackup.html" title="">Data Backup</a></li>
+					<li>Business Owner</li>
+					<li><a href="business.html" title="">Hosted Applications</a></li>
+					<li><a href="business-databackup.html" title="">Data Backup</a></li>
 				</ul>
 			</li>
 			<li>

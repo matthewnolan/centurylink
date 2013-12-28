@@ -1,11 +1,11 @@
 <?php include_once "header.php";?>
 
-<div id="bussiness-db">
+<div id="business-db">
 	<div class="hero hidden-xs">
 	<div class="container wrapper">
 		<div class="hero-container">
 			<div class="hero-left">
-				<img class="hero-label" src="images/bussinessdb-label.jpg" alt="DATA BACKUP"/>
+				<img class="hero-label" src="images/businessdb-label.jpg" alt="DATA BACKUP"/>
 				<div class="hero-left-content">
 					<p class="headline">Two steps to backing up data.<br/> Turning it on. And forgetting it.</p>
 					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 Days.* </a></h3>
@@ -13,7 +13,7 @@
 				</div>
 			</div>
 			<div class="hero-right">
-				<img class="icon" src="images/bussinessdb-icon.png" alt="DATA BACKUP"/>
+				<img class="icon" src="images/businessdb-icon.png" alt="DATA BACKUP"/>
 			</div>
 		</div>
 	</div>
@@ -21,7 +21,7 @@
 
 <div class="mobile-hero visible-xs">
 	<div class="main-hero">
-		<img src="images/mobile-bussiness-db-hero.png" alt=""/>
+		<img src="images/mobile-business-db-hero.png" alt=""/>
 	</div>
 	<div class="container wrapper">
 		<div class="padding-fix">

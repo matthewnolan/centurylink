@@ -5,9 +5,9 @@
 		<div class="padding-fix footer-content">
 			<div class="row">
 				<div class="col-sm-3">
-					<h3>FOR THE BUSSINESS OWNER</h3>
-					<p><a href="bussiness.html" title="">Hosted Applications</a></p>
-					<p><a href="bussiness-databackup.html" title="">Data Backup</a></p>
+					<h3>FOR THE BUSINESS OWNER</h3>
+					<p><a href="business.html" title="">Hosted Applications</a></p>
+					<p><a href="business-databackup.html" title="">Data Backup</a></p>
 				</div>
 				<div class="col-sm-3">
 					<h3>FOR THE IT LEADER</h3>

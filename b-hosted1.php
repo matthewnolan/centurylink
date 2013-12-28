@@ -38,7 +38,7 @@
 						<a href="">CenturyLink Data Backup</a>
 					</p>
 					<h3 class="block-title">
-						If data is the crown jewel of <br/> your bussiness, you should <br/> have the perfect safety deposit box.
+						If data is the crown jewel of <br/> your business, you should <br/> have the perfect safety deposit box.
 					</h3>
 					<p class="block-content">
 						Is your data being backed up? After all, business depends on you having access to critical information when and where you need it. Don't leave backing up your data to chance or someonce's memory. With CentiryLink<br/>
@@ -79,7 +79,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-sm-7">
-					<iframe id="bussiness-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
+					<iframe id="business-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
 					<ul class="video-list">
 						<li><a href="javascript:;" class="active" data-src="//www.youtube.com/embed/ZqpxHipyB-c" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
 							<span>Wondering how to take the first step to the cloud?</span>
@@ -98,7 +98,7 @@
 					<div class="clearfix"></div>
 				</div>
 				<div class="video-right col-sm-5">
-					<div id="about-bussiness-video">
+					<div id="about-business-video">
 						<h3>Wondering how to take the first step to the cloud?</h3>
 						<p>With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.</p>
 					</div>
@@ -110,9 +110,9 @@
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	$('.video-list a').click(function(){
-		var player = $('#bussiness-video');
-		var title = $('#about-bussiness-video h3');
-		var content = $('#about-bussiness-video p');
+		var player = $('#business-video');
+		var title = $('#about-business-video h3');
+		var content = $('#about-business-video p');
 		var src = $(this).attr('data-src');
 		var new_title = $(this).find('span').html();
 		var new_content = $(this).attr('data-content');

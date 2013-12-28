@@ -1,20 +1,20 @@
 <?php include_once "header.php";?>
 
-<div id="bussiness">
+<div id="business">
 	<div class="hero hidden-xs">
 	<div class="container wrapper">
 		<div class="hero-container">
 			<div class="hero-left">
-				<img class="hero-label" src="images/bussiness-label.jpg" alt="BUSSINESS OWNER"/>
+				<img class="hero-label" src="images/business-label.jpg" alt="business OWNER"/>
 				<div class="hero-left-content">
-					<p class="headline">Access big bussiness <br/>tools, without the <br/> big bussiness headaches.</p>
+					<p class="headline">Access big business <br/>tools, without the <br/> big business headaches.</p>
 					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 days. </a></h3>
 					<p class="call">Call 123.256.7890</p>
 				</div>
 			</div>
 			<div class="hero-right">
-				<img class="people" src="images/woman.png" alt="BUSSINESS OWNER"/>
-				<img class="icon" src="images/b-icon.png" alt="BUSSINESS OWNER"/>
+				<img class="people" src="images/woman.png" alt="business OWNER"/>
+				<img class="icon" src="images/b-icon.png" alt="business OWNER"/>
 			</div>
 		</div>
 	</div>
@@ -22,12 +22,12 @@
 
 <div class="mobile-hero visible-xs">
 	<div class="main-hero">
-		<img src="images/mobile-bussiness-hero.png" alt=""/>
+		<img src="images/mobile-business-hero.png" alt=""/>
 	</div>
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
-				<p class="headline">Access big bussiness tools, without the big bussiness headaches.</p>
+				<p class="headline">Access big business tools, without the big business headaches.</p>
 				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 days. </a></h3>
 			</div>
 		</div>
@@ -65,7 +65,7 @@
 	<div class="container wrapper">
 	<div class="padding-fix">
 		<p class="why-ctl-content">
-			Just because yours bussiness doesn't have 1000 employees doesn't mean<br/>
+			Just because yours business doesn't have 1000 employees doesn't mean<br/>
 			you can't perform like you do. Centurylink provides the lasted cloud-based software<br/>
 			and solutions to help you do just that easily and cost effectively.<br/>
 			The only thing you will be missing is the headache.

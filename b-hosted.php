@@ -36,7 +36,7 @@
 					
 				</div>
 				<div class="col-sm-6 image-block">
-					<img src="images/new-bussiness-fpo1.png" alt="MICROSOFT CLOUD"/>
+					<img src="images/new-business-fpo1.png" alt="MICROSOFT CLOUD"/>
 				</div>
 			</div>
 			<div class="block-seperator"></div>
@@ -44,7 +44,7 @@
 				<div class="col-sm-4 ">
 					<img src="images/exchange.png" alt="GEARS"/>
 					<div class="onboard-title">Microsoft Hosted Exchange</div>
-					<div class="onboard-content new-bussiness readmore">
+					<div class="onboard-content new-business readmore">
 						Emails, invites, calendars, the works. Enjoy bigger and more reliable mailboxes
 						<span class="3dot">...</span><div class="details"></div>
 						and added security. Wherever you work, youll work smarter even though youre working offsite or away from home.
@@ -54,7 +54,7 @@
 				<div class="col-sm-4 ">
 					<img src="images/sharepoint.png" alt="TALK"/>
 					<div class="onboard-title">Microsoft Hosted SharePoint</div>
-					<div class="onboard-content new-bussiness readmore">
+					<div class="onboard-content new-business readmore">
 						This is collaboration at its best. Share ideas and documents, organize, build, manage,
 						<span class="3dot">...</span><div class="details"></div>
 						and best of all, discover a new way to workfrom anywhere.
@@ -65,7 +65,7 @@
 				<div class="col-sm-4 ">
 					<img src="images/lync.png" alt="Join"/>
 					<div class="onboard-title">Microsoft Hosted Lync</div>
-					<div class="onboard-content new-bussiness readmore">
+					<div class="onboard-content new-business readmore">
 						Now you can host online meetings, video calls and instant messages.
 						<span class="3dot">...</span><div class="details"></div>
 							<p>This is the capability to meet in person, without being there in person.</p>
@@ -107,7 +107,7 @@
 				<div class="col-sm-4 col-sm-offset-2">
 				<img src="images/mcafee.png" alt="MCAFEE"/>
 				<div class="onboard-title">McAfee</div>
-				<div class="onboard-content new-bussiness readmore">
+				<div class="onboard-content new-business readmore">
 					This is a hosted application that makes your security automatic. It proactively
 					<span class="3dot">...</span><div class="details"></div>
 					This is a hosted application that makes your security automatic. It proactively checks for viruses, updates patches and protects against threats. McAfee is software that's vigilant, even when you can't be.
@@ -120,7 +120,7 @@
 				<div class="col-sm-4">
 				<img src="images/mes-solution.png" alt="MESSAGE SOLUTIONS"/>
 				<div class="onboard-title">MessageSolution</div>
-				<div class="onboard-content new-bussiness readmore">
+				<div class="onboard-content new-business readmore">
 					Now you'll have the ability to capture, archive and organize unstructured emails
 					<span class="3dot">...</span><div class="details"></div>
 					Now you'll have the ability to capture, archive and organize unstructured emails and files. In fact, MessageSolution allows you and your staff to retrieve that critical information in a heartbeat.
@@ -149,7 +149,7 @@
 				
 				</div>
 				<div class="col-sm-6 image-block">
-					<img src="images/new-bussiness-fpo2.png" alt=""/>
+					<img src="images/new-business-fpo2.png" alt=""/>
 				</div>
 			</div>
 			<div class="block-seperator"></div>
@@ -157,7 +157,7 @@
 				<div class="col-sm-2">
 				<img src="images/attra.png" alt="LOGO"/>
 				<div class="onboard-title">Attracta</div>
-				<div class="onboard-content new-bussiness readmore">
+				<div class="onboard-content new-business readmore">
 					Potential customers need to be able to find
 					<span class="3dot">...</span><div class="details"></div>
 					 your website, easily and quickly. Attracta is a search visibility tool that increases your presence&#8212;moving your business to the top of the search page.
@@ -167,7 +167,7 @@
 				<div class="col-sm-2">
 				<img src="images/pinna.png" alt="LOGO"/>
 				<div class="onboard-title">Pinnacle Cart</div>
-				<div class="onboard-content new-bussiness readmore">
+				<div class="onboard-content new-business readmore">
 					Ecommerce is a vital part of doing business
 					<span class="3dot">...</span><div class="details"></div>
 					 on the Web. Pinnacle gives you an immediate plug-in ecommerce capability. So now, your business has a prime location on the Web's Main Street.
@@ -179,7 +179,7 @@
 				<div class="col-sm-2">
 				<img src="images/gomobile.png" alt="LOGO"/>
 				<div class="onboard-title">goMobi</div>
-				<div class="onboard-content new-bussiness readmore">
+				<div class="onboard-content new-business readmore">
 					Take your Web presence mobile.
 					<span class="3dot">...</span><div class="details"></div>
 					 goMobi is an easy-to-use hosted application that allows you to create a high-quality mobile site quickly and cost- efficiently.
@@ -191,7 +191,7 @@
 				<div class="col-sm-2">
 				<img src="images/sitelock.png" alt="LOGO"/>
 				<div class="onboard-title">SiteLock</div>
-				<div class="onboard-content new-bussiness readmore">
+				<div class="onboard-content new-business readmore">
 					Protection from hackers, malware and
 					<span class="3dot">...</span><div class="details"></div>
 					 other threats. In other words, this is a service that safeguards your website. It's like a healthcare plan for your business and your online reputation.
@@ -203,7 +203,7 @@
 				<div class="col-sm-2">
 				<img src="images/stop.png" alt="LOGO"/>
 				<div class="onboard-title">StopTheHacker</div>
-				<div class="onboard-content new-bussiness readmore">
+				<div class="onboard-content new-business readmore">
 					StopTheHacker is technology that
 					<span class="3dot">...</span><div class="details"></div>
 					 insures the security of your website.
@@ -290,10 +290,10 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-sm-7">
-					<iframe id="bussiness-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
+					<iframe id="business-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
 				</div>
 				<div class="video-right col-sm-5">
-					<div id="about-bussiness-video">
+					<div id="about-business-video">
 						<h3>Cloud as flexible as you are.</h3>
 						<p>CenturyLink Cloud Computing lets you and your employees work from virtually anywhere, anytime, and start working right away. Now that's agility.</p>
 					</div>
