@@ -23,7 +23,7 @@
 <body>
 <header id="header">
   <div class="bgdata">
-  	<div class="livechat"></div>
+  	<a href="#" class="livechat hidden-xs"></a>
 	<div class="container">
             <div class="space38 hidden-xs"></div>
             <div class="space10 visible-xs"></div>
@@ -32,7 +32,7 @@
                         <a href="#" title="Century Link" id="logo" class="sprite">Century Link</a>
                     </div>
                     <div class="col-xs-8 col-sm-5 col-md-5">
-                        <nav class="navbar navbar-default" role="navigation">
+                        <nav class="navbar navbar-default hidden-xs" role="navigation">
                           <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -176,7 +176,7 @@
                     	<div class="space38 visible-lg"></div>
                         <h2>How does Managed <span class="font-green-mormal">voice</span> work within Managed Office?</h2>
                         <p class="fs14b">The voice component of Managed Office is powered by CenturyLink's Hosted VoIP.  We also provide and install all the equipment you need to make calls.  </p>
-                        <p class="font-gray-mormal fs14">
+                        <p class="fs14b font-gray-mormal ">
                             You get: <br />
                             &bull; Anywhere availability with voice over IP or mobile access to every call<br />
                             &bull; Hosted VoIP using our Broadsoft Broadworks platform<br />
@@ -199,7 +199,8 @@
                     </div> 
                 </div>
             </div>   
-            <div class="nextpage visible-lg paddingtop20">
+            <div class="space60 hidden-xs"></div>
+            <div class="nextpage visible-lg">
             	<a href="#" class="btscroll">
                 	<i class="sprite down-arrow"></i>
                     <span>SHOW ME MORE DATA SPECIFICS</span>
@@ -327,6 +328,7 @@
                 <span>SET UP AN APPOINTMENT</span>
             </a>
         </div>
+        <div class="space20 hidden-xs"></div>
 	</div>
 </div>
 <div class="line-break sprite"></div>

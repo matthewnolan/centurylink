@@ -23,7 +23,7 @@
 <body>
 <header id="header">
   <div class="bgdata">
-  	<div class="livechat"></div>
+  	<a href="#" class="livechat hidden-xs"></a>
 	<div class="container">
             <div class="space38 hidden-xs"></div>
             <div class="space10 visible-xs"></div>
@@ -32,7 +32,7 @@
                         <a href="#" title="Century Link" id="logo" class="sprite">Century Link</a>
                     </div>
                     <div class="col-xs-8 col-sm-5 col-md-5">
-                        <nav class="navbar navbar-default" role="navigation">
+                        <nav class="navbar navbar-default hidden-xs" role="navigation">
                           <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -175,8 +175,8 @@
                     <div id="div-left-welcome">
                     	<div class="space38 visible-lg"></div>
                         <h2>How does Managed <span class="font-green-mormal">Data</span> work within Managed Office?</h2>
-                        <p class="lead fs14b">Managed Office includes a fully managed, high-performance service connection to the secure CenturyLink IP/MPLS network. We manage your switches and routers and all the equipment you need, based on the number of seats you purchase. </p>
-                        <p class="font-gray-mormal fs14">
+                        <p class="fs14b">Managed Office includes a fully managed, high-performance service connection to the secure CenturyLink IP/MPLS network. We manage your switches and routers and all the equipment you need, based on the number of seats you purchase. </p>
+                        <p class="fs14b font-gray-mormal">
                             You get: <br />
                             &bull;  10/10Mbps or 100/100Mbps Ethernet connection <br />
                             &bull;  IQ Internet or Enhanced Port (based on locations) <br />
@@ -198,6 +198,7 @@
                     </div> 
                 </div>
             </div>   
+            <div class="space40 visible-lg"></div>
             <div class="nextpage visible-lg paddingtop20">
             	<a href="#" class="btscroll">
                 	<i class="sprite down-arrow"></i>
@@ -238,7 +239,7 @@
         <h2 class="text-center">You want more DATA specifics ?</h2>
         <div class="space38 hidden-xs"></div>
         <div class="overlay-ethernet">
-            <div class="row" style="padding-bottom: 60px;">
+            <div class="row">
                 <div class="col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2>Ethernet Connection</h2>
@@ -257,32 +258,39 @@
                 </div>
                 <div class="col-md-6">
                     <div class="space38 hidden-xs"></div>
-                    <img src="images/ethernet_connection.png" alt="" class="img-responsive" />
+                    <div class="hidden-xs">
+                    	<img src="images/ethernet_connection.png" alt="" class="img-responsive" />
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="space60"></div>
+        <div class="space100 visible-xs"></div>
+        <div class="space100 visible-xs"></div>
         <div class="hidden-xs"><div class="line-gradient"></div></div>
   		<div class="visible-xs"><div class="mobi-line-gradient"></div></div>
-        <div>
-            <div class="row" style="padding: 40px 0;">
-                <div class="col-md-6">
-                    <div class="space38 hidden-xs"></div>
-                    <h2>Routers & Switches</h2>
-                    <div class="visible-xs">
-                        <img src="images/mobi/router.png" alt="" class="img-responsive" />
-                    </div>
-                    <p class="fs14b">
-                   With Managed Office, CenturyLink handles the installation, configuration, maintenance, software updates, and repair of all your switches and routers. The equipment varies based on the number of seats you purchase. Each phone, printer, wireless access point, etc., requires that you purchase a "seat" to connect it to the network.
-                    </p>
-                   
-                </div>
-                <div class="col-md-6">
-                    <div class="hidden-xs">
+        <div class="space40 visible-xs"></div>
+        <div class="space40 hidden-xs"></div>
+        <div>    	
+                <div class="row">
+                    <div class="col-md-6">
                         <div class="space38 hidden-xs"></div>
-                        <img src="images/router.png" alt="" class="img-responsive" />
+                        <h2>Routers & Switches</h2>
+                        <div class="visible-xs">
+                            <img src="images/mobi/router.png" alt="" class="img-responsive" />
+                        </div>
+                        <p class="fs14b">
+                      	With Managed Office, CenturyLink handles the installation, configuration, maintenance, software updates, and repair of all your switches and routers. The equipment varies based on the number of seats you purchase. Each phone, printer, wireless access point, etc., requires that you purchase a "seat" to connect it to the network.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hidden-xs">
+                            <div class="space38 hidden-xs"></div>
+                            <img src="images/router.png" alt="" class="img-responsive" />
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="space40 hidden-xs"></div>
         </div>
         <div class="nextpage visible-lg">
             <a href="#" class="btscroll">
@@ -290,6 +298,7 @@
                 <span>SET UP AN APPOINTMENT</span>
             </a>
         </div>
+        <div class="space20 visible-lg"></div>
 	</div>
 </div>
 <div class="line-break sprite"></div>

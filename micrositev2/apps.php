@@ -23,7 +23,7 @@
 <body>
 <header id="header">
   <div class="bgdata">
-  	<div class="livechat"></div>
+  	<a href="#" class="livechat hidden-xs"></a>
 	<div class="container">
             <div class="space38 hidden-xs"></div>
             <div class="space10 visible-xs"></div>
@@ -32,7 +32,7 @@
                         <a href="#" title="Century Link" id="logo" class="sprite">Century Link</a>
                     </div>
                     <div class="col-xs-8 col-sm-5 col-md-5">
-                        <nav class="navbar navbar-default" role="navigation">
+                        <nav class="navbar navbar-default hidden-xs" role="navigation">
                           <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -188,6 +188,7 @@
                     </div> 
                 </div>
             </div>   
+            <div class="space60 visible-lg"></div>
             <div class="nextpage visible-lg paddingtop20">
             	<a href="#" class="btscroll">
                 	<i class="sprite down-arrow"></i>
@@ -228,7 +229,8 @@
         <h2 class="text-center">What Applications are included within Managed Office?</h2>
         <p class="text-center fs14b">Managed Office comes with the software to run everything from email to data backup to security.</p>
         <div class="overlay-apps">
-            <div class="row" style="padding: 40px 0;">
+        	<div class="space40 hidden-xs"></div>
+            <div class="row">
                 <div class="col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2>Our Messaging and Collaboration includes:</h2>
@@ -259,6 +261,7 @@
                     </div>
                 </div>
             </div>
+            <div class="space40 hidden-xs"></div>
         </div>
         <div class="nextpage visible-lg">
             <a href="#" class="btscroll">
@@ -266,8 +269,12 @@
                 <span>SET UP AN APPOINTMENT</span>
             </a>
         </div>
+        <div class="space20 visible-lg"></div>
 	</div>
 </div>
+<div class="space100 visible-xs"></div>
+<div class="space100 visible-xs"></div>
+<div class="space100 visible-xs"></div>
 <div class="line-break sprite"></div>
 <div id="contactfooter">
 	<div class="container">

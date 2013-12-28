@@ -23,7 +23,7 @@
 <body>
 <header id="header">
 	<div class="bgwelcome">
-      <div class="livechat"></div>
+      <a href="#" class="livechat hidden-xs"></a>
 	  <div class="container">
             <div class="space38 hidden-xs"></div>
             <div class="space10 visible-xs"></div>
@@ -53,7 +53,7 @@
                     </div>
                     
                     
-                    
+                    <!--#Menu on Mobi#-->
                     <nav class="mobile-global-nav visible-xs">
 							<div class="mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav-content">
                                 <span class="icon-bar"></span>
@@ -105,7 +105,7 @@
                                   	</li>
                                 </ul>
                             </div>
-                        </nav>
+                    </nav>
                         
                         
                         
@@ -175,14 +175,15 @@
                         </a>
                     </div>
              </div>
-            <div class="space38 visible-lg"></div>
+            <div class="space100 visible-lg"></div>
             <div class="row">
                 <div class="col-md-6">
-                    <div id="div-left-welcome">
-                    	<div class="space60 visible-lg"></div>
-                        <h2>CenturyLink<sup>&reg;</sup> Managed Office is an entirely new approach to your communication and IT.</h2>
-                        <p class="font-gray-mormal lead">Managed Office provides your business with fundamental IT and communication infrastructure, plus a dedicated team to manage it, all for one flat rate per seat per month.</p>
-                        <p class="lead">You focus on your business. We handle the technology that runs it.</p>
+                    <div id="div-left-welcome">  	
+                        <div class="page-header">
+                        	<h1>CenturyLink<sup>&reg;</sup> Managed Office is an entirely new approach to your communication and IT.</h1>
+                        </div>
+                        <p class="fs14b font-gray-mormal">Managed Office provides your business with fundamental IT and communication infrastructure, plus a dedicated team to manage it, all for one flat rate per seat per month.</p>
+                        <p class="fs14b">You focus on your business. We handle the technology that runs it.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -225,7 +226,7 @@
                                 <img src="images/mobi/data_server.png" alt="" class="img-responsive" />
                                 <div class="text-layer-welcom" id="mobi-text-layer-mdata-welcom">
                                     <span class="font-green-mormal block"><strong>Managed DATA</strong></span>
-                                    <p class="" style="width: 85px;">Ethernet connection to the CenturyLink network</p>
+                                    <p class="" style="width: 120px;">Ethernet connection to the CenturyLink network</p>
                                 </div>
                             </div>
                             
@@ -247,7 +248,10 @@
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>  
+            <div class="space100 visible-lg"></div>
+            <div class="space100 visible-lg"></div> 
+            <div class="space38 visible-lg"></div> 
             <div class="nextpage visible-lg">
             	<a href="#" class="btscroll">
                 	<i class="sprite down-arrow"></i>
@@ -319,14 +323,15 @@
   <div class="overlay-timer">	
 	<div class="container">
     	<div class="space38 hidden-xs"></div>
+    	<div class="space100 hidden-xs"></div>
     	<div class="row">
         	<div class="col-md-6">
             	<div class="space38 hidden-xs"></div>
             	<h2>What makes Managed Office different?</h2>
-                <p class="font-gray-mormal">
+                <p class="fs14b font-gray-mormal">
                 	Managed Office is more than just a bundle of products and services. When you have Managed Office, CenturyLink implements, maintains and upgrades a huge amount of advanced business information technology, so that you don't have to worry about it. You get one provider, one network, and one number to call for White Glove Service...
                 </p>
-                <p class="lead">
+                <p class="fs14b">
                 	With Managed Office, it's all-in-one and done.
                 </p>
             </div>
@@ -379,18 +384,23 @@
                 <div class="visible-xs">
                 	<img src="images/mobi/modifferent.png" alt="" class="img-responsive" /> 
                 </div>
+               
             </div>
         </div>
     </div>
   </div>
+   <div class="space20 visible-xs"></div>
   <div class="hidden-xs"><div class="line-gradient"></div></div>
   <div class="visible-xs"><div class="mobi-line-gradient"></div></div>
+  <div class="space20 visible-xs"></div>
   <div class="container">
-  	<div class="row" style="padding-top: 40px;">
+  	<div class="row">
+    	<div class="space40 visible-lg"></div>
 		<div class="col-md-6 col-md-push-6">
 			<div id="div-left-modifferent">
+            	<div class="space38 visible-lg"></div>
 				<h2>How can Managed Office change your business?</h2>
-				<div class="font-gray-mormal"><strong>See how our products and services all work together to drive your business forward.</strong></div>
+				<div class="fs14b font-gray-mormal"><strong>See how our products and services all work together to drive your business forward.</strong></div>
 			</div>
 		</div>
 		<div class="col-md-6 col-md-pull-6">
@@ -400,29 +410,34 @@
 					Your browser does not support the video tag.
 				</video>
 			</div>
-             <div class="visible-xs">
+            <div class="space20 visible-xs"></div>
+            <div class="visible-xs">
             	<img src="images/mobi/mobivideo.png" alt="" class="img-responsive" /> 
             </div>
+            <div class="space20 visible-xs"></div>
 		</div>
   	</div>
+    <div class="space38 visible-lg"></div>
     <div class="nextpage visible-lg">
         <a href="#" class="btscroll">
         	<i class="sprite down-arrow"></i>
         	<span>IS MANAGED OFFICE RIGHT FOR YOUR BUSINESS</span>
         </a>
     </div>
+    <div class="space10 visible-lg"></div>
+    <div class="space10 visible-lg"></div>
   </div>
 </div>
 <div class="line-break sprite"></div>
 <div class="business">
 	<div class="container">
-    	<div class="space38 hidden-xs"></div>
-    	<div class="row" style="padding-bottom: 250px;">
-			<div class="col-md-5">
-            	<div class="space38 hidden-xs"></div>
+    	<div class="space60 hidden-xs"></div>
+    	<div class="row">
+			<div class="col-md-4">
+            	<div class="space100 hidden-xs"></div>
 				<div id="div-left-mobusiness">
 					<h2>How big is your business?</h2>
-			        <p class="font-gray-mormal"><strong>No matter what size your business is, Managed Office can add a lot of value and prepare you for the future.</strong></p>
+			        <p class="fs14b font-gray-mormal"><strong>No matter what size your business is, Managed Office can add a lot of value and prepare you for the future.</strong></p>
 			    </div>
 		    </div>
 		    
@@ -460,19 +475,23 @@
                 </div>
 		    </div>
 	    </div>
+        <div class="space100 hidden-xs"></div>
+        <div class="space100 hidden-xs"></div>
+        <div class="space100 hidden-xs"></div>
         <div class="nextpage visible-lg">
             <a href="#" class="btscroll">
                 <i class="sprite down-arrow"></i>
                 <span>WHAT WILL MANAGED OFFICE COST?</span>
             </a>
         </div>
+        <div class="space20"></div>
     </div>
 </div>
 <div class="line-break sprite"></div>
 <div id="priccingwork">
   <div class="overlay-chair">
 	<div class="container">
-    	<div class="space38 hidden-xs"></div>
+    	<div class="space60 hidden-xs"></div>
     	<div class="row">
 			<div class="col-md-6">
             	<div class="space38 hidden-xs"></div>
@@ -481,10 +500,13 @@
                     <div class="visible-xs">
                         <img src="images/mobi/simple_answer.png">
                     </div>
-			        <span class="font-gray-mormal"><b>The beauty of Managed Office is that you pay one fixed rate per seat per month. You dont have to buy, install or manage anything, and you get one invoice from one trusted provider. You can plan for the short term and the long term because our predictable pricing scales with your business.</b></span><br><br>
-			        <b>Need questions answered?</b>
-			        <span class="font-gray-mormal"><b>Schedule a meeting to learn more.</b></span><br><br>
-
+			        <p class="fs14b font-gray-mormal">
+                    	The beauty of Managed Office is that you pay one fixed rate per seat per month. You dont have to buy, install or manage anything, and you get one invoice from one trusted provider. You can plan for the short term and the long term because our predictable pricing scales with your business.
+                    </p>
+                    <p class="fs14b">
+			        	Need questions answered?<br />
+			        	<span class="font-gray-mormal">Schedule a meeting to learn more.</span>
+					</p>
 			    </div>
 		    </div>
 		    <div class="col-md-6">
@@ -493,6 +515,7 @@
 			    </div>
 		    </div>
 	    </div>
+        <div class="space100 hidden-xs"></div>
     	<div class="nextpage visible-lg">
             <a href="#" class="btscroll">
                 <i class="sprite down-arrow"></i>
@@ -506,16 +529,17 @@
 <div id="whatinit">
   <div class="overlay-circle">
 	<div class="container">
-    	<div class="space38 hidden-xs"></div>
+    	<div class="space100 hidden-xs"></div>
     	<div class="row">
-			<div class="col-md-6">
+			<div class="col-xs-12 col-md-6">
             	<div class="space38 hidden-xs"></div>
 				<div>
 					<h2>What's in it for you?</h2>
                     <div class="visible-xs">
                         <img src="images/mobi/whatinit.png">
                     </div>
-                    <p>
+                    <div class="space20 visible-xs"></div>
+                    <p class="fs14b font-gray-mormal">
 			        &bull; All your phones and hardware are installed and managed for you. <br />
                     &bull; There are no upfront investments or ongoing operational expenses.<br />
                     &bull; CenturyLink's Cloud makes your business's information secure and accessible, anytime, anywhere.  <br />
@@ -526,15 +550,17 @@
                     &bull; You get one invoice from one trusted partner.<br />
                     &bull; A dedicated technical operations center is available 24/7 and proactively monitors your network.
                     </p>
-
+					
 			    </div>
 		    </div>
-		    <div class="col-md-6">
+		    <div class="col-md-6 hidden-xs">
 				<div class="hidden-xs">
 					<img src="images/what_it_for_you.png">
 			    </div>
 		    </div>
 	    </div>
+     
+        <div class="space60 hidden-xs"></div>
     	<div class="nextpage visible-lg">
             <a href="#" class="btscroll">
                 <i class="sprite down-arrow"></i>
@@ -544,6 +570,8 @@
     </div>
   </div>
 </div>
+<div class="space100 visible-xs"></div>
+<div class="space100 visible-xs"></div>
 <div class="line-break sprite"></div>
 <div id="maofco">
 	<div class="container">
@@ -558,7 +586,8 @@
                 <div class="visible-xs">
                 	<img src="images/mobi/icon_data.png" alt="" class="img-responsive" />
                 </div>
-                <p class="font-gray-mormal">
+                <div class="space20 visible-xs"></div>
+                <p class="fs14b font-gray-mormal">
                 Managed Office not only makes sure every employee is connected to the Internet, CenturyLink makes sure everyone in your office is connected to our privately owned and operated network.
                 </p>
                 <a href="data.php" class="sprite btreadmore">Read more</a>
@@ -570,10 +599,12 @@
                 </div>
             </div>
         </div>
+        <div class="space40"></div>
         <div class="hidden-xs"><div class="line-gradient"></div></div>
   		<div class="visible-xs"><div class="mobi-line-gradient"></div></div>
         <div class="overlay-voice">
-            <div class="row" style="padding: 40px 0;">
+        	<div class="space40 hidden-xs"></div>
+            <div class="row">
                 <div class="col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2><span class="font-green-mormal">Managed Voice</span></h2>
@@ -581,7 +612,9 @@
                     <div class="visible-xs">
                         <img src="images/mobi/icon_voice.png" alt="" class="img-responsive" />
                     </div>
-                    <p class="font-gray-mormal">
+                    
+                    <div class="space20 visible-xs"></div>
+                    <p class="fs14b font-gray-mormal">
                     Managed Office gives you everything you need to make calls, including the phones themselves, and a wide variety of advanced features.
                     </p>
                     <a href="voice.php" class="sprite btreadmore">Read more</a>
@@ -594,6 +627,9 @@
                 </div>
             </div>
         </div>
+        <div class="space40"></div>
+        <div class="space60 visible-xs"></div>
+        <div class="space20 visible-xs"></div>
         <div class="hidden-xs"><div class="line-gradient"></div></div>
   		<div class="visible-xs"><div class="mobi-line-gradient"></div></div>
         <div class="overlay-apps">
@@ -605,7 +641,8 @@
                     <div class="visible-xs">
                         <img src="images/mobi/icon_voice.png" alt="" class="img-responsive" />
                     </div>
-                    <p class="font-gray-mormal">
+                     <div class="space20 visible-xs"></div>
+                    <p class="fs14b font-gray-mormal">
                     The days of buying and updating software are over. With Managed Applications, you get the essential business applications you need without having to buy licenses or worry about installation.
                     </p>
                     <a href="apps.php" class="sprite btreadmore">Read more</a>
@@ -624,6 +661,8 @@
                 <span>SET UP AN APPOINTMENT</span>
             </a>
         </div>
+        <div class="space60 visible-xs"></div>
+        <div class="space20"></div>
 	</div>
 </div>
 <div class="line-break sprite"></div>
