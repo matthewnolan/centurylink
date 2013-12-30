@@ -23,7 +23,6 @@
 <body>
 <header id="header">
   <div class="bgdata">
-  	<a href="#" class="livechat hidden-xs"></a>
 	<div class="container">
             <div class="space38 hidden-xs"></div>
             <div class="space10 visible-xs"></div>
@@ -71,28 +70,28 @@
                                   	<li class="last">
                                   		<div class="col-xs-6 phone"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>				                                           
                                   		<div class="col-xs-6 social-header">
-					                        <a href="#">
+					                        <a href="#" class="icofacebook">
 					                            <span class="fa-stack">
 					                                <i class="fa fa-square fa-stack-2x"></i>
 					                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 					                            </span>
 					                        </a>
 					                      
-					                        <a href="#">
+					                        <a href="#" class="icotwitter">
 					                            <span class="fa-stack">
 					                                <i class="fa fa-square fa-stack-2x"></i>
 					                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 					                            </span>
 					                        </a>
 					                      
-					                        <a href="#">
+					                        <a href="#" class="icolinkedin">
 					                            <span class="fa-stack">
 					                                <i class="fa fa-square fa-stack-2x"></i>
 					                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
 					                            </span>
 					                        </a>
 					                      
-					                        <a href="#">
+					                        <a href="#" class="icogoogleplus">
 					                            <span class="fa-stack fa-lg">
 					                                <i class="fa fa-square fa-stack-2x"></i>
 					                                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -108,28 +107,28 @@
                           <li><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></li>
                           <li><i class="fa-li fa fa-calendar fa-lg"></i><span>SCHEDULE A MEETING</span></li>
                           <li class="visible-sm">
-                            <a href="#">
+                            <a href="#" class="icofacebook">
                                 <span class="fa-stack">
                                     <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                           
-                            <a href="#">
+                            <a href="#" class="icotwitter">
                                 <span class="fa-stack">
                                     <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                           
-                            <a href="#">
+                            <a href="#" class="icolinkedin">
                                 <span class="fa-stack">
                                     <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                           
-                            <a href="#">
+                            <a href="#" class="icogoogleplus">
                                 <span class="fa-stack">
                                     <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                     <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -140,28 +139,28 @@
     
                     </div>
                     <div class="col-xs-0 col-md-2 hidden-xs hidden-sm social-header">
-                        <a href="#">
+                        <a href="#" class="icofacebook">
                             <span class="fa-stack">
                                 <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                       
-                        <a href="#">
+                        <a href="#" class="icotwitter">
                             <span class="fa-stack">
                                 <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                       
-                        <a href="#">
+                        <a href="#" class="icolinkedin">
                             <span class="fa-stack">
                                 <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                       
-                        <a href="#">
+                        <a href="#" class="icogoogleplus">
                             <span class="fa-stack">
                                 <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                 <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -190,7 +189,7 @@
             </div>   
             <div class="space60 visible-lg"></div>
             <div class="nextpage visible-lg paddingtop20">
-            	<a href="#" class="btscroll">
+            	<a href="#what-app-are-included-within-managed-office" class="btscroll">
                 	<i class="sprite down-arrow"></i>
                     <span>SHOW ME MORE DATA SPECIFICS</span>
                 </a>
@@ -224,7 +223,7 @@
 </div>
 <div class="line-break sprite"></div>
 <div id="contentpageapps">
-	<div class="container">
+	<div class="container" id="what-app-are-included-within-managed-office">
     	<div class="space38 hidden-xs"></div>
         <h2 class="text-center">What Applications are included within Managed Office?</h2>
         <p class="text-center fs14b">Managed Office comes with the software to run everything from email to data backup to security.</p>
@@ -264,7 +263,7 @@
             <div class="space40 hidden-xs"></div>
         </div>
         <div class="nextpage visible-lg">
-            <a href="#" class="btscroll">
+            <a href="#set-up-an-apointment" class="btscroll">
                 <i class="sprite down-arrow"></i>
                 <span>SET UP AN APPOINTMENT</span>
             </a>
@@ -277,7 +276,7 @@
 <div class="space100 visible-xs"></div>
 <div class="line-break sprite"></div>
 <div id="contactfooter">
-	<div class="container">
+	<div class="container" id="set-up-an-apointment">
     	<div class="row">
         	<div class="col-md-6">
             	<h2>Can we set ut a meeting ?</h2>
@@ -346,28 +345,28 @@
               	  <span class="div-right-social-footer hidden-xs"></span>
 			      <h4 class="font-ccc-mormal">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
 				  <div id="social-footer">
-                      <a href="#">
+                      <a href="#" class="icofacebook">
                         <span class="fa-stack">
                           <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
                           <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                         </span>
                       </a>
                       
-                      <a href="#">
+                      <a href="#" class="fa-picture-o">
                         <span class="fa-stack">
                           <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
                           <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                         </span>
                       </a>
                       
-                      <a href="#">
+                      <a href="#" class="icolinkedin">
                         <span class="fa-stack">
                           <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
                           <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                         </span>
                       </a>
                       
-                      <a href="#">
+                      <a href="#" class="icogoogleplus">
                         <span class="fa-stack">
                           <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
                           <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -396,7 +395,48 @@
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	$('#div-navsticky').sticky({topSpacing: 0});
+	
+	$('a.btscroll').click(function(e){
+		e.preventDefault();
+		var $this = $(this);
+		var targetid = $this.attr('href');
+		$('html, body').animate({
+			scrollTop: $(targetid).offset().top
+		}, 'normal');
+	});
 });
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27852033-5', 'centurylinkmanagedoffice.com');
+  ga('send', 'pageview');
+  
+  $('a#icofacebook').on('click', function() {
+	  ga('send', 'event', 'a', 'click', 'facebook');
+  });
+  
+  $('a#icotwitter').on('click', function() {
+	  ga('send', 'event', 'a', 'click', 'twitter');
+  });
+  
+  $('a#icolinkedin').on('click', function() {
+	  ga('send', 'event', 'a', 'click', 'linkedin');
+  });
+  
+  $('a#icogoogleplus').on('click', function() {
+	  ga('send', 'event', 'a', 'click', 'google-plus');
+  });
+</script> 
+<!-- BEGIN LivePerson Button Code -->
+<div id="lpButDivID-1387813773826" class="icolivechat hidden-xs"></div>
+<script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&site=56948775&buttonID=43&divID=lpButDivID-1387813773826&bt=1&c=1"></script>
+<!-- END LivePerson Button code -->
+<!-- BEGIN LivePerson Monitor. -->
+<script language='javascript'> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "56948775",'lpProtocol' : (document.location.toString().indexOf('https:')==0) ? 'https' : 'http'}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
+</script><!-- END LivePerson Monitor. -->
 </body>
 </html>

@@ -283,26 +283,6 @@ a.btscroll {
 	position: absolute;
 }
 
-a.nav-testimonial {
-	width: 13px;
-	height: 28px;
-	display: block;
-	cursor: pointer;
-}
-
-a#prev-testimonial {
-	background-position: -60px -2860px;
-	position: relative;
-	top: 15px;
-}
-
-a#next-testimonial {
-	background-position: -60px -2888px;
-	width: 14px;
-	position: relative;
-	top: 15px;
-}
-
 #div-testimonial {
 	padding: 20px 0 10px 0;
 	background: #757575;
@@ -316,7 +296,7 @@ a#next-testimonial {
 	height: 17px;
 }
 
-#right-testimonial {
+.color-testtimonial {
 	color: #eaeaea;
 }
 
@@ -568,6 +548,14 @@ a.btreadmore {
 	left: 10px;
 }
 
+.icolivechat {
+	width: 46px;
+	height: 149px;
+	position: fixed;
+	top: 200px;
+	left: 0;
+}
+
 p.lead {
 	color: #000;
 }
@@ -735,3 +723,94 @@ p.lead {
 	-0-border-radius: 4px;
 	-ms-border-radius: 4px;
 }
+
+/*===# bx slider #===*/
+
+.bx-wrapper {
+	position: relative;
+	padding: 0 40px;
+	*zoom: 1;
+	z-index: 999;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+.bx-wrapper .bx-viewport {
+	left: 6px;
+}
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url("../images/sprites.png") no-repeat -60px -2860px;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url("../images/sprites.png") no-repeat -60px -2888px;
+}
+
+.bx-wrapper .bx-prev:hover {	
+}
+
+.bx-wrapper .bx-next:hover {
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	outline: 0;
+	width: 13px;
+	height: 28px;
+	text-indent: -9999px;
+	z-index: 99;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	text-indent: -9999px;
+	display: block;
+	background-image: url("../images/sprites.png");
+	background-repeat: no-repeat;
+	background-position: -47px -2862px;
+	width: 12px;
+	height: 12px;
+	margin-right: 7px;
+	outline: medium none;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background-position: -47px -2875px;
+}
+
+/*===# Hidden LivePerson copyright #===*/
+.lpPoweredBy { display:none; }
+/*=========*/
+
+.icofacebook{}
+.icotwitter{}
+.icolinkedin{}
+.icogoogleplus{}

@@ -23,7 +23,6 @@
 <body>
 <header id="header">
 	<div class="bgwelcome">
-      <a href="#" class="livechat hidden-xs"></a>
 	  <div class="container">
             <div class="space38 hidden-xs"></div>
             <div class="space10 visible-xs"></div>
@@ -74,28 +73,28 @@
                                   	<li class="last">
                                   		<div class="col-xs-6 phone"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>				                                           
                                   		<div class="col-xs-6 social-header">
-					                        <a href="#">
+					                        <a href="#" class="icofacebook">
 					                            <span class="fa-stack">
 					                                <i class="fa fa-square fa-stack-2x"></i>
 					                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 					                            </span>
 					                        </a>
 					                      
-					                        <a href="#">
+					                        <a href="#" class="icotwitter">
 					                            <span class="fa-stack">
 					                                <i class="fa fa-square fa-stack-2x"></i>
 					                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 					                            </span>
 					                        </a>
 					                      
-					                        <a href="#">
+					                        <a href="#" class="icolinkedin">
 					                            <span class="fa-stack">
 					                                <i class="fa fa-square fa-stack-2x"></i>
 					                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
 					                            </span>
 					                        </a>
 					                      
-					                        <a href="#">
+					                        <a href="#" class="icogoogleplus">
 					                            <span class="fa-stack fa-lg">
 					                                <i class="fa fa-square fa-stack-2x"></i>
 					                                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -114,60 +113,60 @@
                           <li><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></li>
                           <li><i class="fa-li fa fa-calendar fa-lg"></i><span>SCHEDULE A MEETING</span></li>
                           <li class="visible-sm">
-                            <a href="#">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                          
-                            <a href="#">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                          
-                            <a href="#">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                          
-                            <a href="#">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
+                           		<a href="#" class="icofacebook">
+					            	<span class="fa-stack">
+					                    <i class="fa fa-square fa-stack-2x"></i>
+					                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					                </span>
+					      		</a>
+					                      
+					      		<a href="#" class="icotwitter">
+					                 <span class="fa-stack">
+					                      <i class="fa fa-square fa-stack-2x"></i>
+					                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+					                 </span>
+					     		</a>
+					                      
+					     		<a href="#" class="icolinkedin">
+					                  <span class="fa-stack">
+					                       <i class="fa fa-square fa-stack-2x"></i>
+					                       <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+					                  </span>
+					     		</a>
+					                      
+					     		<a href="#" class="icogoogleplus">
+					                   <span class="fa-stack fa-lg">
+					                       <i class="fa fa-square fa-stack-2x"></i>
+					                       <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+					                   </span>
+					       		</a>
                           </li>
                         </ul>
     
                     </div>
                     <div class="col-xs-0 col-md-2 hidden-xs hidden-sm social-header">
-                        <a href="#">
+                        <a href="#" class="icofacebook">
                             <span class="fa-stack">
                                 <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                       
-                        <a href="#">
+                        <a href="#" class="icotwitter">
                             <span class="fa-stack">
                                 <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                       
-                        <a href="#">
+                        <a href="#" class="icolinkedin">
                             <span class="fa-stack">
                                 <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                       
-                        <a href="#">
+                        <a href="#" class="icogoogleplus">
                             <span class="fa-stack">
                                 <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
                                 <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -253,7 +252,7 @@
             <div class="space100 visible-lg"></div> 
             <div class="space38 visible-lg"></div> 
             <div class="nextpage visible-lg">
-            	<a href="#" class="btscroll">
+            	<a href="#learn-how-with-managed-office" class="btscroll">
                 	<i class="sprite down-arrow"></i>
                     <span>LEARN HOW WITH MANAGED OFFICE</span>
                 </a>
@@ -290,8 +289,9 @@
          </div>
     </div>
 </div>
+
 <div id="div-testimonial">
-	<div class="container bgtestimonial">
+	<div class="container bgtestimonial" id="learn-how-with-managed-office">
     	<div class="row">
             <div class="col-xs-12 col-md-3">
                 <div id="question-testimonial" class="font-green-mormal text-right">
@@ -301,17 +301,21 @@
             </div>
             <div class="col-md-9">
             	<div class="row">
-                	<div class="col-xs-1 col-md-1">
-                    	<a id="prev-testimonial" class="sprite nav-testimonial"></a>
-                    </div>
-                    <div class="col-xs-9 col-md-10">
-                        <div id="right-testimonial">
+                    <div class="col-xs-12 col-md-12">
+                      <div id="testimonial-slider">
+                        <div class="color-testtimonial">
+                            <div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
+                            <em>Lam Tan Nguyen</em>
+                        </div>
+                        <div class="color-testtimonial">
+                            <div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
+                            <em>John Elvic</em>
+                        </div>
+                        <div class="color-testtimonial">
                             <div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
                             <em>Dale Griffith, Western Trucking</em>
                         </div>
-                    </div>
-                    <div class="col-xs-1 col-md-1">
-                    	<a id="next-testimonial" class="sprite nav-testimonial"></a>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -412,14 +416,17 @@
 			</div>
             <div class="space20 visible-xs"></div>
             <div class="visible-xs">
-            	<img src="images/mobi/mobivideo.png" alt="" class="img-responsive" /> 
+            	<video width="280" height="170" id="video-modifferent-mobi" controls>
+					<source src="videos/movie.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
             </div>
             <div class="space20 visible-xs"></div>
 		</div>
   	</div>
     <div class="space38 visible-lg"></div>
     <div class="nextpage visible-lg">
-        <a href="#" class="btscroll">
+        <a href="#how-big-is-your-business" class="btscroll">
         	<i class="sprite down-arrow"></i>
         	<span>IS MANAGED OFFICE RIGHT FOR YOUR BUSINESS</span>
         </a>
@@ -430,7 +437,7 @@
 </div>
 <div class="line-break sprite"></div>
 <div class="business">
-	<div class="container">
+	<div class="container" id="how-big-is-your-business">
     	<div class="space60 hidden-xs"></div>
     	<div class="row">
 			<div class="col-md-4">
@@ -449,7 +456,7 @@
                         <div class="sprite bg-circle"></div>
                         <div class="row" id="right-mobusiness">
                             <div class="col-md-4">
-                                <div class="img-mobusiness"><img src="images/no_it.png"></div>
+                                <div class="img-mobusiness"><img src="images/no_it.png" alt="" /></div>
                                 <div class="tile-it-mobusiness"><strong><span class="font-green-mormal">NO</span> <span class="font-white-mormal">IT staff?</span></strong></div>
                                 <div class="content-it-mobusiness">
                                     You're likely spending too much time trying to manage your own communication and your own network. With Managed Office, CenturyLink makes sure you're always up and running so that you can focus on your core business.
@@ -457,7 +464,7 @@
                             </div>
                             
                             <div class="col-md-4">
-                                <div class="img-mobusiness"><img src="images/limited_it.png"></div>
+                                <div class="img-mobusiness"><img src="images/limited_it.png" alt="" /></div>
                                 <div class="tile-it-mobusiness"><strong><span class="font-green-mormal">LIMITED</span> <span class="font-white-mormal">IT staff?</span></strong></div>
                                 <div class="content-it-mobusiness">
                                     They're likely stretched making sure your employees are connected 100% of the time. Managed Office is a full service, full support solution that can help free up your IT staff.  We install all your communications and manage your network so they can manage mission critical business technology.
@@ -465,7 +472,7 @@
                             </div>
                             
                             <div class="col-md-4">
-                                <div class="img-mobusiness"><img src="images/team_it.png"></div>
+                                <div class="img-mobusiness"><img src="images/team_it.png" alt="" /></div>
                                 <div class="tile-it-mobusiness"><strong><span class="font-green-mormal">FULL</span> <span class="font-white-mormal">IT staff?</span></strong></div>
                                 <div class="content-it-mobusiness">
                                     They're likely burdened with day-to-day communication and IT support tasks. Moving to a fully managed solution will free up your IT staff from managing your network and allow them instead to focus on technologies and operations that can grow your business.
@@ -479,7 +486,7 @@
         <div class="space100 hidden-xs"></div>
         <div class="space100 hidden-xs"></div>
         <div class="nextpage visible-lg">
-            <a href="#" class="btscroll">
+            <a href="#how-does-pricing-work" class="btscroll">
                 <i class="sprite down-arrow"></i>
                 <span>WHAT WILL MANAGED OFFICE COST?</span>
             </a>
@@ -490,7 +497,7 @@
 <div class="line-break sprite"></div>
 <div id="priccingwork">
   <div class="overlay-chair">
-	<div class="container">
+	<div class="container" id="how-does-pricing-work">
     	<div class="space60 hidden-xs"></div>
     	<div class="row">
 			<div class="col-md-6">
@@ -498,7 +505,7 @@
 				<div>
 					<h2>How does pricing work?</h2>
                     <div class="visible-xs">
-                        <img src="images/mobi/simple_answer.png">
+                        <img src="images/mobi/simple_answer.png" alt="" />
                     </div>
 			        <p class="fs14b font-gray-mormal">
                     	The beauty of Managed Office is that you pay one fixed rate per seat per month. You dont have to buy, install or manage anything, and you get one invoice from one trusted provider. You can plan for the short term and the long term because our predictable pricing scales with your business.
@@ -511,13 +518,13 @@
 		    </div>
 		    <div class="col-md-6">
 				<div class="hidden-xs">
-					<img src="images/simple_answer.png">
+					<img src="images/simple_answer.png" alt="" />
 			    </div>
 		    </div>
 	    </div>
         <div class="space100 hidden-xs"></div>
     	<div class="nextpage visible-lg">
-            <a href="#" class="btscroll">
+            <a href="#what-in-it-for-you" class="btscroll">
                 <i class="sprite down-arrow"></i>
                 <span>WHAT'S IN IT FOR YOU?</span>
             </a>
@@ -528,7 +535,7 @@
 <div class="line-break sprite"></div>
 <div id="whatinit">
   <div class="overlay-circle">
-	<div class="container">
+	<div class="container" id="what-in-it-for-you">
     	<div class="space100 hidden-xs"></div>
     	<div class="row">
 			<div class="col-xs-12 col-md-6">
@@ -536,7 +543,16 @@
 				<div>
 					<h2>What's in it for you?</h2>
                     <div class="visible-xs">
-                        <img src="images/mobi/whatinit.png">
+                        <img src="images/mobi/whatinit.png" alt="" usemap="#slideshowmap" class="img-responsive" />
+                        <map name="slideshowmap">
+                          <area shape="circle" coords="69,84,37" href="#1" alt="One invoice, one trusted provider">
+                          <area shape="circle" coords="137,47,37" href="#2" alt="Phone and hardware">
+                          <area shape="circle" coords="208,80,37" href="#3" alt="Anytime cloud access to files">
+                          <area shape="circle" coords="225,155,37" href="#4" alt="Fully managed software updates">
+                          <area shape="circle" coords="180,220,37" href="#5" alt="One solution one partner">
+                          <area shape="circle" coords="100,221,37" href="#6" alt="Dynamic scalability">
+                          <area shape="circle" coords="50,160,37" href="#7" alt="Lower total cost of ownership">
+                        </map>
                     </div>
                     <div class="space20 visible-xs"></div>
                     <p class="fs14b font-gray-mormal">
@@ -555,14 +571,36 @@
 		    </div>
 		    <div class="col-md-6 hidden-xs">
 				<div class="hidden-xs">
-					<img src="images/what_it_for_you.png">
+					<div class="slideshow">
+                    	<div class="slide">
+                        	<img src="images/wiify_invoice.png" alt="" class="img-responsive" />
+                        </div>
+                        <div class="slide">
+                        	<img src="images/wiify_phone.png" alt="" class="img-responsive" />
+                        </div>
+                        <div class="slide">
+                        	<img src="images/wiify_cloud.png" alt="" class="img-responsive" />
+                        </div>
+                        <div class="slide">
+                        	<img src="images/wiify_dot.png" alt="" class="img-responsive" />
+                        </div>
+                        <div class="slide">
+                        	<img src="images/wiify_human.png" alt="" class="img-responsive" />
+                        </div>
+                        <div class="slide">
+                        	<img src="images/wiify_chair.png" alt="" class="img-responsive" />
+                        </div>
+                        <div class="slide">
+                        	<img src="images/wiify_calc.png" alt="" class="img-responsive" />
+                        </div>
+                    </div>
 			    </div>
 		    </div>
 	    </div>
      
         <div class="space60 hidden-xs"></div>
     	<div class="nextpage visible-lg">
-            <a href="#" class="btscroll">
+            <a href="#managed-office-component" class="btscroll">
                 <i class="sprite down-arrow"></i>
                 <span>LEARN MORE ABOUT OUR PRODUCT COMPONENTS?</span>
             </a>
@@ -574,7 +612,7 @@
 <div class="space100 visible-xs"></div>
 <div class="line-break sprite"></div>
 <div id="maofco">
-	<div class="container">
+	<div class="container" id="managed-office-component">
     	<div class="space38 hidden-xs"></div>
         <h2 class="text-center">Managed Office Components</h2>
         <div class="space38 hidden-xs"></div>
@@ -656,7 +694,7 @@
             </div>
         </div>
         <div class="nextpage visible-lg">
-            <a href="#" class="btscroll">
+            <a href="#set-up-an-apointment" class="btscroll">
                 <i class="sprite down-arrow"></i>
                 <span>SET UP AN APPOINTMENT</span>
             </a>
@@ -667,7 +705,7 @@
 </div>
 <div class="line-break sprite"></div>
 <div id="contactfooter">
-	<div class="container">
+	<div class="container" id="set-up-an-apointment">
     	<div class="row">
         	<div class="col-md-6">
             	<h2>Can we set ut a meeting ?</h2>
@@ -681,27 +719,27 @@
                 	<span class="required">* All fields require</span>
                 	<div class="form-group">
 						<label for="txtfirstname">First Name</label>
-                        <input type="text" id="txtfirstname" class="form-control" name="txtfirstname" value="" placeholder="Enter First Name" />
+                        <input type="text" id="txtfirstname" class="form-control" name="txtfirstname" value="" required="required" placeholder="Enter First Name" />
                     </div>
                     <div class="form-group">
                     	<label for="txtlastname">Last Name</label>
-                        <input type="text" id="txtlastname" class="form-control" name="txtlastname" value="" placeholder="Enter Last Name" />
+                        <input type="text" id="txtlastname" class="form-control" name="txtlastname" value="" required="required" placeholder="Enter Last Name" />
                     </div>
                     <div class="form-group">
                     	<label for="txtemail">Work Email</label>
-                        <input type="email" id="txtemail" class="form-control" name="txtemail" value="" placeholder="Enter Work Email" />
+                        <input type="email" id="txtemail" class="form-control" name="txtemail" value="" required="required" placeholder="Enter Work Email" />
                     </div>
                     <div class="form-group">
                     	<label for="txtphone">Phone</label>
-                        <input type="text" id="txtphone" class="form-control" name="txtphone" value="" placeholder="Enter Phone" />
+                        <input type="text" id="txtphone" class="form-control" name="txtphone" value="" required="required" placeholder="Enter Phone" />
                     </div>
                     <div class="form-group">
                     	<label for="txtcompany">Company/Organization</label>
-                        <input type="text" id="txtcompany" class="form-control" name="txtcompany" value="" placeholder="Enter Company/Organization" />
+                        <input type="text" id="txtcompany" class="form-control" name="txtcompany" value="" required="required" placeholder="Enter Company/Organization" />
                     </div>
                     <div class="form-group">
                     	<label for="txtzipcode">Zip/Postal Code</label>
-                        <input type="text" id="txtzipcode" class="form-control" name="txtzipcode" value="" placeholder="Enter Zip/Postal Code" />
+                        <input type="text" id="txtzipcode" class="form-control" name="txtzipcode" value="" required="required" placeholder="Enter Zip/Postal Code" />
                     </div>
                     <div class="form-group">
                     	<label for="txtquestion">Any question before we meet?</label>
@@ -736,28 +774,28 @@
               	  <span class="div-right-social-footer hidden-xs"></span>
 			      <h4 class="font-ccc-mormal">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
 				  <div id="social-footer">
-                      <a href="#">
+                      <a href="#" class="icofacebook">
                         <span class="fa-stack">
                           <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
                           <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                         </span>
                       </a>
                       
-                      <a href="#">
+                      <a href="#" class="icotwitter">
                         <span class="fa-stack">
                           <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
                           <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                         </span>
                       </a>
                       
-                      <a href="#">
+                      <a href="#" class="icolinkedin">
                         <span class="fa-stack">
                           <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
                           <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                         </span>
                       </a>
                       
-                      <a href="#">
+                      <a href="#" class="icogoogleplus">
                         <span class="fa-stack">
                           <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
                           <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -782,11 +820,73 @@
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.sticky.js"></script>
 <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
-
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	$('#div-navsticky').sticky({topSpacing: 0});
+	
+	$('#testimonial-slider').bxSlider({
+			minSlides: 1,
+			maxSlides: 1,
+			slideMargin: 0,
+			auto: false,
+			autoControls: false,
+			pager : false,
+			controls : true
+	});
+	$('.slideshow').bxSlider({
+			mode : 'fade',
+			minSlides: 1,
+			maxSlides: 1,
+			slideMargin: 0,
+			auto: true,
+			autoControls: false,
+			controls : false
+	});
+	
+	$('a.btscroll').click(function(e){
+		e.preventDefault();
+		var $this = $(this);
+		var targetid = $this.attr('href');
+		$('html, body').animate({
+			scrollTop: $(targetid).offset().top
+		}, 'normal');
+	});
+	
 });
+
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27852033-5', 'centurylinkmanagedoffice.com');
+  ga('send', 'pageview');
+  
+  $('a#icofacebook').on('click', function() {
+	  ga('send', 'event', 'a', 'click', 'facebook');
+  });
+  
+  $('a#icotwitter').on('click', function() {
+	  ga('send', 'event', 'a', 'click', 'twitter');
+  });
+  
+  $('a#icolinkedin').on('click', function() {
+	  ga('send', 'event', 'a', 'click', 'linkedin');
+  });
+  
+  $('a#icogoogleplus').on('click', function() {
+	  ga('send', 'event', 'a', 'click', 'google-plus');
+  });
+</script> 
+<!-- BEGIN LivePerson Button Code -->
+<div id="lpButDivID-1387813736901" class="icolivechat hidden-xs"></div>
+<script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&site=56948775&buttonID=43&divID=lpButDivID-1387813736901&bt=1&c=1"></script>
+<!-- END LivePerson Button code -->
+<!-- BEGIN LivePerson Monitor. -->
+<script language='javascript'> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "56948775",'lpProtocol' : (document.location.toString().indexOf('https:')==0) ? 'https' : 'http'}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
+</script><!-- END LivePerson Monitor. -->
 </body>
 </html>
