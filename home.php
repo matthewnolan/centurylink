@@ -10,9 +10,8 @@
 				</div>
 			</div>
 			<div class="hero-right">
-				<img class="people" src="images/people.png" alt="CENTURYLINK"/>
-				<img class="icon" src="images/icon.png" alt="CENTURYLINK"/>
-				<img class="small-cloud" src="images/small-cloud.png" alt="CENTURYLINK"/>
+				<img class="icon" src="images/home-hero-icon.png" alt="CENTURYLINK"/>
+				<img class="small-cloud" src="images/small-cloud.svg" alt="CENTURYLINK"/>
 			</div>
 		</div>
 	</div>

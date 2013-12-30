@@ -38,6 +38,27 @@ jQuery(document).ready(function($) {
 	});
 	$('#sticky-nav').onePageNav();
 	$('#mobile-sticky-nav').onePageNav();
+	console.log(window.location.pathname);
+	
+	//Check active page
+	if(window.location.pathname === "/" || window.location.pathname === "/index.html" || window.location.pathname === "/index.php"){
+		$('#mainnav li.home-link a').addClass('active');
+	}else{
+		$('#mainnav a#solutions-link').addClass('active');
+	}
+
+	$('.checkactive a').each(function() {
+	    if ($(this).attr('href')  ===  window.location.pathname) {
+	        $(this).addClass('active');
+	      }
+    });
+	$('#mobilenav a').each(function() {
+	    if ($(this).attr('href')  ===  window.location.pathname) {
+	        $(this).addClass('active');
+	      }
+    });
+
+	//Google analytics event trigger
 	$('.twitter').on('click', function() {
 		  ga('send', 'event', 'social', 'click', 'twitter');
 	});
@@ -67,115 +88,13 @@ jQuery(document).ready(function($) {
 		<div class="padding-fix">
 			<div class="row header-container">
 				<div id="logo" class="col-md-7 col-sm-6">
-					<a href="." title="Century Link"><img src="images/logo.png" alt="Century Link Logo"/></a>
+					<a href="." title="Century Link"><img src="images/logo.svg" alt="Century Link Logo"/></a>
 				</div>
 				<div id="header-right" class="col-md-5 col-sm-6 hidden-xs">
-					<ul id="mainnav">
-						<li class="current"><a href="." title="">Home</a></li>
-						<li id="globalnav-container">
-							<a href="javascript:;">Our Solutions</a>
-							<span class="arrow-bottom"></span>
-							<ul class="globalnav">
-								<li>
-									<ul>
-										<li>Business Owner</li>
-										<li><a href="business.html" title="">Hosted Applications</a></li>
-										<li><a href="business-databackup.html" title="">Data Backup</a></li>
-									</ul>
-								</li>
-								<li>
-									<ul>
-										<li>IT Leader</li>
-										<li><a href="itleader.html" title="">Hosted Applications</a></li>
-										<li><a href="itleader-databackup.html" title="">Data Backup</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="social-icon">
-							<a class="twitter" href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter" target="_blank">
-							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa icon-twitter fa-stack-1x fa-inverse"></i>
-							</span>
-							</a>
-							<a class="facebook" href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook" target="_blank">
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-								</span>
-							</a>
-							<a class="google-plus" href="https://plus.google.com/u/0/117080893855557903730/posts" title="Follow us on Google Plus" target="_blank">
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-								</span>
-							</a>
-							<a class="linkedin" href="http://www.linkedin.com/company/1434913?trk=tyah" title="Follow us on Linkedin" target="_blank">
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-								</span>
-							</a>
-						</li>
-					</ul>
+					<?php include_once "global-nav.php";?>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="mobile-global-nav visible-xs">
-		<ul id="mobilenav" class="collapse">
-			<li>
-				<ul>
-					<li>Business Owner</li>
-					<li><a href="business.html" title="">Hosted Applications</a></li>
-					<li><a href="business-databackup.html" title="">Data Backup</a></li>
-				</ul>
-			</li>
-			<li>
-				<ul>
-					<li>IT Leader</li>
-					<li><a href="itleader.html" title="">Hosted Applications</a></li>
-					<li><a href="itleader-databackup.html" title="">Data Backup</a></li>
-				</ul>
-			</li>
-			<li>
-				<ul>
-					<li>View our Blog</li>
-					<li class="social-icon">
-						<a class="twitter" href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter">
-							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa icon-twitter fa-stack-1x fa-inverse"></i>
-							</span>
-							</a>
-							<a class="facebook" href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook">
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-								</span>
-							</a>
-							<a class="google-plus" href="https://plus.google.com/u/0/117080893855557903730/posts" title="Follow us on Google Plus">
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-								</span>
-							</a>
-							<a class="linkedin" href="http://www.linkedin.com/company/1434913?trk=tyah" title="Follow us on Linkedin">
-								<span class="fa-stack fa-lg">
-									<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-								</span>
-						</a>
-					</li>
-				</ul>
-			</li>
-		
-		</ul>
-		<a class="navbar-toggle" data-toggle="collapse" href="#mobilenav">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</a>
-	</div>
+	<?php include_once "mobile-nav.php";?>
 </header>

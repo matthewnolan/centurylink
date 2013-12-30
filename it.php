@@ -79,7 +79,7 @@
 	</div>
 	
 	<div id="ihosted">
-		<?php include_once "i-hosted.php"; ?>
+		<?php include_once "i-leader.php"; ?>
 	</div>
 </div>
 <?php include_once "footer.php";?>
