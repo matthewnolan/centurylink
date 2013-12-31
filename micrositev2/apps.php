@@ -45,7 +45,13 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
                                   <li class="active"><a href="index.php">HOME</a></li>
-                                  <li><a href="#">PRODUCT COMPONENTS</a></li>
+                                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCT COMPONENTS <b class="caret"></b></a>
+                                  		<ul class="dropdown-menu">
+											<li><a href="data.php">MANAGED DATA</a></li>
+											<li><a href="voice.php">MANAGED VOICE</a></li>
+											<li><a href="apps.php">MANAGED APPLICATIONS</a></li>
+	                                  	</ul>
+                                  </li>
                                 </ul>
                             </div>
                         </nav>
