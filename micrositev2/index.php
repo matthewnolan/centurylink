@@ -267,7 +267,9 @@
 	</div><!--./container-->
   </div>
 </header>
-
+<div class="space100 visible-xs"></div>
+<div class="space100 visible-xs"></div>
+<div class="space100 visible-xs"></div>
 <div id="div-navsticky">
 	<div class="container">
     	<div class="row">
@@ -298,8 +300,7 @@
          </div>
     </div>
 </div>
-<div class="space100 visible-xs"></div>
-<div class="space100 visible-xs"></div>
+
 <div id="div-testimonial">
 	<div class="container bgtestimonial" id="learn-how-with-managed-office">
     	<div class="row">
@@ -751,7 +752,7 @@
                 <div class="sprite ico-calendar hidden-xs"></div>
             </div>
             <div class="col-md-6">
-            	<form role="form">
+            	<form role="form" action="#" method="post">
                 	<span class="required">* All fields require</span>
                 	<div class="form-group">
 						<label for="txtfirstname">First Name</label>
