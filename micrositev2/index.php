@@ -77,7 +77,7 @@
 	                                  	</ul>
                                   	</li>
                                   	<li class="last">
-                                  		<div class="col-xs-6 phone"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>
+                                  		<div class="col-xs-6 phone"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span>123.456.7890</span></a></div>
                                   		<div class="col-xs-6 social-header">
 					                        <a href="#" class="icofacebook">
 					                            <span class="fa-stack">
@@ -116,7 +116,7 @@
                         
                     <div class="col-xs-0 col-sm-4 col-md-3 hidden-xs">
                         <ul class="fa-ul">
-                          <li><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></li>
+                          <li><a href="callto:123.456.7890"><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></a></li>
                           <li><a href="#set-up-an-apointment" class="btscroll"><i class="fa-li fa fa-calendar fa-lg"></i><span>SCHEDULE A MEETING</span></a></li>
                           <li class="visible-sm">
                            		<a href="#" class="icofacebook">
@@ -285,8 +285,8 @@
                 <div class="col-md-3">
                     <ul class="fa-ul">
                         <li>
-                            <i class="fa-li fa fa-phone fa-lg font-gray-mormal"></i>
-                            <span class="font-gray-mormal">123.456.7890</span>
+                            <a href="callto:123.456.7890"><i class="fa-li fa fa-phone fa-lg font-gray-mormal"></i>
+                            <span class="font-gray-mormal">123.456.7890</span></a>
                         </li>
                         <li>
                         	<a href="#set-up-an-apointment" class="btscroll">
@@ -312,7 +312,10 @@
             </div>
             <div class="col-md-9">
             	<div class="row">
-                    <div class="col-xs-12 col-md-12">
+                	<div class="col-xs-1 col-md-1">
+                    	<a href="#" class="sprite btprev"></a>
+                    </div>
+                    <div class="col-xs-9 col-md-10">
                       <div id="testimonial-slider">
                         <div class="color-testtimonial">
                             <div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
@@ -327,6 +330,9 @@
                             <em>Dale Griffith, Western Trucking</em>
                         </div>
                       </div>
+                    </div>
+                    <div class="col-xs-1 col-md-1">
+                    	<a href="#" class="sprite btnext"></a>
                     </div>
                 </div>
             </div>
@@ -611,16 +617,20 @@
 		    </div>
 	    </div>
      
-        <div class="space100 hidden-xs"></div>
+        <div class="space60 hidden-xs"></div>
     	<div class="nextpage visible-lg">
             <a href="#managed-office-component" class="btscroll">
                 <i class="sprite down-arrow"></i>
                 <span>LEARN MORE ABOUT OUR PRODUCT COMPONENTS?</span>
             </a>
+            
         </div>
+       
     </div>
+    
   </div>
 </div>
+
 <div class="space100 visible-xs"></div>
 <div class="space100 visible-xs"></div>
 <div class="line-break sprite" id="managed-office-component"></div>
@@ -723,7 +733,7 @@
                 	<div class="visible-xs text-center">
                     	<div class="space20"></div>
                     	<span class="fs13b">To speak with a Centurylink representative</span> <br />
-                        <span class="fs13b">Call 123.456.7890</span>
+                        <a href="callto:123.456.7890"><span class="fs13b">Call 123.456.7890</span></a>
                         <div class="space10"></div>
                     </div>
                 </div>
@@ -752,31 +762,31 @@
                 <div class="sprite ico-calendar hidden-xs"></div>
             </div>
             <div class="col-md-6">
-            	<form role="form" action="#" method="post">
+            	<form role="form" action="#" method="post" id="formcontact">
                 	<span class="required">* All fields require</span>
                 	<div class="form-group">
 						<label for="txtfirstname">First Name</label>
-                        <input type="text" id="txtfirstname" class="form-control" name="txtfirstname" value="" required="required" placeholder="Enter First Name" />
+                        <input type="text" id="txtfirstname" class="form-control" name="txtfirstname" value="" data-rule-required="true" data-msg-required="Please enter your first name"  placeholder="Enter First Name" />
                     </div>
                     <div class="form-group">
                     	<label for="txtlastname">Last Name</label>
-                        <input type="text" id="txtlastname" class="form-control" name="txtlastname" value="" required="required" placeholder="Enter Last Name" />
+                        <input type="text" id="txtlastname" class="form-control" name="txtlastname" value="" data-rule-required="true" data-msg-required="Please enter your last name" placeholder="Enter Last Name" />
                     </div>
                     <div class="form-group">
                     	<label for="txtemail">Work Email</label>
-                        <input type="email" id="txtemail" class="form-control" name="txtemail" value="" required="required" placeholder="Enter Work Email" />
+                        <input type="email" id="txtemail" class="form-control" name="email" value="" data-rule-required="true" data-rule-email="true" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address"  placeholder="Enter Work Email" />
                     </div>
                     <div class="form-group">
                     	<label for="txtphone">Phone</label>
-                        <input type="text" id="txtphone" class="form-control" name="txtphone" value="" required="required" placeholder="Enter Phone" />
+                        <input type="text" id="txtphone" class="form-control" name="txtphone" data-rule-required="true" data-msg-required="Please enter your email phone" value=""  placeholder="Enter Phone" />
                     </div>
                     <div class="form-group">
                     	<label for="txtcompany">Company/Organization</label>
-                        <input type="text" id="txtcompany" class="form-control" name="txtcompany" value="" required="required" placeholder="Enter Company/Organization" />
+                        <input type="text" id="txtcompany" class="form-control" name="txtcompany" data-rule-required="true" data-msg-required="Please enter your company or organization" value=""  placeholder="Enter Company/Organization" />
                     </div>
                     <div class="form-group">
                     	<label for="txtzipcode">Zip/Postal Code</label>
-                        <input type="text" id="txtzipcode" class="form-control" name="txtzipcode" value="" required="required" placeholder="Enter Zip/Postal Code" />
+                        <input type="text" id="txtzipcode" class="form-control" name="txtzipcode"  data-rule-required="true" data-msg-required="Please enter your zip code" value=""  placeholder="Enter Zip/Postal Code" />
                     </div>
                     <div class="form-group">
                     	<label for="txtquestion">Any question before we meet?</label>
@@ -811,7 +821,7 @@
 			  <div class="col-md-3">
               	  <span class="div-right-social-footer hidden-xs"></span>
 			      <h4 class="hidden-xs">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
-                  <div class="fs14b visible-xs"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>
+                  <div class="fs14b visible-xs"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span>123.456.7890</span></a></div>
                   <span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</strong></span>
                   <div class="space20 visible-xs"></div>
 				  <div id="social-footer">
@@ -858,6 +868,7 @@
 </footer>
 <!--# Area Scipts #-->
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript" src="js/jquery.sticky.js"></script>
 <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
@@ -870,16 +881,28 @@ if(isAndroid) {
 }
 jQuery(document).ready(function($) {
 	$('#div-navsticky').sticky({topSpacing: 0});
-	
-	$('#testimonial-slider').bxSlider({
+	var slider = $('#testimonial-slider').bxSlider({
 			minSlides: 1,
 			maxSlides: 1,
 			slideMargin: 0,
 			auto: false,
 			autoControls: false,
 			pager : false,
-			controls : true
+			controls : false
 	});
+	
+	$('a.btprev').click(function(e){
+		e.preventDefault();
+		slider.goToPrevSlide();
+	});
+	
+	$('a.btnext').click(function(e){
+		e.preventDefault();
+		slider.goToNextSlide();
+	});
+	
+	$("#formcontact").validate();
+	
 	$('.slideshow').bxSlider({
 			mode : 'fade',
 			minSlides: 1,

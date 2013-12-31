@@ -13,6 +13,14 @@ a{
 	outline: medium none;
 }
 
+.fa-ul li a {
+	color: #000;
+}
+
+.fa-ul li a:hover {
+	text-decoration: none;
+}
+
 .bgwelcome {
 	background: url("../images/bg_welcome.png") no-repeat transparent;
 	background-size: cover;
@@ -306,13 +314,7 @@ a.btscroll {
 	z-index: 9999;
 }
 
-.video {
-	height: 0px;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-	border: none;
-}
+
 
 #div-testimonial {
 	padding: 20px 0 10px 0;
@@ -398,6 +400,24 @@ a.btscroll {
 	z-index: 2;
 	top: 200px;
 	width: 80px;
+}
+
+a.btprev {
+	background-position: -60px -2862px;
+	position: relative;
+	top: 20px;
+	display: block;
+	width: 13px;
+	height: 28px;
+}
+
+a.btnext {
+	background-position: -60px -2890px;
+	position: relative;
+	top: 20px;
+	display: block;
+	width: 14px;
+	height: 28px;
 }
 
 .overlay-timer {
@@ -631,6 +651,14 @@ p.lead {
 }
 
 @media screen and (max-width:767px){
+	.video {
+		height: 0px;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	
 	.mobi-device { 
 		padding-top: 35px;
 	}
@@ -776,7 +804,6 @@ p.lead {
 
 .bx-wrapper {
 	position: relative;
-	padding: 0 40px;
 	*zoom: 1;
 	z-index: 999;
 }
@@ -857,3 +884,59 @@ p.lead {
 /*===# Hidden LivePerson copyright #===*/
 .lpPoweredBy { display:none; }
 /*=========*/
+
+
+/*====# Validate Form #====*/
+
+form.cmxform {
+    color: #333333;
+    font-size: 1em;
+    width: 370px;
+}
+form.cmxform legend {
+    padding-left: 0;
+}
+form.cmxform legend, form.cmxform label {
+    color: #333333;
+}
+form.cmxform fieldset {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #F8FDEF;
+    border-color: #C9DCA6 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-right: medium none;
+    border-style: solid none none;
+    border-width: 1px medium medium;
+}
+form.cmxform fieldset fieldset {
+    background: none repeat scroll 0 0 transparent;
+}
+form.cmxform fieldset p, form.cmxform fieldset fieldset {
+    background: url("../images/cmxform-divider.gif") repeat-x scroll left bottom transparent;
+    padding: 5px 10px 7px;
+}
+form.cmxform label.error, label.error {
+    color: red;
+    font-style: italic;
+}
+div.error {
+    display: none;
+}
+input {
+    border: 1px solid black;
+}
+input.checkbox {
+    border: medium none;
+}
+input:focus {
+    border: 1px dotted black;
+}
+input.error {
+    border: 1px dotted red;
+}
+form.cmxform .gray * {
+    color: gray;
+}

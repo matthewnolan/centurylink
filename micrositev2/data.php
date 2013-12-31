@@ -74,7 +74,7 @@
 	                                  	</ul>
                                   	</li>
                                   	<li class="last">
-                                  		<div class="col-xs-6 phone"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>
+                                  		<div class="col-xs-6 phone"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span>123.456.7890</span></a></div>
                                   		<div class="col-xs-6 social-header">
 					                        <a href="#" class="icofacebook">
 					                            <span class="fa-stack">
@@ -110,7 +110,7 @@
                         </nav>
                     <div class="col-xs-0 col-sm-4 col-md-3 hidden-xs">
                         <ul class="fa-ul">
-                          <li><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></li>
+                          <li><a href="callto:123.456.7890"><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></a></li>
                           <li><i class="fa-li fa fa-calendar fa-lg"></i><span>SCHEDULE A MEETING</span></li>
                           <li class="visible-sm">
                             <a href="#" class="icofacebook">
@@ -224,8 +224,8 @@
                 <div class="col-md-3">
                     <ul class="fa-ul">
                         <li>
-                            <i class="fa-li fa fa-phone fa-lg font-gray-mormal"></i>
-                            <span class="font-gray-mormal">123.456.7890</span>
+                            <a href="callto:123.456.7890"><i class="fa-li fa fa-phone fa-lg font-gray-mormal"></i>
+                            <span class="font-gray-mormal">123.456.7890</span></a>
                         </li>
                         <li>
                             <i class="fa-li fa fa-calendar fa-lg font-gray-mormal"></i>
@@ -318,7 +318,7 @@
                 <div class="sprite ico-calendar hidden-xs"></div>
             </div>
             <div class="col-md-6">
-            	<form role="form" action="#" method="post">
+            	<form role="form" action="#" method="post" id="formcontact">
                 	<span class="required">* All fields require</span>
                 	<div class="form-group">
 						<label for="txtfirstname">First Name</label>
@@ -358,24 +358,28 @@
 <footer id="footer">
 	<div class="container">
 		<div class="row">
-			  <div class="col-md-2 font-ccc-mormal">
-			      <a href="index.php"><span><b>HOME</b></span></a>
+			  <div class="col-md-2">
+			      <a href="index.php"> <span><strong>HOME</strong></span></a>
+			  </div>
+			  <div class="space20 visible-xs"></div>
+			  <div class="col-md-3">
+			      <div><span><strong>PRODUCT COMPONENTS</strong></span></div>
+                  <div class="space20 hidden-xs"></div>
+			      <a href="data.php"><span><strong>MANAGED DATA</strong></span></a><br>
+			      <a href="voice.php"><span><strong>MANAGED VOICE</strong></span></a><br>
+			      <a href="apps.php"><span><strong>MANAGED APPLICATIONS</strong></span></a>
 			  </div>
 			  
-			  <div class="col-md-3 font-ccc-mormal">
-			      <span><b>PRODUCT COMPONENTS</b></span><br><br>
-			      <a href="data.php"><span><b>MANAGED DATA</b></span></a><br>
-			      <a href="voice.php"><span><b>MANAGED VOICE</b></span></a><br>
-			      <a href="apps.php"><span><b>MANAGED APPLICATIONS</b></span></a>
+			  <div class="col-md-4">
+		          <span class="hidden-xs"><strong>SCHEDULE A MEETING</strong></span>
 			  </div>
-			  
-			  <div class="col-md-4 font-ccc-mormal">
-		          <span><b>SCHEDULE A MEETING</b></span>
-			  </div>
-			  
+			  <div class="space20 visible-xs"></div>
 			  <div class="col-md-3">
               	  <span class="div-right-social-footer hidden-xs"></span>
-			      <h4 class="font-ccc-mormal">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
+			      <h4 class="hidden-xs">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
+                  <div class="fs14b visible-xs"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span>123.456.7890</span></a></div>
+                  <span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</strong></span>
+                  <div class="space20 visible-xs"></div>
 				  <div id="social-footer">
                       <a href="#" class="icofacebook">
                         <span class="fa-stack">
@@ -409,25 +413,25 @@
 			  </div>
 		</div>
 		<div id="div-img-footer" class="hidden-xs"><img src="images/img_footer.png" alt="" class="img-responsive copyimg" /></div>
-        <div class="visible-xs">
-        	<div class="row">
-            	<div class="col-xs-12 text-center">
-                	<img src="images/mobi/bgfooter.png" alt="" class="img-responsive" style="padding-top:15px;" />
-                    <span class="mobicopyright font-ccc-mormal">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
-                </div>
-            </div>
-        </div>
 	</div>
+    <div class="visible-xs">
+        <img src="images/mobi/bgfooter.png" alt="" class="img-responsive" style="padding-top:15px;" />
+    </div>
+    <div class="container visible-xs">
+    	<span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
+    </div>
+    <div class="space40 hidden-xs"></div>
 </footer>
 <!--# Area Scipts #-->
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 	$('#div-navsticky').sticky({topSpacing: 0});
-	
+	$("#formcontact").validate();
 	$('a.btscroll').click(function(e){
 		e.preventDefault();
 		var $this = $(this);
