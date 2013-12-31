@@ -7,7 +7,7 @@
     <meta name="description" content="Description Site" />
     <meta name="robots" content="follow,index" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]-->
     <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
