@@ -8,4 +8,6 @@
 <img src="images/rule.png">
 <?php include_once "mocost.php"; ?>
 <img src="images/rule.png">
+<?php include_once "mocservice.php"; ?>
+<img src="images/rule.png">
 <?php include_once "footer.php";?>
