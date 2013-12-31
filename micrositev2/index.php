@@ -117,7 +117,7 @@
                     <div class="col-xs-0 col-sm-4 col-md-3 hidden-xs">
                         <ul class="fa-ul">
                           <li><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></li>
-                          <li><i class="fa-li fa fa-calendar fa-lg"></i><span>SCHEDULE A MEETING</span></li>
+                          <li><a href="#set-up-an-apointment" class="btscroll"><i class="fa-li fa fa-calendar fa-lg"></i><span>SCHEDULE A MEETING</span></a></li>
                           <li class="visible-sm">
                            		<a href="#" class="icofacebook">
 					            	<span class="fa-stack">
@@ -256,13 +256,14 @@
             </div>
             <div class="space100 visible-lg"></div>
             <div class="space100 visible-lg"></div>
-            <div class="space38 visible-lg"></div>
+            <div class="space40 visible-lg"></div>
             <div class="nextpage visible-lg">
             	<a href="#learn-how-with-managed-office" class="btscroll">
                 	<i class="sprite down-arrow"></i>
                     <span>LEARN HOW WITH MANAGED OFFICE</span>
                 </a>
             </div>
+            <div class="space20 visible-lg"></div>
 	</div><!--./container-->
   </div>
 </header>
@@ -272,10 +273,10 @@
     	<div class="row">
             <div class="col-xs-12 col-md-9">
                 <ul class="nav nav-pills pull-right font-gray-mormal">
-                    <li><a href="#">YOUR BUSINESS</a></li>
-                    <li><a href="#">PRICING</a></li>
-                    <li><a href="#">WHAT YOU GET</a></li>
-                    <li><a href="#">COMPONENT</a></li>
+                    <li><a href="#how-big-is-your-business" class="btscroll">YOUR BUSINESS</a></li>
+                    <li><a href="#how-does-pricing-work" class="btscroll">PRICING</a></li>
+                    <li><a href="#what-in-it-for-you" class="btscroll">WHAT YOU GET</a></li>
+                    <li><a href="#managed-office-component" class="btscroll">COMPONENT</a></li>
                 </ul>
             </div>
             <div class="visible-lg">
@@ -286,8 +287,10 @@
                             <span class="font-gray-mormal">123.456.7890</span>
                         </li>
                         <li>
-                            <i class="fa-li fa fa-calendar fa-lg font-gray-mormal"></i>
-                            <span class="font-gray-mormal">SCHEDULE A MEETING</span>
+                        	<a href="#set-up-an-apointment" class="btscroll">
+                            	<i class="fa-li fa fa-calendar fa-lg font-gray-mormal"></i>
+                            	<span class="font-gray-mormal">SCHEDULE A MEETING</span>
+                            </a>
                         </li>
                      </ul>
                  </div>
@@ -295,7 +298,8 @@
          </div>
     </div>
 </div>
-
+<div class="space100 visible-xs"></div>
+<div class="space100 visible-xs"></div>
 <div id="div-testimonial">
 	<div class="container bgtestimonial" id="learn-how-with-managed-office">
     	<div class="row">
@@ -415,19 +419,19 @@
 		</div>
 		<div class="col-md-6 col-md-pull-6">
 			<div id="div-right-modifferent" class="hidden-xs">
-                <!--<video width="485" height="298" id="video-modifferent" controls>
+                <video width="485" height="298" id="video-modifferent" controls>
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
-				</video>-->
-                <iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" class="noborderframe" allowfullscreen></iframe>
+				</video>
+                <!--<iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>-->
 			</div>
             <div class="space20 visible-xs"></div>
             <div class="visible-xs">
-            	<!--<video width="280" height="170" id="video-modifferent-mobi" controls>
+            	<video width="280" height="170" id="video-modifferent-mobi" controls>
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
-				</video>-->
-                <iframe width="280" height="170" src="//www.youtube.com/embed/8hkMuw9PIUo" class="noborderframe" allowfullscreen></iframe>
+				</video>
+                <!--<iframe width="280" height="170" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>-->
             </div>
             <div class="space20 visible-xs"></div>
 		</div>
@@ -691,16 +695,40 @@
                     <p class="fs14b font-gray-mormal">
                     The days of buying and updating software are over. With Managed Applications, you get the essential business applications you need without having to buy licenses or worry about installation.
                     </p>
+                    <table width="100%" class="tbmnapps visible-xs">
+                    	<tr>
+                        	<td><img src="images/ico_app_1.png" alt="" class="img-responsive" /></td>
+                            <td><img src="images/ico_app_2.png" alt="" class="img-responsive" /></td>
+                            <td><img src="images/ico_app_3.png" alt="" class="img-responsive" /></td>
+                        </tr>
+                        <tr>
+                        	<td><img src="images/ico_app_4.png" alt="" class="img-responsive" /></td>
+                            <td><img src="images/ico_app_5.png" alt="" class="img-responsive" /></td>
+                            <td><img src="images/ico_app_6.png" alt="" class="img-responsive" /></td>
+                        </tr>
+                    </table>
                     <a href="apps.php" class="sprite btreadmore">Read more</a>
                 </div>
                 <div class="col-md-6">
+                	
                     <div class="hidden-xs">
                         <div class="space38 hidden-xs"></div>
                         <img src="images/icon_apps.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>
+            <div class="row">
+            	<div class="col-xs-12">
+                	<div class="visible-xs text-center">
+                    	<div class="space20"></div>
+                    	<span class="fs13b">To speak with a Centurylink representative</span> <br />
+                        <span class="fs13b">Call 123.456.7890</span>
+                        <div class="space10"></div>
+                    </div>
+                </div>
+            </div>
         </div>
+       
         <div class="nextpage visible-lg">
             <a href="#set-up-an-apointment" class="btscroll">
                 <i class="sprite down-arrow"></i>
@@ -766,21 +794,25 @@
 			  <div class="col-md-2">
 			      <a href="index.php"> <span><strong>HOME</strong></span></a>
 			  </div>
-			  
+			  <div class="space20 visible-xs"></div>
 			  <div class="col-md-3">
-			       <span><strong>SCHEDULE A MEETING</strong></span><br><br>
+			      <div><span><strong>PRODUCT COMPONENTS</strong></span></div>
+                  <div class="space20 hidden-xs"></div>
 			      <a href="data.php"><span><strong>MANAGED DATA</strong></span></a><br>
 			      <a href="voice.php"><span><strong>MANAGED VOICE</strong></span></a><br>
 			      <a href="apps.php"><span><strong>MANAGED APPLICATIONS</strong></span></a>
 			  </div>
 			  
 			  <div class="col-md-4">
-		          <span><strong>SCHEDULE A MEETING</strong></span>
+		          <span class="hidden-xs"><strong>SCHEDULE A MEETING</strong></span>
 			  </div>
-			  
+			  <div class="space20 visible-xs"></div>
 			  <div class="col-md-3">
               	  <span class="div-right-social-footer hidden-xs"></span>
-			      <h4 class="font-ccc-mormal">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
+			      <h4 class="hidden-xs">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
+                  <div class="fs14b visible-xs"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>
+                  <span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</strong></span>
+                  <div class="space20 visible-xs"></div>
 				  <div id="social-footer">
                       <a href="#" class="icofacebook">
                         <span class="fa-stack">
@@ -814,15 +846,14 @@
 			  </div>
 		</div>
 		<div id="div-img-footer" class="hidden-xs"><img src="images/img_footer.png" alt="" class="img-responsive copyimg" /></div>
-        <div class="visible-xs">
-        	<div class="row">
-            	<div class="col-xs-12 text-center">
-                	<img src="images/mobi/bgfooter.png" alt="" class="img-responsive" style="padding-top:15px;" />
-                    <span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
-                </div>
-            </div>
-        </div>
 	</div>
+    <div class="visible-xs">
+        <img src="images/mobi/bgfooter.png" alt="" class="img-responsive" style="padding-top:15px;" />
+    </div>
+    <div class="container visible-xs">
+    	<span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
+    </div>
+    <div class="space40 hidden-xs"></div>
 </footer>
 <!--# Area Scipts #-->
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>

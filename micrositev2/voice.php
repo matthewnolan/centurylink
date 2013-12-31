@@ -414,7 +414,7 @@
                         </span>
                       </a>
                       
-                      <a href="#" class="fa-picture-o">
+                      <a href="#" class="icotwitter">
                         <span class="fa-stack">
                           <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
                           <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
