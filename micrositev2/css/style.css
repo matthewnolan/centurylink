@@ -55,10 +55,6 @@ textarea.form-control {
 .social-header a {
 	text-decoration: none;
 }
-.social-header a:hover span i.fa-square{
-	text-decoration: none;
-	color:#616265;
-}
 
 .sprite {
 	background-image: url("../images/sprites.png");
@@ -771,9 +767,6 @@ p.lead {
 	}
 	#mobile-nav-content .social-header span{
 		font-size:11px;
-	}
-	#mobile-nav-content .social-header a:hover span{
-		color:#616265;
 	}
 }
 

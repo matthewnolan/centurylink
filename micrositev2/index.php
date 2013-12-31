@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-     <script type="text/javascript" src="js/jquery.tinycarousel.min.js"></script>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -303,24 +302,7 @@
 </div>
 
 <div id="div-testimonial">
-<<<<<<< HEAD
-	<div class="container bgtestimonial">
-	<script type="text/javascript">
-	jQuery(document).ready(function($){
-		$('#right-testimonial').tinycarousel();
-		
-	});
-	</script>
-	<style>
-		#right-testimonial ul{
-			list-style: none;
-			margin:0;
-			padding:0;
-		}
-	</style>
-=======
 	<div class="container bgtestimonial" id="learn-how-with-managed-office">
->>>>>>> e63cd7d494f7ea3b5d8449ee82bc728409dce340
     	<div class="row">
             <div class="col-xs-12 col-md-3">
                 <div id="question-testimonial" class="font-green-mormal text-right">
@@ -334,31 +316,6 @@
                     	<a href="#" class="sprite btprev"></a>
                     </div>
                     <div class="col-xs-9 col-md-10">
-<<<<<<< HEAD
-                        <div id="right-testimonial">
-                        	<ul class="overview">
-					            <li>
-					            	<div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
-                            		<em>Dale Griffith, Western Trucking</em>
-					            </li>
-					            <li>
-					            	<div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
-                            		<em>Dale Griffith, Western Trucking</em>
-					            </li>
-					            <li>
-					            	<div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
-                            		<em>Dale Griffith, Western Trucking</em>
-					            </li>
-					            <li>
-					            	<div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
-                            		<em>Dale Griffith, Western Trucking</em>
-					            </li>
-					            <li>
-					            	<div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
-                            		<em>Dale Griffith, Western Trucking</em>
-					            </li>                          
-					        </ul>
-=======
                       <div id="testimonial-slider">
                         <div class="color-testtimonial">
                             <div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
@@ -371,7 +328,6 @@
                         <div class="color-testtimonial">
                             <div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
                             <em>Dale Griffith, Western Trucking</em>
->>>>>>> e63cd7d494f7ea3b5d8449ee82bc728409dce340
                         </div>
                       </div>
                     </div>
