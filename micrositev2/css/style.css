@@ -23,6 +23,10 @@ body {
 	vertical-align: top;
 }
 
+.widtd70 {
+	width: 70px;
+}
+
 .noborderframe {
 	border: 0;
 }

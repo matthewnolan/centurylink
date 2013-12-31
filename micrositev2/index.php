@@ -354,35 +354,35 @@
                     	<div class="align-middle"><strong>YOUR ALL IN ONE SOLUTION</strong></div>
                     	<table class="tb-managed-office">
                         	<tr>
-                            	<td class="valigntop" width="70"><i class="sprite ico-glove"></i></td>
+                            	<td class="valigntop widtd70"><i class="sprite ico-glove"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">White Glove Service</span>
                                     <p class="desc-col">From the moment you sign up for Managed Office you get 24/7 full-service support.</p>
                                 </td>
                             </tr>
                             <tr>
-                            	<td class="valigntop"><i class="sprite ico-dollar"></i></td>
+                            	<td class="valigntop widtd70"><i class="sprite ico-dollar"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">No Capital Expense</span>
                                     <p class="desc-col">You don't have to buy or maintain your own equipment. Plus, we provide and manage your apps so you don't have to purchase and update software.</p>
                                 </td>
                             </tr>
                             <tr>
-                            	<td class="valigntop"><i class="sprite ico-human-timer"></i></td>
+                            	<td class="valigntop widtd70"><i class="sprite ico-human-timer"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">One Contact</span>
                                     <p class="desc-col">Anytime you have a question or a problem, reach out to us and we'll make it right.</p>
                                 </td>
                             </tr>
                             <tr>
-                            	<td class="valigntop"><i class="sprite ico-chair"></i></td>
+                            	<td class="valigntop widtd70"><i class="sprite ico-chair"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">One Flat Rate</span>
                                     <p class="desc-col">When you get one flat rate per seat per month, scaling is much easier.</p>
                                 </td>
                             </tr>
                             <tr>
-                            	<td class="valigntop"><i class="sprite ico-link-network"></i></td>
+                            	<td class="valigntop widtd70"><i class="sprite ico-link-network"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">One Network</span>
                                     <p class="desc-col">When you're on the CenturyLink network, you get a leading provider and an outstanding service level agreement that assures your business stays up and running.</p>
