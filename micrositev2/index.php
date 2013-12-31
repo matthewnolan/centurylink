@@ -420,19 +420,19 @@
 		</div>
 		<div class="col-md-6 col-md-pull-6">
 			<div id="div-right-modifferent" class="hidden-xs">
-                <video width="485" height="298" id="video-modifferent" controls>
+                <!--<video width="485" height="298" id="video-modifferent" controls>
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
-				</video>
-                <!--<iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>-->
+				</video>-->
+                <iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
 			</div>
             <div class="space20 visible-xs"></div>
             <div class="visible-xs">
-            	<video width="280" height="170" id="video-modifferent-mobi" controls>
+            	<!--<video width="280" height="170" id="video-modifferent-mobi" controls>
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
-				</video>
-                <!--<iframe width="280" height="170" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>-->
+				</video>-->
+                <iframe width="280" height="170" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="space20 visible-xs"></div>
 		</div>
@@ -862,6 +862,12 @@
 <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 <script type="text/javascript">
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+if(isAndroid) {
+	var winw = jQuery(window).width(); 
+	jQuery('iframe').css('max-width',winw);
+}
 jQuery(document).ready(function($) {
 	$('#div-navsticky').sticky({topSpacing: 0});
 	

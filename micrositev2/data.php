@@ -318,31 +318,31 @@
                 <div class="sprite ico-calendar hidden-xs"></div>
             </div>
             <div class="col-md-6">
-            	<form role="form">
+            	<form role="form" action="#" method="post">
                 	<span class="required">* All fields require</span>
                 	<div class="form-group">
 						<label for="txtfirstname">First Name</label>
-                        <input type="text" id="txtfirstname" class="form-control" name="txtfirstname" value="" placeholder="Enter First Name" />
+                        <input type="text" id="txtfirstname" class="form-control" name="txtfirstname" value="" required="required" placeholder="Enter First Name" />
                     </div>
                     <div class="form-group">
                     	<label for="txtlastname">Last Name</label>
-                        <input type="text" id="txtlastname" class="form-control" name="txtlastname" value="" placeholder="Enter Last Name" />
+                        <input type="text" id="txtlastname" class="form-control" name="txtlastname" value="" required="required" placeholder="Enter Last Name" />
                     </div>
                     <div class="form-group">
                     	<label for="txtemail">Work Email</label>
-                        <input type="email" id="txtemail" class="form-control" name="txtemail" value="" placeholder="Enter Work Email" />
+                        <input type="email" id="txtemail" class="form-control" name="txtemail" value="" required="required" placeholder="Enter Work Email" />
                     </div>
                     <div class="form-group">
                     	<label for="txtphone">Phone</label>
-                        <input type="text" id="txtphone" class="form-control" name="txtphone" value="" placeholder="Enter Phone" />
+                        <input type="text" id="txtphone" class="form-control" name="txtphone" value="" required="required" placeholder="Enter Phone" />
                     </div>
                     <div class="form-group">
                     	<label for="txtcompany">Company/Organization</label>
-                        <input type="text" id="txtcompany" class="form-control" name="txtcompany" value="" placeholder="Enter Company/Organization" />
+                        <input type="text" id="txtcompany" class="form-control" name="txtcompany" value="" required="required" placeholder="Enter Company/Organization" />
                     </div>
                     <div class="form-group">
                     	<label for="txtzipcode">Zip/Postal Code</label>
-                        <input type="text" id="txtzipcode" class="form-control" name="txtzipcode" value="" placeholder="Enter Zip/Postal Code" />
+                        <input type="text" id="txtzipcode" class="form-control" name="txtzipcode" value="" required="required" placeholder="Enter Zip/Postal Code" />
                     </div>
                     <div class="form-group">
                     	<label for="txtquestion">Any question before we meet?</label>
