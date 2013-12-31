@@ -9,7 +9,7 @@
 				<div class="hero-left-content">
 					<p class="headline">In business, bigger isn't better.<br/> Better is better.</p>
 					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 Days.* </a></h3>
-					<p class="call">Call 123.256.7890</p>
+					<p class="call"><a href="tel:123.256.7890">Call 123.256.7890</a></p>
 				</div>
 			</div>
 			<div class="hero-right">
@@ -28,6 +28,7 @@
 			<div class="mobile-hero-content">
 				<p class="headline">In business, bigger isn't better.<br/> Better is better.</p>
 				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+				<p class="call"><a href="tel:123.256.7890">Call 123.256.7890</a></p>
 			</div>
 		</div>
 	</div>
@@ -36,14 +37,18 @@
 <div class="sticky-nav">
 	<div class="container wrapper hidden-xs">
 		<div class="padding-fix">
-		<a href="."><img class="nav-logo" src="images/nav-logo.svg" alt="HOME"/></a>
+			<a href=".">
+				<object class="nav-logo" data="images/nav-logo.svg" width="141" height="30" type="image/svg+xml">
+					<img  src="images/nav-logo.png" alt="CENTURYLINK" width="141" height="30"/>
+				</object>
+			</a>
 			<ul class="multi" id="sticky-nav">
 				<li><a href="#email">Email & Collaboration</a></li>
 				<li><a href="#safe">Security</a></li>
 				<li><a href="#webmanagement">Web Management</a></li>
 				<li><a href="#ffb">Onboading</a></li>
 			</ul>
-			<div class="fix-center">Call 123.456.7890</div>
+			<div class="fix-center"><a href="tel:123.256.7890">Call 123.256.7890</a></div>
 		</div>
 	</div>
 	
@@ -76,7 +81,7 @@
 		</p>
 		<p class="why-ctl-content">
 			We've packaged our solutions to help <strong>protect</strong>, <strong>support</strong> and <strong>grow</strong> your business. <br/>
-			<strong>Call now</strong>&#8212;<strong>123.456.7890</strong>&#8212;and find out what we can do for you.
+			<strong>Call now</strong>&#8212;<strong><a href="tel:123.256.7890">Call 123.256.7890</a></strong>&#8212;and find out what we can do for you.
 			</p>
 	</div>
 	</div>

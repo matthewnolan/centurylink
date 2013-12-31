@@ -9,7 +9,7 @@
 				<div class="hero-left-content">
 					<p class="headline">The apps you need, <br/>without the worries you don't.</p>
 					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 Days.* </a></h3>
-					<p class="call">Call 123.256.7890</p>
+					<p class="call"><a href="tel:123.256.7890">Call 123.256.7890</a></p>
 				</div>
 			</div>
 			<div class="hero-right">
@@ -28,6 +28,7 @@
 			<div class="mobile-hero-content">
 				<p class="headline">The apps you need, without the worries you don't.</p>
 				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+				<p class="call"><a href="tel:123.256.7890">Call 123.256.7890</a></p>
 			</div>
 		</div>
 	</div>
@@ -36,13 +37,17 @@
 <div class="sticky-nav">
 	<div class="container wrapper hidden-xs">
 		<div class="padding-fix">
-		<a href="."><img class="nav-logo" src="images/nav-logo.svg" alt="HOME"/></a>
+			<a href=".">
+				<object class="nav-logo" data="images/nav-logo.svg" width="141" height="30" type="image/svg+xml">
+					<img  src="images/nav-logo.png" alt="CENTURYLINK" width="141" height="30"/>
+				</object>
+			</a>
 			<ul id="sticky-nav">
 				<li><a href="#ihosted">What We Offer</a></li>
 				<li><a href="#graph">How We Deliver</a></li>
 				<li><a href="#ffb">Onboarding</a></li>
 			</ul>
-			<div class="fix-center">Call 123.456.7890</div>
+			<div class="fix-center"><a href="tel:123.256.7890">Call 123.256.7890</a></div>
 		</div>
 	</div>
 	

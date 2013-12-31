@@ -6,7 +6,7 @@
 				<div class="hero-left-content">
 					<p class="headline">Cloud solutions that <br/> deliver greater access<br/> and greater control.</p>
 					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE for<br/> 30 Days.* </a></h3>
-					<p class="call">Call 123.256.7890</p>
+					<p class="call"><a href="tel:123.256.7890">Call 123.256.7890</a></p>
 				</div>
 			</div>
 			<div class="hero-right">
@@ -26,6 +26,7 @@
 			<div class="mobile-hero-content">
 				<p class="headline">Cloud solutions that deliver greater access and greater control.</p>
 				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+				<p class="call"><a href="tel:123.256.7890">Call 123.256.7890</a></p>
 			</div>
 		</div>
 	</div>

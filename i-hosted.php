@@ -70,7 +70,7 @@
 							<li>Email access from any Internet connection using Outlook Web access</li>
 							<li>Customize mailbox size based on user </li>
 							<li>Add more space with click of a button <br/><br/>
-								<a href="">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
+								<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
 						</ul>
 					</div>
 				</div>
@@ -331,6 +331,7 @@
 			<div class="excerpt">
 				Our integrated, end-to-end platform provides a robust infrastructure solution that ensures application availability, security and business continuity. We deliver this performance for all of your locations, home offices and mobile workers. With CenturyLink's Management Console, you get the visibility and control you need to deliver a superior user experience.
 			</div>
+			<img src="images/temp-graph.png" style="margin-top:50px;"/>
 		</div>
 	</div>
 </div>

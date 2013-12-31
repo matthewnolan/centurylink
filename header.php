@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/fontello.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+
 <!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="css/ie.css">
 <![endif]-->
@@ -21,6 +22,7 @@
 <script type="text/javascript"  src="js/jquery.scrollTo.js"></script>
 <script type="text/javascript"  src="js/jquery.sticky.js"></script>
 <script type="text/javascript"  src="js/readmore.min.js"></script>
+<script type="text/javascript"  src="js/jquery.sidr.min.js"></script>
 
 <script type="text/javascript">
 var ua = navigator.userAgent.toLowerCase();
@@ -29,6 +31,7 @@ if(isAndroid) {
 	var winw = jQuery(window).width(); 
 	jQuery('iframe').css('max-width',winw);
 }
+
 jQuery(document).ready(function($) {
 	$.scrollUp({
 		  scrollImg: true
@@ -38,8 +41,62 @@ jQuery(document).ready(function($) {
 	});
 	$('#sticky-nav').onePageNav();
 	$('#mobile-sticky-nav').onePageNav();
-	console.log(window.location.pathname);
-	
+
+	// SLIDE MENU
+	 $('#mobilenav-button').sidr({
+	      name: 'mobilenav',
+	      side: 'right'
+    });
+	$('#mobilenav-button').click(function(){
+		 return false;
+	});
+	$('#mobile-sticky-nav-button').sidr({
+	      name: 'mobile-sticky-nav',
+	      side: 'right',
+	      /*onOpen: function(){
+	    	  if($('.sticky-nav').position().top !== 0){
+		  			$('#mobile-sticky-nav-button').removeClass('button-position-open');
+		  			$('#mobile-sticky-nav-button').removeClass('button-position-closed');
+		  		}else{
+		  			if(!$('#mobile-sticky-nav-button').hasClass('button-position-open')){
+		  				$('#mobile-sticky-nav-button').removeClass('button-position-closed');
+						$('#mobile-sticky-nav-button').addClass('button-position-open');
+					}
+		  		}
+	      },
+	      onClose: function(){
+	    	  if($('.sticky-nav').position().top !== 0){
+	    		  $('#mobile-sticky-nav-button').removeClass('button-position-open');
+	    		  $('#mobile-sticky-nav-button').removeClass('button-position-closed');
+	  			
+		  		}else{
+		  			if(!$('#mobile-sticky-nav-button').hasClass('button-position-closed')){
+		  				$('#mobile-sticky-nav-button').removeClass('button-position-open');
+						$('#mobile-sticky-nav-button').addClass('button-position-closed');
+					}
+		  		}
+	      }*/
+    });
+	$('#mobile-sticky-nav-button').click(function(){
+		 return false;
+	});
+    $(window).scroll(function(){
+		if($('.sticky-nav').position().top === 0){
+			$('.mobile-sticky-nav').removeClass('fix-position');
+			$('#mobile-sticky-nav').removeClass('sidr-position');
+			$('#mobile-sticky-nav-button').removeClass('button-position-open');
+  			$('#mobile-sticky-nav-button').removeClass('button-position-closed');
+			
+		}else{
+			if(!$('.mobile-sticky-nav').hasClass('fix-position')){
+				$('.mobile-sticky-nav').addClass('fix-position');
+			}
+			if(!$('.mobile-sticky-nav').hasClass('sidr-position')){
+				$('#mobile-sticky-nav').addClass('sidr-position');
+			}
+		}
+    });
+  
 	//Check active page
 	if(window.location.pathname === "/" || window.location.pathname === "/index.html" || window.location.pathname === "/index.php"){
 		$('#mainnav li.home-link a').addClass('active');
@@ -88,7 +145,11 @@ jQuery(document).ready(function($) {
 		<div class="padding-fix">
 			<div class="row header-container">
 				<div id="logo" class="col-md-7 col-sm-6">
-					<a href="." title="Century Link"><img src="images/logo.svg" alt="Century Link Logo"/></a>
+					<a href="." title="Century Link">
+						<object data="images/logo.svg" width="141" height="30" type="image/svg+xml">
+							<img  src="images/logo.png" alt="CENTURYLINK" width="141" height="30"/>
+						</object>
+					</a>
 				</div>
 				<div id="header-right" class="col-md-5 col-sm-6 hidden-xs">
 					<?php include_once "global-nav.php";?>

@@ -8,3 +8,10 @@
   RewriteRule ^itleader\.html$ it.php [T=application/x-httpd-php,L]
   RewriteRule ^itleader-hosted-applications\.html$ it-apps.php [T=application/x-httpd-php,L]
   RewriteRule ^itleader-databackup\.html$ it-databackup.php [T=application/x-httpd-php,L]
+AddType application/octet-stream .csv
+AddType application/octet-stream .xls
+AddType application/octet-stream .doc
+AddType application/octet-stream .avi
+AddType application/octet-stream .mpg
+AddType application/octet-stream .mov
+AddType application/octet-stream .pdf

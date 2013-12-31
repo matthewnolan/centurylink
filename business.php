@@ -9,12 +9,12 @@
 				<div class="hero-left-content">
 					<p class="headline">Access big business <br/>tools, without the <br/> big business headaches.</p>
 					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 Days.* </a></h3>
-					<p class="call">Call 123.256.7890</p>
+					<p class="call"><a href="tel:123.256.7890">Call 123.256.7890</a></p>
 				</div>
 			</div>
 			<div class="hero-right">
 				<img class="people" src="images/woman.png" alt="business OWNER"/>
-				<img class="bicon" src="images/b-icon.png" alt="business OWNER"/>
+				<img class="icon" src="images/b-icon.png" alt="business OWNER"/>
 			</div>
 		</div>
 	</div>
@@ -29,6 +29,7 @@
 			<div class="mobile-hero-content">
 				<p class="headline">Access big business tools, without the big business headaches.</p>
 				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+				<p class="call"><a href="tel:123.256.7890">Call 123.256.7890</a></p>
 			</div>
 		</div>
 	</div>
@@ -37,12 +38,16 @@
 <div class="sticky-nav">
 	<div class="container wrapper hidden-xs">
 		<div class="padding-fix">
-			<a href="."><img class="nav-logo" src="images/nav-logo.svg" alt="HOME"/></a>
+			<a href=".">
+				<object class="nav-logo" data="images/nav-logo.svg" width="141" height="30" type="image/svg+xml">
+					<img  src="images/nav-logo.png" alt="CENTURYLINK" width="141" height="30"/>
+				</object>
+			</a>
 			<ul id="sticky-nav">
 				<li><a href="#bhosted">Hosted Applications</a></li>
 				<li><a href="#bhdb">Data Backup</a></li>
 			</ul>
-			<div class="fix-center">Call 123.456.7890</div>
+			<div class="fix-center"><a href="tel:123.256.7890">Call 123.256.7890</a></div>
 		</div>
 	</div>
 	
@@ -72,7 +77,7 @@
 		</p>
 		<div class="box">
 			<h3 class="offer"><a href="">Start your Free 30-days trial today. </a></h3>
-			<p class="call">Call 123.256.7890</p>
+			<p class="call"><a href="tel:123.256.7890">Call 123.256.7890</a></p>
 		</div>
 	</div>
 	</div>
@@ -80,7 +85,7 @@
 	
 			
 	
-	<div id="bhosted">
+	<div id="bapps">
 		<?php include_once "b-owner.php"; ?>
 	</div>
 </div>
