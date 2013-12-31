@@ -28,7 +28,7 @@
             <div class="space10 visible-xs"></div>
             <div class="row">
                     <div class="col-xs-4 col-sm-3 col-md-2">
-                        <a href="#" title="Century Link" id="logo" class="sprite">Century Link</a>
+                        <a href="index.php" title="Century Link" id="logo" class="sprite">Century Link</a>
                     </div>
                     <div class="col-xs-8 col-sm-5 col-md-5">
                         <nav class="navbar navbar-default hidden-xs" role="navigation">
@@ -55,7 +55,7 @@
                                 <span class="icon-bar"></span>
                                	<span class="icon-bar"></span>
                             	<span class="icon-bar"></span>
-                             </button> 
+                             </button>
                             <div class="collapse navbar-collapse" id="mobile-nav-content">
                                 <ul class="nav navbar-nav">
 									<li class="active"><a href="index.php">HOME</a></li>
@@ -68,7 +68,7 @@
 	                                  	</ul>
                                   	</li>
                                   	<li class="last">
-                                  		<div class="col-xs-6 phone"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>				                                           
+                                  		<div class="col-xs-6 phone"><i class="fa fa-phone"></i>  <span>123.456.7890</span></div>
                                   		<div class="col-xs-6 social-header">
 					                        <a href="#" class="icofacebook">
 					                            <span class="fa-stack">
@@ -180,13 +180,13 @@
                 <div class="col-md-6">
                 	<div class="hidden-xs">
                     	<div class="space60 visible-lg"></div>
-                    	<img src="images/picapps.png" alt="" class="img-responsive" /> 
-                    </div>  
+                    	<img src="images/picapps.png" alt="" class="img-responsive" />
+                    </div>
                     <div class="visible-xs">
-                    	<img src="images/mobi/picapps.png" alt="" class="img-responsive" /> 
-                    </div> 
+                    	<img src="images/mobi/picapps.png" alt="" class="img-responsive" />
+                    </div>
                 </div>
-            </div>   
+            </div>
             <div class="space60 visible-lg"></div>
             <div class="nextpage visible-lg paddingtop20">
             	<a href="#what-app-are-included-within-managed-office" class="btscroll">
@@ -217,7 +217,7 @@
                         </li>
                      </ul>
                  </div>
-            </div>	
+            </div>
          </div>
     </div>
 </div>
@@ -430,7 +430,7 @@ jQuery(document).ready(function($) {
   $('a#icogoogleplus').on('click', function() {
 	  ga('send', 'event', 'a', 'click', 'google-plus');
   });
-</script> 
+</script>
 <!-- BEGIN LivePerson Button Code -->
 <div id="lpButDivID-1387813773826" class="icolivechat hidden-xs"></div>
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813736901&amp;bt=1&amp;c=1"></script>
