@@ -51,11 +51,11 @@
                         </nav>
                     </div>
                     <nav class="mobile-global-nav visible-xs">
-							<div class="mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav-content">
+							<button class="mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav-content">
                                 <span class="icon-bar"></span>
                                	<span class="icon-bar"></span>
                             	<span class="icon-bar"></span>
-                             </div> 
+                             </button> 
                             <div class="collapse navbar-collapse" id="mobile-nav-content">
                                 <ul class="nav navbar-nav">
 									<li class="active"><a href="index.php">HOME</a></li>
@@ -436,7 +436,7 @@ jQuery(document).ready(function($) {
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&site=56948775&buttonID=43&divID=lpButDivID-1387813773826&bt=1&c=1"></script>
 <!-- END LivePerson Button code -->
 <!-- BEGIN LivePerson Monitor. -->
-<script language='javascript'> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "56948775",'lpProtocol' : (document.location.toString().indexOf('https:')==0) ? 'https' : 'http'}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
+<script> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "56948775",'lpProtocol' : (document.location.toString().indexOf('https:')==0) ? 'https' : 'http'}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
 </script><!-- END LivePerson Monitor. -->
 </body>
 </html>

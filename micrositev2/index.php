@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta chartset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>CenturyLink Microsite</title>
     <meta name="keywords" content="Keywords Site" />
     <meta name="description" content="Description Site" />
     <meta name="robots" content="follow,index" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -60,11 +60,11 @@
                     
                     <!--#Menu on Mobi#-->
                     <nav class="mobile-global-nav visible-xs">
-							<div class="mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav-content">
+							<button class="mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav-content">
                                 <span class="icon-bar"></span>
                                	<span class="icon-bar"></span>
                             	<span class="icon-bar"></span>
-                             </div> 
+                             </button> 
                             <div class="collapse navbar-collapse" id="mobile-nav-content">
                                 <ul class="nav navbar-nav">
 									<li class="active"><a href="index.php">HOME</a></li>
@@ -352,37 +352,37 @@
                     </div>
                     <div class="hspace">
                     	<div class="align-middle"><strong>YOUR ALL IN ONE SOLUTION</strong></div>
-                    	<table class="tb-managed-office" cellpadding="0" cellspacing="0">
+                    	<table class="tb-managed-office">
                         	<tr>
-                            	<td valign="top" width="70"><i class="sprite ico-glove"></i></td>
+                            	<td class="valigntop" width="70"><i class="sprite ico-glove"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">White Glove Service</span>
                                     <p class="desc-col">From the moment you sign up for Managed Office you get 24/7 full-service support.</p>
                                 </td>
                             </tr>
                             <tr>
-                            	<td valign="top"><i class="sprite ico-dollar"></i></td>
+                            	<td class="valigntop"><i class="sprite ico-dollar"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">No Capital Expense</span>
                                     <p class="desc-col">You don't have to buy or maintain your own equipment. Plus, we provide and manage your apps so you don't have to purchase and update software.</p>
                                 </td>
                             </tr>
                             <tr>
-                            	<td valign="top"><i class="sprite ico-human-timer"></i></td>
+                            	<td class="valigntop"><i class="sprite ico-human-timer"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">One Contact</span>
                                     <p class="desc-col">Anytime you have a question or a problem, reach out to us and we'll make it right.</p>
                                 </td>
                             </tr>
                             <tr>
-                            	<td valign="top"><i class="sprite ico-chair"></i></td>
+                            	<td class="valigntop"><i class="sprite ico-chair"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">One Flat Rate</span>
                                     <p class="desc-col">When you get one flat rate per seat per month, scaling is much easier.</p>
                                 </td>
                             </tr>
                             <tr>
-                            	<td valign="top"><i class="sprite ico-link-network"></i></td>
+                            	<td class="valigntop"><i class="sprite ico-link-network"></i></td>
                                 <td class="text-left">
                                 	<span class="title-col">One Network</span>
                                     <p class="desc-col">When you're on the CenturyLink network, you get a leading provider and an outstanding service level agreement that assures your business stays up and running.</p>
@@ -419,7 +419,7 @@
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>-->
-                <iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
+                <iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" class="noborderframe" allowfullscreen></iframe>
 			</div>
             <div class="space20 visible-xs"></div>
             <div class="visible-xs">
@@ -427,7 +427,7 @@
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>-->
-                <iframe width="280" height="170" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
+                <iframe width="280" height="170" src="//www.youtube.com/embed/8hkMuw9PIUo" class="noborderframe" allowfullscreen></iframe>
             </div>
             <div class="space20 visible-xs"></div>
 		</div>
@@ -891,10 +891,10 @@ jQuery(document).ready(function($) {
 </script> 
 <!-- BEGIN LivePerson Button Code -->
 <div id="lpButDivID-1387813736901" class="icolivechat hidden-xs"></div>
-<script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&site=56948775&buttonID=43&divID=lpButDivID-1387813736901&bt=1&c=1"></script>
+<script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813736901&amp;bt=1&amp;c=1"></script>
 <!-- END LivePerson Button code -->
 <!-- BEGIN LivePerson Monitor. -->
-<script language='javascript'> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "56948775",'lpProtocol' : (document.location.toString().indexOf('https:')==0) ? 'https' : 'http'}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
+<script> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "56948775",'lpProtocol' : (document.location.toString().indexOf('https:')==0) ? 'https' : 'http'}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
 </script><!-- END LivePerson Monitor. -->
 </body>
 </html>

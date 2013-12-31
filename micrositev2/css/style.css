@@ -19,6 +19,14 @@ body {
   max-width: 1000px;
 }
 
+.valigntop {
+	vertical-align: top;
+}
+
+.noborderframe {
+	border: 0;
+}
+
 .social-header a {
 	text-decoration: none;
 }
