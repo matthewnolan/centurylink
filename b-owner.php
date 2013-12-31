@@ -1,4 +1,4 @@
-<div class="bhosted">
+<div id="bhosted" class="bhosted">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row">

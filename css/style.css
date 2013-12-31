@@ -1293,17 +1293,17 @@ li.startread{
 	 margin-top:20px;
  }
  .i-readmore-fix2{
- 	height:237px;
+ 	/*height:237px;*/
  }
   .i-readmore-fix1{
- 	height:279px;
+ 	/*height:279px;*/
  }
 .sreadmore p{
 	min-height:42px;
 	text-align:left;
 }
 .sreadmore div{
-	min-height:343px;
+	/*min-height:343px;*/
 }
 .secure-detail .sreadmore li, .readmore li{
 	list-style-type:disc;

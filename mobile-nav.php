@@ -4,16 +4,16 @@
 		<ul id="mobilenav" class="checkactive">
 			<li>
 				<ul>
-					<li><a href="/business.html" title="">Business Owner</a></li>
-					<li><a href="/business-hosted-applications.html" title="">Hosted Applications</a></li>
-					<li><a href="/business-databackup.html" title="">Data Backup</a></li>
+					<li><a href="business.php" title="">Business Owner</a></li>
+					<li><a href="business-apps.php" title="">Hosted Applications</a></li>
+					<li><a href="business-databackup.php" title="">Data Backup</a></li>
 				</ul>
 			</li>
 			<li>
 				<ul>
-					<li><a href="/itleader.html" title="">IT Leader</a></li>
-					<li><a href="/itleader-hosted-applications.html" title="">Hosted Applications</a></li>
-					<li><a href="/itleader-databackup.html" title="">Data Backup</a></li>
+					<li><a href="it.php" title="">IT Leader</a></li>
+					<li><a href="it-apps.php" title="">Hosted Applications</a></li>
+					<li><a href="it-databackup.php" title="">Data Backup</a></li>
 				</ul>
 			</li>
 			<li>
