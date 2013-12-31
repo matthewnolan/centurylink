@@ -45,7 +45,13 @@
                             <div class="collapse navbar-collapse" id="mobi-nav-collapse">
                                 <ul class="nav navbar-nav">
                                   <li class="active"><a href="index.php">HOME</a></li>
-                                  <li><a href="#">PRODUCT COMPONENTS</a></li>
+                                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCT COMPONENTS <b class="caret"></b></a>
+                                  		<ul class="dropdown-menu">
+											<li><a href="data.php">MANAGED DATA</a></li>
+											<li><a href="voice.php">MANAGED VOICE</a></li>
+											<li><a href="apps.php">MANAGED APPLICATIONS</a></li>
+	                                  	</ul>
+                                  </li>
                                 </ul>
                             </div>
                         </nav>
@@ -409,17 +415,19 @@
 		</div>
 		<div class="col-md-6 col-md-pull-6">
 			<div id="div-right-modifferent" class="hidden-xs">
-                <video width="485" height="298" id="video-modifferent" controls>
+                <!--<video width="485" height="298" id="video-modifferent" controls>
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
-				</video>
+				</video>-->
+                <iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
 			</div>
             <div class="space20 visible-xs"></div>
             <div class="visible-xs">
-            	<video width="280" height="170" id="video-modifferent-mobi" controls>
+            	<!--<video width="280" height="170" id="video-modifferent-mobi" controls>
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
-				</video>
+				</video>-->
+                <iframe width="280" height="170" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="space20 visible-xs"></div>
 		</div>
@@ -436,8 +444,8 @@
   </div>
 </div>
 <div class="line-break sprite"></div>
-<div class="business">
-	<div class="container" id="how-big-is-your-business">
+<div class="business" id="how-big-is-your-business">
+	<div class="container">
     	<div class="space60 hidden-xs"></div>
     	<div class="row">
 			<div class="col-md-4">
@@ -598,7 +606,7 @@
 		    </div>
 	    </div>
      
-        <div class="space60 hidden-xs"></div>
+        <div class="space100 hidden-xs"></div>
     	<div class="nextpage visible-lg">
             <a href="#managed-office-component" class="btscroll">
                 <i class="sprite down-arrow"></i>
@@ -610,9 +618,9 @@
 </div>
 <div class="space100 visible-xs"></div>
 <div class="space100 visible-xs"></div>
-<div class="line-break sprite"></div>
+<div class="line-break sprite" id="managed-office-component"></div>
 <div id="maofco">
-	<div class="container" id="managed-office-component">
+	<div class="container">
     	<div class="space38 hidden-xs"></div>
         <h2 class="text-center">Managed Office Components</h2>
         <div class="space38 hidden-xs"></div>
@@ -703,9 +711,9 @@
         <div class="space20"></div>
 	</div>
 </div>
-<div class="line-break sprite"></div>
+<div class="line-break sprite" id="set-up-an-apointment"></div>
 <div id="contactfooter">
-	<div class="container" id="set-up-an-apointment">
+	<div class="container">
     	<div class="row">
         	<div class="col-md-6">
             	<h2>Can we set ut a meeting ?</h2>
