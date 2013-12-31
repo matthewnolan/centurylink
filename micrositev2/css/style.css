@@ -28,13 +28,12 @@ body {
 }
 
 a#logo {
-	font-size: 0;
 	width: 141px;
 	height: 30px;
 	background-position: 0 -2301px;
 	display: block;
-	text-indent: - 9999px;
 	float: left;
+	text-indent: -9999px;
 }
 
 .block {
@@ -809,8 +808,3 @@ p.lead {
 /*===# Hidden LivePerson copyright #===*/
 .lpPoweredBy { display:none; }
 /*=========*/
-
-.icofacebook{}
-.icotwitter{}
-.icolinkedin{}
-.icogoogleplus{}
