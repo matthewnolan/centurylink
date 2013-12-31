@@ -763,19 +763,19 @@
 <footer id="footer">
 	<div class="container">
 		<div class="row">
-			  <div class="col-md-2 font-ccc-mormal">
-			      <a href="index.php"><span><b>HOME</b></span></a>
+			  <div class="col-md-2">
+			      <a href="index.php"> <span><strong>HOME</strong></span></a>
 			  </div>
 			  
-			  <div class="col-md-3 font-ccc-mormal">
-			      <span><b>PRODUCT COMPONENTS</b></span><br><br>
-			      <a href="data.php"><span><b>MANAGED DATA</b></span></a><br>
-			      <a href="voice.php"><span><b>MANAGED VOICE</b></span></a><br>
-			      <a href="apps.php"><span><b>MANAGED APPLICATIONS</b></span></a>
+			  <div class="col-md-3">
+			       <span><strong>SCHEDULE A MEETING</strong></span><br><br>
+			      <a href="data.php"><span><strong>MANAGED DATA</strong></span></a><br>
+			      <a href="voice.php"><span><strong>MANAGED VOICE</strong></span></a><br>
+			      <a href="apps.php"><span><strong>MANAGED APPLICATIONS</strong></span></a>
 			  </div>
 			  
-			  <div class="col-md-4 font-ccc-mormal">
-		          <span><b>SCHEDULE A MEETING</b></span>
+			  <div class="col-md-4">
+		          <span><strong>SCHEDULE A MEETING</strong></span>
 			  </div>
 			  
 			  <div class="col-md-3">
@@ -818,7 +818,7 @@
         	<div class="row">
             	<div class="col-xs-12 text-center">
                 	<img src="images/mobi/bgfooter.png" alt="" class="img-responsive" style="padding-top:15px;" />
-                    <span class="mobicopyright font-ccc-mormal">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
+                    <span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
                 </div>
             </div>
         </div>
