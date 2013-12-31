@@ -424,7 +424,7 @@
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>-->
-                <iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
+                <iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" class="video" allowfullscreen></iframe>
 			</div>
             <div class="space20 visible-xs"></div>
             <div class="visible-xs">

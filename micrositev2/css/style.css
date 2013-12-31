@@ -306,6 +306,14 @@ a.btscroll {
 	z-index: 9999;
 }
 
+.video {
+	height: 0px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
 #div-testimonial {
 	padding: 20px 0 10px 0;
 	background: #757575;
