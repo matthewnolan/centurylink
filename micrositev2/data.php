@@ -183,7 +183,7 @@
                             &bull;  AdTran routers and switches <br />
                             &bull;  Uninterruptible power supply (optional) <br />
                             &bull;  Proactive Network Monitoring <br />
-                            &bull;  Ethernet connection with quality of service (QoS), which prioritizes delay-sensitive voice traffic over other types of data, for crystal clear calls
+                            &bull;  Ethernet connection with quality of service (QoS), which prioritizes delay-sensitive voice traffic over other types of data, for crystal clear calls
                         </p>
                     </div>
                 </div>

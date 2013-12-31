@@ -237,7 +237,7 @@
 	<div class="container" id="you-want-more-voice-specifics">
     	<div class="space38 hidden-xs"></div>
         <h2 class="text-center">You want more Voice specifics?</h2>
-        <p class="text-center fs14b">The voice component of Managed Office includes CenturyLink Hosted VoIP service and all IP phones. Hosted Voice over Internet Protocol (VoIP) works over Local Area Network stack (LAN).</p>
+        <p class="text-center fs14b">The voice component of Managed Office includes CenturyLink Hosted VoIP service and all IP phones. Hosted Voice over Internet Protocol (VoIP) works over Local Area Network stack (LAN).</p>
         <div class="space38 hidden-xs"></div>
         <div class="row" style="padding-bottom: 60px;">
        		<div class="col-md-6">
