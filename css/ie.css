@@ -1,0 +1,28 @@
+.container {
+	width: 100%;
+}
+
+.pricing {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/price-bg.jpg', sizingMethod='scale');
+}
+#home .hero-left{
+	background-image:url("../images/white-cloud.png");
+}
+#business .hero-left{
+	background-image:url("../images/cloud.png");
+}
+#business-apps .hero-left{
+	background-image:url("../images/business-cloud.png");
+}
+#business-db .hero-left{
+	background-image:url("../images/business-cloud.png");
+}
+#it .hero-left{
+	background-image:url("../images/cloud.png");
+}
+#it-apps .hero-left{
+	background-image:url("../images/cloud.png");
+}
+#it-db .hero-left{
+	background-image:url("../images/business-cloud.png");
+}
