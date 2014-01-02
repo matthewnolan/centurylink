@@ -52,15 +52,15 @@
 	</div>
 	
 	<div class="mobile-sticky-nav visible-xs">
-		<ul id="mobile-sticky-nav" class="collapse">
-			<li><a href="#bhosted">Hosted Applications</a></li>
-			<li><a href="#bhdb">Data Backup</a></li>
-		</ul>
-		<a class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+		<a id="mobile-sticky-nav-button"  href="#mobile-sticky-nav">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</a>
+		<ul id="mobile-sticky-nav">
+			<li><a href="#bhosted">Hosted Applications</a></li>
+			<li><a href="#bhdb">Data Backup</a></li>
+		</ul>
 	</div>
 </div>
 

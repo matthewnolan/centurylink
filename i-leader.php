@@ -17,7 +17,7 @@
 					</p>
 				</div>
 				<div class="col-sm-5 image-block">
-				<img src="images/it-fpo.png" alt="IFPO"/>
+				<img src="images/fpo6_2x.png" width="303" height="333" alt="IFPO"/>
 				</div>
 			</div>
 			
@@ -28,7 +28,7 @@
 			<hr class="block-hr"/>
 			<div class="row" id="ihdb">
 				<div class="col-sm-6 image-block hidden-xs">
-					<img src="images/it-fpo2.png" alt=""/>
+					<img src="images/fpo7_2x.png" width="432" height="360" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<img src="images/it-fpo2.png" alt=""/>
+					<img src="images/fpo7_2x.png" width="432" height="360" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block visible-sm visible-xs">
 				

@@ -31,7 +31,7 @@
 	
 			<div id="bhdb" class="row">
 				<div class="col-sm-6 image-block hidden-xs">
-					<img src="images/deposit.png" alt=""/>
+					<img src="images/fpo2_2x.png" width="394" height="395" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
@@ -56,7 +56,7 @@
 					</div>
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<img src="images/deposit.png" alt=""/>
+					<img src="images/fpo2_2x.png" width="394" height="395" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block visible-sm visible-xs">
 					<div class="testimonial">

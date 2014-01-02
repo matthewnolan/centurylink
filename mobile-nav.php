@@ -1,5 +1,4 @@
 <div class="mobile-global-nav visible-xs">
-	<div class="container wrapper">
 		
 		<ul id="mobilenav" class="checkactive">
 			<li>
@@ -57,5 +56,4 @@
 		</a>
 		
 		
-	</div>
 </div>

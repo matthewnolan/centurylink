@@ -48,7 +48,7 @@
 						Emails, invites, calendars, the works. Enjoy bigger and more reliable mailboxes
 						<span class="3dot">...</span><div class="details"></div>
 						and added security. Wherever you work, youll work smarter even though youre working offsite or away from home.
-						<p><a href="">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
+						<p><a href="download.php?fname=t.pdf">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
@@ -58,7 +58,7 @@
 						This is collaboration at its best. Share ideas and documents, organize, build, manage,
 						<span class="3dot">...</span><div class="details"></div>
 						and best of all, discover a new way to workfrom anywhere.
-						<p><a href="">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
+						<p><a href="download.php?fname=t.pdf">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
 						<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
@@ -69,7 +69,7 @@
 						Now you can host online meetings, video calls and instant messages.
 						<span class="3dot">...</span><div class="details"></div>
 							<p>This is the capability to meet in person, without being there in person.</p>
-							<p><a href="">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
+							<p><a href="download.php?fname=t.pdf">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
 						<div class="new-fix-height2 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 	
 			<div id="safe" class="row">
 				<div class="col-sm-6 image-block hidden-xs">
-					<img src="images/bdb-fpo2.png" alt=""/>
+					<img src="images/fpo4_2x.png" width="380" height="322" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
@@ -99,7 +99,7 @@
 				
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<img src="images/bdb-fpo2.png" alt=""/>
+					<img src="images/fpo4_2x.png" width="380" height="322" alt=""/>
 				</div>
 			</div>
 			<div class="block-seperator"></div>
@@ -111,7 +111,7 @@
 					This is a hosted application that makes your security automatic. It proactively
 					<span class="3dot">...</span><div class="details"></div>
 					This is a hosted application that makes your security automatic. It proactively checks for viruses, updates patches and protects against threats. McAfee is software that's vigilant, even when you can't be.
-					<p><a href="">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
+					<p><a href="download.php?fname=t.pdf">Download</a> the details   <img src="images/pdf.png" alt=""/></p>
 					<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 				</div>
 				
@@ -149,7 +149,7 @@
 				
 				</div>
 				<div class="col-sm-6 image-block">
-					<img src="images/new-business-fpo2.png" alt=""/>
+					<img src="images/fpo1_2x.png" width="450" height="306" alt=""/>
 				</div>
 			</div>
 			<div class="block-seperator"></div>
@@ -226,7 +226,7 @@
 						Nothing should stand in the way of your business taking full advantage of our cloud services,
 						or getting the convenience and security that comes with backing up your data to the Cloud. With FREE FastForward Onboarding&#8480;,
 						getting started is easy. Just choose from one of our three onboarding options based on your timing and budget, and get started with ease.
-						<a href="">Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
+						<a href="download.php?fname=t.pdf">Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
 					</p>
 					
 				</div>

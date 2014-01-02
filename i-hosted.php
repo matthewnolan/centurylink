@@ -37,7 +37,7 @@
 		<div class="padding-fix">
 			<div class="row">
 				<div class="col-sm-6 image-block hidden-xs">
-					<img src="images/ihosted-fpo1.png" alt="FPO"/>
+					<a href=""><img src="images/ihosted-fpo1.png" alt="FPO"/></a>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
@@ -53,7 +53,7 @@
 					
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<img src="images/ihosted-fpo1.png" alt="FPO"/>
+					<a href=""><img src="images/ihosted-fpo1.png" alt="FPO"/></a>
 				</div>
 			</div>
 			<div class="block-seperator"></div>
@@ -86,7 +86,7 @@
 							<li>Your server maintained by Microsoft-certified techs in our data centers</li>
 							<li>Automatic replication duplicates documents across geographically dispersed data centers, providing complete data redundancy</li>
 							<li>No training required for IT on setup or maintenance <br/><br/>
-								<a href="">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
+								<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
 						</ul>
 					</div>
 				</div>
@@ -105,7 +105,7 @@
 							<li>Eliminates separate telephony support</li>
 							<li>Reduces help-desk queries</li>
 							<li>Reduces teleconferencing costs <br/><br/>
-								<a href="">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
+								<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
 						</ul>
 					</div>
 				</div>
@@ -154,7 +154,7 @@
 					<ul>
 						<li>Endpoint security protects every device on your network against infection</li>
 						<li>Scales with your environment as it grows <br/><br/>
-							<a href="">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
+							<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
 						<li class="last"><img src="images/mcafee.png" alt=""/></li>
 					</ul>
 				</div>
@@ -200,7 +200,7 @@
 							<li>Centralize all capture and storage for quick restore and recovery</li>
 							<li>eDiscovery features such as notation, logging and indexing increase search relevancy</li>
 							<li>Avoid the costs and complexity of building and managing your own archiving system <br/><br/>
-								<a href="">Download</a> features and pricing <img src="images/pdf.png" alt=""/>
+								<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/>
 							</li>
 						</ul>
 					</div>
@@ -233,7 +233,7 @@
 					</p>
 					<p class="block-content">
 						Find out more about CenturyLink Web Hosting. <br/>
-						<a class="istyle" href="">Download</a> <img src="images/pdf.png" alt=""/> features and pricing 
+						<a class="istyle" href="download.php?fname=t.pdf">Download</a> <img src="images/pdf.png" alt=""/> features and pricing 
 					</p>
 				
 				</div>
@@ -346,7 +346,7 @@
 						Nothing should stand in the way of your business taking full advantage of our cloud services,
 						or getting the convenience and security that comes with backing up your data to the Cloud. With FREE FastForward Onboarding&#8480;,
 						getting started is easy. Just choose from one of our three onboarding options based on your timing and budget, and get started with ease.<br/>
-						<a class="istyle" href="">Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
+						<a class="istyle" href="download.php?fname=t.pdf">Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
 					</p>
 					
 				</div>

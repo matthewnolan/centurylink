@@ -33,7 +33,7 @@
 					</p>
 				</div>
 				<div class="col-sm-6 image-block">
-				<img src="images/bdb-fpo1.png" alt="FPO"/>
+				<img src="images/fpo3_2x.png" width="450" height="257" alt="FPO"/>
 				</div>
 			</div>
 			
@@ -41,8 +41,8 @@
 			<hr class="block-hr"/>
 			
 			<div class="row" id="safe">
-				<div class="col-sm-6 image-block">
-				<img src="images/bdb-fpo2.png" alt=""/>
+				<div class="col-sm-6 image-block hidden-xs">
+					<img src="images/fpo4_2x.png" width="380" height="322" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
@@ -59,6 +59,9 @@
 						<img src="images/bdb-logo5.jpg" alt="LOGO"/>
 					</p>
 				</div>
+				<div class="col-sm-6 image-block visible-xs">
+					<img src="images/fpo4_2x.png" width="380" height="322" alt=""/>
+				</div>
 			</div>
 			
 			<div class="block-seperator"></div>
@@ -73,7 +76,7 @@
 						Nothing should stand in the way of your business taking full advantage of our cloud services,
 						or getting the convenience and security that comes with backing up your data to the Cloud. With FREE FastForward Onboarding&#8480;,
 						getting started is easy. Just choose from one of our three onboarding options based on your timing and budget, and get started with ease.
-						<a href="">Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
+						<a href="download.php?fname=t.pdf">Download pdf <img src="images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
 					</p>
 					
 				</div>
@@ -133,8 +136,8 @@
 			<hr class="block-hr"/>
 			
 			<div class="row"  id="pricing">
-				<div class="col-sm-6 image-block">
-					<img src="images/bdb-fpo3.png" alt=""/>
+				<div class="col-sm-6 image-block hidden-xs">
+					<img src="images/fpo5_2x.png" width="360" height="324" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
@@ -146,6 +149,9 @@
 						and can be scaled up and down as your business evolves--so you never have to pay for what you're not using.
 					</p>
 					
+				</div>
+				<div class="col-sm-6 image-block visible-xs">
+					<img src="images/fpo5_2x.png" width="360" height="324" alt=""/>
 				</div>
 			</div>
 					

@@ -151,16 +151,19 @@
 		<div class="padding-fix">
 			
 			<div class="row">
-				<div class="col-sm-5 image-block">
-				<img src="images/bdb-fpo1.png" alt=""/>
+				<div class="col-sm-6 image-block hidden-xs">
+					<img src="images/fpo3_2x.png" width="450" height="257" alt=""/>
 				</div>
-				<div class="col-sm-7 copy-block">
+				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
 						Now you can be hands-on and hands-off at the same time.
 					</h3>
 					<p class="block-content">
 						Our Management Console gives you the visibility and control you need over all backup and restore activities. Get a single consolidated view of all aspects of the service, with the ability to drill down on specific parameters. Enable automatic, set-it and forget-it scheduling, so your backups are always up-to-date.
 					</p>
+				</div>
+				<div class="col-sm-6 image-block visible-xs">
+					<img src="images/fpo3_2x.png" width="450" height="257" alt=""/>
 				</div>
 			</div>
 			

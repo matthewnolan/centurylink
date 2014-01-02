@@ -54,7 +54,10 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 /*COMMON*/
 img, iframe{
-	max-width:100% !important;
+	max-width:100%;
+}
+a:hover img{
+	opacity:0.8;
 }
 
 .home-hr{
@@ -156,6 +159,12 @@ li.startread{
 	height:64px;
 	margin-bottom:0;
 	background-color:#ffffff;
+}
+a object{
+	display:block;
+	cursor: pointer;
+	padding:0;
+	margin:0;
 }
 .header-container{
 	padding-top:17px;
@@ -296,10 +305,9 @@ li.startread{
 /*MOBILE NAV*/
 
 .mobile-global-nav{
-	position:absolute;
-	right:0;
-	top:0;
-	z-index:9999;
+	position:relative;
+	float:right;
+	margin-top:-64px;
 }
 #mobilenav-button{
 	background-color:#9f9f9f;
@@ -309,6 +317,8 @@ li.startread{
 	cursor: pointer;
 	margin-right:-1px;
 	display:block;
+	position:relative;
+	z-index:999999;
 }
 #mobilenav-button:active, #mobilenav-button:focus,#mobilenav-button:hover{
 	outline:none;
@@ -323,15 +333,16 @@ li.startread{
 	margin-top:8px;
 }
 #mobilenav{
-	position:fixed;
+	position:absolute;
+	right:-200px !important;
 	width:200px;
-	right:-200px;
 	background-color:#9f9f9f;
 	list-style:none;
 	padding:25px;
 	color:#e9e9e9;
 	font-size:16px;
 	display:none;
+	z-index:999999;
 }
 #mobilenav>li{
 	padding-bottom:20px;
@@ -380,7 +391,7 @@ li.startread{
 .sticky-nav{
 	height:70px;
 	background-color:#8cc63e;
-	z-index:999;
+	z-index:999999;
 	text-align:center;
 	width:100%;
 }
@@ -483,6 +494,10 @@ li.startread{
 	position:absolute !important;
 	right:-260px !important;
 }
+.static-position{
+	position:static !important;
+	display:none !important;
+}
 .button-position-closed{
 	position:fixed;
 	right:0 !important;
@@ -500,6 +515,13 @@ li.startread{
 	height:64px;
 	padding:15px;
 	display:block;
+	float:right;
+	
+	-webkit-transition: all .2s ease-in;
+   -moz-transition: all .2s ease-in;
+   -o-transition: all .2s ease-in;
+   -ms-transition: all .2s ease-in;
+   transition: all .2s ease-in;
 }
 #mobile-sticky-nav-button:active, #mobile-sticky-nav-button:focus,#mobile-sticky-nav-button:hover{
 	outline:none;
@@ -517,12 +539,14 @@ li.startread{
 	position:fixed;
 	width:260px;
 	right:-260px;
-	top:0;
+	top:0 !important;
 	background-color:#9f9f9f;
 	list-style:none;
 	color:#e9e9e9;
 	font-size:16px;
-	overflow:hidden;
+	z-index:999999;
+	-webkit-overflow-scrolling:touch;
+	overflow: hidden;
 }
 #mobile-sticky-nav li{
 	float:left;
@@ -1264,7 +1288,7 @@ li.startread{
 .secure-image{
 	margin-top:65px;
 	height:241px;
-	background-image:url("../images/secure-fpo.png");
+	background-image:url("../images/fpo8_2x.png");
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-size:contain;
@@ -1305,6 +1329,7 @@ li.startread{
 .sreadmore div{
 	/*min-height:343px;*/
 }
+
 .secure-detail .sreadmore li, .readmore li{
 	list-style-type:disc;
 	text-align:left;

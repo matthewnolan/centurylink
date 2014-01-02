@@ -53,17 +53,17 @@
 	</div>
 	
 	<div class="mobile-sticky-nav visible-xs">
-		<ul id="mobile-sticky-nav" class="collapse">
+		<a id="mobile-sticky-nav-button"  href="#mobile-sticky-nav">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<ul id="mobile-sticky-nav">
 			<li><a href="#email">Email & Collaboration</a></li>
 			<li><a href="#safe">Security</a></li>
 			<li><a href="#webmanagement">Web Management</a></li>
 			<li><a href="#ffb">Onboading</a></li>
 		</ul>
-		<a class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</a>
 	</div>
 	
 </div>

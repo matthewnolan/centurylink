@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <title>CenturyLink</title>
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
@@ -25,14 +26,19 @@
 <script type="text/javascript"  src="js/jquery.sidr.min.js"></script>
 
 <script type="text/javascript">
-var ua = navigator.userAgent.toLowerCase();
-var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-if(isAndroid) {
-	var winw = jQuery(window).width(); 
-	jQuery('iframe').css('max-width',winw);
-}
-
 jQuery(document).ready(function($) {
+
+	//ANDROID IFRAME
+	var ua = navigator.userAgent.toLowerCase();
+	var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+	if(isAndroid) {
+		var container = jQuery('.container')[0]; 
+		var winw = jQuery(container).width();
+		jQuery('iframe').css('max-width',winw - 40);
+		jQuery('iframe').css('height','auto');
+	}
+
+	
 	$.scrollUp({
 		  scrollImg: true
 	});
@@ -53,7 +59,8 @@ jQuery(document).ready(function($) {
 	$('#mobile-sticky-nav-button').sidr({
 	      name: 'mobile-sticky-nav',
 	      side: 'right',
-	      /*onOpen: function(){
+	      onOpen: function(){
+	    	  $('#mobile-sticky-nav').removeClass('static-position');
 	    	  if($('.sticky-nav').position().top !== 0){
 		  			$('#mobile-sticky-nav-button').removeClass('button-position-open');
 		  			$('#mobile-sticky-nav-button').removeClass('button-position-closed');
@@ -65,6 +72,7 @@ jQuery(document).ready(function($) {
 		  		}
 	      },
 	      onClose: function(){
+	    	  $('#mobile-sticky-nav').removeClass('static-position');
 	    	  if($('.sticky-nav').position().top !== 0){
 	    		  $('#mobile-sticky-nav-button').removeClass('button-position-open');
 	    		  $('#mobile-sticky-nav-button').removeClass('button-position-closed');
@@ -75,23 +83,30 @@ jQuery(document).ready(function($) {
 						$('#mobile-sticky-nav-button').addClass('button-position-closed');
 					}
 		  		}
-	      }*/
+	      }
     });
 	$('#mobile-sticky-nav-button').click(function(){
 		 return false;
 	});
+	$(window).resize(function(){
+		$.sidr('close', 'mobile-sticky-nav');
+		$.sidr('close', 'mobilenav');
+	});
     $(window).scroll(function(){
+    	$.sidr('close', 'mobile-sticky-nav'); 
+    	if(!$('#mobile-sticky-nav').hasClass('static-position')){
+    		$('#mobile-sticky-nav').addClass('static-position');
+    	}
 		if($('.sticky-nav').position().top === 0){
 			$('.mobile-sticky-nav').removeClass('fix-position');
-			$('#mobile-sticky-nav').removeClass('sidr-position');
-			$('#mobile-sticky-nav-button').removeClass('button-position-open');
-  			$('#mobile-sticky-nav-button').removeClass('button-position-closed');
-			
+			$('#mobile-sticky-nav').removeClass('sidr-position');		
 		}else{
+			 $('#mobile-sticky-nav-button').removeClass('button-position-open');
+   		  	$('#mobile-sticky-nav-button').removeClass('button-position-closed');
 			if(!$('.mobile-sticky-nav').hasClass('fix-position')){
 				$('.mobile-sticky-nav').addClass('fix-position');
 			}
-			if(!$('.mobile-sticky-nav').hasClass('sidr-position')){
+			if(!$('#mobile-sticky-nav').hasClass('sidr-position')){
 				$('#mobile-sticky-nav').addClass('sidr-position');
 			}
 		}
@@ -156,6 +171,7 @@ jQuery(document).ready(function($) {
 				</div>
 			</div>
 		</div>
+		<?php include_once "mobile-nav.php";?>
 	</div>
-	<?php include_once "mobile-nav.php";?>
+	
 </header>

@@ -53,17 +53,17 @@
 	</div>
 	
 	<div class="mobile-sticky-nav visible-xs">
-		<ul id="mobile-sticky-nav" class="collapse">
+		<a id="mobile-sticky-nav-button"  href="#mobile-sticky-nav">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<ul id="mobile-sticky-nav">
 			<li><a href="#safe">Secure & Available</a></li>
 			<li><a href="#tco">TCO</a></li>
 			<li><a href="#console">Management Console</a></li>
 			<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
 		</ul>
-		<a class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</a>
 	</div>
 	
 </div>

@@ -52,16 +52,17 @@
 	</div>
 	
 	<div class="mobile-sticky-nav visible-xs">
-		<ul id="mobile-sticky-nav" class="collapse">
-			<li><a href="#ihosted">What We Offer</a></li>
-			<li><a href="#graph">How We Deliver</a></li>
-			<li><a href="#ffb">Onboarding</a></li>
-		</ul>
-		<a class="navbar-toggle" data-toggle="collapse" href="#mobile-sticky-nav">
+		<a id="mobile-sticky-nav-button"  href="#mobile-sticky-nav">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</a>
+		<ul id="mobile-sticky-nav">
+			<li><a href="#ihosted">What We Offer</a></li>
+			<li><a href="#graph">How We Deliver</a></li>
+			<li><a href="#ffb">Onboarding</a></li>
+		</ul>
+	
 	</div>
 	
 </div>
