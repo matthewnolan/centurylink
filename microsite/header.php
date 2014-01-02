@@ -14,7 +14,7 @@
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
-	$('#div_navsticky').sticky();
+	$('#div_navsticky').sticky({topSpacing: 0});
 });
 </script>
 </head>
