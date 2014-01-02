@@ -13,19 +13,20 @@
 					element.find('.3dot').html('...');
 					element.find('.details').attr('style','display:block');
 					element.removeClass('fix-fixed-height');
+					element.slideDown();
 				}
 			}
 		});
 		$('.sreadmore').readmore({
-			maxHeight:150,
+			maxHeight:120,
 			moreLink: '<a href="#"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
-					element.find('.startread').attr('style','display:none');
+					//element.find('.startread').attr('style','display:none');
 					element.addClass('fix-fixed-height');
 				}else{
-					element.find('.startread').attr('style','display:block');
+					//element.find('.startread').attr('style','display:block');
 					element.removeClass('fix-fixed-height');
 				}
 			}
@@ -65,7 +66,7 @@
 						<ul>
 							<li>ActivSync provides consistent experience across iOS, Android and BlackBerry devices, as well as across OS X and Windows PCs, laptops and servers.</li>
 							<li>Up-to-date AV/AS/AP and filtering</li>
-							<li class="startread"></li>
+<!-- 							<li class="startread"></li> -->
 							<li>Shared calendar and address book functionality</li>
 							<li>Email access from any Internet connection using Outlook Web access</li>
 							<li>Customize mailbox size based on user </li>
@@ -82,7 +83,7 @@
 							<li>Securely allow collaboration and file sharing</li>
 							<li>Maintain complete control over user permissions</li>
 							<li>Fully integrated with Microsoft Office</li>
-							<li class="startread"></li>
+<!-- 							<li class="startread"></li> -->
 							<li>Your server maintained by Microsoft-certified techs in our data centers</li>
 							<li>Automatic replication duplicates documents across geographically dispersed data centers, providing complete data redundancy</li>
 							<li>No training required for IT on setup or maintenance <br/><br/>
@@ -98,7 +99,7 @@
 							<li> Single solution for IM, Voice, Video and Chat</li>
 							<li>Secure environment for all communications</li>
 							<li>Unified, single client on desktop and laptop</li>
-							<li class="startread"></li>
+<!-- 							<li class="startread"></li> -->
 							<li>Consistent Microsoft UX for end users assures fast adoption</li>
 							<li>Integrates with Outlook & Exchange</li>
 							<li>Access to existing directories and contacts</li>

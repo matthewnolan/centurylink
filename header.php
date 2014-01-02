@@ -91,6 +91,12 @@ jQuery(document).ready(function($) {
 	$(window).resize(function(){
 		$.sidr('close', 'mobile-sticky-nav');
 		$.sidr('close', 'mobilenav');
+		var winw = $(window).width();
+		$('html').attr('style','width:'+ winw);
+		$('body').attr('style','width:'+ winw);
+		$(".sticky-nav").sticky({
+			topSpacing:0
+		});
 	});
     $(window).scroll(function(){
     	$.sidr('close', 'mobile-sticky-nav'); 
