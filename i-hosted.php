@@ -8,28 +8,16 @@
 				if(more){
 					element.find('.3dot').html('');
 					element.find('.details').attr('style','display:inline');
-					element.addClass('fix-fixed-height');
 				}else{
 					element.find('.3dot').html('...');
 					element.find('.details').attr('style','display:block');
-					element.removeClass('fix-fixed-height');
-					element.slideDown();
 				}
 			}
 		});
 		$('.sreadmore').readmore({
 			maxHeight:120,
 			moreLink: '<a href="#"><div class="plus"><i class="fa fa-plus"></i></div></a>',
-			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>',
-			afterToggle: function(trigger, element, more) {
-				if(more){
-					//element.find('.startread').attr('style','display:none');
-					element.addClass('fix-fixed-height');
-				}else{
-					//element.find('.startread').attr('style','display:block');
-					element.removeClass('fix-fixed-height');
-				}
-			}
+			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>'
 		});
 	});
 </script>
@@ -66,7 +54,7 @@
 						<ul>
 							<li>ActivSync provides consistent experience across iOS, Android and BlackBerry devices, as well as across OS X and Windows PCs, laptops and servers.</li>
 							<li>Up-to-date AV/AS/AP and filtering</li>
-<!-- 							<li class="startread"></li> -->
+							<!--<li class="startread"></li> -->
 							<li>Shared calendar and address book functionality</li>
 							<li>Email access from any Internet connection using Outlook Web access</li>
 							<li>Customize mailbox size based on user </li>
@@ -83,7 +71,7 @@
 							<li>Securely allow collaboration and file sharing</li>
 							<li>Maintain complete control over user permissions</li>
 							<li>Fully integrated with Microsoft Office</li>
-<!-- 							<li class="startread"></li> -->
+							<!--<li class="startread"></li> -->
 							<li>Your server maintained by Microsoft-certified techs in our data centers</li>
 							<li>Automatic replication duplicates documents across geographically dispersed data centers, providing complete data redundancy</li>
 							<li>No training required for IT on setup or maintenance <br/><br/>
@@ -99,7 +87,7 @@
 							<li> Single solution for IM, Voice, Video and Chat</li>
 							<li>Secure environment for all communications</li>
 							<li>Unified, single client on desktop and laptop</li>
-<!-- 							<li class="startread"></li> -->
+							<!--<li class="startread"></li> -->
 							<li>Consistent Microsoft UX for end users assures fast adoption</li>
 							<li>Integrates with Outlook & Exchange</li>
 							<li>Access to existing directories and contacts</li>
@@ -248,7 +236,7 @@
 				<div class="onboard-title">SEO: Attracta</div>
 				<div class="onboard-content new-business sreadmore">
 					Crawls all pages of your site&#8212;even hidden one&#8212;sand submits XML report to all major search engines: Google, Yahoo, Bing and Ask enhancing SEO results.
-					<div class="startread"></div>
+					<!--<div class="startread"></div> -->
 					<ul>
 						<li>Identifies and reports broken links and errors that impact SEO</li>
 						<li>Add JavaScript apps&#8212;like Google Analytics&#8212;with a single click</li>
@@ -264,7 +252,7 @@
 				<div class="onboard-title">Ecommerce</div>
 				<div class="onboard-content new-business sreadmore">
 					A suite of complete, turnkey shopping cart solutions that include direct integrations into the world's most powerful applications.
-					<div class="startread"></div>
+					<!--<div class="startread"></div> -->
 					<ul>
 						<li>Complete turnkey shopping cart solutions</li>
 						<li>Certified  PCI compliant environment meets DSS controls & processes</li>
@@ -280,7 +268,7 @@
 				<div class="onboard-title">Mobile Website</div>
 				<div class="onboard-content new-business sreadmore">
 					A single integrated content management platform that serves form factors for mobile devices and desktop websites.
-					<div class="startread"></div>
+					<!--<div class="startread"></div> -->
 					<ul>
 						<li>Automatic redirect of mobile users from Web to optimized mobile site</li>
 						<li>Supports redirect code in JavaScript, PHP, JSP, ASP</li>
@@ -295,7 +283,7 @@
 				<div class="onboard-title">Protect your website</div>
 				<div class="onboard-content new-business sreadmore">
 					This application provides vulnerability scanning for network, applications, SQL Injection, and Cross-Site Scripting (XSS).  
-					<div class="startread"></div>
+					<!--<div class="startread"></div> -->
 					<ul>
 						<li>Identifies website and application viruses</li>
 						<li>Instant alerts for search engine or SPAM blacklisting</li>
@@ -311,7 +299,7 @@
 				<div class="onboard-title">Website Health & Reputation Monitoring</div>
 				<div class="onboard-content new-business sreadmore">
 					The cost-efficient way to prevent, detect and recover your website from malware and virus attacks.
-					<div class="startread"></div>
+					<!--<div class="startread"></div> -->
 					<ul>
 						<li>Non-intrusive, automatic monitoring that is easy to deploy</li>
 						<li>Scans your site for malicious code, using signature based approach</li>
