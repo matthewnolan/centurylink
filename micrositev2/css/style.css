@@ -795,9 +795,9 @@ p.lead {
 		margin-bottom: 0;
 	}
 	
-	/*.container {
+	.container {
 		width: 320px;
-	}*/
+	}
 }
 
 @media screen and (max-width:767px){
