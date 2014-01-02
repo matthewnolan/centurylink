@@ -425,12 +425,12 @@
 			</div>
 		</div>
 		<div class="col-md-6 col-md-pull-6">
-			<div id="div-right-modifferent" class="hidden-xs">
+			<div id="div-right-modifferent" class="video">
                 <!--<video width="485" height="298" id="video-modifferent" controls>
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>-->
-                <iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" class="video" allowfullscreen></iframe>
+                <iframe width="485" height="298" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
 			</div>
             <div class="space20 visible-xs"></div>
             <div class="visible-xs">
