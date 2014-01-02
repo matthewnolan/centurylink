@@ -859,7 +859,7 @@
 		<div id="div-img-footer" class="hidden-xs"><img src="images/img_footer.png" alt="" class="img-responsive copyimg" /></div>
 	</div>
     <div class="visible-xs">
-        <img src="images/mobi/bgfooter.png" alt="" class="img-responsive" style="padding-top:15px;" />
+        <img src="images/mobi/bgfooter.png" alt="" class="img-responsive" style="padding-top:15px; margin: 0 auto;" />
     </div>
     <div class="container visible-xs">
     	<span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
@@ -874,7 +874,7 @@
 <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 <script type="text/javascript">
 var ua = navigator.userAgent.toLowerCase();
-var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+var isAndroid = ua.indexOf("android") > -1;
 if(isAndroid) {
 	var winw = jQuery(window).width(); 
 	jQuery('iframe').css('max-width',winw);
