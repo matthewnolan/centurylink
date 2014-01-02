@@ -43,13 +43,25 @@
                                 <!--<a href="#" class="navbar-brand visible-xs">Menu</a>-->
                             </div>
                             <div class="collapse navbar-collapse" id="mobi-nav-collapse">
-                                <ul class="nav navbar-nav">
+                                <ul class="nav navbar-nav navbar-mainmenu">
                                   <li class="active"><a href="index.php">HOME</a></li>
                                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCT COMPONENTS <b class="caret"></b></a>
                                   		<ul class="dropdown-menu">
-											<li><a href="data.php">MANAGED DATA</a></li>
-											<li><a href="voice.php">MANAGED VOICE</a></li>
-											<li><a href="apps.php">MANAGED APPLICATIONS</a></li>
+											<li><a href="data.php">MANAGED DATA</a>
+                                            	<div class="lidesc">
+					                             	<span class="desctext">We manage your internet connection, virtual server, and data back-up.</span>
+                                                </div>
+                                            </li>
+											<li><a href="voice.php">MANAGED VOICE</a>
+                                            	<div class="lidesc">
+                                                	<span class="desctext">We give you phones, a dial tone, and a wide range of advanced calling and messaging features.</span>
+                                                </div>
+                                            </li>
+											<li><a href="apps.php">MANAGED APPLICATIONS</a>
+                                            	<div class="lidesc">
+                                                	<span class="desctext">We provide and manager your business apps so you don&apos;t have to buy or update software.</span>
+                                                </div>
+                                            </li>
 	                                  	</ul>
                                   </li>
                                 </ul>
@@ -273,8 +285,23 @@
 <div id="div-navsticky">
 	<div class="container">
     	<div class="row">
-            <div class="col-xs-12 col-md-9">
-                <ul class="nav nav-pills pull-right font-gray-mormal">
+        	<div class="col-md-2">
+            	<div class="hidden-xs pull-left">
+            		<a href="index.php" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-8">
+            	
+                <ul class="nav nav-pills pull-right hidden-xs">
+                	<li><a href="#managed-office" class="btscroll">THE DIFFERENCE</a></li>
+                    <li><a href="#how-big-is-your-business" class="btscroll">YOUR BUSINESS</a></li>
+                    <li><a href="#how-does-pricing-work" class="btscroll">PRICING</a></li>
+                    <li><a href="#what-in-it-for-you" class="btscroll">WHAT YOU GET</a></li>
+                    <li><a href="#managed-office-component" class="btscroll">COMPONENT</a></li>
+                </ul>
+                
+                <ul class="nav nav-pills nav-pills-mobile pull-left visible-xs">
+                	<li><a href="#managed-office" class="btscroll">THE DIFFERENCE</a></li>
                     <li><a href="#how-big-is-your-business" class="btscroll">YOUR BUSINESS</a></li>
                     <li><a href="#how-does-pricing-work" class="btscroll">PRICING</a></li>
                     <li><a href="#what-in-it-for-you" class="btscroll">WHAT YOU GET</a></li>
@@ -282,19 +309,19 @@
                 </ul>
             </div>
             <div class="visible-lg">
-                <div class="col-md-3">
-                    <ul class="fa-ul">
-                        <li>
-                            <a href="callto:123.456.7890"><i class="fa-li fa fa-phone fa-lg font-gray-mormal"></i>
-                            <span class="font-gray-mormal">123.456.7890</span></a>
-                        </li>
-                        <li>
-                        	<a href="#set-up-an-apointment" class="btscroll">
-                            	<i class="fa-li fa fa-calendar fa-lg font-gray-mormal"></i>
-                            	<span class="font-gray-mormal">SCHEDULE A MEETING</span>
+                <div class="col-md-2 nopadding">
+                	<div class="divcallto">
+                            <a href="callto:123.456.7890">
+                            	<i class="fa fa-phone fa-lg font-gray-mormal"></i>
+                            	123.456.7890
                             </a>
-                        </li>
-                     </ul>
+                    </div>
+                    <div class="divschedule">
+                        	<a href="#set-up-an-apointment" class="btscroll">
+                            	<i class="fa fa-calendar fa-lg font-gray-mormal"></i>
+                            	Schedule a meeting
+                            </a>
+                    </div>   
                  </div>
             </div>
          </div>
@@ -438,7 +465,7 @@
 					<source src="videos/movie.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>-->
-                <iframe width="280" height="170" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
+                <iframe width="290" height="175" src="//www.youtube.com/embed/8hkMuw9PIUo" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="space20 visible-xs"></div>
 		</div>
@@ -815,7 +842,7 @@
 			  </div>
 			  
 			  <div class="col-md-4">
-		          <span class="hidden-xs"><strong>SCHEDULE A MEETING</strong></span>
+		          <a href="#set-up-an-apointment" class="btscroll hidden-xs"><span><strong>SCHEDULE A MEETING</strong></span></a>
 			  </div>
 			  <div class="space20 visible-xs"></div>
 			  <div class="col-md-3">
@@ -880,6 +907,20 @@ if(isAndroid) {
 	jQuery('iframe').css('max-width',winw);
 }
 jQuery(document).ready(function($) {
+	var ulwidth = $('ul.dropdown-menu').width();
+		ulwidth = ulwidth + 6;
+	var	ulwidth2 = ulwidth + 50;
+	$('ul.dropdown-menu li').hover(function(){
+		$(this).find('.lidesc').css({"display":"block","position":"absolute","top": -3,"left": ulwidth,"width": ulwidth2,"height": "auto"});
+	},function(){ 
+		$(this).find('.lidesc').hide();
+	});
+	
+    $('iframe').each(function(){
+        var url = $(this).attr("src");
+        $(this).attr("src",url+"?wmode=transparent");
+    });
+
 	$('#div-navsticky').sticky({topSpacing: 0});
 	var slider = $('#testimonial-slider').bxSlider({
 			minSlides: 1,
