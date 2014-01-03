@@ -10,7 +10,7 @@
                         <p class="fs14b">You focus on your business. We handle the technology that runs it.</p>
                     </div>
                 </div>
-                <div class="col-sm-7 col-md-7">
+                <div class="col-sm-7 col-md-7 home-banner">
                 	<div class="space40 visible-sm"></div>
                 	<div class="hidden-xs">
                         <div class="hspace">

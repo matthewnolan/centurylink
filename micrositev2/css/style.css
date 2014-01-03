@@ -630,8 +630,11 @@ a.btnext {
 }
 
 .line-gradient {
-	background:url(../images/line_gradient.png) no-repeat transparent;
-	width: 1020px;
+	background:transparent url(../images/line_gradient.png) center no-repeat;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/line_gradient.png', sizingMethod='scale');
+	max-width: 1020px;
+	width: 100%;
 	height: 10px;
 	margin: 0 auto;
 }
@@ -1155,4 +1158,58 @@ form.cmxform .gray * {
 
 .head-contact{
 	padding: 0;
+}
+
+.home-vid-1{
+	width: 100%;
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+	.home-vid-1{
+		max-height: 195px;
+	}
+	.tile-it-mobusiness{
+		font-size: 86%;
+	}
+	.content-it-mobusiness{
+		font-size: 86%;
+	}
+	.fullwidth-sm{
+		width: 100%;
+	}
+	#layer-mdata-welcome{
+		left: 80px;
+		width: 100px;
+	}
+	#text-layer-mdata-welcom{
+		left: 116px;
+	}
+	#layer-mapps-welcome{
+		width: 100px;
+		left: -70px;
+	}
+	#layer-mapps-welcome img{
+		width: 150px;
+	}
+	#text-layer-mapps-welcom{
+		top: 136px;
+	}
+	#layer-mvoice-welcome{
+		width: 100px;
+		top: 170px;
+		left: 165px;
+	}
+	#text-layer-mvoice-welcom{
+		top:95px;
+		left: 0;
+	}
+	.bg-circle{
+		width: 323px;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 992px){
+	.home-vid-1{
+		max-height: 225px;
+	}
 }

@@ -123,7 +123,7 @@ jQuery(document).ready(function($) {
 	
 	$("#formcontact").validate();
 	
-	$('.slideshow').bxSlider({
+	var whatinitslide = $('.slideshow').bxSlider({
 			mode : 'fade',
 			minSlides: 1,
 			maxSlides: 1,
@@ -131,6 +131,9 @@ jQuery(document).ready(function($) {
 			auto: true,
 			autoControls: false,
 			controls : false
+	});
+	$('.slideshow').bind('click', function(){
+		whatinitslide.goToNextSlide();
 	});
 	
 	$('a.btscroll').click(function(e){
