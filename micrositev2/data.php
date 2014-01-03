@@ -40,9 +40,9 @@
             <div class="visible-lg">
                 <div class="col-md-2 nopadding">
                 	<div class="divcallto">
-                            <a href="callto:123.456.7890">
+                            <a href="callto:800.361.0833">
                             	<i class="fa fa-phone fa-lg font-gray-mormal"></i>
-                            	123.456.7890
+                            	800.361.0833
                             </a>
                     </div>
                     <div class="divschedule">
@@ -55,6 +55,75 @@
             </div>
          </div>
     </div>
+</div>
+<div class="line-break sprite"></div>
+<div id="contentpagedata">
+        <div class="container" id="you-want-more-data-specifics">
+            <div class="space38 hidden-xs"></div>
+        <h2 class="text-center">You want more DATA specifics ?</h2>
+        <div class="space38 hidden-xs"></div>
+        <div class="overlay-ethernet">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="space38 hidden-xs"></div>
+                    <h2>Ethernet Connection</h2>
+                    <div class="visible-xs">
+                        <img src="images/mobi/ethernet_connection.png" alt="" class="img-responsive" />
+                    </div>
+                    <p class="fs14b">
+                    &bull; Depending on your needs and the number of seats you purchase, Managed Office comes with either a 10/10Mbps Ethernet connection (10-20 seats) or a 100/100Mbps Ethernet connection (21+ seats) <br />
+    &bull; For single-site installations, Managed Office uses CenturyLink Internet Port offering Tier 1 reliability <br />
+    &bull; For multi-site installations, Managed Office uses dedicated Ethernet access<br />
+    &bull; Your Ethernet connection comes with quality of service (QoS), which prioritizes voice traffic over data (so your calls remain crystal clear) prioritizes delay-sensitive voice traffic over other types of data, for crystal clear calls <br />
+    &bull; For multi-site installations, Managed Office uses dedicated Ethernet access<br />
+    &bull; AdTran wireless access point
+                    </p>
+                    
+                </div>
+                <div class="col-md-6">
+                    <div class="space38 hidden-xs"></div>
+                    <div class="hidden-xs">
+                            <img src="images/ethernet_connection.png" alt="" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space60"></div>
+        <div class="space100 visible-xs"></div>
+        <div class="space100 visible-xs"></div>
+        <div class="hidden-xs"><div class="line-gradient"></div></div>
+                  <div class="visible-xs"><div class="mobi-line-gradient"></div></div>
+        <div class="space40 visible-xs"></div>
+        <div class="space40 hidden-xs"></div>
+        <div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="space38 hidden-xs"></div>
+                        <h2>Routers & Switches</h2>
+                        <div class="visible-xs">
+                            <img src="images/mobi/router.png" alt="" class="img-responsive" />
+                        </div>
+                        <p class="fs14b">
+                              With Managed Office, CenturyLink handles the installation, configuration, maintenance, software updates, and repair of all your switches and routers. The equipment varies based on the number of seats you purchase. Each phone, printer, wireless access point, etc., requires that you purchase a "seat" to connect it to the network.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hidden-xs">
+                            <div class="space38 hidden-xs"></div>
+                            <img src="images/router.png" alt="" class="img-responsive" />
+                        </div>
+                    </div>
+                </div>
+                <div class="space40 hidden-xs"></div>
+        </div>
+        <div class="nextpage visible-lg">
+            <a href="#set-up-an-apointment" class="btscroll">
+                <i class="sprite down-arrow"></i>
+                <span>SET UP AN APPOINTMENT</span>
+            </a>
+        </div>
+        <div class="space20 visible-lg"></div>
+        </div>
 </div>
 <!-- BEGIN LivePerson Button Code -->
 <div id="lpButDivID-1387813752610" class="icolivechat hidden-xs"></div>

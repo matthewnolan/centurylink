@@ -73,7 +73,7 @@
 	                                  	</ul>
                                   	</li>
                                   	<li class="last">
-                                  		<div class="col-xs-6 phone"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span>123.456.7890</span></a></div>
+                                  		<div class="col-xs-6 phone"><a href="callto:800.361.0833"><i class="fa fa-phone"></i>  <span>800.361.0833</span></a></div>
                                   		<div class="col-xs-6 social-header">
 					                        <a href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook" class="facebook" target="_blank" rel="nofollow">
 					                            <span class="fa-stack">
@@ -112,7 +112,7 @@
                         
                     <div class="col-xs-0 col-sm-3 col-md-3" style="padding:0;">
                         <ul class="fa-ul hidden-xs">
-                          <li><a href="callto:123.456.7890"><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></a></li>
+                          <li><a href="callto:800.361.0833"><i class="fa-li fa fa-phone fa-lg"></i><span>800.361.0833</span></a></li>
                           <li><a href="#set-up-an-apointment" class="btscroll"><i class="fa-li fa fa-calendar fa-lg"></i><span>SCHEDULE A MEETING</span></a></li>
                           <li class="visible-sm">
                            		<a href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook" class="facebook" target="_blank" rel="nofollow">
