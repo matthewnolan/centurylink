@@ -1,4 +1,5 @@
 <script type="text/javascript">
+
 	jQuery(document).ready(function($) {
 		$('.readmore').readmore({
 			maxHeight:40,
