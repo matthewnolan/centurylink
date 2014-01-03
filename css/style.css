@@ -1490,19 +1490,13 @@ h3.easy-title{
 
 	.sticky-nav ul.multi{
 		float:left;
-		padding:10px 0;
-		width:70%;
-		padding-left:10%;
+		width:100%;
 	}
 	.sticky-nav ul.multi li{
 		float:left;
 		display:inline;
-		line-height:25px;
-		padding:0;
+		padding:20px 0;
 		margin:0;
-	}
-	.sticky-nav ul.multi li:nth-child(3n){
-		clear:left;	
 	}
 	.fix-center{
 		display:none;
@@ -1711,15 +1705,11 @@ h3.easy-title{
 	}
 	#sticky-nav li{
 		padding:0;
-		float:none !important;
 		display:inline-block !important;
 	}
 	#sticky-nav li a{
 		padding:0 10px 0 0;
 		font-size:13px;
-	}
-	#sticky-nav li:last-child a, #sticky-nav  li:nth-child(2n+2) a{
-		padding-right:0 !important;
 	}
 	#sticky-nav  li a.has-padding{
 		padding-right:10px !important;
