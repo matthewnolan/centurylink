@@ -43,7 +43,7 @@
 					<div class="row secure-detail">
 						<div class="col-sm-4 first">
 							<img class="visible-xs" src="images/customer-data.jpg" alt=""/>
-							<h3>Only Cloud Backup <br/>Service to Receive <br/><span>FIPS 140-2 certification</span></h3>
+							<h3><i>Only Cloud Backup <br/>Service to Receive</i> <br/><span>FIPS 140-2 certification</span></h3>
 							<div class="sreadmore">
 								<p>Asigra's agentless cloud backup and recovery offers and industry-leading compliant solution:</p>
 								<div>
@@ -62,7 +62,7 @@
 						</div>
 						<div class="col-sm-4 mid">
 							<img class="visible-xs" src="images/network.jpg" alt=""/>
-							<h3>End-to-end<br/><span>SSL Encryption</span></h3>
+							<h3><i>End-to-end</i><br/><span>SSL Encryption</span></h3>
 							<div class="sreadmore">
 								<p>SSl connection with X.509 certificate utilizes CenturyLink network with:</p>
 								<div>
@@ -80,7 +80,7 @@
 						</div>
 						<div class="col-sm-4 last">
 							<img class="visible-xs" src="images/sercurity.jpg" alt=""/>
-							<h3>Highly Secure &<br/><span>Compliant Centers</span></h3>
+							<h3><i>Highly Secure &</i><br/><span>Compliant Centers</span></h3>
 							<div class="sreadmore">
 								<p>Your data is protected in highly secure data centers:</p>
 								<div>

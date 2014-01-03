@@ -1303,6 +1303,9 @@ a object{
 	font-size:20px;
 	line-height:20px;
 }
+.secure-detail h3 i{
+	font-style: italic;
+}
 .secure-detail h3 span{
 	font-size:26px;
 	line-height:30px;
