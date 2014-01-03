@@ -316,12 +316,19 @@
 <div id="graph" class="graph sticky-padding">
 	<div class="container wrapper">
 		<div class="padding-fix">
-			<h3>How CenturyLink delivers a better hosted application environment</h3>
-			<div class="excerpt">
-				Our integrated, end-to-end platform provides a robust infrastructure solution that ensures application availability, security and business continuity. We deliver this performance for all of your locations, home offices and mobile workers. With CenturyLink's Management Console, you get the visibility and control you need to deliver a superior user experience.
+			<div class="hidden-xs">
+				<h3>How CenturyLink delivers a better hosted application environment</h3>
+				<div class="excerpt">
+					Our integrated, end-to-end platform provides a robust infrastructure solution that ensures application availability, security and business continuity. We deliver this performance for all of your locations, home offices and mobile workers. With CenturyLink's Management Console, you get the visibility and control you need to deliver a superior user experience.
+				</div>
+				<img src="images/temp-graph.png" style="margin-top:50px;"/>
 			</div>
-			<img src="images/temp-graph.png" style="margin-top:50px;"/>
-			<div class="mobile-graph-text visible-xs"></div>
+			<div class="mobile-graph-text visible-xs">
+				<h3>How CenturyLink delivers a better hosted application environment</h3>
+				<p>Provide your users with access to the data they need whenever they need it.  
+				Our 99.95% uptime SLA is backed by the investments we ve made in our network and data center to provide a secure, compliant environments for your data.  
+				We provide end-to-end security from device based encryption, across the network and within our  carrier grade data centers.</p>
+			</div>
 			<div class="mobile-graph visible-xs">
 				<div class="mobile-graph-top">
 					<div class="top-block first">

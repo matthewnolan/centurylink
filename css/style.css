@@ -1711,6 +1711,8 @@ h3.easy-title{
 	}
 	#sticky-nav li{
 		padding:0;
+		float:none !important;
+		display:inline-block !important;
 	}
 	#sticky-nav li a{
 		padding:0 10px 0 0;
@@ -1719,13 +1721,16 @@ h3.easy-title{
 	#sticky-nav li:last-child a, #sticky-nav  li:nth-child(2n+2) a{
 		padding-right:0 !important;
 	}
+	#sticky-nav  li a.has-padding{
+		padding-right:10px !important;
+	}
 	.mobile-trick-padding{
 		padding-top:20px;
 	}
 	.mobile-graph{
 		width:280px;
 		height:653px;
-		margin:0 auto;
+		margin:20px auto 0;
 		background-image:url(../images/graph_mobile.png);
 		background-position: top left;
 		background-repeat: no-repeat;
@@ -1845,4 +1850,9 @@ h3.easy-title{
 		width:105px;
 	}
 
+}
+@media screen and (min-width:479px) and (max-width:767px){
+	#sticky-nav  li:nth-child(2n+2) a{
+		padding-right:10px !important;
+	}
 }

@@ -5,6 +5,9 @@
 .pricing {
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/price-bg.jpg', sizingMethod='scale');
 }
+#graph{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/graph-bg.png', sizingMethod='scale');
+}
 #home .hero-left{
 	background-image:url("../images/white-cloud.png");
 }
