@@ -75,7 +75,7 @@
                     </div>
                 </div>
             </div>
-        <div class="row"> 
+        <div class="row">
         	<div class="col-md-12 hidden-xs" style="padding-top: 200px;">
                 <div class="nextpage">
                     <a href="#learn-how-with-managed-office" class="btscroll">
@@ -84,4 +84,4 @@
                     </a>
                 </div>
             </div>
-        </div> 
+        </div>

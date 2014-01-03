@@ -141,7 +141,10 @@ a#logo-sticky {
 	height: 20px;
 	line-height: 20px;
 }
-
+.space25{
+	height: 25px;
+	line-height: 25px;
+}
 .space40,
 .space38 {
 	height: 40px;
@@ -1148,4 +1151,8 @@ input.error {
 }
 form.cmxform .gray * {
     color: gray;
+}
+
+.head-contact{
+	padding: 0;
 }

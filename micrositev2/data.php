@@ -10,18 +10,18 @@
 <div id="div-navsticky">
 	<div class="container">
     	<div class="row">
-        	<div class="col-md-2">
+        	<div class="col-md-2 col-sm-3">
             	<div class="hidden-xs pull-left">
             		<a href="index.php" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-8">
+            <div class="col-xs-12 col-sm-6 col-md-7">
                 <ul class="nav nav-pills">
                 	<li><a href="#contentpagedata" class="btscroll">DATA SPECIFICS</a></li>
                 </ul>
             </div>
-            <div class="visible-lg">
-                <div class="col-md-2 nopadding">
+            <div class="visible-lg visible-md visible-sm">
+                <div class="col-md-3 col-sm-3 col-lg-2 nopadding">
                 	<div class="divcallto">
                             <a href="callto:800.361.0833">
                             	<i class="fa fa-phone fa-lg font-gray-mormal"></i>
@@ -43,12 +43,12 @@
 <div id="contentpagedata">
         <div class="container" id="you-want-more-data-specifics">
             <div class="space38 hidden-xs"></div>
-        <h2 class="text-center">You want more DATA specifics ?</h2>
-        <div class="space38 hidden-xs"></div>
+        <h2 class="text-center">You want more DATA specifics?</h2>
+        <div class="space38 hidden-xs hidden-sm"></div>
         <div class="overlay-ethernet">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="space38 hidden-xs"></div>
+                <div class="col-sm-6">
+                    <div class="space38 hidden-xs hidden-sm"></div>
                     <h2>Ethernet Connection</h2>
                     <div class="visible-xs">
                         <img src="images/mobi/ethernet_connection.png" alt="" class="img-responsive" />
@@ -65,7 +65,7 @@
                     </p>
                     
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <div class="space38 hidden-xs"></div>
                     <div class="hidden-xs">
                             <img src="images/ethernet_connection.png" alt="" class="img-responsive" />
@@ -82,8 +82,8 @@
         <div class="space40 hidden-xs"></div>
         <div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="space38 hidden-xs"></div>
+                    <div class="col-sm-6">
+                        <div class="space38 hidden-xs hidden-sm"></div>
                         <h2>Routers & Switches</h2>
                         <div class="visible-xs">
                             <img src="images/mobi/router.png" alt="" class="img-responsive" />
@@ -92,7 +92,7 @@
                               With Managed Office, CenturyLink handles the installation, configuration, maintenance, software updates, and repair of all your switches and routers. The equipment varies based on the number of seats you purchase. Each phone, printer, wireless access point, etc., requires that you purchase a "seat" to connect it to the network.
                         </p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-sm-6">
                         <div class="hidden-xs">
                             <div class="space38 hidden-xs"></div>
                             <img src="images/router.png" alt="" class="img-responsive" />

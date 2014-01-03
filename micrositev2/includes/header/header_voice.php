@@ -1,6 +1,6 @@
 <div class="space38 visible-lg"></div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <div id="div-left-welcome">
                     	<div class="space38 visible-lg"></div>
                         <h2>How does Managed <span class="font-green-mormal">VOICE</span> work within Managed Office?</h2>
@@ -20,9 +20,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                 	<div class="hidden-xs">
                     	<div class="space60 visible-lg"></div>
+                    	<div class="space25 visible-sm visible-md"></div>
                     	<img src="images/picvoice.png" alt="" class="img-responsive" />
                     </div>
                     <div class="visible-xs">

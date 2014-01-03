@@ -2,24 +2,24 @@
 <footer id="footer">
 	<div class="container">
 		<div class="row">
-        	<div class="col-sm-8 col-md-8">
+        	<div class="col-sm-8">
              <div class="row">
-			  <div class="col-md-4">
+			  <div class="col-sm-4">
 			      <a href="index.php"> <span><strong>HOME</strong></span></a>
 			  </div>
-			  <div class="space20 hidden-lg"></div>
-			  <div class="col-md-4">
+			  <div class="space20 hidden-lg hidden-md hidden-sm"></div>
+			  <div class="col-sm-4">
 			      <div><span><strong>PRODUCT COMPONENTS</strong></span></div>
                   <div class="space20 hidden-xs"></div>
 			      <a href="data.php"><span><strong>MANAGED DATA</strong></span></a><br>
 			      <a href="voice.php"><span><strong>MANAGED VOICE</strong></span></a><br>
 			      <a href="apps.php"><span><strong>MANAGED APPLICATIONS</strong></span></a>
 			  </div>
-			   <div class="space20 hidden-lg"></div>
-			  <div class="col-md-4">
+			   <div class="space20 hidden-lg hidden-md hidden-sm"></div>
+			  <div class="col-sm-4">
 		          <a href="#set-up-an-apointment" class="btscroll hidden-xs"><span><strong>SCHEDULE A MEETING</strong></span></a>
 			  </div>
-			  <div class="space20 hidden-lg"></div>
+			  <div class="space20 hidden-lg hidden-md hidden-sm"></div>
             </div>
            </div>
 		   <div class="col-sm-4 col-md-4">
