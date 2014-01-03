@@ -129,6 +129,7 @@ jQuery(document).ready(function($) {
 	//Check active page
 	if(window.location.pathname === "/" || window.location.pathname === "/index.html" || window.location.pathname === "/index.php"){
 		$('#mainnav li.home-link a').addClass('active');
+		$('#mobilenav li.home-link a').addClass('active');
 	}else{
 		$('#mainnav a#solutions-link').addClass('active');
 	}

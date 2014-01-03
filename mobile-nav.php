@@ -3,6 +3,11 @@
 		<ul id="mobilenav" class="checkactive">
 			<li>
 				<ul>
+					<li class="home-link"><a href="." title="">Home</a></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
 					<li><a href="business.php" title="">Business Owner</a></li>
 					<li><a href="business-apps.php" title="">Hosted Applications</a></li>
 					<li><a href="business-databackup.php" title="">Data Backup</a></li>
