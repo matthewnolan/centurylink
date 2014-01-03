@@ -343,15 +343,15 @@
 				
 				
 				<div class="mobile-graph-mid">
-					<div class="mid-block">
+					<div class="mid-block first">
 						<h4>CenturyLink Network</h4>
 						<p>Core MPLS network with 99.999% availability & deep national/local fiber</p>
 					</div>
-					<div class="mid-block">
+					<div class="mid-block mid">
 						<h4>CenturyLink Data Center</h4>
 						<p>are hosted in compliant data centers with 100% uptime and layered security</p>
 					</div>
-					<div class="mid-block">
+					<div class="mid-block last">
 						<h4>Internet</h4>
 						<p>Tier 1 Internet for fast content serving to users</p>
 					</div>

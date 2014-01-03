@@ -1771,15 +1771,13 @@ h3.easy-title{
 		top:0;
 	}
 	.top-block h4{
-		font-size: 9px;
+		font-size: 9.5px;
 		line-height: 12px;
 		padding-bottom:10px;
 	}
 	.top-block p{
-		font-size: 8px;
+		font-size: 8.31px;
 		line-height: 11px;
-	}
-	.top-block p{
 	}
 	.mobile-graph-top .first{
 		left:0;
@@ -1789,6 +1787,45 @@ h3.easy-title{
 	}
 	.mobile-graph-top .last{
 		left:186px;
+	}
+	.mobile-graph-join p{
+		width:61px;
+		height:57px;
+		padding:15px 5px;
+		position:absolute;
+		top:0;
+		left:103px;
+		text-align:center;
+		font-size:8px;
+		line-height:10px;
+		color:#131313;
+	}
+	.mid-block{
+		position:absolute;
+		line-height: 12.12px;
+		text-align: center;
+	}
+	.mid-block h4{
+		font-size: 10.78px;
+		line-height: 12px;
+		padding-bottom:10px;
+		color:#ffffff;
+		text-align: center;
+	}
+	.mid-block p{
+		font-size: 9px;
+		text-align: center;
+	}
+	.mobile-graph-mid .first{
+		top:50px;
+		left:35px;
+		width:150px;
+	}
+	.mobile-graph-mid .mid{
+		top:150px;
+	}
+	.mobile-graph-mid .last{
+		top:130px;
 	}
 
 }
