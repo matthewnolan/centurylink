@@ -71,7 +71,6 @@
     <div class="space40 hidden-xs"></div>
 </footer>
 <!--# Area Scipts #-->
-<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript" src="js/jquery.sticky.js"></script>
 <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
@@ -80,7 +79,7 @@
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("android") > -1;
 if(isAndroid) {
-	var winw = jQuery(window).width(); 
+	var winw = jQuery(window).width();
 	jQuery('iframe').css('max-width',winw);
 }
 jQuery(document).ready(function($) {
@@ -91,7 +90,7 @@ jQuery(document).ready(function($) {
 	$(window).resize(function(){
 		$('ul.dropdown-menu li').hover(function(){
 			$(this).find('.lidesc').css({"display":"block","position":"absolute","top": -3,"left": ulwidth,"width": ulwidth2,"height": "auto"});
-		},function(){ 
+		},function(){
 			$(this).find('.lidesc').hide();
 		});
 	});*/
