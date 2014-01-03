@@ -26,7 +26,7 @@
                             </div>
                             
                             <div id="layer-mapps-welcome">
-                                <img src="images/computer.png" alt="" class="img-responsive" />
+                                <img src="images/computer.png" alt="" class="" />
                                 <div class="text-layer-welcom" id="text-layer-mapps-welcom">
                                     <span class="font-green-mormal block"><strong>Managed APPLICATIONS</strong></span>
                                     <p class="width175">Cloud-based applications with advanced messaging and collaboration</p>

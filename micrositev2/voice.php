@@ -40,9 +40,9 @@
             <div class="visible-lg">
                 <div class="col-md-2 nopadding">
                 	<div class="divcallto">
-                            <a href="callto:123.456.7890">
+                            <a href="callto:800.361.0833">
                             	<i class="fa fa-phone fa-lg font-gray-mormal"></i>
-                            	123.456.7890
+                            	800.361.0833
                             </a>
                     </div>
                     <div class="divschedule">
