@@ -1,7 +1,6 @@
 <?php 
 $directory = "/pdf";
 $filename = $_GET['fname'];
-echo $filename;
 $files = explode('/',$filename);
 $count = count($files);
 $file = $files[$count  - 1];

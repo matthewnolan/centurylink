@@ -59,7 +59,7 @@
 							<li>Email access from any Internet connection using Outlook Web access</li>
 							<li>Customize mailbox size based on user </li>
 							<li>Add more space with click of a button <br/><br/>
-								<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
+								<a href="download.php?fname=it-hosted-apps/Microsoft_Hosted_Exchange.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
 						</ul>
 					</div>
 				</div>
@@ -75,7 +75,7 @@
 							<li>Your server maintained by Microsoft-certified techs in our data centers</li>
 							<li>Automatic replication duplicates documents across geographically dispersed data centers, providing complete data redundancy</li>
 							<li>No training required for IT on setup or maintenance <br/><br/>
-								<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
+								<a href="download.php?fname=it-hosted-apps/Microsoft_Hosted_SharePoint.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
 						</ul>
 					</div>
 				</div>
@@ -94,7 +94,7 @@
 							<li>Eliminates separate telephony support</li>
 							<li>Reduces help-desk queries</li>
 							<li>Reduces teleconferencing costs <br/><br/>
-								<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
+								<a href="download.php?fname=it-hosted-apps/Microsoft_Hosted_Lync.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
 						</ul>
 					</div>
 				</div>
@@ -143,7 +143,7 @@
 					<ul>
 						<li>Endpoint security protects every device on your network against infection</li>
 						<li>Scales with your environment as it grows <br/><br/>
-							<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
+							<a href="download.php?fname=it-hosted-apps/McAfee.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
 						<li class="last"><img src="images/mcafee.png" alt=""/></li>
 					</ul>
 				</div>
@@ -189,7 +189,7 @@
 							<li>Centralize all capture and storage for quick restore and recovery</li>
 							<li>eDiscovery features such as notation, logging and indexing increase search relevancy</li>
 							<li>Avoid the costs and complexity of building and managing your own archiving system <br/><br/>
-								<a href="download.php?fname=t.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/>
+								<a href="download.php?fname=it-hosted-apps/CenturyLink_Web_Hosting.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/>
 							</li>
 						</ul>
 					</div>
@@ -222,7 +222,7 @@
 					</p>
 					<p class="block-content">
 						Find out more about CenturyLink Web Hosting. <br/>
-						<a class="istyle" href="download.php?fname=t.pdf">Download</a> <img src="images/pdf.png" alt=""/> features and pricing 
+						<a class="istyle" href="download.php?fname=it-hosted-apps/FastForward_Onboarding.pdf">Download</a> <img src="images/pdf.png" alt=""/> features and pricing 
 					</p>
 				
 				</div>
