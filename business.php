@@ -36,9 +36,9 @@
 </div>
 
 <div class="sticky-nav">
-	<div class="container wrapper hidden-xs">
+	<div class="container wrapper">
 		<div class="padding-fix">
-			<a href=".">
+			<a href="." class="hidden-sm hidden-xs">
 				<object class="nav-logo" data="images/nav-logo.svg" width="141" height="30" type="image/svg+xml">
 					<img  src="images/nav-logo.png" alt="CENTURYLINK" width="141" height="30"/>
 				</object>
@@ -47,21 +47,21 @@
 				<li><a href="#bhosted">Hosted Applications</a></li>
 				<li><a href="#bhdb">Data Backup</a></li>
 			</ul>
-			<div class="fix-center"><a href="tel:800.361.0833">Call 800.361.0833</a></div>
+			<div class="fix-center hidden-sm hidden-xs"><a href="tel:800.361.0833">Call 800.361.0833</a></div>
 		</div>
 	</div>
 	
-	<div class="mobile-sticky-nav visible-xs">
-		<a id="mobile-sticky-nav-button"  href="#mobile-sticky-nav">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</a>
-		<ul id="mobile-sticky-nav">
-			<li><a href="#bhosted">Hosted Applications</a></li>
-			<li><a href="#bhdb">Data Backup</a></li>
-		</ul>
-	</div>
+<!-- 	<div class="mobile-sticky-nav visible-xs"> -->
+<!-- 		<a id="mobile-sticky-nav-button"  href="#mobile-sticky-nav"> -->
+<!-- 			<span class="icon-bar"></span> -->
+<!-- 			<span class="icon-bar"></span> -->
+<!-- 			<span class="icon-bar"></span> -->
+<!-- 		</a> -->
+<!-- 		<ul id="mobile-sticky-nav"> -->
+<!-- 			<li><a href="#bhosted">Hosted Applications</a></li> -->
+<!-- 			<li><a href="#bhdb">Data Backup</a></li> -->
+<!-- 		</ul> -->
+<!-- 	</div> -->
 </div>
 
 

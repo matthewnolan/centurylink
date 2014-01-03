@@ -21,7 +21,7 @@
 <div class="bhosted">
 	<div class="container wrapper">
 		<div class="padding-fix">
-			<div class="row" id="email">
+			<div class="row sticky-padding" id="email">
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
 						Now you can be on the same page, and you can share the page too.
@@ -79,7 +79,7 @@
 			<hr class="block-hr"/>
 			
 	
-			<div id="safe" class="row">
+			<div id="safe" class="row sticky-padding">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="images/fpo4_2x.png" width="380" alt=""/>
 				</div>
@@ -134,7 +134,7 @@
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
 			
-			<div id="webmanagement" class="row">
+			<div id="webmanagement" class="row sticky-padding">
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
 						Your website should work as hard as you do.
@@ -217,7 +217,7 @@
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
 			
-			<div class="row" id="ffb">
+			<div class="row sticky-padding" id="ffb">
 				<div class="col-sm-7 copy-block">
 					<h3 class="block-title">
 						Onboard effortlessly and get started today.

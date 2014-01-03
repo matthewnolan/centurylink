@@ -30,7 +30,7 @@
 		});
 	});
 </script>
-<div class="idata" id="safe">
+<div class="idata sticky-padding" id="safe">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="itdb-secure">
@@ -108,7 +108,7 @@
 </div>
 	
 	
-<div class="pricing" id="tco">
+<div class="pricing sticky-padding" id="tco">
 	<div class="container wrapper">
 		<div class="padding-fix">
 		
@@ -146,7 +146,7 @@
 </div>
 	
 	
-<div class="idata" id="console">
+<div class="idata sticky-padding" id="console">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			
@@ -206,7 +206,7 @@
 			</div>
 			<hr class="block-hr"/>
 						
-			<div class="itdb-secure" id="ffb">
+			<div class="itdb-secure sticky-padding" id="ffb">
 				<h3 class="secure-title">Fast Onboarding to Speed Migration</h3>
 				<div class="secure-content">
 					When it comes to onboarding, the faster and easier, the better.

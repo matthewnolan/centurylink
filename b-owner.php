@@ -1,4 +1,4 @@
-<div id="bhosted" class="bhosted">
+<div id="bhosted" class="bhosted sticky-padding">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row">
@@ -29,7 +29,7 @@
 			<hr class="block-hr"/>
 			
 	
-			<div id="bhdb" class="row">
+			<div id="bhdb" class="row sticky-padding">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="images/fpo2_2x.png" width="394" alt=""/>
 				</div>

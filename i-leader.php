@@ -1,4 +1,4 @@
-<div class="ihosted">
+<div id="ihosted" class="ihosted sticky-padding">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row">
@@ -29,7 +29,7 @@
 			
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
-			<div class="row" id="ihdb">
+			<div class="row sticky-padding" id="ihdb">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="images/fpo7_2x.png" width="432" alt=""/>
 				</div>

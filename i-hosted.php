@@ -21,7 +21,7 @@
 		});
 	});
 </script>
-<div class="ihosted">
+<div id="ihosted" class="ihosted sticky-padding">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row">
@@ -313,7 +313,7 @@
 			</div>
 		</div>
 	</div>
-<div id="graph" class="graph">
+<div id="graph" class="graph sticky-padding">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<h3>How CenturyLink delivers a better hosted application environment</h3>
@@ -326,7 +326,7 @@
 </div>
 	<div class="container wrapper">
 		<div class="padding-fix">	
-			<div class="row" id="ffb">
+			<div class="row sticky-padding" id="ffb">
 				<div class="col-sm-7 copy-block">
 					<h3 class="block-title">
 						Onboard effortlessly and get started today.

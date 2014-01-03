@@ -18,7 +18,7 @@
 		});
 	});
 </script>
-<div class="bdata" id="easy">
+<div class="bdata sticky-padding" id="easy">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row">
@@ -38,7 +38,7 @@
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
 			
-			<div class="row" id="safe">
+			<div class="row sticky-padding" id="safe">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="images/fpo4_2x.png" width="380" alt=""/>
 				</div>
@@ -65,7 +65,7 @@
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
 			
-			<div class="row" id="ffb">
+			<div class="row sticky-padding" id="ffb">
 				<div class="col-sm-7 copy-block">
 					<h3 class="block-title">
 						Onboard effortlessly and get started today.
@@ -133,7 +133,7 @@
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
 			
-			<div class="row"  id="pricing">
+			<div class="row sticky-padding"  id="pricing">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="images/fpo5_2x.png" width="360" alt=""/>
 				</div>

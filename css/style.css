@@ -167,6 +167,9 @@ a:hover img{
 li.startread{
 	list-style-type:none !important;
 }
+.sticky-padding{
+	padding-top:90px;
+}
 
 /*HEADER*/
 #header{
@@ -862,9 +865,6 @@ a object{
 	font-size:17px;
 	color:#00853f;
 	font-weight:bold;
-}
-#bapps,#bhdb, #easy, #safe, #ffb, #pricing, #ihosted, #ihdb, #tco, #console, #email, #webmanagement{
-	padding-top:90px;
 }
 .copy-block .block-link a{	
 	font-size:16px;
@@ -1692,6 +1692,31 @@ h3.easy-title{
 	}
 	.video-right{
 		margin-bottom:40px;
+	}
+	.sticky-nav{
+		height:auto !important;
+		max-height: auto !important;
+	}
+	.sticky-nav .padding-fix, .sticky-nav li.current, .sticky-nav li.current a{
+		position:static !important;
+	}
+	.sticky-nav li.current a:after{
+	    border:0;
+	}
+	#sticky-nav{
+		margin:0;
+		padding:15px 0;
+		text-align:left;
+	}
+	#sticky-nav li{
+		padding:0;
+	}
+	#sticky-nav li a{
+		padding:0 10px 0 0;
+		font-size:13px;
+	}
+	#sticky-nav li:last-child a{
+		padding-right:0;
 	}
 
 }
