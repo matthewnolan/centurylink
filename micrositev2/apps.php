@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>CenturyLink Microsite</title>
+    <title>MANAGED APPLICATIONS</title>
     <meta name="keywords" content="Keywords Site" />
     <meta name="description" content="Description Site" />
     <meta name="robots" content="follow,index" />
@@ -21,201 +21,9 @@
 </head>
 
 <body>
-<header id="header">
-  <div class="bgdata">
-	<div class="container">
-            <div class="space38 hidden-xs"></div>
-            <div class="space10 visible-xs"></div>
-            <div class="row">
-                    <div class="col-xs-4 col-sm-3 col-md-2">
-                        <a href="index.php" title="Century Link" id="logo" class="sprite">Century Link</a>
-                    </div>
-                    <div class="col-xs-8 col-sm-5 col-md-5">
-                        <nav class="navbar navbar-default hidden-xs" role="navigation">
-                          <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                  <span class="sr-only">Toggle navigation</span>
-                                  <span class="icon-bar"></span>
-                                  <span class="icon-bar"></span>
-                                  <span class="icon-bar"></span>
-                                </button>
-                                <!--<a href="#" class="navbar-brand visible-xs">Menu</a>-->
-                            </div>
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav navbar-mainmenu">
-                                  <li class=""><a href="index.php">HOME</a></li>
-                                  <li class="active dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCT COMPONENTS <b class="caret"></b></a>
-                                  		<ul class="dropdown-menu">
-											<li><a href="data.php">MANAGED DATA</a>
-                                            	<div class="lidesc">
-					                             	<span class="desctext">We manage your internet connection, virtual server, and data back-up.</span>
-                                                </div>
-                                            </li>
-											<li><a href="voice.php">MANAGED VOICE</a>
-                                            	<div class="lidesc">
-                                                	<span class="desctext">We give you phones, a dial tone, and a wide range of advanced calling and messaging features.</span>
-                                                </div>
-                                            </li>
-											<li><a href="apps.php">MANAGED APPLICATIONS</a>
-                                            	<div class="lidesc">
-                                                	<span class="desctext">We provide and manager your business apps so you don&apos;t have to buy or update software.</span>
-                                                </div>
-                                            </li>
-	                                  	</ul>
-                                  </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <nav class="mobile-global-nav visible-xs">
-							<button class="mobile-nav-button" type="button" data-toggle="collapse" data-target="#mobile-nav-content">
-                                <span class="icon-bar"></span>
-                               	<span class="icon-bar"></span>
-                            	<span class="icon-bar"></span>
-                             </button>
-                            <div class="collapse navbar-collapse" id="mobile-nav-content">
-                                <ul class="nav navbar-nav">
-									<li class="active"><a href="index.php">HOME</a></li>
-                                  	<li class="mid">
-                                  		<strong>PRODUCT COMPONENTS</strong>
-	                                  	<ul>
-											<li><a href="data.php">MANAGED DATA</a></li>
-											<li><a href="voice.php">MANAGED VOICE</a></li>
-											<li><a href="apps.php">MANAGED APPLICATIONS</a></li>
-	                                  	</ul>
-                                  	</li>
-                                  	<li class="last">
-                                  		<div class="col-xs-6 phone"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span>123.456.7890</span></a></div>
-                                  		<div class="col-xs-6 social-header">
-					                        <a href="#" class="icofacebook">
-					                            <span class="fa-stack">
-					                                <i class="fa fa-square fa-stack-2x"></i>
-					                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-					                            </span>
-					                        </a>
-					                      
-					                        <a href="#" class="icotwitter">
-					                            <span class="fa-stack">
-					                                <i class="fa fa-square fa-stack-2x"></i>
-					                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-					                            </span>
-					                        </a>
-					                      
-					                        <a href="#" class="icolinkedin">
-					                            <span class="fa-stack">
-					                                <i class="fa fa-square fa-stack-2x"></i>
-					                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-					                            </span>
-					                        </a>
-					                      
-					                        <a href="#" class="icogoogleplus">
-					                            <span class="fa-stack fa-lg">
-					                                <i class="fa fa-square fa-stack-2x"></i>
-					                                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-					                            </span>
-					                        </a>
-					                    </div>
-                                  	</li>
-                                </ul>
-                            </div>
-                    </nav>
-                    <div class="col-xs-0 col-sm-4 col-md-3 hidden-xs">
-                        <ul class="fa-ul">
-                          <li><a href="callto:123.456.7890"><i class="fa-li fa fa-phone fa-lg"></i><span>123.456.7890</span></a></li>
-                          <li><i class="fa-li fa fa-calendar fa-lg"></i><span>SCHEDULE A MEETING</span></li>
-                          <li class="visible-sm">
-                            <a href="#" class="icofacebook">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                          
-                            <a href="#" class="icotwitter">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                          
-                            <a href="#" class="icolinkedin">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                          
-                            <a href="#" class="icogoogleplus">
-                                <span class="fa-stack">
-                                    <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                          </li>
-                        </ul>
-    
-                    </div>
-                    <div class="col-xs-0 col-md-2 hidden-xs hidden-sm social-header">
-                        <a href="#" class="icofacebook">
-                            <span class="fa-stack">
-                                <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                      
-                        <a href="#" class="icotwitter">
-                            <span class="fa-stack">
-                                <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                      
-                        <a href="#" class="icolinkedin">
-                            <span class="fa-stack">
-                                <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                      
-                        <a href="#" class="icogoogleplus">
-                            <span class="fa-stack">
-                                <i class="fa fa-square fa-stack-2x fa-bg-header"></i>
-                                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </div>
-             </div>
-            <div class="space38 visible-lg"></div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="div-left-welcome">
-                    	<div class="space38 visible-lg"></div>
-                        <h2>How do Managed <span class="font-green-mormal">Applications</span> work within Managed Office?</h2>
-                        <p class="fs14b">Managed Office provides your business with a wide range of business applications that you get as a service, which essentially means you'll never have to purchase or upgrade your software again. Managed Office frees you up to focus on your core business, rather than the underlying technology that makes it work day to day.  </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                	<div class="hidden-xs">
-                    	<div class="space60 visible-lg"></div>
-                    	<img src="images/picapps.png" alt="" class="img-responsive" />
-                    </div>
-                    <div class="visible-xs">
-                    	<img src="images/mobi/picapps.png" alt="" class="img-responsive" />
-                    </div>
-                </div>
-            </div>
-            <div class="space60 visible-lg"></div>
-            <div class="nextpage visible-lg paddingtop20">
-            	<a href="#what-app-are-included-within-managed-office" class="btscroll">
-                	<i class="sprite down-arrow"></i>
-                    <span>SHOW ME MORE DATA SPECIFICS</span>
-                </a>
-            </div>
-	</div><!--./container-->
-  </div>
-</header>
-
+<?php
+	include_once( './header.php' );
+?>
 <div id="div-navsticky">
 	<div class="container">
     	<div class="row">
@@ -260,21 +68,27 @@
                 <div class="col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2>Our Messaging and Collaboration includes:</h2>
-                    <p class="font-gray-mormal fs14b">
-                        &bull; Microsoft Hosted Exchange email box with Outlook and 25GB of space per seat <br />
-                        &bull; Microsoft SharePoint and 100GB storage per location <br />
-                        &bull; Domain name transfer or registration for up to 5 domains <br />
+                    <p>
+                    	<ul class="font-gray-mormal fs14b padleft15">
+                        	<li>Microsoft<sup>&reg;</sup> Hosted Exchange email box with Outlook and 25GB of space per seat</li>
+                        	<li>Microsoft<sup>&reg;</sup> SharePoint and 100GB storage per location</li>
+                        	<li>Domain name transfer or registration for up to 5 domains</li>
+                        </ul>
                     </p>
                    	<h2>Our Virtual Server includes:</h2>
-                    <p class="font-gray-mormal fs14b">
-                        &bull; Online data backup: 10GB per seat  <br />
-						&bull; Fips 140-2 service certified with built-in data redundancy for disaster recovery <br />
+                    <p>
+                    	<ul class="font-gray-mormal fs14b padleft15">
+                        	<li>Online data backup: 10GB per seat</li>
+							<li>Fips 140-2 service certified with built-in data redundancy for disaster recovery</li>
+                        </ul>
                     </p>
                     <h2>Our Managed Office Security includes:</h2>
-                    <p class="font-gray-mormal fs14b">
-                    	&bull; Email Protection and Continuity: inbound email filtering, proactive attack detection, and policy enforcement <br />
-						&bull; Email Archiving: 1-year email retention <br />
-						&bull; Endpoint Protection: virus, spyware, spam, Web security, phishing, and desktop firewall protection <br />
+                    <p>
+                    	<ul class="font-gray-mormal fs14b padleft15">
+                        	<li>Email Protection and Continuity: inbound email filtering, proactive attack detection, and policy enforcement</li>
+							<li>Email Archiving: 1-year email retention</li>
+							<li>Endpoint Protection: virus, spyware, spam, Web security, phishing, and desktop firewall protection</li>
+                        </ul>
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -306,7 +120,7 @@
 	<div class="container" id="set-up-an-apointment">
     	<div class="row">
         	<div class="col-md-6">
-            	<h2>Can we set ut a meeting ?</h2>
+            	<h2>Can we set up a meeting ?</h2>
                 <p class="lead">
                 	Just fill in a form, we'll give you a call back and set up a time to meet and talk about Managed Office.
                 </p>
@@ -349,134 +163,11 @@
         </div>
     </div>
 </div>
-<div class="line-break sprite" style="height: 10px;"></div>
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-			  <div class="col-md-2">
-			      <a href="index.php"> <span><strong>HOME</strong></span></a>
-			  </div>
-			  <div class="space20 visible-xs"></div>
-			  <div class="col-md-3">
-			      <div><span><strong>PRODUCT COMPONENTS</strong></span></div>
-                  <div class="space20 hidden-xs"></div>
-			      <a href="data.php"><span><strong>MANAGED DATA</strong></span></a><br>
-			      <a href="voice.php"><span><strong>MANAGED VOICE</strong></span></a><br>
-			      <a href="apps.php"><span><strong>MANAGED APPLICATIONS</strong></span></a>
-			  </div>
-			  
-			  <div class="col-md-4">
-		          <a href="#set-up-an-apointment" class="btscroll hidden-xs"><span><strong>SCHEDULE A MEETING</strong></span></a>
-			  </div>
-			  <div class="space20 visible-xs"></div>
-			  <div class="col-md-3">
-              	  <span class="div-right-social-footer hidden-xs"></span>
-			      <h4 class="hidden-xs">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
-                  <div class="fs14b visible-xs"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span>123.456.7890</span></a></div>
-                  <span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</strong></span>
-                  <div class="space20 visible-xs"></div>
-				  <div id="social-footer">
-                      <a href="#" class="icofacebook">
-                        <span class="fa-stack">
-                          <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
-                          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                        </span>
-                      </a>
-                      
-                      <a href="#" class="icotwitter">
-                        <span class="fa-stack">
-                          <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
-                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                        </span>
-                      </a>
-                      
-                      <a href="#" class="icolinkedin">
-                        <span class="fa-stack">
-                          <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
-                          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                        </span>
-                      </a>
-                      
-                      <a href="#" class="icogoogleplus">
-                        <span class="fa-stack">
-                          <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
-                          <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                        </span>
-                      </a>
-                   </div>
-			      
-			  </div>
-		</div>
-		<div id="div-img-footer" class="hidden-xs"><img src="images/img_footer.png" alt="" class="img-responsive copyimg" /></div>
-	</div>
-    <div class="visible-xs">
-        <img src="images/mobi/bgfooter.png" alt="" class="img-responsive" style="padding-top:15px;" />
-    </div>
-    <div class="container visible-xs">
-    	<span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
-    </div>
-    <div class="space40 hidden-xs"></div>
-</footer>
-<!--# Area Scipts #-->
-<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.validate.js"></script>
-<script type="text/javascript" src="js/jquery.sticky.js"></script>
-<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
-
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-	var ulwidth = $('ul.dropdown-menu').width();
-		ulwidth = ulwidth + 6;
-	var	ulwidth2 = ulwidth + 50;
-	$('ul.dropdown-menu li').hover(function(){
-		$(this).find('.lidesc').css({"display":"block","position":"absolute","top": -3,"left": ulwidth,"width": ulwidth2,"height": "auto"});
-	},function(){ 
-		$(this).find('.lidesc').hide();
-	});
-	
-	$('#div-navsticky').sticky({topSpacing: 0});
-	$("#formcontact").validate();
-	$('a.btscroll').click(function(e){
-		e.preventDefault();
-		var $this = $(this);
-		var targetid = $this.attr('href');
-		$('html, body').animate({
-			scrollTop: $(targetid).offset().top
-		}, 'normal');
-	});
-});
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-27852033-5', 'centurylinkmanagedoffice.com');
-  ga('send', 'pageview');
-  
-  $('a#icofacebook').on('click', function() {
-	  ga('send', 'event', 'a', 'click', 'facebook');
-  });
-  
-  $('a#icotwitter').on('click', function() {
-	  ga('send', 'event', 'a', 'click', 'twitter');
-  });
-  
-  $('a#icolinkedin').on('click', function() {
-	  ga('send', 'event', 'a', 'click', 'linkedin');
-  });
-  
-  $('a#icogoogleplus').on('click', function() {
-	  ga('send', 'event', 'a', 'click', 'google-plus');
-  });
-</script>
 <!-- BEGIN LivePerson Button Code -->
 <div id="lpButDivID-1387813773826" class="icolivechat hidden-xs"></div>
-<script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813736901&amp;bt=1&amp;c=1"></script>
+<script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813773826&amp;bt=1&amp;c=1"></script>
 <!-- END LivePerson Button code -->
-<!-- BEGIN LivePerson Monitor. -->
-<script> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "56948775",'lpProtocol' : (document.location.toString().indexOf('https:')==0) ? 'https' : 'http'}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
-</script><!-- END LivePerson Monitor. -->
-</body>
-</html>
+<?php
+	include_once( './contactform.php' );
+	include_once( './footer.php' );
+?>
