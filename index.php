@@ -1,8 +1,30 @@
-<?php 
+<?php
+	#############
+	# THIS PART IS PAGE LOADER
+	#############
+	
 	include_once "config.php";
-	include_once "header.php";
+	
+	# include other files
+	$redirect_url = @$_SERVER['REDIRECT_URL'];
+	if(!empty($redirect_url)) {
+		$file = str_replace(ROOT_URL, '', $redirect_url);
+		if(strpos($file, '.php') === FALSE) {
+			$file = rtrim($file, '/') . '/index.php';
+		}
+		if(file_exists(ROOT_PATH . $file)){
+			return include ROOT_PATH . $file;
+		}
+	}
+	
+	#############
+	# END PAGE LOADER
+	#############
 ?>
+
+
+<?php page_header()?>
 <div id="home">
-	<?php include_once "home.php"; ?>
+	<?php page_inc("home.php"); ?>
 </div>
-<?php include_once "footer.php";?>
+<?php page_footer();?>

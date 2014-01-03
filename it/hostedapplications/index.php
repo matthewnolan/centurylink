@@ -1,6 +1,5 @@
-<?php 
-	include_once "../../config.php";
-	include_once ROOT_PATH."/header.php";
+<?php
+	page_header();
 ?>
 
 <div id="it-apps">
@@ -11,7 +10,7 @@
 				<img class="hero-label" src="<?php echo ROOT_URL;  ?>/images/i-hosted-label.png" alt="APPLICATIONS"/>
 				<div class="hero-left-content">
 					<p class="headline">The apps you need, <br/>without the worries you don't.</p>
-					<h3 class="offer"><a href="">Try CenturyLink Cloud Applications <br/> FREE for 30 Days.* </a></h3>
+					<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud Applications <br/> FREE for 30 Days.* </a></h3>
 					<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 				</div>
 			</div>
@@ -30,7 +29,7 @@
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
 				<p class="headline">The apps you need, without the worries you don't.</p>
-				<h3 class="offer"><a href="">Try CenturyLink Cloud Applications FREE  for 30 Days.* </a></h3>
+				<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud Applications FREE  for 30 Days.* </a></h3>
 				<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 			</div>
 		</div>
@@ -40,7 +39,7 @@
 <div class="sticky-nav">
 	<div class="container wrapper">
 		<div class="padding-fix">
-			<a href="." class="hidden-sm hidden-xs">
+			<a href="<?php echo ROOT_URL?>" class="hidden-sm hidden-xs">
 				<object class="nav-logo" data="<?php echo ROOT_URL;  ?>/images/nav-logo.svg" width="141" height="30" type="image/svg+xml">
 					<img  src="<?php echo ROOT_URL;  ?>/images/nav-logo.png" alt="CENTURYLINK" width="141" height="30"/>
 				</object>
@@ -106,7 +105,7 @@
 			
 	
 	<div id="iapps">
-		<?php include_once "i-hosted.php"; ?>
+		<?php page_inc("it/hostedapplications/i-hosted.php"); ?>
 	</div>
 </div>
-<?php include_once ROOT_PATH."/footer.php";?>
+<?php page_footer();?>

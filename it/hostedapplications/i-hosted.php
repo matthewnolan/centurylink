@@ -2,8 +2,8 @@
 	jQuery(document).ready(function($) {
 		$('.readmore').readmore({
 			maxHeight:40,
-			moreLink: '<a href="#"><div class="plus"><i class="fa fa-plus"></i></div></a>',
-			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>',
+			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
+			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
 					element.find('.3dot').html('');
@@ -16,8 +16,8 @@
 		});
 		$('.sreadmore').readmore({
 			maxHeight:120,
-			moreLink: '<a href="#"><div class="plus"><i class="fa fa-plus"></i></div></a>',
-			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>'
+			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
+			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>'
 		});
 	});
 </script>
@@ -30,13 +30,13 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="">Microsoft Suite Exchange, SharePoint, Lync</a>
+						<a href="javascript:;">Microsoft Suite Exchange, SharePoint, Lync</a>
 					</p>
 					<h3 class="block-title">
 						Increase control and decrease workload at the same time.
 					</h3>
 					<p class="block-content">
-						Forget the hassles of software licensing, setup and troubleshooting&#8212;CenturyLink Hosted Applications bring your business deployment, installation and maintenance in one package. 
+						Forget the hassles of software licensing, setup and troubleshooting&#8212;CenturyLink Hosted Applications bring your business deployment, installation and maintenance in one package.
 						With a complete set of email and collaboration tools, we offer the connectivity and interactivity your users need, all in a secure, protected environment. Best of all, these services reduce the burden for IT, providing flexible options that are easy to manage.
 					</p>
 					
@@ -107,15 +107,15 @@
 			<div id="safe" class="row">
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="">Email Anti-virus by McAfee</a>
+						<a href="javascript:;">Email Anti-virus by McAfee</a>
 					</p>
 					<h3 class="block-title">
 						Stop viruses, malware, worms and other online pests.
 					</h3>
 					<p class="block-content">
-						It's a dangerous world out there. 
-						Viruses and malware attacks have become the norm, and your business leadership is looking for you to avoid outages and downtime that come with these threats. 
-						McAfee provides the industry-leading security and archiving capabilities you need to guard your AV/AS software, proactively protecting your business while you focus on other things. 
+						It's a dangerous world out there.
+						Viruses and malware attacks have become the norm, and your business leadership is looking for you to avoid outages and downtime that come with these threats.
+						McAfee provides the industry-leading security and archiving capabilities you need to guard your AV/AS software, proactively protecting your business while you focus on other things.
 					</p>
 				
 				</div>
@@ -212,7 +212,7 @@
 			<div id="webmanagement" class="row">
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="">Website Hosting and Management</a>
+						<a href="javascript:;">Website Hosting and Management</a>
 					</p>
 					<h3 class="block-title">
 						Because a website is only as strong as its host.
@@ -222,7 +222,7 @@
 					</p>
 					<p class="block-content">
 						Find out more about CenturyLink Web Hosting. <br/>
-						<a class="istyle" href="<?php echo ROOT_URL;  ?>/download.php?fname=it-hosted-apps/CenturyLink_Web_Hosting.pdf">Download</a> <img src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt=""/> features and pricing 
+						<a class="istyle" href="<?php echo ROOT_URL;  ?>/download.php?fname=it-hosted-apps/CenturyLink_Web_Hosting.pdf">Download</a> <img src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt=""/> features and pricing
 					</p>
 				
 				</div>
@@ -282,7 +282,7 @@
 				<img src="<?php echo ROOT_URL;  ?>/images/sitelock.png" alt="LOGO"/>
 				<div class="onboard-title">Protect your website</div>
 				<div class="onboard-content new-business sreadmore">
-					This application provides vulnerability scanning for network, applications, SQL Injection, and Cross-Site Scripting (XSS).  
+					This application provides vulnerability scanning for network, applications, SQL Injection, and Cross-Site Scripting (XSS).
 					<!--<div class="startread"></div> -->
 					<ul>
 						<li>Identifies website and application viruses</li>
@@ -325,8 +325,8 @@
 			</div>
 			<div class="mobile-graph-text visible-xs">
 				<h3>How CenturyLink delivers a better hosted application environment</h3>
-				<p>Provide your users with access to the data they need whenever they need it.  
-				Our 99.95% uptime SLA is backed by the investments we ve made in our network and data center to provide a secure, compliant environments for your data.  
+				<p>Provide your users with access to the data they need whenever they need it.
+				Our 99.95% uptime SLA is backed by the investments we ve made in our network and data center to provide a secure, compliant environments for your data.
 				We provide end-to-end security from device based encryption, across the network and within our  carrier grade data centers.</p>
 			</div>
 			<div class="mobile-graph visible-xs">
@@ -374,7 +374,7 @@
 	</div>
 </div>
 	<div class="container wrapper">
-		<div class="padding-fix">	
+		<div class="padding-fix">
 			<div class="row sticky-padding" id="ffb">
 				<div class="col-sm-7 copy-block">
 					<h3 class="block-title">

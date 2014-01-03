@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/css/style.css">
 
 <!--[if IE]>
-	<link rel="stylesheet" type="text/css" href="css/ie.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/css/ie.css">
 <![endif]-->
 
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery-1.9.1.min.js"></script>
@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
 	var ua = navigator.userAgent.toLowerCase();
 	var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 	if(isAndroid) {
-		var container = $('.container')[0]; 
+		var container = $('.container')[0];
 		var winw = $(container).width();
 		$('iframe').css('max-width',winw - 40);
 		$('iframe').css('height','auto');
@@ -129,18 +129,18 @@ jQuery(document).ready(function($) {
 		<div class="padding-fix">
 			<div class="row header-container">
 				<div id="logo" class="col-md-7 col-sm-6">
-					<a href="." title="Century Link">
+					<a href="<?php echo ROOT_URL;  ?>" title="Century Link">
 						<object data="<?php echo ROOT_URL;  ?>/images/logo.svg" width="141" height="30" type="image/svg+xml">
 							<img  src="<?php echo ROOT_URL;  ?>/images/logo.png" alt="CENTURYLINK" width="141" height="30"/>
 						</object>
 					</a>
 				</div>
 				<div id="header-right" class="col-md-5 col-sm-6 hidden-xs">
-					<?php include_once "global-nav.php";?>
+					<?php page_global_nav();?>
 				</div>
 			</div>
 		</div>
-		<?php include_once "mobile-nav.php";?>
+		<?php page_inc("includes/mobile-nav.php");?>
 	</div>
 	
 </header>

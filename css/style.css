@@ -27,6 +27,14 @@ a img, a:hover img{
    transition: opacity 0.5s;
 }
 
+#logo a{
+	display: inline-block;
+	width: 141px; height: 30px;
+}
+#logo object{
+	pointer-events: none;
+}
+
 .padding-fix{
 	padding:0 40px;
 }
@@ -1694,7 +1702,7 @@ h3.easy-title{
 	}
 	.sticky-nav{
 		height:auto !important;
-		max-height: auto !important;
+		max-height: 1000px !important;
 	}
 	.sticky-nav .padding-fix, .sticky-nav li.current, .sticky-nav li.current a{
 		position:static !important;

@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="">CenturyLink Hosted Applications</a>
+						<a href="javascript:;">CenturyLink Hosted Applications</a>
 					</p>
 					<h3 class="block-title">
 						Hardworking solutions<br/>
@@ -17,7 +17,7 @@
 						 Plus, easily ad new capabilities to your website, like ecommerce&#8212;without having to spend big bucks on hardware and software.
 						 And all without the headaches of managing software yourself.
 					</p>
-					<p class="block-more"> Apps make easy. <a href="<?php echo ROOT_URL;  ?>/business/hostedapplications">Let's Go</a>
+					<p class="block-more">Apps make easy. <a href="<?php echo ROOT_URL;  ?>/business/hostedapplications">Let's Go</a>
 					</p>
 				</div>
 				<div class="col-sm-6 image-block">
@@ -35,7 +35,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="">CenturyLink Data Backup</a>
+						<a href="javascript:;">CenturyLink Data Backup</a>
 					</p>
 					<h3 class="block-title">
 						If data is the crown jewel of <br/> your business, you should <br/> have the perfect safety deposit box.

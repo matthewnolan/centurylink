@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-sm-7 copy-block">
 					<p class="block-link">
-						<a href="">CenturyLink Hosted Applications</a>
+						<a href="javascript:;">CenturyLink Hosted Applications</a>
 					</p>
 					<h3 class="block-title">
 						Give user more access,
@@ -35,7 +35,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="">CenturyLink Data Backup</a>
+						<a href="javascript:;">CenturyLink Data Backup</a>
 					</p>
 					<h3 class="block-title">
 						Save data, time and money.

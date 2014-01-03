@@ -2,8 +2,8 @@
 	jQuery(document).ready(function($) {
 		$('.readmore').readmore({
 			maxHeight:40,
-			moreLink: '<a href="#"><div class="plus"><i class="fa fa-plus"></i></div></a>',
-			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>',
+			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
+			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
 					element.find('.3dot').html('');
@@ -74,7 +74,7 @@
 						Nothing should stand in the way of your business taking full advantage of our cloud services,
 						or getting the convenience and security that comes with backing up your data to the Cloud. With FREE FastForward Onboarding&#8480;,
 						getting started is easy. Just choose from one of our three onboarding options based on your timing and budget, and get started with ease.
-						<a class="bstyle" href="download.php?fname=t.pdf">Download pdf <img src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
+						<a class="bstyle" href="<?php echo ROOT_URL;?>/download.php?fname=t.pdf">Download pdf <img src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt="PDF"/>  </a>      for details of all support plans.
 					</p>
 					
 				</div>

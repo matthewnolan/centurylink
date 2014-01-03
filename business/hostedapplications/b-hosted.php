@@ -2,8 +2,8 @@
 	jQuery(document).ready(function($) {
 		$('.readmore').readmore({
 			maxHeight:40,
-			moreLink: '<a href="#"><div class="plus"><i class="fa fa-plus"></i></div></a>',
-			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>',
+			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
+			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
 					element.find('.3dot').html('');
@@ -85,7 +85,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link mobile-trick-padding">
-						<a href="">Protect your business</a>
+						<a href="javascript:;">Protect your business</a>
 					</p>
 					<h3 class="block-title">
 						Take security off manual, and put it on automatic.
