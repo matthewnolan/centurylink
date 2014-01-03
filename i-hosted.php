@@ -143,7 +143,7 @@
 					<ul>
 						<li>Endpoint security protects every device on your network against infection</li>
 						<li>Scales with your environment as it grows <br/><br/>
-							<a href="download.php?fname=it-hosted-apps/McAfee.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></li>
+							<span class="nowrap"><a href="download.php?fname=it-hosted-apps/McAfee.pdf">Download</a> features and pricing <img src="images/pdf.png" alt=""/></span></li>
 						<li class="last"><img src="images/mcafee.png" alt=""/></li>
 					</ul>
 				</div>

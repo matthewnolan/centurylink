@@ -1215,6 +1215,9 @@ a object{
 	list-style-type:none;
 	text-align:right;
 }
+.ihosted3col li .nowrap{
+	white-space: nowrap;
+}
 .ihosted3col a,.block-content li a,.block-content a.istyle{
 	font-weight:bold;
 	color:#8cc63f;
