@@ -1,4 +1,7 @@
-<?php include_once "header.php";?>
+<?php 
+	include_once "config.php";
+	include_once "header.php";
+?>
 <div id="home">
 	<?php include_once "home.php"; ?>
 </div>

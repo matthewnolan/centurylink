@@ -1245,6 +1245,11 @@ a object{
 	color:#8cc63f;
 	text-decoration:underline;
 }
+.block-content a.bstyle{
+	font-weight:bold;
+	color:#22a8da;
+	text-decoration:underline;
+}
 .block-content h3{
 	font-size:18px;
 	line-height:21px;

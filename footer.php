@@ -5,14 +5,14 @@
 		<div class="padding-fix footer-content">
 			<div class="row">
 				<div class="col-sm-3">
-					<h3><a href="business.html" title="">FOR THE BUSINESS OWNER</a></h3>
-					<p><a href="business-hosted-applications.html" title="">Hosted Applications</a></p>
-					<p><a href="business-databackup.html" title="">Data Backup</a></p>
+					<h3><a href="<?php echo ROOT_URL;  ?>/business" title="">FOR THE BUSINESS OWNER</a></h3>
+					<p><a href="<?php echo ROOT_URL;  ?>/business/hostedapplications" title="">Hosted Applications</a></p>
+					<p><a href="<?php echo ROOT_URL;  ?>/business/databackup" title="">Data Backup</a></p>
 				</div>
 				<div class="col-sm-3">
-					<h3><a href="itleader.html" title="">FOR THE IT LEADER</a></h3>
-					<p><a href="itleader-hosted-applications.html" title="">Hosted Applications</a></p>
-					<p><a href="itleader-databackup.html" title="">Data Backup</a></p>
+					<h3><a href="<?php echo ROOT_URL;  ?>/it" title="">FOR THE IT LEADER</a></h3>
+					<p><a href="<?php echo ROOT_URL;  ?>/it/hostedapplications" title="">Hosted Applications</a></p>
+					<p><a href="<?php echo ROOT_URL;  ?>/it/databackup" title="">Data Backup</a></p>
 				</div>
 				<div class="col-sm-3">
 					<h3>CONNECT WITH US</h3>
