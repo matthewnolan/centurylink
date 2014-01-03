@@ -340,7 +340,7 @@
 					
 				</div>
 				<div class="col-sm-5 image-block">
-					<img id="onboard-image" src="images/ihosted-fpo5.png" alt="ONBOARD"/>
+					<img id="onboard-image" src="images/onboardg_2x.png" width="374" alt="ONBOARD"/>
 				</div>
 			</div>
 			

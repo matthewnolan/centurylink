@@ -6,12 +6,10 @@
 			lessLink: '<a href="#"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
-					$('#onboard-image').attr('src','images/onboard.png');
 					element.find('.3dot').html('');
 					element.find('.details').attr('style','display:inline');
 					element.addClass('fix-fixed-height');
 				}else{
-					$('#onboard-image').attr('src','images/onboard-closed.png');
 					element.find('.3dot').html('...');
 					element.find('.details').attr('style','display:block');
 					element.removeClass('fix-fixed-height');
@@ -33,7 +31,7 @@
 					</p>
 				</div>
 				<div class="col-sm-6 image-block">
-				<img src="images/fpo3_2x.png" width="450" height="257" alt="FPO"/>
+				<img src="images/fpo3_2x.png" width="450" alt="FPO"/>
 				</div>
 			</div>
 			
@@ -42,7 +40,7 @@
 			
 			<div class="row" id="safe">
 				<div class="col-sm-6 image-block hidden-xs">
-					<img src="images/fpo4_2x.png" width="380" height="322" alt=""/>
+					<img src="images/fpo4_2x.png" width="380" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
@@ -60,7 +58,7 @@
 					</p>
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<img src="images/fpo4_2x.png" width="380" height="322" alt=""/>
+					<img src="images/fpo4_2x.png" width="380" alt=""/>
 				</div>
 			</div>
 			
@@ -81,7 +79,7 @@
 					
 				</div>
 				<div class="col-sm-5 image-block">
-					<img id="onboard-image" src="images/onboard-closed.png" alt="ONBOARD"/>
+					<img id="onboard-image" src="images/onboard_2x.png" width="374" alt="ONBOARD"/>
 				</div>
 			</div>
 			
@@ -137,7 +135,7 @@
 			
 			<div class="row"  id="pricing">
 				<div class="col-sm-6 image-block hidden-xs">
-					<img src="images/fpo5_2x.png" width="360" height="324" alt=""/>
+					<img src="images/fpo5_2x.png" width="360" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
@@ -151,7 +149,7 @@
 					
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<img src="images/fpo5_2x.png" width="360" height="324" alt=""/>
+					<img src="images/fpo5_2x.png" width="360" alt=""/>
 				</div>
 			</div>
 					

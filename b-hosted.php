@@ -81,7 +81,7 @@
 	
 			<div id="safe" class="row">
 				<div class="col-sm-6 image-block hidden-xs">
-					<img src="images/fpo4_2x.png" width="380" height="322" alt=""/>
+					<img src="images/fpo4_2x.png" width="380" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
@@ -99,7 +99,7 @@
 				
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<img src="images/fpo4_2x.png" width="380" height="322" alt=""/>
+					<img src="images/fpo4_2x.png" width="380" alt=""/>
 				</div>
 			</div>
 			<div class="block-seperator"></div>
@@ -149,7 +149,7 @@
 				
 				</div>
 				<div class="col-sm-6 image-block">
-					<img src="images/fpo1_2x.png" width="450" height="306" alt=""/>
+					<img src="images/fpo1_2x.png" width="450" alt=""/>
 				</div>
 			</div>
 			<div class="block-seperator"></div>
@@ -231,7 +231,7 @@
 					
 				</div>
 				<div class="col-sm-5 image-block">
-					<img id="onboard-image" src="images/onboard-closed.png" alt="ONBOARD"/>
+					<img id="onboard-image" src="images/onboard_2x.png" width="374"  alt="ONBOARD"/>
 				</div>
 			</div>
 			

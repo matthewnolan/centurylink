@@ -1543,6 +1543,9 @@ h3.easy-title{
 	.it-present{
 		padding:40px 20px;
 	}
+	.ihosted3col h3{
+		margin-top: 0 !important;
+	}
 	
 }
 

@@ -152,7 +152,7 @@
 			
 			<div class="row">
 				<div class="col-sm-6 image-block hidden-xs">
-					<img src="images/fpo3_2x.png" width="450" height="257" alt=""/>
+					<img src="images/fpo3_2x.png" width="450" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
@@ -163,7 +163,7 @@
 					</p>
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<img src="images/fpo3_2x.png" width="450" height="257" alt=""/>
+					<img src="images/fpo3_2x.png" width="450" alt=""/>
 				</div>
 			</div>
 			

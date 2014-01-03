@@ -8,7 +8,7 @@
 				<img class="hero-label" src="images/i-hosted-label.png" alt="APPLICATIONS"/>
 				<div class="hero-left-content">
 					<p class="headline">The apps you need, <br/>without the worries you don't.</p>
-					<h3 class="offer"><a href="">Try CenturyLink Cloud FREE <br/> for 30 Days.* </a></h3>
+					<h3 class="offer"><a href="">Try CenturyLink Cloud Applications <br/> FREE for 30 Days.* </a></h3>
 					<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 				</div>
 			</div>
@@ -27,7 +27,7 @@
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
 				<p class="headline">The apps you need, without the worries you don't.</p>
-				<h3 class="offer"><a href="">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+				<h3 class="offer"><a href="">Try CenturyLink Cloud Applications FREE  for 30 Days.* </a></h3>
 				<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 			</div>
 		</div>
