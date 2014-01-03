@@ -1109,6 +1109,10 @@ a object{
 .logo{
 	margin-top:20px;
 	padding:20px;
+	text-align:center !important;
+}
+.logo img{
+	margin:0 auto;
 }
 .logo-block{
 	border-right:1px solid #b0b0b0;

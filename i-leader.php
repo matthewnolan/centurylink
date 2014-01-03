@@ -22,7 +22,10 @@
 			</div>
 			
 			
-			<div class="logo"><img src="images/logos.png" alt=""/></div>
+			<div class="logo">
+				<img class="hidden-xs" src="images/logos.png" alt=""/>
+				<img class="visible-xs" src="images/mobile_logos.png" width="320" alt=""/>
+			</div>
 			
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
