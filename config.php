@@ -2,5 +2,5 @@
 	defined("ROOT_PATH")
 	or define("ROOT_PATH", realpath(dirname(__FILE__)));
 	defined("ROOT_URL")
-	or define("ROOT_URL", "localhost/ish/centurylinkomg");
+	or define("ROOT_URL", "/ish/centurylinkomg");
 ?>

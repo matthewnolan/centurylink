@@ -38,7 +38,7 @@
 			<div class="row  home-bucket">
 				<div class="col-sm-6">
 					<div class="business-selector">
-						<a href="business.html" title=""><img src="images/business-bucket.jpg" alt=""/></a>
+						<a href="business/" title=""><img src="images/business-bucket.jpg" alt=""/></a>
 						<!--<p>I'm running a</p>
 						<h3>business and <br> MANAGING IT.</h3>
 						<p class="button-holder"><a href="business.html" title=""><span></span></a></p>-->
@@ -46,7 +46,7 @@
 				</div>
 				<div class="col-sm-6">
 					<div class="it-selector">
-						<a href="itleader.html" title=""><img src="images/it-bucket.jpg" alt=""/></a>
+						<a href="it/" title=""><img src="images/it-bucket.jpg" alt=""/></a>
 						<!-- <p>I work in a</p>
 						<h3>IT DEPARTMENT.</h3>
 						<p class="button-holder"><a href="itleader.html" title=""><span></span></a></p>-->

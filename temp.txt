@@ -1,3 +1,0 @@
-cloud
-left:185
-top:10

@@ -1,6 +1,6 @@
 <?php 
 	include_once "../config.php";
-	include_once ROOT_PATH."/header.php";
+	include_once "../header.php";
 ?>
 
 <div id="business">
