@@ -5,25 +5,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>CenturyLink</title>
-<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/fontello.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/dist/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/css/fontello.css">
+<link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/css/style.css">
 
 <!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="css/ie.css">
 <![endif]-->
 
-<script type="text/javascript"  src="js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript"  src="js/jquery.easing.min.js"></script>
-<script type="text/javascript"  src="dist/js/bootstrap.min.js"></script>
-<script type="text/javascript"  src="js/jquery.scrollUp.min.js"></script>
-<script type="text/javascript"  src="js/jquery.nav.js"></script>
-<script type="text/javascript"  src="js/jquery.scrollTo.js"></script>
-<script type="text/javascript"  src="js/jquery.sticky.js"></script>
-<script type="text/javascript"  src="js/readmore.min.js"></script>
-<script type="text/javascript"  src="js/jquery.sidr.min.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.easing.min.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.scrollUp.min.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.nav.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.scrollTo.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.sticky.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/readmore.min.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.sidr.min.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
@@ -81,7 +81,7 @@ jQuery(document).ready(function($) {
 	}
 
 	$('.checkactive a').each(function() {
-	    if ($(this).attr('href')  ===  window.location.pathname) {
+	    if ($(this).attr('href')  ===  window.location.href) {
 	        $(this).addClass('active');
 	      }
     });
@@ -108,8 +108,8 @@ jQuery(document).ready(function($) {
 </script>
 
 <!--[if IE]>
-	<script src="js/html5shiv.js"></script>
-	<script src="js/respond.js"></script>
+	<script src="<?php echo ROOT_URL;  ?>/js/html5shiv.js"></script>
+	<script src="<?php echo ROOT_URL;  ?>/js/respond.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$('iframe').each(function(){
@@ -130,8 +130,8 @@ jQuery(document).ready(function($) {
 			<div class="row header-container">
 				<div id="logo" class="col-md-7 col-sm-6">
 					<a href="." title="Century Link">
-						<object data="images/logo.svg" width="141" height="30" type="image/svg+xml">
-							<img  src="images/logo.png" alt="CENTURYLINK" width="141" height="30"/>
+						<object data="<?php echo ROOT_URL;  ?>/images/logo.svg" width="141" height="30" type="image/svg+xml">
+							<img  src="<?php echo ROOT_URL;  ?>/images/logo.png" alt="CENTURYLINK" width="141" height="30"/>
 						</object>
 					</a>
 				</div>

@@ -3,21 +3,21 @@
 		<ul id="mobilenav" class="checkactive">
 			<li>
 				<ul>
-					<li class="home-link"><a href="." title="">Home</a></li>
+					<li class="home-link"><a href="<?php echo ROOT_URL;  ?>" title="">Home</a></li>
 				</ul>
 			</li>
 			<li>
 				<ul>
-					<li><a href="business.php" title="">Business Owner</a></li>
-					<li><a href="business-apps.php" title="">Hosted Applications</a></li>
-					<li><a href="business-databackup.php" title="">Data Backup</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/business/" title="">Business Owner</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/business/hostedapplications/" title="">Hosted Applications</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/business/databackup/" title="">Data Backup</a></li>
 				</ul>
 			</li>
 			<li>
 				<ul>
-					<li><a href="it.php" title="">IT Leader</a></li>
-					<li><a href="it-apps.php" title="">Hosted Applications</a></li>
-					<li><a href="it-databackup.php" title="">Data Backup</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/it/" title="">IT Leader</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/it/hostedapplications/" title="">Hosted Applications</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/it/databackup/" title="">Data Backup</a></li>
 				</ul>
 			</li>
 			<li>
