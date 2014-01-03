@@ -1718,5 +1718,8 @@ h3.easy-title{
 	#sticky-nav li:last-child a{
 		padding-right:0;
 	}
+	.mobile-trick-padding{
+		padding-top:20px;
+	}
 
 }

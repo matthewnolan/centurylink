@@ -84,7 +84,7 @@
 					<img src="images/fpo4_2x.png" width="380" alt=""/>
 				</div>
 				<div class="col-sm-6 copy-block">
-					<p class="block-link">
+					<p class="block-link mobile-trick-padding">
 						<a href="">Protect your business</a>
 					</p>
 					<h3 class="block-title">
