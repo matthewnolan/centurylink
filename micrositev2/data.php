@@ -70,13 +70,15 @@
                     <div class="visible-xs">
                         <img src="images/mobi/ethernet_connection.png" alt="" class="img-responsive" />
                     </div>
-                    <p class="fs14b">
-                    &bull; Depending on your needs and the number of seats you purchase, Managed Office comes with either a 10/10Mbps Ethernet connection (10-20 seats) or a 100/100Mbps Ethernet connection (21+ seats) <br />
-    &bull; For single-site installations, Managed Office uses CenturyLink Internet Port offering Tier 1 reliability <br />
-    &bull; For multi-site installations, Managed Office uses dedicated Ethernet access<br />
-    &bull; Your Ethernet connection comes with quality of service (QoS), which prioritizes voice traffic over data (so your calls remain crystal clear) prioritizes delay-sensitive voice traffic over other types of data, for crystal clear calls <br />
-    &bull; For multi-site installations, Managed Office uses dedicated Ethernet access<br />
-    &bull; AdTran wireless access point
+                    <p>
+                    	<ul class="fs14b font-gray-mormal ul-ethernet-connection">
+                    		<li>Depending on your needs and the number of seats you purchase, Managed Office comes with either a 10/10Mbps Ethernet connection (10-20 seats) or a 100/100Mbps Ethernet connection (21+ seats)</li>
+    						<li>For single-site installations, Managed Office uses CenturyLink Internet Port offering Tier 1 reliability</li>
+                            <li>For multi-site installations, Managed Office uses dedicated Ethernet access</li>
+                            <li>Your Ethernet connection comes with quality of service (QoS), which prioritizes voice traffic over data (so your calls remain crystal clear) prioritizes delay-sensitive voice traffic over other types of data, for crystal clear calls</li>
+                            <li> For multi-site installations, Managed Office uses dedicated Ethernet access</li>
+                            <li> AdTran wireless access point</li>
+    					</ul>
                     </p>
                     
                 </div>
@@ -103,7 +105,7 @@
                         <div class="visible-xs">
                             <img src="images/mobi/router.png" alt="" class="img-responsive" />
                         </div>
-                        <p class="fs14b">
+                        <p class="fs14b font-gray-mormal">
                               With Managed Office, CenturyLink handles the installation, configuration, maintenance, software updates, and repair of all your switches and routers. The equipment varies based on the number of seats you purchase. Each phone, printer, wireless access point, etc., requires that you purchase a "seat" to connect it to the network.
                         </p>
                     </div>
