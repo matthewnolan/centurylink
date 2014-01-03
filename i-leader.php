@@ -79,7 +79,7 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row video-container">
-				<div class="video-left col-sm-7">
+				<div class="video-left col-sm-7 hidden-xs">
 					<iframe width="560" height="315" src="//www.youtube.com/embed/T8xJ3w0BIHQ" frameBorder="0" allowfullscreen></iframe>
 				</div>
 				<div class="video-right col-sm-5">
@@ -87,6 +87,9 @@
 						<h3>Wondering how to take the first step to the cloud?</h3>
 						<p>With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.</p>
 					</div>
+				</div>
+				<div class="video-left col-sm-7 visible-xs">
+					<iframe width="560" height="315" src="//www.youtube.com/embed/T8xJ3w0BIHQ" frameBorder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>

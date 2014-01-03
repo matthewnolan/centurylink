@@ -289,7 +289,7 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row video-container">
-				<div class="video-left col-sm-7">
+				<div class="video-left col-sm-7 hidden-xs">
 					<iframe id="business-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
 				</div>
 				<div class="video-right col-sm-5">
@@ -297,6 +297,9 @@
 						<h3>Cloud as flexible as you are.</h3>
 						<p>CenturyLink Cloud Computing lets you and your employees work from virtually anywhere, anytime, and start working right away. Now that's agility.</p>
 					</div>
+				</div>
+				<div class="video-left col-sm-7 visible-xs">
+					<iframe id="business-video" width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>

@@ -78,7 +78,7 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="row video-container">
-				<div class="video-left col-sm-7">
+				<div class="video-left col-sm-7 hidden-xs">
 					<iframe id="business-video" width="560" height="315" src="//www.youtube.com/embed/T8xJ3w0BIHQ" frameBorder="0" allowfullscreen></iframe>
 					<ul class="video-list">
 						<li><a href="javascript:;" class="active" data-src="//www.youtube.com/embed/T8xJ3w0BIHQ" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
@@ -103,6 +103,25 @@
 						<p>With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.</p>
 					</div>
 				</div>
+				<div class="video-left col-sm-7 visible-xs">
+					<iframe id="mobile-business-video" width="560" height="315" src="//www.youtube.com/embed/T8xJ3w0BIHQ" frameBorder="0" allowfullscreen></iframe>
+					<ul class="video-list">
+						<li><a href="javascript:;" class="active" data-src="//www.youtube.com/embed/T8xJ3w0BIHQ" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
+							<span>Wondering how to take the first step to the cloud?</span>
+							<i class="fa fa-play-circle-o"></i>
+						</a></li>
+						<li>
+							<a href="javascript:;" data-src="//www.youtube.com/embed/PfOEqfbQ6gE" data-content="Please filled me.">
+								<span>Learn why you can depend on the cloud.</span>
+								<i class="fa fa-play-circle-o"></i>
+							</a></li>
+						<li><a href="javascript:;" data-src="//www.youtube.com/embed/7sxwi2Owec8" data-content="Please filled me.">
+							<span>Cloud as flexible as you are.</span>
+							<i class="fa fa-play-circle-o"></i>
+						</a></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -111,12 +130,14 @@
 jQuery(document).ready(function($) {
 	$('.video-list a').click(function(){
 		var player = $('#business-video');
+		var mplayer = $('#mobile-business-video');
 		var title = $('#about-business-video h3');
 		var content = $('#about-business-video p');
 		var src = $(this).attr('data-src');
 		var new_title = $(this).find('span').html();
 		var new_content = $(this).attr('data-content');
 		player.attr('src',src);
+		mplayer.attr('src',src);
 		title.html(new_title);
 		content.html(new_content);
 		$(this).parents('.video-list').find('a').removeClass('active');
