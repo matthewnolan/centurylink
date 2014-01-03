@@ -985,6 +985,12 @@ a object{
 	height:0;
 	border:2px solid #ccebf5;
 }
+#it-db .cost-title h3{
+	top:28px;
+}
+#it-db .cost-title span{
+	border:4px solid #ffffff;
+}
 .cost-content{
 	width:100%;
 	text-align:center;

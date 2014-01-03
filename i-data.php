@@ -129,7 +129,7 @@
 		<div class="cost">
 			<div class="cost-title">
 				<span class="hidden-sm hidden-xs"></span>
-				<h3>Our flexible model allows you to scale your storage so you only <br/> pay for just what you need.</h3>
+				<h3>Our flexible model allows you to scale your storage so <br/> you only pay for just what you need.</h3>
 				<span class="hidden-sm hidden-xs"></span>
 			</div>
 			<div class="clearfix"></div>
