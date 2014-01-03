@@ -26,7 +26,7 @@
 		<div class="padding-fix">
 			<div class="row">
 				<div class="col-sm-6 image-block hidden-xs">
-					<a href=""><img src="images/ihosted-fpo1.png" alt="FPO"/></a>
+					<img src="images/ihosted-fpo1.png" alt="FPO"/>
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
@@ -42,7 +42,7 @@
 					
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
-					<a href=""><img src="images/ihosted-fpo1.png" alt="FPO"/></a>
+					<img src="images/ihosted-fpo1.png" alt="FPO"/>
 				</div>
 			</div>
 			<div class="block-seperator"></div>

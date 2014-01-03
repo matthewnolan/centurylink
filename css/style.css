@@ -9,8 +9,22 @@ body{
 	color:#535353;
 	background-color: #ffffff;
 }
-a,a:hover{
+a, a:hover, a i, a:hover i{
 	text-decoration: none;
+	-webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -o-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   transition: all 0.5s;
+	
+}
+
+a img, a:hover img{
+	-webkit-transition: opacity 0.5s;
+   -moz-transition: opacity 0.5s;
+   -o-transition: opacity 0.5s;
+   -ms-transition: opacity 0.5s;
+   transition: opacity 0.5s;
 }
 
 .padding-fix{
