@@ -1706,7 +1706,8 @@ h3.easy-title{
 	#sticky-nav{
 		margin:0;
 		padding:15px 0;
-		text-align:left;
+		text-align:left !important;
+		width:100% !important;
 	}
 	#sticky-nav li{
 		padding:0;
@@ -1715,11 +1716,79 @@ h3.easy-title{
 		padding:0 10px 0 0;
 		font-size:13px;
 	}
-	#sticky-nav li:last-child a{
-		padding-right:0;
+	#sticky-nav li:last-child a, #sticky-nav  li:nth-child(2n+2) a{
+		padding-right:0 !important;
 	}
 	.mobile-trick-padding{
 		padding-top:20px;
+	}
+	.mobile-graph{
+		width:280px;
+		height:653px;
+		margin:0 auto;
+		background-image:url(../images/graph_mobile.png);
+		background-position: top left;
+		background-repeat: no-repeat;
+		font-size:9px;
+		line-height: 12px;
+		color:#000000;
+	} 
+	.mobile-graph h4{
+		font-size:11px;
+		line-height: 14px;
+		font-weight:bold;
+		margin:0;
+		padding:0;
+	}
+	.mobile-graph p{
+		margin:0;
+		padding:0;
+	}
+	.mobile-graph-top,.mobile-graph-join, .mobile-graph-mid, .mobile-graph-bot{
+		position:relative;
+		width:100%;
+	}
+	.mobile-graph-top{
+		height:137px;
+	}
+	.mobile-graph-join{
+		height:57px;
+		margin-top:42px;
+	}
+	.mobile-graph-mid{
+		height:260px;
+		margin-top:10px;
+	}
+	.mobile-graph-bot{
+		height:90px;
+		margin-top:32px;
+	}
+	.top-block{
+		width:80px;
+		height:135px;
+		padding:15px 10px;
+		position:absolute;
+		top:0;
+	}
+	.top-block h4{
+		font-size: 9px;
+		line-height: 12px;
+		padding-bottom:10px;
+	}
+	.top-block p{
+		font-size: 8px;
+		line-height: 11px;
+	}
+	.top-block p{
+	}
+	.mobile-graph-top .first{
+		left:0;
+	}
+	.mobile-graph-top .mid{
+		left:93px;
+	}
+	.mobile-graph-top .last{
+		left:186px;
 	}
 
 }
