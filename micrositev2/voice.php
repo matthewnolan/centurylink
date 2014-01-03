@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-	include_once( './includes/head.php' );
+	require_once dirname(__FILE__) . '/includes/head.php';
 ?>
-
 <body>
 <?php
-	include_once( './header.php' );
+	require_once dirname(__FILE__) . '/includes/header.php';
 ?>
 <div id="div-navsticky">
 	<div class="container">
@@ -148,5 +147,5 @@
 <!-- END LivePerson Button code -->
 <?php
 	include_once( './contactform.php' );
-	include_once( './footer.php' );
+	include_once( './includes/footer.php' );
 ?>

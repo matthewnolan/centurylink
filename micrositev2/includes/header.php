@@ -178,20 +178,17 @@
              </div>
              <?php
 			 	switch($uri) {
-					case 'index':
-						require_once('./header_home.php');
-						break;
 					case 'data':
-						require_once('./header_data.php');
+						require_once dirname(__FILE__) . '/header/header_data.php';
 						break;
 					case 'voice':
-						require_once('./header_voice.php');
+						require_once dirname(__FILE__) . '/header/header_voice.php';
 						break;
 					case 'apps':
-						require_once('./header_apps.php');
+						require_once dirname(__FILE__) . '/header/header_apps.php';
 						break;
 					default:
-						require_once('./header_home.php');
+						require_once dirname(__FILE__) . '/header/header_home.php';
 						break;
 				}
 			 ?>
