@@ -38,10 +38,18 @@ jQuery(document).ready(function($) {
 		jQuery('iframe').css('height','auto');
 	}
 	
-
+	//BACKTOTOP
 	$.scrollUp({
 		  scrollImg: true
 	});
+	$('a#scrollUp').click(function(){
+		setTimeout(function(){
+			$('#sticky-nav li.current').removeClass('current');
+			$('#mobile-sticky-nav li.current').removeClass('current');
+		},300);
+	});
+
+	//STICKYNAV
 	$(".sticky-nav").sticky({
 			topSpacing:0
 	});
