@@ -42,7 +42,7 @@
 	<div class="sticky-nav">
 		<div class="container wrapper">
 			<div class="padding-fix">
-				<a href="<?php echo ROOT_URL?>"  class="hidden-sm hidden-xs">
+				<a href="<?php echo ROOT_URL?>" class="sticky-logo hidden-sm hidden-xs">
 					<object class="nav-logo" data="<?php echo ROOT_URL;  ?>/images/nav-logo.svg" width="141" height="30" type="image/svg+xml">
 						<img  src="<?php echo ROOT_URL;  ?>/images/nav-logo.png" alt="CENTURYLINK" width="141" height="30"/>
 					</object>

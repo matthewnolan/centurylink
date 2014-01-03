@@ -35,6 +35,16 @@ a img, a:hover img{
 	pointer-events: none;
 }
 
+a.sticky-logo{
+	display: block;
+	width: 141px; height: 30px;
+	float: left; overflow: visible;
+}
+a.sticky-logo object{
+	pointer-events: none;
+	width: 141px; height: 30px;
+}
+
 .padding-fix{
 	padding:0 40px;
 }
