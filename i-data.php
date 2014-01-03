@@ -136,7 +136,7 @@
 			<img src="images/it-pricing.png" alt=""/>
 			<div class="cost-more">
 				Call us so we can show you how CenturyLink can reduce your costs.<br/>
-				<strong>123.456.7890</strong>
+				<a href="tel:800.361.0833"><strong>800.361.0833</strong></a>
 			</div>
 		</div>
 		
@@ -285,7 +285,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-sm-7">
-					<iframe width="560" height="315" src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="//www.youtube.com/embed/PfOEqfbQ6gE" frameBorder="0" allowfullscreen></iframe>
 				</div>
 				<div class="video-right col-sm-5">
 					<div>

@@ -276,7 +276,7 @@
 					CenturyLink will handle maintenance, networking, and troubleshooting for all devices.
 				</p>
 				<p>
-					<strong>Call 123.456.7890</strong> to learn more about our remote IT support pack.
+					<strong>Call 800.361.0833</strong> to learn more about our remote IT support pack.
 				</p>
 			</div>
 			

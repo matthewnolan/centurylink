@@ -37,8 +37,8 @@ jQuery(document).ready(function($) {
 		jQuery('iframe').css('max-width',winw - 40);
 		jQuery('iframe').css('height','auto');
 	}
-
 	
+
 	$.scrollUp({
 		  scrollImg: true
 	});
@@ -155,6 +155,14 @@ jQuery(document).ready(function($) {
 <!--[if IE]>
 	<script src="js/html5shiv.js"></script>
 	<script src="js/respond.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('iframe').each(function(){
+		        var url = $(this).attr("src");
+		        $(this).attr("src",url+"?wmode=transparent");
+		    });
+	    });
+	</script>
 <![endif]-->
 
 </head>
