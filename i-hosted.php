@@ -321,6 +321,7 @@
 				Our integrated, end-to-end platform provides a robust infrastructure solution that ensures application availability, security and business continuity. We deliver this performance for all of your locations, home offices and mobile workers. With CenturyLink's Management Console, you get the visibility and control you need to deliver a superior user experience.
 			</div>
 			<img src="images/temp-graph.png" style="margin-top:50px;"/>
+			<div class="mobile-graph-text visible-xs"></div>
 			<div class="mobile-graph visible-xs">
 				<div class="mobile-graph-top">
 					<div class="top-block first">
@@ -348,7 +349,7 @@
 						<p>Core MPLS network with 99.999% availability & deep national/local fiber</p>
 					</div>
 					<div class="mid-block mid">
-						<h4>CenturyLink Data Center</h4>
+						<h4>CenturyLink<br/> Data Center</h4>
 						<p>are hosted in compliant data centers with 100% uptime and layered security</p>
 					</div>
 					<div class="mid-block last">
@@ -361,7 +362,6 @@
 					<h4>Customers & Prospects accessing your websites</h4>
 					<p>Highly available website that is fully secured</p>
 				</div>
-				
 			</div>
 		</div>
 	</div>

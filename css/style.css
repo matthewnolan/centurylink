@@ -1761,7 +1761,20 @@ h3.easy-title{
 	}
 	.mobile-graph-bot{
 		height:90px;
-		margin-top:32px;
+		width:200px;
+		margin-top:35px;
+		margin-left:40px;
+		padding:15px 20px;
+		font-size:12px;
+		line-height: 14px;
+		color:#131313;
+	}
+	.mobile-graph-bot h4{
+		font-size:12px;
+		line-height: 14px;
+		padding-bottom:10px;
+	}
+	.mobile-graph-bot p{
 	}
 	.top-block{
 		width:80px;
@@ -1806,7 +1819,7 @@ h3.easy-title{
 		text-align: center;
 	}
 	.mid-block h4{
-		font-size: 10.78px;
+		font-size: 10px;
 		line-height: 12px;
 		padding-bottom:10px;
 		color:#ffffff;
@@ -1818,14 +1831,18 @@ h3.easy-title{
 	}
 	.mobile-graph-mid .first{
 		top:50px;
-		left:35px;
-		width:150px;
+		left:40px;
+		width:160px;
 	}
 	.mobile-graph-mid .mid{
 		top:150px;
+		left:30px;
+		width:90px;
 	}
 	.mobile-graph-mid .last{
 		top:130px;
+		left:150px;
+		width:105px;
 	}
 
 }
