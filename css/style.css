@@ -859,7 +859,7 @@ a object{
 	font-size:17px;
 	line-height:20px;
 	font-weight:bold;
-	color:#000000;
+	color:#000;
 }
 .why-ctl .box .call, .why-ctl .box .call a{
 	font-size:17px;
@@ -900,7 +900,7 @@ a object{
 	padding-bottom:10px;
 	font-size:12px;
 	line-height:14px;
-	color:#000000;
+	color:#000;
 }
 .testimonial .last{
 	font-size:12px;
@@ -1021,9 +1021,9 @@ a object{
 	font-size:90px;
 	line-height:39px;
 	font-weight:bold;
-	color:#000000;
+	color:#000;
 	width:180px;
-	border-bottom:2px solid #000000;
+	border-bottom:2px solid #000;
 	position:absolute;
 	top:80px;
 	left:80px;
@@ -1115,7 +1115,7 @@ a object{
 
 #ihosted .copy-block .block-more{
 	font-weight:bold;
-	color:#000000;
+	color:#000;
 }
 
 #ihosted .copy-block .block-more a{
@@ -1495,19 +1495,13 @@ h3.easy-title{
 
 	.sticky-nav ul.multi{
 		float:left;
-		padding:10px 0;
-		width:70%;
-		padding-left:10%;
+		width:100%;
 	}
 	.sticky-nav ul.multi li{
 		float:left;
 		display:inline;
-		line-height:25px;
-		padding:0;
+		padding:20px 0;
 		margin:0;
-	}
-	.sticky-nav ul.multi li:nth-child(3n){
-		clear:left;	
 	}
 	.fix-center{
 		display:none;
@@ -1716,15 +1710,11 @@ h3.easy-title{
 	}
 	#sticky-nav li{
 		padding:0;
-		float:none !important;
 		display:inline-block !important;
 	}
 	#sticky-nav li a{
 		padding:0 10px 0 0;
 		font-size:13px;
-	}
-	#sticky-nav li:last-child a, #sticky-nav  li:nth-child(2n+2) a{
-		padding-right:0 !important;
 	}
 	#sticky-nav  li a.has-padding{
 		padding-right:10px !important;
@@ -1741,7 +1731,7 @@ h3.easy-title{
 		background-repeat: no-repeat;
 		font-size:9px;
 		line-height: 12px;
-		color:#000000;
+		color:#000;
 	} 
 	.mobile-graph h4{
 		font-size:11px;
