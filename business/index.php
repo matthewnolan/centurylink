@@ -1,5 +1,5 @@
 <?php
-	page_header();
+	page_header("CenturyLink Cloud | Business Owner");
 ?>
 
 <div id="business">

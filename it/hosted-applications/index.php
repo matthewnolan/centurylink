@@ -1,5 +1,5 @@
 <?php
-	page_header();
+	page_header("CenturyLink Cloud | IT Leader | Hosted Applications");
 ?>
 
 <div id="it-apps">
