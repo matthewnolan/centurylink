@@ -58,7 +58,7 @@
                             	<i class="fa fa-calendar fa-lg font-gray-mormal"></i>
                             	Schedule a meeting
                             </a>
-                    </div>   
+                    </div>
                  </div>
             </div>
          </div>
@@ -213,7 +213,7 @@
   	</div>
     <div class="space38 hidden-xs"></div>
    
-  </div> 
+  </div>
   <div class="nextpage visible-lg visible-md">
         <a href="#how-big-is-your-business" class="btscroll">
         	<i class="sprite down-arrow"></i>
@@ -358,7 +358,7 @@
 		    </div>
 		    <div class="col-sm-6 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-0 hidden-xs">
 				<div class="hidden-xs">
-					<div class="slideshow" style="text-align: center;">
+					<div class="slideshow" style="text-align: center;" id="whatinitslide">
                     	<div class="slide">
                         	<img src="images/wiify_invoice.png" alt="" class="img-responsive" />
                         </div>
