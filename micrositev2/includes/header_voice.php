@@ -5,7 +5,9 @@
                 <div class="col-sm-6 col-md-6">
                     <div id="div-left-welcome">
                     	<div class="space38 visible-lg"></div>
-                        <h2>How does Managed <span class="font-green-mormal">VOICE</span> work within Managed Office?</h2>
+                        <div class="page-header">
+                        	<h1>How does Managed <span class="font-green-mormal">VOICE</span> work within Managed Office?</h1>
+                        </div>
                         <p class="fs14b">The voice component of Managed Office is powered by CenturyLink's Hosted VoIP.  We also provide and install all the equipment you need to make calls.  </p>
                         <p class="fs14b">
                             You get: <br />
@@ -25,10 +27,10 @@
                 <div class="col-sm-6 col-md-6">
                 	<div class="hidden-xs">
                     	<div class="space60 visible-lg"></div>
-                    	<img src="images/picvoice.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/picvoice.png" alt="" class="img-responsive" />
                     </div>
                     <div class="visible-xs">
-                    	<img src="images/mobi/picvoice.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/mobi/picvoice.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>

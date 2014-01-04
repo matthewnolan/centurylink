@@ -1,42 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>CenturyLink Managed Office</title>
-    <meta name="keywords" content="Keywords Site" />
-    <meta name="description" content="Description Site" />
-    <meta name="robots" content="follow,index" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]-->
-    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
 <?php
-	include_once( 'header.php' );
+	#############
+	# THIS PART IS PAGE LOADER
+	#############
+	
+	include_once "config.php";
+	
+	# include other files
+	$redirect_url = @$_SERVER['REDIRECT_URL'];
+	if(!empty($redirect_url)) {
+		$file = str_replace(ROOT_URL, '', $redirect_url);
+		if(strpos($file, '.php') === FALSE) {
+			$file = rtrim($file, '/') . '/index.php';
+		}
+		if(file_exists(ROOT_PATH . $file)){
+			return include ROOT_PATH . $file;
+		}
+	}
+	
+	#############
+	# END PAGE LOADER
+	#############
+?>
+<?php
+	page_header('CenturyLink Managed Office','index');
 ?>
 <div id="div-navsticky">
 	<div class="container">
     	<div class="row">
         	<div class="col-md-2 col-lg-2 hiddens-xs hidden-sm">
             	<div class="hidden-xs pull-left">
-            		<a href="index.php" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
+            		<a href="<?php echo ROOT_URL; ?>/" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
                 </div>
             </div>
             <div class="col-xs-12 col-md-10 col-lg-8">
 
                 <ul class="nav nav-pills pull-left">
-                	<li><a href="#managed-office" class="btscroll">THE DIFFERENCE</a></li>
+                	<li><a href="#learn-how-with-managed-office" class="btscroll">THE DIFFERENCE</a></li>
                     <li><a href="#how-big-is-your-business" class="btscroll">YOUR BUSINESS</a></li>
                     <li><a href="#how-does-pricing-work" class="btscroll">PRICING</a></li>
                     <li><a href="#what-in-it-for-you" class="btscroll">WHAT YOU GET</a></li>
@@ -66,7 +65,7 @@
 </div>
 
 <div id="div-testimonial">
-	<div class="container bgtestimonial" id="learn-how-with-managed-office">
+	<div class="container bgtestimonial">
     	<div class="row">
             <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="text-center hidden-lg font-green-mormal"><strong>Want to see who else is benefiting from Managed Office?</strong></div>
@@ -105,7 +104,7 @@
         </div>
 	</div>
 </div>
-<div class="line-break sprite"></div>
+<div class="line-break sprite" id="learn-how-with-managed-office"></div>
 <div id="managed-office">
   <div class="overlay-timer">
 	<div class="container">
@@ -169,7 +168,7 @@
                     </div>
                 </div>
                 <div class="visible-xs visible-sm">
-                	<img src="images/mobi/modifferent.png" alt="" class="imgmodiff" />
+                	<img src="<?php echo ROOT_URL; ?>/images/mobi/modifferent.png" alt="" class="imgmodiff" />
                 </div>
 
             </div>
@@ -177,7 +176,7 @@
     </div>
   </div>
   <div class="space20 visible-xs"></div>
-  <div class="hidden-xs"><div class="line-gradient"></div></div>
+  <!--<div class="hidden-xs"><div class="line-gradient"></div></div>
   <div class="visible-xs"><div class="mobi-line-gradient"></div></div>
   <div class="space20 visible-xs"></div>
   <div class="container">
@@ -200,7 +199,7 @@
   	</div>
     <div class="space38 hidden-xs"></div>
 
-  </div>
+  </div>-->
   <div class="nextpage visible-lg visible-md">
         <a href="#how-big-is-your-business" class="btscroll">
         	<i class="sprite down-arrow"></i>
@@ -209,12 +208,12 @@
   </div>
   <div class="space60 visible-md visible-lg"></div>
 </div>
-<div class="line-break sprite"></div>
-<div class="business" id="how-big-is-your-business">
+<div class="line-break sprite" id="how-big-is-your-business"></div>
+<div class="business">
 	<div class="container">
     	<div class="space60 hidden-xs"></div>
     	<div class="row">
-			<div class="col-sm-4 col-md-4">
+			<div class="col-sm-4 col-md-5">
             	<div class="space100 hidden-xs"></div>
 				<div id="div-left-mobusiness">
 					<h2>How big is your business?</h2>
@@ -224,13 +223,13 @@
 
 		    <div class="col-sm-6 col-sm-offset-1 col-md-6 col-md-offset-1">
             	<div class="visible-xs">
-                	<img src="images/mobi/business.png" alt="" class="img-responsive" />
+                	<img src="<?php echo ROOT_URL; ?>/images/mobi/business.png" alt="" class="img-responsive" />
                 </div>
             	<div class="hidden-xs">
                         <div class="sprite bg-circle"></div>
                         <div class="row" id="right-mobusiness">
                             <div class="col-sm-4 col-md-4">
-                                <div class="img-mobusiness"><img src="images/no_it.png" alt="" /></div>
+                                <div class="img-mobusiness"><img src="<?php echo ROOT_URL; ?>/images/no_it.png" alt="" /></div>
                                 <div class="tile-it-mobusiness"><strong><span class="font-green-mormal">NO</span> <span class="font-white-mormal">IT staff?</span></strong></div>
                                 <div class="content-it-mobusiness">
                                     You're likely spending too much time trying to manage your own communication and your own network. With Managed Office, CenturyLink makes sure you're always up and running so that you can focus on your core business.
@@ -238,7 +237,7 @@
                             </div>
 
                             <div class="col-sm-4 col-md-4">
-                                <div class="img-mobusiness"><img src="images/limited_it.png" alt="" /></div>
+                                <div class="img-mobusiness"><img src="<?php echo ROOT_URL; ?>/images/limited_it.png" alt="" /></div>
                                 <div class="tile-it-mobusiness"><strong><span class="font-green-mormal">LIMITED</span> <span class="font-white-mormal">IT staff?</span></strong></div>
                                 <div class="content-it-mobusiness">
                                     They're likely stretched making sure your employees are connected 100% of the time. Managed Office is a full service, full support solution that can help free up your IT staff.  We install all your communications and manage your network so they can manage mission critical business technology.
@@ -246,7 +245,7 @@
                             </div>
 
                             <div class="col-sm-4 col-md-4">
-                                <div class="img-mobusiness"><img src="images/team_it.png" alt="" /></div>
+                                <div class="img-mobusiness"><img src="<?php echo ROOT_URL; ?>/images/team_it.png" alt="" /></div>
                                 <div class="tile-it-mobusiness"><strong><span class="font-green-mormal">FULL</span> <span class="font-white-mormal">IT staff?</span></strong></div>
                                 <div class="content-it-mobusiness">
                                     They're likely burdened with day-to-day communication and IT support tasks. Moving to a fully managed solution will free up your IT staff from managing your network and allow them instead to focus on technologies and operations that can grow your business.
@@ -268,10 +267,10 @@
         <div class="space20"></div>
     </div>
 </div>
-<div class="line-break sprite"></div>
+<div class="line-break sprite" id="how-does-pricing-work"></div>
 <div id="priccingwork">
   <div class="overlay-chair">
-	<div class="container" id="how-does-pricing-work">
+	<div class="container">
     	<div class="space60 hidden-xs"></div>
     	<div class="row">
 			<div class="col-sm-6 col-md-5 col-lg-6">
@@ -279,7 +278,7 @@
 				<div>
 					<h2>How does pricing work?</h2>
                     <div class="visible-xs">
-                        <img src="images/mobi/simple_answer.png" alt="" />
+                        <img src="<?php echo ROOT_URL; ?>/images/mobi/simple_answer.png" alt="" />
                     </div>
 			        <p class="fs14b font-gray-mormal">
                     	The beauty of Managed Office is that you pay one fixed rate per seat per month. You dont have to buy, install or manage anything, and you get one invoice from one trusted provider. You can plan for the short term and the long term because our predictable pricing scales with your business.
@@ -292,7 +291,7 @@
 		    </div>
 		    <div class="col-sm-6 col-md-7 col-lg-6">
 				<div class="hidden-xs">
-					<img src="images/simple_answer.png" class="fullwidth-sm" alt="" />
+					<img src="<?php echo ROOT_URL; ?>/images/simple_answer.png" class="fullwidth-sm" alt="" />
 			    </div>
 		    </div>
 	    </div>
@@ -306,9 +305,9 @@
     </div>
   </div>
 </div>
-<div class="line-break sprite"></div>
+<div class="line-break sprite" id="what-in-it-for-you"></div>
 <div id="whatinit">
-	<div class="container" id="what-in-it-for-you">
+	<div class="container">
       <div class="overlay-circle">
     	<div class="space100 hidden-xs"></div>
     	<div class="row">
@@ -317,7 +316,7 @@
 				<div>
 					<h2>What's in it for you?</h2>
                     <div class="visible-xs">
-                        <img src="images/mobi/whatinit.png" alt="" usemap="#slideshowmap" class="img-responsive" />
+                        <img src="<?php echo ROOT_URL; ?>/images/mobi/whatinit.png" alt="" usemap="#slideshowmap" class="img-responsive" />
                         <map name="slideshowmap">
                           <area shape="circle" coords="69,84,37" href="#1" alt="One invoice, one trusted provider">
                           <area shape="circle" coords="137,47,37" href="#2" alt="Phone and hardware">
@@ -347,25 +346,25 @@
 				<div class="hidden-xs">
 					<div class="slideshow">
                     	<div class="slide slide-first">
-                        	<img src="images/wiify_invoice.png" alt="" class="img-responsive" />
+                        	<img src="<?php echo ROOT_URL; ?>/images/wiify_invoice.png" alt="" class="img-responsive" />
                         </div>
                         <div class="slide">
-                        	<img src="images/wiify_phone.png" alt="" class="img-responsive" />
+                        	<img src="<?php echo ROOT_URL; ?>/images/wiify_phone.png" alt="" class="img-responsive" />
                         </div>
                         <div class="slide">
-                        	<img src="images/wiify_cloud.png" alt="" class="img-responsive" />
+                        	<img src="<?php echo ROOT_URL; ?>/images/wiify_cloud.png" alt="" class="img-responsive" />
                         </div>
                         <div class="slide">
-                        	<img src="images/wiify_dot.png" alt="" class="img-responsive" />
+                        	<img src="<?php echo ROOT_URL; ?>/images/wiify_dot.png" alt="" class="img-responsive" />
                         </div>
                         <div class="slide">
-                        	<img src="images/wiify_human.png" alt="" class="img-responsive" />
+                        	<img src="<?php echo ROOT_URL; ?>/images/wiify_human.png" alt="" class="img-responsive" />
                         </div>
                         <div class="slide">
-                        	<img src="images/wiify_chair.png" alt="" class="img-responsive" />
+                        	<img src="<?php echo ROOT_URL; ?>/images/wiify_chair.png" alt="" class="img-responsive" />
                         </div>
                         <div class="slide">
-                        	<img src="images/wiify_calc.png" alt="" class="img-responsive" />
+                        	<img src="<?php echo ROOT_URL; ?>/images/wiify_calc.png" alt="" class="img-responsive" />
                         </div>
                     </div>
 			    </div>
@@ -394,65 +393,62 @@
         <div class="row">
         	<div class="col-sm-6 col-md-5 col-lg-6">
             	<div class="space38 hidden-xs"></div>
-            	<h2><span class="font-green-mormal">Managed DATA</span></h2>
-                <h2>The world of business only works if you're connected to it.</h2>
+            	<h2><span class="font-green-mormal">Managed DATA</span><br />The world of business only works if you're connected to it.</h2>
                 <div class="visible-xs">
-                	<img src="images/mobi/icon_data.png" alt="" class="img-responsive" />
+                	<img src="<?php echo ROOT_URL; ?>/images/mobi/icon_data.png" alt="" class="img-responsive" />
                 </div>
                 <div class="space20 visible-xs"></div>
                 <p class="fs14b font-gray-mormal">
                 Managed Office not only makes sure every employee is connected to the Internet, CenturyLink makes sure everyone in your office is connected to our privately owned and operated network.
                 </p>
-                <a href="data.php" class="sprite btreadmore">Read more</a>
+                <a href="<?php echo ROOT_URL; ?>/managed-data/" class="sprite btreadmore">Read more</a>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
             	<div class="overlay-caro hidden-xs fullwidth-sm">
                 	<div class="space38 hidden-xs"></div>
-                	<img src="images/icon_data.png" alt="" class="img-responsive" />
+                	<img src="<?php echo ROOT_URL; ?>/images/icon_data.png" alt="" class="img-responsive" />
                 </div>
             </div>
         </div>
         <div class="space40"></div>
         <div class="hidden-xs"><div class="line-gradient"></div></div>
   		<div class="visible-xs"><div class="mobi-line-gradient"></div></div>
-        <div class="overlay-voice">
+   </div>
+   <div class="overlay-voice">
+   		<div class="container">
         	<div class="space40 hidden-xs"></div>
-            <div class="row">
+            <div class="row fix-xs-components">
                 <div class="col-sm-6 col-md-5 col-lg-6">
-                    <div class="space38 hidden-xs"></div>
-                    <h2><span class="font-green-mormal">Managed VOICE</span></h2>
-                    <h2>In one word, how do we make sure everyone is on the same page? VoIP.</h2>
+                    
+                    <h2><span class="font-green-mormal">Managed VOICE</span> <br> In one word, how do we make sure everyone is on the same page? VoIP.</h2>
                     <div class="visible-xs">
-                        <img src="images/mobi/icon_voice.png" alt="" class="img-responsive" />
+                        <img src="<?php echo ROOT_URL; ?>/images/mobi/icon_voice.png" alt="" class="img-responsive" />
                     </div>
 
                     <div class="space20 visible-xs"></div>
                     <p class="fs14b font-gray-mormal">
                     Managed Office gives you everything you need to make calls, including the phones themselves, and a wide variety of advanced features.
                     </p>
-                    <a href="voice.php" class="sprite btreadmore">Read more</a>
+                    <a href="<?php echo ROOT_URL; ?>/managed-voice/" class="sprite btreadmore">Read more</a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="hidden-xs">
-                        <div class="space38 hidden-xs"></div>
-                        <img src="images/icon_voice.png" alt="" class="img-responsive" />
+                        <img src="<?php echo ROOT_URL; ?>/images/icon_voice.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="space40"></div>
-        <div class="space60 visible-xs"></div>
-        <div class="space20 visible-xs"></div>
+   		</div>
+   </div>
         <div class="hidden-xs"><div class="line-gradient"></div></div>
   		<div class="visible-xs"><div class="mobi-line-gradient"></div></div>
-        <div class="overlay-apps">
-            <div class="row">
+   <div class="overlay-apps">
+   		<div class="container">
+            <div class="row fix-xs-components-apps">
                 <div class="col-sm-6 col-md-5 col-lg-6">
                     <div class="space38 hidden-xs"></div>
-                    <h2><span class="font-green-mormal">Managed APPLICATIONS</span></h2>
-                    <h2>How do you get all the tools of the trade without buying the toolbox?</h2>
+                    <h2><span class="font-green-mormal">Managed APPLICATIONS</span><br />How do you get all the tools of the trade without buying the toolbox?</h2>
                     <div class="visible-xs">
-                        <img src="images/mobi/icon_apps.png" alt="" class="img-responsive" />
+                        <img src="<?php echo ROOT_URL; ?>/images/mobi/icon_apps.png" alt="" class="img-responsive" />
                     </div>
                      <div class="space20 visible-xs"></div>
                     <p class="fs14b font-gray-mormal">
@@ -460,30 +456,30 @@
                     </p>
                     <table width="100%" class="tbmnapps visible-xs">
                     	<tr>
-                        	<td><img src="images/ico_app_1.png" alt="" class="img-responsive" /></td>
-                            <td><img src="images/ico_app_2.png" alt="" class="img-responsive" /></td>
-                            <td><img src="images/ico_app_3.png" alt="" class="img-responsive" /></td>
+                        	<td><img src="<?php echo ROOT_URL; ?>/images/ico_app_1.png" alt="" class="img-responsive" /></td>
+                            <td><img src="<?php echo ROOT_URL; ?>/images/ico_app_2.png" alt="" class="img-responsive" /></td>
+                            <td><img src="<?php echo ROOT_URL; ?>/images/ico_app_3.png" alt="" class="img-responsive" /></td>
                         </tr>
                         <tr>
-                        	<td><img src="images/ico_app_4.png" alt="" class="img-responsive" /></td>
-                            <td><img src="images/ico_app_5.png" alt="" class="img-responsive" /></td>
-                            <td><img src="images/ico_app_6.png" alt="" class="img-responsive" /></td>
+                        	<td><img src="<?php echo ROOT_URL; ?>/images/ico_app_4.png" alt="" class="img-responsive" /></td>
+                            <td><img src="<?php echo ROOT_URL; ?>/images/ico_app_5.png" alt="" class="img-responsive" /></td>
+                            <td><img src="<?php echo ROOT_URL; ?>/images/ico_app_6.png" alt="" class="img-responsive" /></td>
                         </tr>
                     </table>
-                    <a href="apps.php" class="sprite btreadmore">Read more</a>
+                    <a href="<?php echo ROOT_URL; ?>/managed-applications/" class="sprite btreadmore">Read more</a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
 
                     <div class="hidden-xs">
                         <div class="space38 hidden-xs"></div>
-                        <img src="images/icon_apps.png" alt="" class="img-responsive" />
+                        <img src="<?php echo ROOT_URL; ?>/images/icon_apps.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>
             <div class="row">
             	<div class="col-xs-12">
                 	<div class="visible-xs text-center">
-                    	<div class="space20"></div>
+                    	
                     	<span class="fs13b">To speak with a Centurylink representative</span> <br />
                         <a href="callto:800.850.9881"><span class="fs13b">Call 800.850.9881</span></a>
                         <div class="space10"></div>
@@ -498,13 +494,13 @@
                 <span>SET UP AN APPOINTMENT</span>
             </a>
         </div>
-        <div class="space60 visible-xs"></div>
+       
         <div class="space20"></div>
+      </div>
 	</div>
 </div>
 <div id="lpButDivID-1387813736901" class="icolivechat hidden-xs"></div>
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813736901&amp;bt=1&amp;c=1"></script>
 <?php
-	include_once( 'contactform.php' );
-	include_once( 'footer.php' );
+	page_footer();
 ?>

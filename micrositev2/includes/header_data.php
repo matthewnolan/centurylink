@@ -5,7 +5,9 @@
                 <div class="col-sm-6 col-md-6">
                     <div id="div-left-welcome">
                     	<div class="space38 visible-lg"></div>
-                        <h2>How does Managed <span class="font-green-mormal">DATA</span> work within Managed Office?</h2>
+                        <div class="page-header">
+                        	<h1>How does Managed <span class="font-green-mormal">DATA</span> work within Managed Office?</h1>
+                        </div>
                         <p class="fs14b">Managed Office includes a fully managed, high-performance service connection to the secure CenturyLink IP/MPLS network. We manage your switches and routers and all the equipment you need, based on the number of seats you purchase. </p>
                         <p class="fs14b">
                             You get: <br />
@@ -24,10 +26,10 @@
                 <div class="col-sm-6 col-md-6">
                 	<div class="hidden-xs">
                     	<div class="space60 visible-lg"></div>
-                    	<img src="images/picdata.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/picdata.png" alt="" class="img-responsive" />
                     </div>
                     <div class="visible-xs">
-                    	<img src="images/mobi/picdata.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/mobi/picdata.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>

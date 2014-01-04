@@ -1,48 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>MANAGED APPLICATIONS</title>
-    <meta name="keywords" content="Keywords Site" />
-    <meta name="description" content="Description Site" />
-    <meta name="robots" content="follow,index" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]-->
-    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
 <?php
-	include_once( 'header.php' );
+	page_header("CenturyLink Managed Office | Managed Applications", "apps");
 ?>
 <div id="div-navsticky">
 	<div class="container">
     	<div class="row">
             <div class="col-xs-0 col-sm-4 col-md-2">
             	<div class="hidden-xs pull-left">
-            		<a href="index.php" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
+            		<a href="<?php echo ROOT_URL; ?>/" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8">
                 <ul class="nav nav-pills">
-                	<li><a href="#contentpageapps" class="btscroll">APPLICATIONS SPECIFICS</a></li>
+                	<li><a href="#what-app-are-included-within-managed-office" class="btscroll">APPLICATIONS SPECIFICS</a></li>
                 </ul>
             </div>
             <div class="visible-lg">
                 <div class="col-md-2 nopadding">
                 	<div class="divcallto">
-                            <a href="callto:800.361.0833">
+                            <a href="callto:800.850.9881">
                             	<i class="fa fa-phone fa-lg font-gray-mormal"></i>
-                            	800.361.0833
+                            	800.850.9881
                             </a>
                     </div>
                     <div class="divschedule">
@@ -56,18 +33,18 @@
          </div>
     </div>
 </div>
-<div class="line-break sprite"></div>
+<div class="line-break sprite" id="what-app-are-included-within-managed-office"></div>
 <div id="contentpageapps">
-	<div class="container" id="what-app-are-included-within-managed-office">
+	<div class="container">
     	<div class="space38 hidden-xs"></div>
-        <h2 class="text-center">What Applications are included within Managed Office?</h2>
+        <h2 class="text-center">What APPLICATIONS are included within Managed Office?</h2>
         <p class="text-center fs14b">Managed Office comes with the software to run everything from email to data backup to security.</p>
         <div class="overlay-apps">
         	<div class="space40 hidden-xs"></div>
             <div class="row">
                 <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
-                    <h2>Our Messaging and Collaboration includes:</h2>
+                    <h3>Our Messaging and Collaboration includes:</h3>
                     <p>
                     	<ul class="font-gray-mormal fs14b padleft15">
                         	<li>Microsoft<sup>&reg;</sup> Hosted Exchange email box with Outlook and 25GB of space per seat</li>
@@ -75,14 +52,14 @@
                         	<li>Domain name transfer or registration for up to 5 domains</li>
                         </ul>
                     </p>
-                   	<h2>Our Virtual Server includes:</h2>
+                   	<h3>Our Virtual Server includes:</h3>
                     <p>
                     	<ul class="font-gray-mormal fs14b padleft15">
                         	<li>Online data backup: 10GB per seat</li>
 							<li>Fips 140-2 service certified with built-in data redundancy for disaster recovery</li>
                         </ul>
                     </p>
-                    <h2>Our Managed Office Security includes:</h2>
+                    <h3>Our Managed Office Security includes:</h3>
                     <p>
                     	<ul class="font-gray-mormal fs14b padleft15">
                         	<li>Email Protection and Continuity: inbound email filtering, proactive attack detection, and policy enforcement</li>
@@ -94,10 +71,10 @@
                 <div class="col-sm-6 col-md-6">
                     <div class="hidden-xs">
                         <div class="space38 hidden-xs"></div>
-                        <img src="images/picmaofap.png" alt="" class="img-responsive" />
+                        <img src="<?php echo ROOT_URL; ?>/images/picmaofap.png" alt="" class="img-responsive" />
                     </div>
                     <div class="visible-xs">
-                        <img src="images/mobi/picmaofap.png" alt="" class="img-responsive" />
+                        <img src="<?php echo ROOT_URL; ?>/images/mobi/picmaofap.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>
@@ -120,6 +97,5 @@
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813773826&amp;bt=1&amp;c=1"></script>
 <!-- END LivePerson Button code -->
 <?php
-	include_once( 'contactform.php' );
-	include_once( 'footer.php' );
+	page_footer();
 ?>

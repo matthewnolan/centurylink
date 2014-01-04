@@ -1,48 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>MANAGED VOICE</title>
-    <meta name="keywords" content="Keywords Site" />
-    <meta name="description" content="Description Site" />
-    <meta name="robots" content="follow,index" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]-->
-    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
 <?php
-	include_once( 'header.php' );
+	page_header("CenturyLink Managed Office | Managed Voice", "voice");
 ?>
 <div id="div-navsticky">
 	<div class="container">
     	<div class="row">
             <div class="col-xs-0 col-sm-4 col-md-2">
             	<div class="hidden-xs pull-left">
-            		<a href="index.php" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
+            		<a href="<?php echo ROOT_URL; ?>/" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8">
                 <ul class="nav nav-pills">
-                	<li><a href="#contentpagevoice" class="btscroll">VOICE SPECIFICS</a></li>
+                	<li><a href="#you-want-more-voice-specifics" class="btscroll">VOICE SPECIFICS</a></li>
                 </ul>
             </div>
             <div class="visible-lg">
                 <div class="col-md-2 nopadding">
                 	<div class="divcallto">
-                            <a href="callto:800.361.0833">
+                            <a href="callto:800.850.9881">
                             	<i class="fa fa-phone fa-lg font-gray-mormal"></i>
-                            	800.361.0833
+                            	800.850.9881
                             </a>
                     </div>
                     <div class="divschedule">
@@ -56,14 +33,14 @@
          </div>
     </div>
 </div>
-<div class="line-break sprite"></div>
+<div class="line-break sprite" id="you-want-more-voice-specifics"></div>
 <div id="contentpagevoice">
-	<div class="container" id="you-want-more-voice-specifics">
+	<div class="container">
     	<div class="space38 hidden-xs"></div>
-        <h2 class="text-center">You want more Voice specifics?</h2>
+        <h2 class="text-center">You want more VOICE specifics?</h2>
         <p class="text-center fs14b">The voice component of Managed Office includes CenturyLink Hosted VoIP service and all IP phones. Hosted Voice over Internet Protocol (VoIP) works over Local Area Network stack (LAN).</p>
         <div class="space38 hidden-xs"></div>
-        <div class="row" style="padding-bottom: 60px;">
+        <div class="row paddingbottom60">
        		<div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <p class="fs14b">
@@ -88,17 +65,17 @@
             <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <div class="hidden-xs">
-                    	<img src="images/imgvoice1.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/imgvoice1.png" alt="" class="img-responsive" />
                     </div>
                     <div class="visible-xs">
-                    	<img src="images/mobi/imgvoice1.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/mobi/imgvoice1.png" alt="" class="img-responsive" />
                     </div>
             </div>
         </div>
         <div class="hidden-xs"><div class="line-gradient"></div></div>
   		<div class="visible-xs"><div class="mobi-line-gradient"></div></div>
         <div>
-            <div class="row" style="padding-bottom: 60px;">
+            <div class="row paddingbottom60">
                 <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2>What's included with each seat you purchase?</h2>
@@ -118,10 +95,10 @@
                 <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <div class="hidden-xs">
-                    	<img src="images/imgvoice2.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/imgvoice2.png" alt="" class="img-responsive" />
                     </div>
                     <div class="visible-xs">
-                    	<img src="images/mobi/imgvoice2.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/mobi/imgvoice2.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>
@@ -129,7 +106,7 @@
         <div class="hidden-xs"><div class="line-gradient"></div></div>
   		<div class="visible-xs"><div class="mobi-line-gradient"></div></div>
         <div>
-            <div class="row" style="padding: 40px 0;">
+            <div class="row bottomtoppadding40">
                 <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2>What kind of phones do we offer?</h2>
@@ -141,10 +118,10 @@
                 <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <div class="hidden-xs">
-                    	<img src="images/imgvoice3.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/imgvoice3.png" alt="" class="img-responsive" />
                     </div>
                     <div class="visible-xs">
-                    	<img src="images/mobi/imgvoice3.png" alt="" class="img-responsive" />
+                    	<img src="<?php echo ROOT_URL; ?>/images/mobi/imgvoice3.png" alt="" class="img-responsive" />
                     </div>
                 </div>
             </div>
@@ -164,6 +141,5 @@
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813763608&amp;bt=1&amp;c=1"></script>
 <!-- END LivePerson Button code -->
 <?php
-	include_once( 'contactform.php' );
-	include_once( 'footer.php' );
+	page_footer();
 ?>
