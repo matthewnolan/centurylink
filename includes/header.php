@@ -55,7 +55,7 @@ jQuery(document).ready(function($) {
 	});
 
 	//STICKYNAV
-	$(".sticky-nav").sticky({
+	$("#sticky-nav-wrap").sticky({
 			topSpacing:0
 	});
 	$('#sticky-nav').onePageNav();
@@ -73,7 +73,7 @@ jQuery(document).ready(function($) {
 		var winw = $(window).width();
 		$('html').attr('style','width:'+ winw);
 		$('body').attr('style','width:'+ winw);
-		$(".sticky-nav").sticky({
+		$("#sticky-nav-wrap").sticky({
 			topSpacing:0
 		});
 	});
@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
 	}
 
 	$('.checkactive a').each(function() {
-	    if ($(this).attr('href')  ===  window.location.href) {
+	    if ($(this).attr('href')  ===  window.location.pathname) {
 	        $(this).addClass('active');
 	      }
     });
