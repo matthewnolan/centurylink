@@ -41,7 +41,8 @@ jQuery(document).ready(function($) {
 
 	var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod|Android)/g) ? true : false );
 	if (!iOS){
-		$(".call a").attr("href", "javascript:void(0)");
+		// $(".call a").attr("href", "javascript:void(0)");
+		$(".call").html( $(".call a").html() );
 	}
 	
 	//BACKTOTOP
@@ -80,7 +81,7 @@ jQuery(document).ready(function($) {
 		$('#mainnav li.home-link a').addClass('active');
 		$('#mobilenav li.home-link a').addClass('active');
 	}else{
-		$('#mainnav a#solutions-link').addClass('active');
+		// $('#mainnav a#solutions-link').addClass('active');
 	}
 
 	$('.checkactive a').each(function() {
@@ -132,7 +133,7 @@ jQuery(document).ready(function($) {
 		<div class="padding-fix">
 			<div class="row header-container">
 				<div id="logo" class="col-md-7 col-sm-6">
-					<a href="<?php echo ROOT_URL;  ?>" title="Century Link">
+					<a href="http://www.centurylink.com/small-business/" title="Century Link" target="_blank">
 						<object data="<?php echo ROOT_URL;  ?>/images/logo.svg" width="141" height="30" type="image/svg+xml">
 							<img  src="<?php echo ROOT_URL;  ?>/images/logo.png" alt="CENTURYLINK" width="141" height="30"/>
 						</object>

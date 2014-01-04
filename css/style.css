@@ -251,11 +251,14 @@ a object{
 #mainnav .social-icon a{
 	padding-left: 0px;
 }
-#mainnav a:hover, #mainnav a.active{
+#mainnav a:hover{
 	color:#77b800;
 }
 #mainnav li:hover ul.globalnav,#mainnav li:hover .arrow-bottom{
 	display:inline-block;
+}
+#mainnav li:hover #solutions-link {
+	color:#77b800;
 }
 #globalnav-container{
 	padding-bottom:24px;
@@ -319,6 +322,9 @@ a object{
 	font-weight:bold;
 	color:#505050;
 }
+#mainnav ul.globalnav li li:first-child a:hover{
+	color:#77b800;
+}
 #mainnav ul.globalnav>li{
 	padding-bottom:20px;
 	padding-top:15px;
@@ -349,9 +355,9 @@ a object{
 }
 #mobilenav-button{
 	background-color:#9f9f9f;
-	width:64px;
-	height:64px;
-	padding:15px;
+	width:50px;
+	height:50px;
+	padding:12px;
 	cursor: pointer;
 	margin-right:-1px;
 	display:block;
@@ -430,7 +436,12 @@ a object{
 
 /*STICKY NAV*/
 
+.sticky-logo:hover {
+	opacity: 0.5;
+}
+
 .sticky-nav{
+	border-top: 2px solid #fff;
 	min-height:70px;
 	background-color:#8cc63e;
 	z-index:999999;
@@ -439,6 +450,7 @@ a object{
 }
 .sticky-nav a, .sticky-nav a:hover, .sticky-nav a:focus, .sticky-nav a:active{
 	text-decoration: none;
+	color:#00853f;
 }
 .sticky-nav .padding-fix{
 	position:relative;
