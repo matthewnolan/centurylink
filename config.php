@@ -2,8 +2,6 @@
 	defined("ROOT_PATH")
 	or define("ROOT_PATH", realpath(dirname(__FILE__)));
 	
-	#TODO: please update your ROOT_URL on your deployment ENV
-	
 	define('DS', DIRECTORY_SEPARATOR);
 	
 	function define_root_url($path) {

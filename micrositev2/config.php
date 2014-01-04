@@ -1,12 +1,24 @@
 <?php
 	defined("ROOT_PATH")
 	or define("ROOT_PATH", realpath(dirname(__FILE__)));
-	defined("ROOT_URL")
-	or define("ROOT_URL", '/centurylink/micrositev2' );
-	
-	#TODO: please update your ROOT_URL on your deployment ENV
 	
 	define('DS', DIRECTORY_SEPARATOR);
+	
+	function define_root_url($path) {
+		$path = dirname($path);
+		$relative_path = str_replace(ROOT_PATH, '', $path);
+		$relative_path = str_replace('\\', '/', $relative_path);
+		$relative_path = trim($relative_path, '/');
+		$splits = explode('/', $relative_path);
+		$root_url = '.';
+		$num = count($splits);
+		if(!empty($relative_path)) {
+			for($i = 0; $i<$num; $i++) {
+				$root_url .= '/..';
+			}
+		}
+		defined("ROOT_URL") or define('ROOT_URL', $root_url);
+	}
 	
 	function page_header($title=null, $opt=null){
 		global $uri;
