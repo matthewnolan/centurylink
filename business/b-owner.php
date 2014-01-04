@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="javascript:;">CenturyLink Hosted Applications</a>
+						<a href="<?php echo ROOT_URL;  ?>/business/hosted-applications">CenturyLink Hosted Applications</a>
 					</p>
 					<h3 class="block-title">
 						Hardworking solutions<br/>
@@ -35,7 +35,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="javascript:;">CenturyLink Data Backup</a>
+						<a href="<?php echo ROOT_URL;  ?>/business/data-backup">CenturyLink Data Backup</a>
 					</p>
 					<h3 class="block-title">
 						If data is the crown jewel of <br/> your business, you should <br/> have the perfect safety deposit box.
