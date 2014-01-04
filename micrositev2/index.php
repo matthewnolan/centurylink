@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>CenturyLink Microsite</title>
+    <title>CenturyLink Managed Office</title>
     <meta name="keywords" content="Keywords Site" />
     <meta name="description" content="Description Site" />
     <meta name="robots" content="follow,index" />
@@ -48,9 +48,9 @@
             <div class="visible-lg">
                 <div class="col-lg-2 nopadding">
                 	<div class="divcallto">
-                            <a href="callto:800.361.0833">
+                            <a href="callto:800.850.9881">
                             	<i class="fa fa-phone fa-lg font-gray-mormal"></i>
-                            	800.361.0833
+                            	800.850.9881
                             </a>
                     </div>
                     <div class="divschedule">
@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-xs-9 col-md-10">
                       <div id="testimonial-slider">
-                        <div class="color-testtimonial">
+                        <div class="color-testtimonial color-testtimonial-first">
                             <div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
                             <em>Dale Griffith, Western Trucking</em>
                         </div>
@@ -169,7 +169,7 @@
                     </div>
                 </div>
                 <div class="visible-xs visible-sm">
-                	<img src="images/mobi/modifferent.png" alt="" style="margin-left:-15px;" />
+                	<img src="images/mobi/modifferent.png" alt="" class="imgmodiff" />
                 </div>
                
             </div>
@@ -358,8 +358,8 @@
 		    </div>
 		    <div class="col-sm-6 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-0 hidden-xs">
 				<div class="hidden-xs">
-					<div class="slideshow" style="text-align: center;">
-                    	<div class="slide">
+					<div class="slideshow">
+                    	<div class="slide slide-first">
                         	<img src="images/wiify_invoice.png" alt="" class="img-responsive" />
                         </div>
                         <div class="slide">
@@ -498,7 +498,7 @@
                 	<div class="visible-xs text-center">
                     	<div class="space20"></div>
                     	<span class="fs13b">To speak with a Centurylink representative</span> <br />
-                        <a href="callto:800.361.0833"><span class="fs13b">Call 800.361.0833</span></a>
+                        <a href="callto:800.850.9881"><span class="fs13b">Call 800.850.9881</span></a>
                         <div class="space10"></div>
                     </div>
                 </div>
