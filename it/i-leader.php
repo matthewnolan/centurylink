@@ -13,7 +13,7 @@
 					<p class="block-content">
 						Managing your company's applications can be a fulltime job all by itself.Time intensive and problematic. Our hosted Microsoft Exchange gives employees the performamce and access they demand, and gives you the sercurity you demand. We have a whole family of cloud based applications that you can put to work right away.
 					</p>
-					<p class="block-more"> Get product details and find out how we manage applications. <a href="<?php echo ROOT_URL;  ?>/it/hostedapplications">Learn More</a>
+					<p class="block-more"> Get product details and find out how we manage applications. <a href="<?php echo ROOT_URL;  ?>/it/hosted-applications">Learn More</a>
 					</p>
 				</div>
 				<div class="col-sm-5 image-block">
@@ -44,7 +44,7 @@
 						If you're like most IT managers youre already backing up your data, but you're probably doing it onsite. For you, that's time consuming&#8212;and time is money. With CenturyLink Cloud Data Backup you can protect your data, manage it the way you want, and do it all automatically. That's one less thing for you to worry about, and one more way you can control your budget.
 
 					</p>
-					<p class="block-more"> Backup that's secure, simple and automatic. <a href="<?php echo ROOT_URL;  ?>/it/databackup">Learn More</a>
+					<p class="block-more"> Backup that's secure, simple and automatic. <a href="<?php echo ROOT_URL;  ?>/it/data-backup">Learn More</a>
 					</p>
 					<div class="testimonial hidden-sm hidden-xs">
 						<div>
