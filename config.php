@@ -7,15 +7,15 @@
 	define('DS', DIRECTORY_SEPARATOR);
 	
 	function page_header(){
-		include ROOT_PATH . DS . '/includes/header.php';
+		include ROOT_PATH . DS . 'includes/header.php';
 	}
 	
 	function page_footer(){
-		include ROOT_PATH . DS . '/includes/footer.php';
+		include ROOT_PATH . DS . 'includes/footer.php';
 	}
 	
 	function page_global_nav(){
-		include ROOT_PATH . DS . '/includes/global-nav.php';
+		include ROOT_PATH . DS . 'includes/global-nav.php';
 	}
 	
 	function page_inc($path) {
