@@ -41,7 +41,7 @@ jQuery(document).ready(function($) {
 
 	var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod|Android)/g) ? true : false );
 	if (!iOS){
-		$(".call a").attr("href", "#");
+		$(".call a").attr("href", "javascript:void(0)");
 	}
 	
 	//BACKTOTOP

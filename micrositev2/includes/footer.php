@@ -17,7 +17,7 @@
 			  </div>
 			  <div class="space20 visible-sm visible-xs"></div>
 			  <div class="col-md-4 col-lg-4 hidden-sm">
-		          <a href="#set-up-an-apointment" class="btscroll hidden-xs"><span><strong>SCHEDULE A MEETING</strong></span></a>
+		          <a href="#set-up-an-apointment" class="btscroll"><span><strong>SCHEDULE A MEETING</strong></span></a>
 			  </div>
 			  <div class="space20 hidden-lg"></div>
             </div>
@@ -25,8 +25,8 @@
 		   <div class="col-sm-4 col-md-4">
               	  <span class="div-right-social-footer hidden-xs"></span>
 			      <h4 class="hidden-xs">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
-                  <div class="fs14b visible-xs"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span>123.456.7890</span></a></div>
-                  <span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</strong></span>
+                  <div class="fs14b visible-xs"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span><a href="tel:8008509881">800.850.9881</a></span></a></div>
+                  <span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup><br>MANAGED OFFICE</strong></span>
                   <div class="space20 visible-xs"></div>
 				  <div id="social-footer">
                       <a href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook" class="facebook" target="_blank" rel="nofollow">
@@ -96,7 +96,7 @@ if(isAndroid) {
 jQuery(document).ready(function($) {
 	var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod|Android)/g) ? true : false );
 	if (!iOS){
-		$("a[href^='callto']").attr("href", "#");
+		$("a[href^='callto']").attr("href", "javascript:void(0)");
 	}
 	
 	var viewportwidth = $(window).width();
