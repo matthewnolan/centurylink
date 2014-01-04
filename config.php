@@ -2,8 +2,7 @@
 	defined("ROOT_PATH")
 	or define("ROOT_PATH", realpath(dirname(__FILE__)));
 	defined("ROOT_URL")
-	// or define("ROOT_URL", rtrim(rtrim(dirname($_SERVER['PHP_SELF']), '/'), '\\') );
-	or define("ROOT_URL", "http://localhost/ish/ctl-cloud" );
+	or define("ROOT_URL", rtrim(rtrim(dirname($_SERVER['PHP_SELF']), '/'), '\\') );
 	
 	define('DS', DIRECTORY_SEPARATOR);
 	
