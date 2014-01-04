@@ -11,6 +11,12 @@ h1 {
 }
 
 h2 {
+	font-size: 24px; 
+	font-weight: 900;
+}
+
+h3 {
+	font-size: 18px;
 	font-weight: 900;
 }
 
@@ -108,6 +114,29 @@ a#logo-sticky {
 	padding-right: 0;
 }
 
+.nonpaddingall {
+	padding: 0;
+}
+
+.height10{
+	height: 10px;
+}
+
+.paddingbottom60 {
+	padding-bottom: 60px;
+}
+
+.bottomtoppadding40 {
+	padding: 40px 0;
+}
+
+.slide {
+	display: none;
+}
+
+.slide-first {
+	display: block;
+}
 .copyimg {
 	
 }
@@ -122,6 +151,14 @@ a#logo-sticky {
 
 .width175 {
 	width: 175px;
+}
+
+.width120 {
+	width: 120px;
+}
+
+.width170 {
+	width: 170px;
 }
 
 .hspace {
@@ -181,6 +218,8 @@ a#logo-sticky {
 .navbar-default .navbar-mainmenu > li > a {
 	font-weight: 900;
 	color: #000;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 .navbar-default .navbar-mainmenu > .active > a,
@@ -412,6 +451,7 @@ ul.dropdown-menu {
 	border-radius: 0;
 }
 
+
 ul.dropdown-menu li {
 	background: #FFF;
 }
@@ -524,6 +564,15 @@ ul.nav-pills > li a:focus {
 
 .color-testtimonial {
 	color: #eaeaea;
+	display: none;
+}
+
+.color-testtimonial-first {
+	display: block;
+}
+
+.imgmodiff{
+	margin-left:-15px;
 }
 
 #managed-office {
