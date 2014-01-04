@@ -23,7 +23,7 @@
 
 <body>
 <?php
-	include_once( './header.php' );
+	include_once( 'header.php' );
 ?>
 <div id="div-navsticky">
 	<div class="container">
@@ -518,6 +518,6 @@
 <div id="lpButDivID-1387813736901" class="icolivechat hidden-xs"></div>
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813736901&amp;bt=1&amp;c=1"></script>
 <?php
-	include_once( './contactform.php' );
-	include_once( './footer.php' );
+	include_once( 'contactform.php' );
+	include_once( 'footer.php' );
 ?>
