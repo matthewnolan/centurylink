@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-	require_once dirname(__FILE__) . '/includes/head.php';
-?>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MANAGED VOICE</title>
+    <meta name="keywords" content="Keywords Site" />
+    <meta name="description" content="Description Site" />
+    <meta name="robots" content="follow,index" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]-->
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
 <body>
 <?php
-	require_once dirname(__FILE__) . '/includes/header.php';
+	include_once( './header.php' );
 ?>
 <div id="div-navsticky">
 	<div class="container">
     	<div class="row">
-            <div class="col-md-2 col-sm-3">
+            <div class="col-xs-0 col-sm-4 col-md-2">
             	<div class="hidden-xs pull-left">
             		<a href="index.php" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-7">
+            <div class="col-xs-12 col-sm-8 col-md-8">
                 <ul class="nav nav-pills">
                 	<li><a href="#contentpagevoice" class="btscroll">VOICE SPECIFICS</a></li>
                 </ul>
             </div>
-            <div class="visible-lg visible-md visible-sm">
-                <div class="col-sm-3 col-md-3 col-lg-2 nopadding">
+            <div class="visible-lg">
+                <div class="col-md-2 nopadding">
                 	<div class="divcallto">
                             <a href="callto:800.361.0833">
                             	<i class="fa fa-phone fa-lg font-gray-mormal"></i>
@@ -33,7 +50,7 @@
                             	<i class="fa fa-calendar fa-lg font-gray-mormal"></i>
                             	Schedule a meeting
                             </a>
-                    </div>
+                    </div>   
                  </div>
             </div>
          </div>
@@ -47,7 +64,7 @@
         <p class="text-center fs14b">The voice component of Managed Office includes CenturyLink Hosted VoIP service and all IP phones. Hosted Voice over Internet Protocol (VoIP) works over Local Area Network stack (LAN).</p>
         <div class="space38 hidden-xs"></div>
         <div class="row" style="padding-bottom: 60px;">
-       		<div class="col-sm-6">
+       		<div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <p class="fs14b">
                     	Prior to installation, a CenturyLink representative will meet with you to determine the specific type and quantity of IP phones that will work best for your business.
@@ -68,7 +85,7 @@
                         </ul>
                     </p>
         	</div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <div class="hidden-xs">
                     	<img src="images/imgvoice1.png" alt="" class="img-responsive" />
@@ -82,7 +99,7 @@
   		<div class="visible-xs"><div class="mobi-line-gradient"></div></div>
         <div>
             <div class="row" style="padding-bottom: 60px;">
-                <div class="col-sm-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2>What's included with each seat you purchase?</h2>
                     <p class="fs14b">
@@ -98,7 +115,7 @@
                         </ul>
                     </p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <div class="hidden-xs">
                     	<img src="images/imgvoice2.png" alt="" class="img-responsive" />
@@ -113,7 +130,7 @@
   		<div class="visible-xs"><div class="mobi-line-gradient"></div></div>
         <div>
             <div class="row" style="padding: 40px 0;">
-                <div class="col-sm-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <h2>What kind of phones do we offer?</h2>
                     <p class="font-gray-mormal fs14b">
@@ -121,7 +138,7 @@
                     </p>
                    
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
                     <div class="hidden-xs">
                     	<img src="images/imgvoice3.png" alt="" class="img-responsive" />
@@ -132,7 +149,8 @@
                 </div>
             </div>
         </div>
-        <div class="nextpage visible-lg">
+         <div class="space60 visible-md visible-lg"></div>
+        <div class="nextpage visible-lg visible-md">
             <a href="#set-up-an-apointment" class="btscroll">
                 <i class="sprite down-arrow"></i>
                 <span>SET UP AN APPOINTMENT</span>
@@ -146,6 +164,6 @@
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813763608&amp;bt=1&amp;c=1"></script>
 <!-- END LivePerson Button code -->
 <?php
-	require_once dirname(__FILE__) . '/includes/contactform.php';
-	require_once dirname(__FILE__) . '/includes/footer.php';
+	include_once( './contactform.php' );
+	include_once( './footer.php' );
 ?>
