@@ -1,25 +1,25 @@
-<div class="line-break sprite" style="height: 10px;"></div>
+<div class="line-break sprite height10"></div>
 <footer id="footer">
 	<div class="container">
 		<div class="row">
-        	<div class="col-sm-8">
+        	<div class="col-sm-8 col-md-8">
              <div class="row">
-			  <div class="col-sm-4">
-			      <a href="index.php"> <span><strong>HOME</strong></span></a>
+			  <div class="col-sm-4 col-md-3 col-lg-3">
+			      <a href="<?php echo ROOT_URL; ?>/"> <span><strong>HOME</strong></span></a>
 			  </div>
-			  <div class="space20 hidden-lg hidden-md hidden-sm"></div>
-			  <div class="col-sm-4">
+			  <div class="space20 visible-sm visible-xs"></div>
+			  <div class="col-sm-8 col-md-5 col-lg-5">
 			      <div><span><strong>PRODUCT COMPONENTS</strong></span></div>
                   <div class="space20 hidden-xs"></div>
-			      <a href="data.php"><span><strong>MANAGED DATA</strong></span></a><br>
-			      <a href="voice.php"><span><strong>MANAGED VOICE</strong></span></a><br>
-			      <a href="apps.php"><span><strong>MANAGED APPLICATIONS</strong></span></a>
+			      <a href="<?php echo ROOT_URL; ?>/managed-data/"><span><strong>MANAGED DATA</strong></span></a><br>
+			      <a href="<?php echo ROOT_URL; ?>/managed-voice/"><span><strong>MANAGED VOICE</strong></span></a><br>
+			      <a href="<?php echo ROOT_URL; ?>/managed-applications/"><span><strong>MANAGED APPLICATIONS</strong></span></a>
 			  </div>
-			   <div class="space20 hidden-lg hidden-md hidden-sm"></div>
-			  <div class="col-sm-4">
+			  <div class="space20 visible-sm visible-xs"></div>
+			  <div class="col-md-4 col-lg-4 hidden-sm">
 		          <a href="#set-up-an-apointment" class="btscroll hidden-xs"><span><strong>SCHEDULE A MEETING</strong></span></a>
 			  </div>
-			  <div class="space20 hidden-lg hidden-md hidden-sm"></div>
+			  <div class="space20 hidden-lg"></div>
             </div>
            </div>
 		   <div class="col-sm-4 col-md-4">
@@ -60,10 +60,12 @@
 			      
 			</div>
 		</div>
-		<div id="div-img-footer" class="hidden-xs"><img src="images/img_footer.png" alt="" class="img-responsive copyimg" /></div>
+		<div id="div-img-footer" class="hidden-xs"><img src="<?php echo ROOT_URL; ?>/images/img_footer.png" alt="" class="img-responsive copyimg" /></div>
 	</div>
     <div class="visible-xs">
-        <img src="images/mobi/bgfooter.png" alt="" class="img-responsive" style="padding-top:15px; margin: 0 auto;" />
+    	<div class="space10"></div>
+        <div class="space5"></div>
+        <img src="<?php echo ROOT_URL; ?>/images/mobi/bgfooter.png" alt="" class="img-responsive" />
     </div>
     <div class="container visible-xs">
     	<span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
@@ -71,36 +73,43 @@
     <div class="space40 hidden-xs"></div>
 </footer>
 <!--# Area Scipts #-->
-<script type="text/javascript" src="js/jquery.validate.js"></script>
-<script type="text/javascript" src="js/jquery.sticky.js"></script>
-<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.validate.js"></script>
+<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.sticky.js"></script>
+<script type="text/javascript" src="<?php echo ROOT_URL; ?>/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.bxslider.min.js"></script>
 <script type="text/javascript">
+/*	<![CDATA[	*/
+$(window).on('load',function(){
+	 $('#testimonial-slider > .color-testtimonial').show();
+	 $('.slideshow > .slide').show();
+});
+
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("android") > -1;
 if(isAndroid) {
-	var winw = jQuery(window).width();
-	jQuery('iframe').css('max-width',winw);
+	 var container = jQuery('.container')[0]; 
+     var winw = jQuery(container).width();
+     jQuery('iframe').css('max-width',winw - 40);
+     jQuery('iframe').css('height','auto');
 }
 jQuery(document).ready(function($) {
-	/*var ulwidth = $('ul.dropdown-menu').width();
-		ulwidth = ulwidth + 6;
-	var	ulwidth2 = ulwidth + 50;
+	var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod|Android)/g) ? true : false );
+	if (!iOS){
+		$("a[href^='callto']").attr("href", "#");
+	}
 	
-	$(window).resize(function(){
-		$('ul.dropdown-menu li').hover(function(){
-			$(this).find('.lidesc').css({"display":"block","position":"absolute","top": -3,"left": ulwidth,"width": ulwidth2,"height": "auto"});
-		},function(){
-			$(this).find('.lidesc').hide();
-		});
-	});*/
+	var viewportwidth = $(window).width();
+	$('.nextpage').each(function(){
+			var navwidth = $(this).find('a.btscroll').width() + 10;
+			var perleft = (100-(navwidth*100/viewportwidth))/2;
+			$(this).css({"position":"absolute","bottom":20,"left":perleft+"%"});
+	});
 	
-    $('iframe').each(function(){
-        var url = $(this).attr("src");
-        $(this).attr("src",url+"?wmode=transparent");
-    });
-
-	$('#div-navsticky').sticky({topSpacing: 0});
+	if(viewportwidth >750 && viewportwidth <= 992){
+			$('#div-left-modifferent').css({"padding-left":15});
+	}
+	
 	var slider = $('#testimonial-slider').bxSlider({
 			minSlides: 1,
 			maxSlides: 1,
@@ -121,9 +130,58 @@ jQuery(document).ready(function($) {
 		slider.goToNextSlide();
 	});
 	
+	/*var ulwidth = $('ul.dropdown-menu').width();
+		ulwidth = ulwidth + 6;
+	var	ulwidth2 = ulwidth + 50;
+	
+	$(window).resize(function(){
+		$('ul.dropdown-menu li').hover(function(){
+			$(this).find('.lidesc').css({"display":"block","position":"absolute","top": -3,"left": ulwidth,"width": ulwidth2,"height": "auto"});
+		},function(){ 
+			$(this).find('.lidesc').hide();
+		});
+	});*/
+	
+    $('iframe').each(function(){
+        var url = $(this).attr("src");
+        $(this).attr("src",url+"?wmode=transparent");
+    });
+	
+	$('#div-navsticky').sticky({topSpacing: 0});
+	
+	$(window).resize(function(){
+		var viewportwidth = $(window).width();
+		var heightwrapsticky = $('#div-navsticky').outerHeight();
+		$('#div-navsticky').parent().css({"height": heightwrapsticky});
+		
+		$('.nextpage').each(function(){
+			var navwidth = $(this).find('a.btscroll').width() + 10;
+			var perleft = (100-(navwidth*100/viewportwidth))/2;
+			$(this).css({"position":"absolute","bottom":20,"left":perleft+"%"});
+		});
+		
+		if(viewportwidth >750 && viewportwidth <= 992){
+			$('#div-left-modifferent').css({"padding-left":15});
+		}
+		
+		/*$('a.btscroll').click(function(e){
+			e.preventDefault();
+			var $this = $(this);
+			var targetid = $this.attr('href');
+			var offset = $(targetid).offset().top - heightwrapsticky + 1;
+			$('html, body').animate({
+				scrollTop: offset
+			}, 'normal');
+		});
+		*/
+	});
+	
+	
+	
+	
 	$("#formcontact").validate();
 	
-	var whatinitslide = $('.slideshow').bxSlider({
+	$('.slideshow').bxSlider({
 			mode : 'fade',
 			minSlides: 1,
 			maxSlides: 1,
@@ -132,21 +190,21 @@ jQuery(document).ready(function($) {
 			autoControls: false,
 			controls : false
 	});
-	$('.slideshow').bind('click', function(){
-		whatinitslide.goToNextSlide();
-	});
 	
+	
+	var heightwrapsticky = $('#div-navsticky').outerHeight();
 	$('a.btscroll').click(function(e){
 		e.preventDefault();
 		var $this = $(this);
 		var targetid = $this.attr('href');
+		var offset = $(targetid).offset().top - heightwrapsticky + 1;
 		$('html, body').animate({
-			scrollTop: $(targetid).offset().top
+			scrollTop: offset
 		}, 'normal');
 	});
 	
 });
-
+/*	]]>	*/
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

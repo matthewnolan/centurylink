@@ -1,8 +1,13 @@
- Options +FollowSymLinks
-  RewriteEngine on
-  RewriteBase /hdwebsoft/demo/centurylink/
-  RewriteRule ^index\.html$ index.php [T=application/x-httpd-php,L]
-  RewriteRule ^bussiness\.html$ bussiness.php [T=application/x-httpd-php,L]
-  RewriteRule ^bussiness-databackup\.html$ bussiness-databackup.php [T=application/x-httpd-php,L]
-  RewriteRule ^itleader\.html$ it.php [T=application/x-httpd-php,L]
-  RewriteRule ^itleader-databackup\.html$ itleader-databackup.php [T=application/x-httpd-php,L]
+#Options +FollowSymLinks
+#RewriteEngine on
+#RewriteBase /hdwebsoft/demo/centurylink/
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+    
+    RewriteCond %{REQUEST_FILENAME} ^(.*).php$
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>

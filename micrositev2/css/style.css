@@ -280,12 +280,16 @@ ul.navbar-mainmenu li:hover a:hover {
 }
 
 
-.mobi-bg-circle {
+.mobi-bg-circle { 
 	background:url("../images/mobi/circle.png") no-repeat transparent;
 	width: 266px;
 	height: 266px;
 	position: absolute;
 	z-index: 1;
+}
+
+.fixlogosite {
+	padding-top: 5px;
 }
 
 #layer-mdata-welcome {
@@ -597,21 +601,21 @@ ul.nav-pills > li a:focus {
 .ico-glove {
 	background-position: -254px -2918px;
 	width: 44px;
-	height: 65px;
+	height: 68px;
 	display: block;
 }
 
 .ico-dollar {
 	background-position: -99px -2918px;
 	width: 38px;
-	height: 59px;
+	height: 61px;
 	display: block;
 }
 
 .ico-human-timer {
 	background-position: 0 -2918px;
 	width: 58px;
-	height: 42px;
+	height: 45px;
 	display: block;
 }
 
@@ -637,6 +641,10 @@ ul.nav-pills > li a:focus {
 .desc-col {
 	font-size: 13px;
 	font-weight: 900;
+}
+
+.regmark {
+	font-size: 16px; font-weight: 900;
 }
 
 .align-middle {
@@ -829,14 +837,14 @@ a.btreadmore {
 	background: url(../images/overlay_voice.png) left bottom no-repeat transparent;
 	width: 100%;
 	height: 528px;
-	margin: 30px 0;
+	margin-top: 85px;
 }
 
 .overlay-apps {
 	background: url(../images/overlay_apps.png) right bottom no-repeat transparent;
 	width: 100%;
 	height: 647px;
-	margin: 30px 0;
+	margin-top: 85px;
 }
 
 .fs13 {
@@ -934,6 +942,23 @@ p.lead {
 
 
 @media screen and (max-width:767px){
+	.fix-xs-components {
+		margin-top: -60px;
+	}
+	
+	.fix-xs-components-apps {
+		margin-top: -140px;
+	}
+	
+	.overlay-voice {
+		margin-top: 60px;
+		min-height: 528px;
+	}
+	
+	.overlay-apps {
+		margin-top: 140px;
+		min-height: 647px;
+	}
 	
 	.hspace {
 		left: 30px;
