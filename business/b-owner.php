@@ -80,7 +80,7 @@
 			<div class="row video-container">
 				<div class="video-left col-sm-7 hidden-xs">
 					<iframe id="business-video" width="560" height="315" src="//www.youtube.com/embed/T8xJ3w0BIHQ" frameBorder="0" allowfullscreen></iframe>
-					<ul class="video-list">
+					<!--<ul class="video-list">
 						<li><a href="javascript:;" class="active" data-src="//www.youtube.com/embed/T8xJ3w0BIHQ" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
 							<span>Wondering how to take the first step to the cloud?</span>
 							<i class="fa fa-play-circle-o"></i>
@@ -94,7 +94,7 @@
 							<span>Cloud as flexible as you are.</span>
 							<i class="fa fa-play-circle-o"></i>
 						</a></li>
-					</ul>
+					</ul> -->
 					<div class="clearfix"></div>
 				</div>
 				<div class="video-right col-sm-5">
@@ -105,7 +105,7 @@
 				</div>
 				<div class="video-left col-sm-7 visible-xs">
 					<iframe id="mobile-business-video" width="560" height="315" src="//www.youtube.com/embed/T8xJ3w0BIHQ" frameBorder="0" allowfullscreen></iframe>
-					<ul class="video-list">
+					<!--<ul class="video-list">
 						<li><a href="javascript:;" class="active" data-src="//www.youtube.com/embed/T8xJ3w0BIHQ" data-content="With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.">
 							<span>Wondering how to take the first step to the cloud?</span>
 							<i class="fa fa-play-circle-o"></i>
@@ -119,14 +119,14 @@
 							<span>Cloud as flexible as you are.</span>
 							<i class="fa fa-play-circle-o"></i>
 						</a></li>
-					</ul>
+					</ul>-->
 					<div class="clearfix"></div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<!--<script type="text/javascript">
 jQuery(document).ready(function($) {
 	$('.video-list a').click(function(){
 		var player = $('#business-video');
@@ -144,4 +144,4 @@ jQuery(document).ready(function($) {
 		$(this).addClass('active');
 	});
 });
-</script>
+</script> -->
