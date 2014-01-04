@@ -1282,6 +1282,8 @@ a object{
 	text-align:center;
 }
 
+/*GRAPH*/
+
 #graph{
 	background-image:url("../images/graph-bg.png");
 	background-repeat:no-repeat;
@@ -1299,6 +1301,27 @@ a object{
 #graph .excerpt{
 	
 }
+.desktop-graph{
+	background-image:url("../images/graph_desktop_closed.png");
+	background-repeat:no-repeat;
+	background-position:top-left;
+	min-height: 571px;
+	position:relative;
+}
+.desktop-graph-left, .desktop-graph-join, .desktop-graph-mid, .desktop-graph-right{
+	position:relative;
+	top:0;
+}
+.desktop-graph-join{
+	
+}
+.desktop-graph-mid{
+	
+}
+.desktop-graph-right{
+	
+}
+
 
 /*IT LEADER DB*/
 

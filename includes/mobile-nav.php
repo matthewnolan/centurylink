@@ -9,15 +9,15 @@
 			<li>
 				<ul>
 					<li><a href="<?php echo ROOT_URL;  ?>/business/" title="">Business Owner</a></li>
-					<li><a href="<?php echo ROOT_URL;  ?>/business/hostedapplications/" title="">Hosted Applications</a></li>
-					<li><a href="<?php echo ROOT_URL;  ?>/business/databackup/" title="">Data Backup</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/business/hosted-applications/" title="">Hosted Applications</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/business/data-backup/" title="">Data Backup</a></li>
 				</ul>
 			</li>
 			<li>
 				<ul>
 					<li><a href="<?php echo ROOT_URL;  ?>/it/" title="">IT Leader</a></li>
-					<li><a href="<?php echo ROOT_URL;  ?>/it/hostedapplications/" title="">Hosted Applications</a></li>
-					<li><a href="<?php echo ROOT_URL;  ?>/it/databackup/" title="">Data Backup</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/it/hosted-applications/" title="">Hosted Applications</a></li>
+					<li><a href="<?php echo ROOT_URL;  ?>/it/data-backup/" title="">Data Backup</a></li>
 				</ul>
 			</li>
 			<li>

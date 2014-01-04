@@ -321,7 +321,47 @@
 				<div class="excerpt">
 					Our integrated, end-to-end platform provides a robust infrastructure solution that ensures application availability, security and business continuity. We deliver this performance for all of your locations, home offices and mobile workers. With CenturyLink's Management Console, you get the visibility and control you need to deliver a superior user experience.
 				</div>
-				<img src="<?php echo ROOT_URL;  ?>/images/temp-graph.png" style="margin-top:50px;"/>
+				<div class="desktop-graph">
+					<div class="desktop-graph-left">
+						<div class="left-block top">
+							<h4>Mobile Devices</h4>
+							<p>Mobile users get full access and ActiveSync</p>
+						</div>
+						<div class="left-block mid">
+							<h4>Home Office</h4>
+							<p>Home office users get secure access to apps and full feature functionality</p>
+						</div>
+						<div class="left-block bot">
+							<h4>Office Location(s)</h4>
+							<p>Your environment is protected with state of the art security that is always up to date</p>
+						</div>
+					</div>
+					
+					<div class="desktop-graph-join">
+						<p>Secure WAN and VPNs available</p>
+					</div>
+					
+					
+					<div class="desktop-graph-mid">
+						<div class="mid-block first">
+							<h4>CenturyLink Network</h4>
+							<p>Core MPLS network with 99.999% availability & deep national/local fiber</p>
+						</div>
+						<div class="mid-block mid">
+							<h4>CenturyLink<br/> Data Center</h4>
+							<p>are hosted in compliant data centers with 100% uptime and layered security</p>
+						</div>
+						<div class="mid-block last">
+							<h4>Internet</h4>
+							<p>Tier 1 Internet for fast content serving to users</p>
+						</div>
+					</div>
+					
+					<div class="desktop-graph-right">
+						<h4>Customers & Prospects accessing your websites</h4>
+						<p>Highly available website that is fully secured</p>
+					</div>
+				</div>
 			</div>
 			<div class="mobile-graph-text visible-xs">
 				<h3>How CenturyLink delivers a better hosted application environment</h3>
