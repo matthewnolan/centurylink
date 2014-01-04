@@ -10,7 +10,7 @@
 				<img class="hero-label" src="<?php echo ROOT_URL;  ?>/images/business-label.jpg" alt="business OWNER"/>
 				<div class="hero-left-content">
 					<p class="headline">Access big business <br/>tools, without the <br/> big business headaches.</p>
-					<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud FREE <br/> for 30 Days.* </a></h3>
+					<h3 class="offer">Try CenturyLink Cloud FREE <br/> for 30 Days.* </h3>
 					<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 				</div>
 			</div>
@@ -30,7 +30,7 @@
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
 				<p class="headline">Access big business tools, without the big business headaches.</p>
-				<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+				<h3 class="offer">Try CenturyLink Cloud FREE  for 30 Days.* </h3>
 				<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 			</div>
 		</div>

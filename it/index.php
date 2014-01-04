@@ -10,7 +10,7 @@
 					<img class="hero-label" src="<?php echo ROOT_URL;  ?>/images/it-label.jpg" alt="IT LEADER"/>
 					<div class="hero-left-content">
 						<p class="headline">Instead of taking<br/> one thing off your plate, <br/>how about two or three?</p>
-						<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud FREE for<br/> 30 Days.* </a></h3>
+						<h3 class="offer">Try CenturyLink Cloud FREE for<br/> 30 Days.* </h3>
 						<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 					</div>
 				</div>
@@ -32,7 +32,7 @@
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
 				<p class="headline">Instead of taking one thing off your plate, how about two or three?</p>
-				<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+				<h3 class="offer">Try CenturyLink Cloud FREE  for 30 Days.* </h3>
 				<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 			</div>
 		</div>
@@ -66,7 +66,7 @@
 				 take advantage of our offer and see what a lighter load feels like.
 			</p>
 			<div class="box">
-				<h3 class="offer"><a href="javascript:;">Start your Free 30-days trial today. </a></h3>
+				<h3 class="offer">Start your Free 30-days trial today. </h3>
 				<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 			</div>
 		</div>

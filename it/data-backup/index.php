@@ -10,7 +10,7 @@
 				<img class="hero-label" src="<?php echo ROOT_URL;  ?>/images/itdb-label.jpg" alt="DATA BACKUP"/>
 				<div class="hero-left-content">
 					<p class="headline">Restore company data <br/>quicker than management <br/>can make a decision.</p>
-					<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud FREE <br/> for 30 Days.* </a></h3>
+					<h3 class="offer">Try CenturyLink Cloud FREE <br/> for 30 Days.* </h3>
 					<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 				</div>
 			</div>
@@ -29,7 +29,7 @@
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
 				<p class="headline">Restore company data quicker than management can make a decision.</p>
-				<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud FREE  for 30 Days.* </a></h3>
+				<h3 class="offer">Try CenturyLink Cloud FREE  for 30 Days.* </h3>
 				<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 			</div>
 		</div>
@@ -67,7 +67,7 @@
 </div>
 	
 	<div id="idata">
-		<?php page_inc("it/databackup/i-data.php"); ?>
+		<?php page_inc("it/data-backup/i-data.php"); ?>
 	</div>
 </div>
 <?php page_footer();?>

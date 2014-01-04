@@ -10,7 +10,7 @@
 				<img class="hero-label" src="<?php echo ROOT_URL;  ?>/images/i-hosted-label.png" alt="APPLICATIONS"/>
 				<div class="hero-left-content">
 					<p class="headline">The apps you need, <br/>without the worries you don't.</p>
-					<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud Applications <br/> FREE for 30 Days.* </a></h3>
+					<h3 class="offer">Try CenturyLink Cloud Applications <br/> FREE for 30 Days.* </h3>
 					<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 				</div>
 			</div>
@@ -29,7 +29,7 @@
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
 				<p class="headline">The apps you need, without the worries you don't.</p>
-				<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud Applications FREE  for 30 Days.* </a></h3>
+				<h3 class="offer">Try CenturyLink Cloud Applications FREE  for 30 Days.* </h3>
 				<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 			</div>
 		</div>
@@ -105,7 +105,7 @@
 			
 	
 	<div id="iapps">
-		<?php page_inc("it/hostedapplications/i-hosted.php"); ?>
+		<?php page_inc("it/hosted-applications/i-hosted.php"); ?>
 	</div>
 </div>
 <?php page_footer();?>

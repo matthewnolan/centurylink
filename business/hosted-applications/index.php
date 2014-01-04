@@ -10,7 +10,7 @@
 				<img class="hero-label" src="<?php echo ROOT_URL;  ?>/images/new-business-label.jpg" alt="APPLICATIONS"/>
 				<div class="hero-left-content">
 					<p class="headline">In business, bigger isn't better.<br/> Better is better.</p>
-					<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud Applications <br/>FREE for 30 Days.* </a></h3>
+					<h3 class="offer">Try CenturyLink Cloud Applications <br/>FREE for 30 Days.*</h3>
 					<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 				</div>
 			</div>
@@ -29,7 +29,7 @@
 		<div class="padding-fix">
 			<div class="mobile-hero-content">
 				<p class="headline">In business, bigger isn't better.<br/> Better is better.</p>
-				<h3 class="offer"><a href="javascript:;">Try CenturyLink Cloud Applications FREE  for 30 Days.* </a></h3>
+				<h3 class="offer">Try CenturyLink Cloud Applications FREE  for 30 Days.* </h3>
 				<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 			</div>
 		</div>
@@ -78,7 +78,7 @@
 			
 	
 	<div id="bhosted">
-		<?php page_inc("business/hostedapplications/b-hosted.php"); ?>
+		<?php page_inc("business/hosted-applications/b-hosted.php"); ?>
 	</div>
 </div>
 <?php page_footer();?>

@@ -814,7 +814,7 @@ a object{
 	color:#727272;
 	font-weight:300;
 }
-.hero-left-content .offer a{
+.hero-left-content .offer {
 	font-size:28px;
 	line-height:37px;
 	color:#00853f;
@@ -829,7 +829,7 @@ a object{
 	color:#727272;
 	font-weight:300;	
 }
-.mobile-hero-content .offer a{
+.mobile-hero-content .offer {
 	font-size:18px;
 	line-height:22px;
 	font-weight:bold;
