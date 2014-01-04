@@ -1,0 +1,20 @@
+.bgwelcome {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/bg_welcome.png', sizingMethod='scale');
+}
+
+.navbar-default .navbar-mainmenu > .active > a,
+.navbar-default .navbar-mainmenu a:hover {
+	filter:none;
+}
+
+ul.navbar-mainmenu li:hover{
+	filter:none;
+}
+
+.line-gradient {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/line_gradient.png', sizingMethod='scale');
+}
+
+.bgdata {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/bgcomponents.png', sizingMethod='scale');
+}

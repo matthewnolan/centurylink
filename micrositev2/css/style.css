@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 
 body {
 	font-family: Arial;
@@ -52,7 +52,6 @@ input:focus {
 .bgwelcome {
 	background: url("../images/bg_welcome.png") no-repeat transparent;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/bg_welcome.png', sizingMethod='scale');
 	min-height: 800px;
 	position: relative;
 }
@@ -227,14 +226,12 @@ a#logo-sticky {
 	background-image: none;
 	background-color: #000;
 	color: #FFF;
-	filter:none;
 }
 
 ul.navbar-mainmenu li:hover{
 	background-image: none;
 	background-color: #000;
 	color: #FFF;
-	filter:none;
 }
 
 ul.navbar-mainmenu li.open a.dropdown-toggle{
@@ -708,7 +705,6 @@ a.btnext {
 .line-gradient {
 	background:transparent url(../images/line_gradient.png) center no-repeat;
 	background-size: contain;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/line_gradient.png', sizingMethod='scale');
 	max-width: 1020px;
 	width: 100%;
 	height: 10px;
@@ -1131,7 +1127,6 @@ p.lead {
 .bgdata {
 	height: 800px;
 	background: url("../images/bgcomponents.png") no-repeat transparent;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/bgcomponents.png', sizingMethod='scale');
 	background-size: cover;
 }
 

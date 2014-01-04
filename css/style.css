@@ -1308,7 +1308,7 @@ a object{
 .desktop-graph{
 	background-image:url("../images/graph_desktop_closed.png");
 	background-repeat:no-repeat;
-	background-position:top-left;
+	background-position:left top;
 	min-height: 511px;
 	position:relative;
 	margin-top:85px;
