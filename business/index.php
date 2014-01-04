@@ -67,7 +67,7 @@
 			The only thing you will be missing is the headache.
 		</p>
 		<div class="box">
-			<h3 class="offer"><a href="javascript:;">Start your Free 30-days trial today. </a></h3>
+			<h3 class="offer">Start your Free 30-days trial today.</h3>
 			<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 		</div>
 	</div>

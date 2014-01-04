@@ -26,10 +26,13 @@ a img, a:hover img{
    -ms-transition: opacity 0.5s;
    transition: opacity 0.5s;
 }
-
+#logo{
+	height:30px;
+}
 #logo a{
 	display: inline-block;
-	width: 141px; height: 30px;
+	width: 141px; 
+	height: 30px;
 }
 #logo object{
 	pointer-events: none;
@@ -873,7 +876,7 @@ a object{
 .why-ctl .box h3{
 	margin-top:0;
 }
-.why-ctl .box h3 a{
+.why-ctl .box h3 {
 	font-size:17px;
 	line-height:20px;
 	font-weight:bold;
