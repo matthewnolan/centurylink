@@ -1889,6 +1889,10 @@ h3.easy-title{
 		left:150px;
 		width:105px;
 	}
+	.why-ctl .box{
+		width: auto;
+		max-width:340px;
+	}
 
 }
 @media screen and (min-width:479px) and (max-width:767px){
