@@ -1,5 +1,5 @@
 <?php
-	page_header();
+	page_header("CenturyLink Cloud | Business Owner | Data Backup");
 ?>
 
 <div id="business-db">
@@ -37,7 +37,7 @@
 </div>
 
 
-<div class="sticky-nav">
+<div id="sticky-nav-wrap" class="sticky-nav">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<a href="<?php echo ROOT_URL;?>" class="sticky-logo hidden-sm hidden-xs">

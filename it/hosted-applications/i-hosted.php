@@ -30,7 +30,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="javascript:;">Microsoft Suite Exchange, SharePoint, Lync</a>
+						Microsoft Suite Exchange, SharePoint, Lync
 					</p>
 					<h3 class="block-title">
 						Increase control and decrease workload at the same time.
@@ -104,10 +104,10 @@
 			<hr class="block-hr"/>
 			
 	
-			<div id="safe" class="row">
+			<div id="safe" class="row sticky-padding">
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="javascript:;">Email Anti-virus by McAfee</a>
+						Email Anti-virus by McAfee
 					</p>
 					<h3 class="block-title">
 						Stop viruses, malware, worms and other online pests.
@@ -152,7 +152,7 @@
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
 			
-			<div id="email" class="row">
+			<div id="email" class="row sticky-padding">
 			<div class="col-sm-6 image-block hidden-xs">
 					<img src="<?php echo ROOT_URL;  ?>/images/ihosted-fpo3.png" alt=""/>
 					<div class="row child-image">
@@ -166,7 +166,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="">Email Archiving by McAfee and MessageSolutions</a>
+						Email Archiving by McAfee and MessageSolutions
 					</p>
 					<h3 class="block-title">
 						The best email archive is the one that comes with options.
@@ -209,10 +209,10 @@
 			</div>
 			<div class="block-seperator"></div>
 			<hr class="block-hr"/>
-			<div id="webmanagement" class="row">
+			<div id="webmanagement" class="row sticky-padding">
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
-						<a href="javascript:;">Website Hosting and Management</a>
+						Website Hosting and Management
 					</p>
 					<h3 class="block-title">
 						Because a website is only as strong as its host.
