@@ -1,3 +1,4 @@
 <?php
-	include('apps.php');
+	include_once dirname(__FILE__) . "/../config.php";
+	include dirname(__FILE__) . '/apps.php';
 ?>

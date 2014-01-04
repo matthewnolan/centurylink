@@ -2,7 +2,9 @@
 	defined("ROOT_PATH")
 	or define("ROOT_PATH", realpath(dirname(__FILE__)));
 	defined("ROOT_URL")
-	or define("ROOT_URL", rtrim(rtrim(dirname($_SERVER['PHP_SELF']), '/'), '\\') );
+	or define("ROOT_URL", '/centurylink' );
+	
+	#TODO: please update your ROOT_URL on your deployment ENV
 	
 	define('DS', DIRECTORY_SEPARATOR);
 	
