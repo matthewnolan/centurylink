@@ -887,11 +887,10 @@ a object{
 	color:#00853f;
 	font-weight:bold;
 }
-.copy-block .block-link, .copy-block .block-link a{	
+.copy-block .block-link a{	
 	font-size:16px;
 	line-height:36px;
 	font-weight:bold;
-	color:#2882b3;
 }
 .copy-block  h3.block-title{
 	font-size:35px;
@@ -1131,7 +1130,7 @@ a object{
 	z-index:3;
 }
 
-#ihosted .copy-block .block-link, #ihosted .copy-block .block-link a{
+#ihosted .copy-block .block-link a{
 	color:#00853f;
 }
 

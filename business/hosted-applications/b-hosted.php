@@ -85,7 +85,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<p class="block-link mobile-trick-padding">
-						Protect your business
+						<a href="javascript:;">Protect your business</a>
 					</p>
 					<h3 class="block-title">
 						Take security off manual, and put it on automatic.

@@ -43,7 +43,7 @@
 					<div class="row secure-detail">
 						<div class="col-sm-4 first">
 							<img class="visible-xs" src="<?php echo ROOT_URL;  ?>/images/customer-data.jpg" alt=""/>
-							<h3><i>Only Cloud Backup <br/>Service to Receive <br/><span>FIPS 140-2 certification</i></span></h3>
+							<h3><i>Only Cloud Backup <br/>Service to Receive</i> <br/><span>FIPS 140-2 certification</span></h3>
 							<div class="sreadmore">
 								<p>Asigra's agentless cloud backup and recovery offers and industry-leading compliant solution:</p>
 								<div>

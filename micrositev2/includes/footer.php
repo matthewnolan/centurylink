@@ -123,16 +123,19 @@ jQuery(document).ready(function($) {
 	
 	$("#formcontact").validate();
 	
-	var whatinitslide = $("#whatinitslide").bxSlider({
+	var whatinitslide = $('.slideshow').bxSlider({
 			mode : 'fade',
 			minSlides: 1,
 			maxSlides: 1,
 			slideMargin: 0,
 			auto: true,
 			autoControls: false,
-			controls : true
+			controls : false
 	});
-
+	$('.slideshow').bind('click', function(){
+		whatinitslide.goToNextSlide();
+	});
+	
 	$('a.btscroll').click(function(e){
 		e.preventDefault();
 		var $this = $(this);

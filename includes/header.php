@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<title><?php  echo $title;	?></title>
+<title>CenturyLink</title>
 <link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/dist/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="<?php echo ROOT_URL;  ?>/css/font-awesome.min.css">
@@ -55,7 +55,7 @@ jQuery(document).ready(function($) {
 	});
 
 	//STICKYNAV
-	$("#sticky-nav-wrap").sticky({
+	$(".sticky-nav").sticky({
 			topSpacing:0
 	});
 	$('#sticky-nav').onePageNav();
@@ -73,7 +73,7 @@ jQuery(document).ready(function($) {
 		var winw = $(window).width();
 		$('html').attr('style','width:'+ winw);
 		$('body').attr('style','width:'+ winw);
-		$("#sticky-nav-wrap").sticky({
+		$(".sticky-nav").sticky({
 			topSpacing:0
 		});
 	});
@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
 	}
 
 	$('.checkactive a').each(function() {
-	    if ($(this).attr('href')  ===  window.location.pathname) {
+	    if ($(this).attr('href')  ===  window.location.href) {
 	        $(this).addClass('active');
 	      }
     });

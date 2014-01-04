@@ -6,10 +6,7 @@
 	
 	define('DS', DIRECTORY_SEPARATOR);
 	
-	function page_header($title=null){
-		if(!$title) {
-			$title = "CenturyLink Cloud";
-		}
+	function page_header(){
 		include ROOT_PATH . DS . 'includes/header.php';
 	}
 	
@@ -28,5 +25,3 @@
 	function get_url($path) {
 		echo ROOT_URL . '/' . ltrim($path, '/');
 	}
-	
-

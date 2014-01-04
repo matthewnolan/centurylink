@@ -23,8 +23,8 @@
 ?>
 
 
-<?php page_header("CenturyLink Cloud"); ?>
+<?php page_header()?>
 <div id="home">
 	<?php page_inc("home.php"); ?>
 </div>
-<?php page_footer(); ?>
+<?php page_footer();?>

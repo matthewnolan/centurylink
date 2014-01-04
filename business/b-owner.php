@@ -41,7 +41,7 @@
 						If data is the crown jewel of <br/> your business, you should <br/> have the perfect safety deposit box.
 					</h3>
 					<p class="block-content">
-						Is your data being backed up? After all, business depends on you having access to critical information when and where you need it. Don't leave backing up your data to chance or someonce's memory. With CentiryLink 
+						Is your data being backed up? After all, business depends on you having access to critical information when and where you need it. Don't leave backing up your data to chance or someonce's memory. With CentiryLink<br/>
 						Cloud Service data backup is sercure and automatic.
 					</p>
 					<p class="block-more"> Backup data without a second thought. <a href="<?php echo ROOT_URL;  ?>/business/data-backup">Start Now</a>

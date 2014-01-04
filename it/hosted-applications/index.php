@@ -1,5 +1,5 @@
 <?php
-	page_header("CenturyLink Cloud | IT Leader | Hosted Applications");
+	page_header();
 ?>
 
 <div id="it-apps">
@@ -36,7 +36,7 @@
 	</div>
 </div>
 
-<div id="sticky-nav-wrap" class="sticky-nav">
+<div class="sticky-nav">
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<a href="<?php echo ROOT_URL?>" class="sticky-logo hidden-sm hidden-xs">

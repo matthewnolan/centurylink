@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>CenturyLink Microsite</title>
+    <title>CenturyLink Managed Office</title>
     <meta name="keywords" content="Keywords Site" />
     <meta name="description" content="Description Site" />
     <meta name="robots" content="follow,index" />
@@ -12,13 +12,13 @@
     <link rel="stylesheet" type="text/css" href="dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-   	
+
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-md-10 col-lg-8">
-            	
+
                 <ul class="nav nav-pills pull-left">
                 	<li><a href="#managed-office" class="btscroll">THE DIFFERENCE</a></li>
                     <li><a href="#how-big-is-your-business" class="btscroll">YOUR BUSINESS</a></li>
@@ -42,15 +42,15 @@
                     <li><a href="#what-in-it-for-you" class="btscroll">WHAT YOU GET</a></li>
                     <li><a href="#managed-office-component" class="btscroll">COMPONENT</a></li>
                 </ul>
-                
-              
+
+
             </div>
             <div class="visible-lg">
                 <div class="col-lg-2 nopadding">
                 	<div class="divcallto">
-                            <a href="callto:800.361.0833">
+                            <a href="callto:800.850.9881">
                             	<i class="fa fa-phone fa-lg font-gray-mormal"></i>
-                            	800.361.0833
+                            	800.850.9881
                             </a>
                     </div>
                     <div class="divschedule">
@@ -73,16 +73,16 @@
                     <div class="text-right visible-lg font-green-mormal"><strong>Want to see who else is benefiting from Managed Office?</strong></div>
                     <div class="space10 visible-xs"></div>
             </div>
-           
+
             <div class="col-xs-12 col-sm-8 col-md-8">
-            
+
             	<div class="row">
                 	<div class="col-xs-1 col-md-1">
                     	<a href="#" class="sprite btprev"></a>
                     </div>
                     <div class="col-xs-9 col-md-10">
                       <div id="testimonial-slider">
-                        <div class="color-testtimonial">
+                        <div class="color-testtimonial color-testtimonial-first">
                             <div class="say-testimonial"><p><strong>&quot;With Managed Office, we're more efficient, and more productive. For us, it was the shortcut to fast-forward.&quot;</strong></p></div>
                             <em>Dale Griffith, Western Trucking</em>
                         </div>
@@ -100,7 +100,7 @@
                     	<a href="#" class="sprite btnext"></a>
                     </div>
                 </div>
-            
+
             </div>
         </div>
 	</div>
@@ -169,9 +169,9 @@
                     </div>
                 </div>
                 <div class="visible-xs visible-sm">
-                	<img src="images/mobi/modifferent.png" alt="" style="margin-left:-15px;" />
+                	<img src="images/mobi/modifferent.png" alt="" class="imgmodiff" />
                 </div>
-               
+
             </div>
         </div>
     </div>
@@ -212,7 +212,7 @@
 		</div>
   	</div>
     <div class="space38 hidden-xs"></div>
-   
+
   </div>
   <div class="nextpage visible-lg visible-md">
         <a href="#how-big-is-your-business" class="btscroll">
@@ -234,7 +234,7 @@
 			        <p class="fs14b font-gray-mormal"><strong>No matter what size your business is, Managed Office can add a lot of value and prepare you for the future.</strong></p>
 			    </div>
 		    </div>
-		    
+
 		    <div class="col-sm-6 col-sm-offset-1 col-md-6 col-md-offset-1">
             	<div class="visible-xs">
                 	<img src="images/mobi/business.png" alt="" class="img-responsive" />
@@ -249,7 +249,7 @@
                                     You're likely spending too much time trying to manage your own communication and your own network. With Managed Office, CenturyLink makes sure you're always up and running so that you can focus on your core business.
                                 </div>
                             </div>
-                            
+
                             <div class="col-sm-4 col-md-4">
                                 <div class="img-mobusiness"><img src="images/limited_it.png" alt="" /></div>
                                 <div class="tile-it-mobusiness"><strong><span class="font-green-mormal">LIMITED</span> <span class="font-white-mormal">IT staff?</span></strong></div>
@@ -257,7 +257,7 @@
                                     They're likely stretched making sure your employees are connected 100% of the time. Managed Office is a full service, full support solution that can help free up your IT staff.  We install all your communications and manage your network so they can manage mission critical business technology.
                                 </div>
                             </div>
-                            
+
                             <div class="col-sm-4 col-md-4">
                                 <div class="img-mobusiness"><img src="images/team_it.png" alt="" /></div>
                                 <div class="tile-it-mobusiness"><strong><span class="font-green-mormal">FULL</span> <span class="font-white-mormal">IT staff?</span></strong></div>
@@ -358,8 +358,8 @@
 		    </div>
 		    <div class="col-sm-6 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-0 hidden-xs">
 				<div class="hidden-xs">
-					<div class="slideshow" style="text-align: center;" id="whatinitslide">
-                    	<div class="slide">
+					<div class="slideshow">
+                    	<div class="slide slide-first">
                         	<img src="images/wiify_invoice.png" alt="" class="img-responsive" />
                         </div>
                         <div class="slide">
@@ -384,7 +384,7 @@
 			    </div>
 		    </div>
 	    </div>
-     
+
         <div class="space60 hidden-xs"></div>
         <div class="space5 hidden-xs"></div>
     	<div class="nextpage visible-lg visible-md">
@@ -393,7 +393,7 @@
                 <i class="sprite down-arrow"></i>
                 <span>LEARN MORE ABOUT OUR PRODUCT COMPONENTS?</span>
             </a>
-            
+
         </div>
       </div>
 	</div>
@@ -407,7 +407,7 @@
         <div class="row">
         	<div class="col-sm-6 col-md-5 col-lg-6">
             	<div class="space38 hidden-xs"></div>
-            	<h2><span class="font-green-mormal">Managed Data</span></h2>
+            	<h2><span class="font-green-mormal">Managed DATA</span></h2>
                 <h2>The world of business only works if you're connected to it.</h2>
                 <div class="visible-xs">
                 	<img src="images/mobi/icon_data.png" alt="" class="img-responsive" />
@@ -433,12 +433,12 @@
             <div class="row">
                 <div class="col-sm-6 col-md-5 col-lg-6">
                     <div class="space38 hidden-xs"></div>
-                    <h2><span class="font-green-mormal">Managed Voice</span></h2>
+                    <h2><span class="font-green-mormal">Managed VOICE</span></h2>
                     <h2>In one word, how do we make sure everyone is on the same page? VoIP.</h2>
                     <div class="visible-xs">
                         <img src="images/mobi/icon_voice.png" alt="" class="img-responsive" />
                     </div>
-                    
+
                     <div class="space20 visible-xs"></div>
                     <p class="fs14b font-gray-mormal">
                     Managed Office gives you everything you need to make calls, including the phones themselves, and a wide variety of advanced features.
@@ -462,7 +462,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-5 col-lg-6">
                     <div class="space38 hidden-xs"></div>
-                    <h2><span class="font-green-mormal">Managed Applications</span></h2>
+                    <h2><span class="font-green-mormal">Managed APPLICATIONS</span></h2>
                     <h2>How do you get all the tools of the trade without buying the toolbox?</h2>
                     <div class="visible-xs">
                         <img src="images/mobi/icon_apps.png" alt="" class="img-responsive" />
@@ -486,7 +486,7 @@
                     <a href="apps.php" class="sprite btreadmore">Read more</a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                	
+
                     <div class="hidden-xs">
                         <div class="space38 hidden-xs"></div>
                         <img src="images/icon_apps.png" alt="" class="img-responsive" />
@@ -498,13 +498,13 @@
                 	<div class="visible-xs text-center">
                     	<div class="space20"></div>
                     	<span class="fs13b">To speak with a Centurylink representative</span> <br />
-                        <a href="callto:800.361.0833"><span class="fs13b">Call 800.361.0833</span></a>
+                        <a href="callto:800.850.9881"><span class="fs13b">Call 800.850.9881</span></a>
                         <div class="space10"></div>
                     </div>
                 </div>
             </div>
         </div>
-       
+
         <div class="nextpage visible-lg visible-md">
             <a href="#set-up-an-apointment" class="btscroll">
                 <i class="sprite down-arrow"></i>
