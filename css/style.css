@@ -443,6 +443,9 @@ a object{
 .sticky-nav{
 	border-top: 2px solid #fff;
 	min-height:70px;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
 	background-color:#8cc63e;
 	z-index:999999;
 	text-align:center;
