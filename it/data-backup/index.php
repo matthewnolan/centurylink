@@ -61,7 +61,7 @@
 				<li><a href="#safe">Secure & Available</a></li>
 				<li><a class="short" href="#tco">TCO</a></li>
 				<li><a href="#console">Management Console</a></li>
-				<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
+				<li><a href="#ffb">FastForward onBoarding&#8480;</a></li>
 			</ul>
 			<div class="fix-center hidden-sm hidden-xs call"><a href="tel:800.361.0833">Call 800.361.0833</a></div>
 		</div>

@@ -6,9 +6,11 @@
             <div class="space10 visible-xs"></div>
             <div class="row">
                     <div class="col-xs-4 col-sm-3 col-md-2 fixlogosite">
-                        <object data="<?php echo ROOT_URL; ?>/images/logo.svg" width="141" height="30" type="image/svg+xml">
-							<img  src="<?php echo ROOT_URL; ?>/images/logo.png" alt="CENTURYLINK" width="141" height="30"/>
-						</object>
+                    	<a href="http://www.centurylink.com/small-business/" target="_blank"
+                        	<object data="<?php echo ROOT_URL; ?>/images/logo.svg" width="141" height="30" type="image/svg+xml">
+								<img  src="<?php echo ROOT_URL; ?>/images/logo.png" alt="CENTURYLINK" width="141" height="30"/>
+							</object>
+						</a>
                     </div>
                     <div class="col-xs-8 col-sm-6 col-md-5">
                         <nav class="navbar navbar-default hidden-xs" role="navigation">

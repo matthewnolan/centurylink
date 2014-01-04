@@ -108,7 +108,7 @@
         </div>
 </div>
 <!-- BEGIN LivePerson Button Code -->
-<div id="lpButDivID-1387813752610" class="icolivechat hidden-xs"></div>
+<div id="lpButDivID-1387813752610" class="icolivechat hidden-xs hidden-sm"></div>
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813752610&amp;bt=1&amp;c=1"></script>
 <!-- END LivePerson Button code -->
 <?php

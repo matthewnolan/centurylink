@@ -17,7 +17,7 @@
 						 Plus, easily ad new capabilities to your website, like ecommerce&#8212;without having to spend big bucks on hardware and software.
 						 And all without the headaches of managing software yourself.
 					</p>
-					<p class="block-more">Apps make easy. <a href="<?php echo ROOT_URL;  ?>/business/hosted-applications">Let's Go</a>
+					<p class="block-more">Apps made easy. <a href="<?php echo ROOT_URL;  ?>/business/hosted-applications">Let's Go</a>
 					</p>
 				</div>
 				<div class="col-sm-6 image-block">

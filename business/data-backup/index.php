@@ -61,7 +61,7 @@
 			<ul class="multi" id="sticky-nav">
 				<li><a href="#easy">Easy Management</a></li>
 				<li><a href="#safe">Safe & Available</a></li>
-				<li><a href="#ffb">FastForward on Boarding&#8480;</a></li>
+				<li><a href="#ffb">FastForward onBoarding&#8480;</a></li>
 				<li><a href="#pricing">Pricing</a></li>
 			</ul>
 			<div class="fix-center hidden-sm hidden-xs call"><a href="tel:800.361.0833">Call 800.361.0833</a></div>

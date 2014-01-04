@@ -107,6 +107,13 @@ jQuery(document).ready(function($) {
 	});
 	$('.linkedin').on('click', function() {
 		  ga('send', 'event', 'social', 'click', 'linkedin');
+	});	
+	$('.pdflink').on('click', function() {
+			var thisName = $(this).attr("href");
+			var myRegexp = /pdf(.*)/;
+			var match = myRegexp.exec(thisName);
+			// console.log(match[1]);
+		    ga('send', 'event', 'pdf', 'click', match[1]);
 	});
 });
 </script>

@@ -59,7 +59,7 @@
 			<ul id="sticky-nav">
 				<li><a href="#ihosted">What We Offer</a></li>
 				<li><a class="has-padding"  href="#graph">How We Deliver</a></li>
-				<li><a href="#ffb">Onboarding</a></li>
+				<li><a href="#ffb">OnBoarding</a></li>
 			</ul>
 			<div class="fix-center hidden-sm hidden-xs call"><a href="tel:800.361.0833">Call 800.361.0833</a></div>
 		</div>
