@@ -431,7 +431,7 @@ a object{
 /*STICKY NAV*/
 
 .sticky-nav{
-	height:70px;
+	min-height:70px;
 	background-color:#8cc63e;
 	z-index:999999;
 	text-align:center;

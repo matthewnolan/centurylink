@@ -73,9 +73,6 @@ jQuery(document).ready(function($) {
 		var winw = $(window).width();
 		$('html').attr('style','width:'+ winw);
 		$('body').attr('style','width:'+ winw);
-		$("#sticky-nav-wrap").sticky({
-			topSpacing:0
-		});
 	});
 	
 	//Check active page
