@@ -49,7 +49,7 @@
 				<li><a class="has-padding"  href="#graph">How We Deliver</a></li>
 				<li><a href="#ffb">Onboarding</a></li>
 			</ul>
-			<div class="fix-center hidden-sm hidden-xs"><a href="tel:800.361.0833">Call 800.361.0833</a></div>
+			<div class="fix-center hidden-sm hidden-xs call"><a href="tel:800.361.0833">Call 800.361.0833</a></div>
 		</div>
 	</div>
 	

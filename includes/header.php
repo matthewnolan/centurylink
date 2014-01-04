@@ -38,6 +38,12 @@ jQuery(document).ready(function($) {
 		$('iframe').css('height','auto');
 	}
 	
+
+	var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod|Android)/g) ? true : false );
+	if (!iOS){
+		$(".call a").attr("href", "#");
+	}
+	
 	//BACKTOTOP
 	$.scrollUp({
 		  scrollImg: true
