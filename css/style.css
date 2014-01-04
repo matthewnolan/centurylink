@@ -1311,21 +1311,151 @@ a object{
 	background-position:top-left;
 	min-height: 571px;
 	position:relative;
+	margin-top:85px;
+	font-size:14px;
+	line-height:17px;
+	color:#131313;
 }
-.desktop-graph-left, .desktop-graph-join, .desktop-graph-mid, .desktop-graph-right{
+.desktop-graph.graph-open{
+	background-image:url("../images/graph_desktop_opened.png");
+}
+.desktop-graph-left, .desktop-graph-mid{
 	position:relative;
+	float:left;
 	top:0;
-}
-.desktop-graph-join{
-	
+	left:0;
+	width:240px;
 }
 .desktop-graph-mid{
+	left:237px;
+	top:155px;
+	width:412px;
 	
+}
+.desktop-graph-mid.animated{
+	top:240px;
+	left:180px;
+}
+.desktop-graph-mid .mid-block{
+	position: absolute;
+	text-align:center;
+	width:100%;
+}
+.desktop-graph-mid .mid-block div, .desktop-graph-mid .mid-block h4{
+	text-align:center;
+}
+.desktop-graph-mid .mid-block.first{
+	position: absolute;
+	width:322px;
+	height:159px;
+}
+.desktop-graph-mid .mid-block.first h4{
+	margin-top:60px;
+}
+.desktop-graph-mid .mid-block.mid{
+	top:183px;
+	left:50px;
+	width:200px;
+}
+.desktop-graph-mid .mid-block.mid .closed{
+	margin-top:35px;
+}
+.desktop-graph-mid .mid-block.last{
+	top:160px;
+	left:253px;
+	width:120px;
+}
+.desktop-graph-mid.animated .mid-block.last{
+	top:150px;
+	left:280px;
+	width:160px;
+}
+.desktop-graph-mid.animated .mid-block.first{
+	left:50px;
+	top:5px;
+}
+.desktop-graph-mid .mid-block.last h4{
+	margin-bottom:10px;
+}
+.desktop-graph-mid .mid-block h4{
+	font-size:18px;
+	line-height:21px;
+	color:#ffffff;
+	margin-bottom:20px;
+	
+}
+.desktop-graph-mid .mid-block p{
+	margin-top:0;
+	padding:0 27px;
+	line-height:18px;
+}
+.desktop-graph-mid .mid-block.last p{
+	padding:0;
+	margin-bottom:5px;
+}
+.desktop-graph-mid .mid-block .gplus, .desktop-graph-mid .mid-block .gminus{
+	float:none;
+	margin: 0 auto;
+}
+.desktop-graph-join{
+	position:absolute;
+	top:205px;
+	left:318px;
+	width:100px;
+	text-align:center;	
+}
+.desktop-graph-join p{
+	padding-top:22px;
 }
 .desktop-graph-right{
-	
+	position:absolute;
+	top:0;
+	left:697px;	
+	width:240px;
+	height:150px;
+	padding:15px 20px;
 }
-
+.desktop-graph-right p{
+	text-align:center;
+	margin-top:5px;
+}
+.desktop-graph-right .opened p{
+	margin-top:30px;
+}
+.left-block{
+	height:140px;
+	padding:15px 20px;
+}
+.left-block.mid, .left-block.bot{
+	margin-top:35px;
+}
+.left-block p{
+	margin:10px 0 0 65px; 
+}
+.left-block .opened p{
+	margin-top:20px;
+}
+.gplus, .gminus{
+	width:42px;
+	height:42px;
+	border: 1px solid #cac9c9;
+	background-color:#f6f4f4;
+	text-align:center;
+	margin-top:30px;
+	float:left;
+	margin-right:20px;
+}
+.gminus{
+	margin-top:10px;
+}
+.gplus i, .gminus i{
+	font-size:32px;
+	line-height:42px;
+	color:#a3a2a2;
+}
+.opened{
+	display:none;
+}
 
 /*IT LEADER DB*/
 

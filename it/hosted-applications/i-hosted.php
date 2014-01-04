@@ -19,6 +19,50 @@
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>'
 		});
+
+		
+		$('.desktop-graph-left .gplus').click(function(){
+			$(this).parents('.left-block').find('.closed').hide();
+			$(this).parents('.left-block').find('.opened').show();
+		});
+		$('.desktop-graph-left .gminus').click(function(){
+			$(this).parents('.left-block').find('.opened').hide();
+			$(this).parents('.left-block').find('.closed').show();
+		});
+		$('.desktop-graph-right .gplus').click(function(){
+			$(this).parents('.desktop-graph-right').find('.closed').hide();
+			$(this).parents('.desktop-graph-right').find('.opened').show();
+		});
+		$('.desktop-graph-right .gminus').click(function(){
+			$(this).parents('.desktop-graph-right').find('.opened').hide();
+			$(this).parents('.desktop-graph-right').find('.closed').show();
+		});
+		$('.desktop-graph-mid .gplus').click(function(){
+			if(!$(this).parents('.desktop-graph').hasClass('graph-open')){
+				$(this).parents('.desktop-graph').addClass('graph-open');
+			}
+			if(!$(this).parents('.desktop-graph-mid').hasClass('animated')){
+				$(this).parents('.desktop-graph-mid').addClass('animated');
+			}
+			$(this).parents('.desktop-graph-mid').find('.first .closed').hide();
+			$(this).parents('.desktop-graph-mid').find('.first .opened').show();
+			$(this).parents('.mid-block').find('.closed').hide();
+			$(this).parents('.mid-block').find('.opened').show();
+		});
+		$('.desktop-graph-mid .first .gminus').click(function(){
+			$(this).parents('.desktop-graph').removeClass('graph-open');
+			$(this).parents('.desktop-graph-mid').removeClass('animated');
+			$(this).parents('.desktop-graph-mid').find('.opened').hide();
+			$(this).parents('.desktop-graph-mid').find('.closed').show();
+		});
+		$('.desktop-graph-mid .mid .gminus').click(function(){
+			$(this).parents('.mid-block').find('.opened').hide();
+			$(this).parents('.mid-block').find('.closed').show();
+		});
+		$('.desktop-graph-mid .last .gminus').click(function(){
+			$(this).parents('.mid-block').find('.opened').hide();
+			$(this).parents('.mid-block').find('.closed').show();
+		});
 	});
 </script>
 <div id="ihosted" class="ihosted sticky-padding">
@@ -189,7 +233,7 @@
 							<li>Centralize all capture and storage for quick restore and recovery</li>
 							<li>eDiscovery features such as notation, logging and indexing increase search relevancy</li>
 							<li>Avoid the costs and complexity of building and managing your own archiving system <br/><br/>
-								<a href="<?php echo ROOT_URL;  ?>/download.php?fname=t.pdf">Download</a> features and pricing <img src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt=""/>
+								<a href="#">Download</a> features and pricing <img src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt=""/>
 							</li>
 						</ul>
 					</div>
@@ -324,16 +368,37 @@
 				<div class="desktop-graph">
 					<div class="desktop-graph-left">
 						<div class="left-block top">
-							<h4>Mobile Devices</h4>
-							<p>Mobile users get full access and ActiveSync</p>
+							<div class="closed">
+								<a href="javascript:;"><div class="gplus"><i class="fa fa-plus"></i></div></a>
+								<img src="<?php echo ROOT_URL;?>/images/graph-mobile.png" alt=""/>
+								<p>Mobile Devices</p>
+							</div>
+							<div class="opened">
+								<a href="javascript:;"><div class="gminus"><i class="fa fa-minus"></i></div></a>
+								<p>Mobile users get full access and ActiveSync</p>
+							</div>
 						</div>
 						<div class="left-block mid">
-							<h4>Home Office</h4>
-							<p>Home office users get secure access to apps and full feature functionality</p>
+							<div class="closed">
+								<a href="javascript:;"><div class="gplus"><i class="fa fa-plus"></i></div></a>
+								<img src="<?php echo ROOT_URL;?>/images/graph-home-office.png" alt=""/>
+								<p>Home Office</p>
+							</div>
+							<div class="opened">
+								<a href="javascript:;"><div class="gminus"><i class="fa fa-minus"></i></div></a>
+								<p>Home office users get secure access to apps and full feature functionality</p>
+							</div>
 						</div>
 						<div class="left-block bot">
-							<h4>Office Location(s)</h4>
-							<p>Your environment is protected with state of the art security that is always up to date</p>
+							<div class="closed">
+								<a href="javascript:;"><div class="gplus"><i class="fa fa-plus"></i></div></a>
+								<img src="<?php echo ROOT_URL;?>/images/graph-office-location.png" alt=""/>
+								<p>Office Location(s)</p>
+							</div>
+							<div class="opened">
+								<a href="javascript:;"><div class="gminus"><i class="fa fa-minus"></i></div></a>
+								<p>Your environment is protected with state of the art security that is always up to date</p>
+							</div>
 						</div>
 					</div>
 					
@@ -344,22 +409,47 @@
 					
 					<div class="desktop-graph-mid">
 						<div class="mid-block first">
-							<h4>CenturyLink Network</h4>
-							<p>Core MPLS network with 99.999% availability & deep national/local fiber</p>
+							<div class="closed">
+								<h4>CenturyLink Network</h4>
+								<a href="javascript:;"><div class="gplus"><i class="fa fa-plus"></i></div></a>
+							</div>
+							<div class="opened">
+								<p>Core MPLS network with 99.999% availability & deep national/local fiber</p>
+								<a href="javascript:;"><div class="gminus"><i class="fa fa-minus"></i></div></a>
+							</div>
 						</div>
 						<div class="mid-block mid">
-							<h4>CenturyLink<br/> Data Center</h4>
-							<p>are hosted in compliant data centers with 100% uptime and layered security</p>
+							<div class="closed">
+								<h4>CenturyLink<br/> Data Center</h4>
+								<a href="javascript:;"><div class="gplus"><i class="fa fa-plus"></i></div></a>
+							</div>
+							<div class="opened">
+								<p>Apps are hosted in compliant data centers with 100% uptime and layered security</p>
+								<a href="javascript:;"><div class="gminus"><i class="fa fa-minus"></i></div></a>
+							</div>
 						</div>
 						<div class="mid-block last">
-							<h4>Internet</h4>
-							<p>Tier 1 Internet for fast content serving to users</p>
+							<div class="closed">
+								<h4>Internet</h4>
+								<a href="javascript:;"><div class="gplus"><i class="fa fa-plus"></i></div></a>
+							</div>
+							<div class="opened">
+								<p>Tier 1 Internet for fast content serving to users</p>
+								<a href="javascript:;"><div class="gminus"><i class="fa fa-minus"></i></div></a>
+							</div>
 						</div>
 					</div>
 					
 					<div class="desktop-graph-right">
-						<h4>Customers & Prospects accessing your websites</h4>
-						<p>Highly available website that is fully secured</p>
+						<div class="closed">
+							<a href="javascript:;"><div class="gplus"><i class="fa fa-plus"></i></div></a>
+							<img src="<?php echo ROOT_URL;?>/images/graph-customer.png" alt=""/>
+							<p>Customers & Prospects accessing your websites</p>
+						</div>
+						<div class="opened">
+								<a href="javascript:;"><div class="gminus"><i class="fa fa-minus"></i></div></a>
+								<p>Highly available website that is fully secured</p>
+						</div>
 					</div>
 				</div>
 			</div>
