@@ -29,7 +29,7 @@
     	<div class="row">
         	<div class="col-md-2 col-lg-2 hiddens-xs hidden-sm">
             	<div class="hidden-xs pull-left">
-            		<a href="index.php" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
+            		<a href="<?php echo ROOT_URL; ?>/" title="Century Link" id="logo-sticky" class="sprite">Century Link</a>
                 </div>
             </div>
             <div class="col-xs-12 col-md-10 col-lg-8">
@@ -401,7 +401,7 @@
                 <p class="fs14b font-gray-mormal">
                 Managed Office not only makes sure every employee is connected to the Internet, CenturyLink makes sure everyone in your office is connected to our privately owned and operated network.
                 </p>
-                <a href="data.php" class="sprite btreadmore">Read more</a>
+                <a href="<?php echo ROOT_URL; ?>/managed-data/" class="sprite btreadmore">Read more</a>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
             	<div class="overlay-caro hidden-xs fullwidth-sm">
@@ -429,7 +429,7 @@
                     <p class="fs14b font-gray-mormal">
                     Managed Office gives you everything you need to make calls, including the phones themselves, and a wide variety of advanced features.
                     </p>
-                    <a href="voice.php" class="sprite btreadmore">Read more</a>
+                    <a href="<?php echo ROOT_URL; ?>/managed-voice/" class="sprite btreadmore">Read more</a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="hidden-xs">
@@ -466,7 +466,7 @@
                             <td><img src="<?php echo ROOT_URL; ?>/images/ico_app_6.png" alt="" class="img-responsive" /></td>
                         </tr>
                     </table>
-                    <a href="apps.php" class="sprite btreadmore">Read more</a>
+                    <a href="<?php echo ROOT_URL; ?>/managed-applications/" class="sprite btreadmore">Read more</a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
 
