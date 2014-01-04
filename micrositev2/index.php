@@ -23,7 +23,7 @@
 
 <body>
 <?php
-	include_once( './header.php' );
+	include_once( 'header.php' );
 ?>
 <div id="div-navsticky">
 	<div class="container">
@@ -58,7 +58,7 @@
                             	<i class="fa fa-calendar fa-lg font-gray-mormal"></i>
                             	Schedule a meeting
                             </a>
-                    </div>   
+                    </div>
                  </div>
             </div>
          </div>
@@ -213,7 +213,7 @@
   	</div>
     <div class="space38 hidden-xs"></div>
    
-  </div> 
+  </div>
   <div class="nextpage visible-lg visible-md">
         <a href="#how-big-is-your-business" class="btscroll">
         	<i class="sprite down-arrow"></i>
@@ -358,7 +358,7 @@
 		    </div>
 		    <div class="col-sm-6 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-0 hidden-xs">
 				<div class="hidden-xs">
-					<div class="slideshow" style="text-align: center;">
+					<div class="slideshow" style="text-align: center;" id="whatinitslide">
                     	<div class="slide">
                         	<img src="images/wiify_invoice.png" alt="" class="img-responsive" />
                         </div>
@@ -518,6 +518,6 @@
 <div id="lpButDivID-1387813736901" class="icolivechat hidden-xs"></div>
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813736901&amp;bt=1&amp;c=1"></script>
 <?php
-	include_once( './contactform.php' );
-	include_once( './footer.php' );
+	include_once( 'contactform.php' );
+	include_once( 'footer.php' );
 ?>
