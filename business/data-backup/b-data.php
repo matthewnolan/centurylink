@@ -11,11 +11,13 @@
 					element.addClass('fix-fixed-height');
 				}else{
 					element.find('.3dot').html('...');
-					element.find('.details').attr('style','display:block');
+					element.find('.details').attr('style','display:block;clear:both').height(40);
 					element.removeClass('fix-fixed-height');
 				}
 			}
 		});
+	}).each(function(){
+		$(this).find('.details').attr('style','display:block;clear:both').height(40);
 	});
 </script>
 <div class="bdata sticky-padding" id="easy">
