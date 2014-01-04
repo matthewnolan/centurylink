@@ -650,7 +650,7 @@ a.btnext {
 
 .line-gradient {
 	background:transparent url(../images/line_gradient.png) center no-repeat;
-	background-size: cover;
+	background-size: contain;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/line_gradient.png', sizingMethod='scale');
 	max-width: 1020px;
 	width: 100%;
