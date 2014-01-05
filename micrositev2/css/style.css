@@ -72,6 +72,12 @@ input:focus {
 	position: relative;
 }
 
+@media (min-width:768px) and (max-width:991px){
+	.bgwelcome {
+		min-height: 900px;
+	}
+}
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -1378,3 +1384,129 @@ form.cmxform .gray * {
 	font-size: 18px;
 }
 
+.whatisinslide{
+	position: relative;
+}
+.whatisinslide .clicker{
+	position: absolute;
+	z-index: 999999;
+	border-radius: 100px;
+	background: transparent;
+	height: 0;
+	width: 25%;
+	line-height: 0;
+	padding: 12.5% 0;
+	text-decoration: none;
+}
+.whatisinslide .clicker:hover{
+	cursor: pointer;
+}
+.whatisinslide .clicker-1{
+	top: 16%; left: 12%;
+}
+.whatisinslide .clicker-2{
+	top: 4%; left: 34%;
+}
+.whatisinslide .clicker-3{
+	top: 15%; left: 57%;
+}
+.whatisinslide .clicker-4{
+	top: 39%; left: 62%;
+}
+.whatisinslide .clicker-5{
+	top: 61%; left: 48%;
+}
+.whatisinslide .clicker-6{
+	top: 61%; left: 22%;
+}
+.whatisinslide .clicker-7{
+	top: 40%; left: 5%;
+}
+
+@media (min-width:992px) and (max-width:1200px){
+	.whatisinslide .clicker{
+		width: 27%;
+		padding: 13.5% 0;
+	}
+	.whatisinslide .clicker-1{
+	top: 16%; left: 12%;
+	}
+	.whatisinslide .clicker-2{
+		top: 4%; left: 35%;
+	}
+	.whatisinslide .clicker-3{
+		top: 15%; left: 60%;
+	}
+	.whatisinslide .clicker-4{
+		top: 39%; left: 66%;
+	}
+	.whatisinslide .clicker-5{
+		top: 61%; left: 50%;
+	}
+	.whatisinslide .clicker-6{
+		top: 61%; left: 23%;
+	}
+	.whatisinslide .clicker-7{
+		top: 41%; left: 6%;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.whatisinslide .clicker{
+		width: 27%;
+		padding: 13.5% 0;
+	}
+	.whatisinslide .clicker-1{
+	top: 16%; left: 13%;
+	}
+	.whatisinslide .clicker-2{
+		top: 4%; left: 37%;
+	}
+	.whatisinslide .clicker-3{
+		top: 14%; left: 63%;
+	}
+	.whatisinslide .clicker-4{
+		top: 38%; left: 69%;
+	}
+	.whatisinslide .clicker-5{
+		top: 59%; left: 53%;
+	}
+	.whatisinslide .clicker-6{
+		top: 60%; left: 24%;
+	}
+	.whatisinslide .clicker-7{
+		top: 41%; left: 6%;
+	}
+}
+
+@media (max-width:767px){
+	.whatisinslide{
+		width: 320px;
+		margin: 0 auto;
+	}
+	.whatisinslide .clicker{
+		width: 27%;
+		padding: 13.5% 0;
+	}
+	.whatisinslide .clicker-1{
+	top: 16%; left: 13%;
+	}
+	.whatisinslide .clicker-2{
+		top: 4%; left: 37%;
+	}
+	.whatisinslide .clicker-3{
+		top: 14%; left: 63%;
+	}
+	.whatisinslide .clicker-4{
+		top: 38%; left: 69%;
+	}
+	.whatisinslide .clicker-5{
+		top: 59%; left: 53%;
+	}
+	.whatisinslide .clicker-6{
+		top: 60%; left: 24%;
+	}
+	.whatisinslide .clicker-7{
+		top: 41%; left: 6%;
+	}
+}

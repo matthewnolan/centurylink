@@ -355,25 +355,8 @@ page_header('CenturyLink Managed Office','index');
 					<div class="space38 hidden-xs"></div>
 					<div>
 						<h2 class="blockh">What's in it for you?</h2>
-						<div class="visible-xs">
-							<img src="<?php echo ROOT_URL; ?>/images/mobi/whatinit.png"
-								alt="" usemap="#slideshowmap" class="img-responsive" />
-							<map name="slideshowmap">
-								<area shape="circle" coords="69,84,37" href="#1"
-									alt="One invoice, one trusted provider">
-								<area shape="circle" coords="137,47,37" href="#2"
-									alt="Phone and hardware">
-								<area shape="circle" coords="208,80,37" href="#3"
-									alt="Anytime cloud access to files">
-								<area shape="circle" coords="225,155,37" href="#4"
-									alt="Fully managed software updates">
-								<area shape="circle" coords="180,220,37" href="#5"
-									alt="One solution one partner">
-								<area shape="circle" coords="100,221,37" href="#6"
-									alt="Dynamic scalability">
-								<area shape="circle" coords="50,160,37" href="#7"
-									alt="Lower total cost of ownership">
-							</map>
+						<div class="whatisinslide visible-xs" id="whatisinitMobiSlide">
+							
 						</div>
 						<div class="space20 visible-xs"></div>
 						<p class="fs14b font-gray-mormal">
@@ -396,8 +379,8 @@ page_header('CenturyLink Managed Office','index');
 					</div>
 				</div>
 				<div
-					class="col-sm-6 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-0 hidden-xs">
-					<div class="hidden-xs">
+					class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-0 hidden-xs">
+					<div id="whatisinitslide" class="whatisinslide">
 						<div class="slideshow">
 							<div class="slide slide-first">
 								<img src="<?php echo ROOT_URL; ?>/images/wiify_invoice.png"
