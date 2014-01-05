@@ -738,10 +738,15 @@ a.btnext {
 	left: -25px;
 }
 
-#maofco,
 #whatinit,
 #priccingwork {
 	background: #e7e7e7;
+	width: 100%;
+	position: relative;
+}
+
+#maofco{
+	background: #fff;
 	width: 100%;
 	position: relative;
 }
