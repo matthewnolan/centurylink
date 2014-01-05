@@ -37,8 +37,8 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 <div id="contentpagevoice">
 	<div class="container">
 		<div class="space38 hidden-xs"></div>
-		<h2 class="text-center">You want more VOICE specifics?</h2>
-		<p class="text-center fs14b">The voice component of Managed Office
+		<h2 class="text-center sub-page-headline">You want more VOICE specifics?</h2>
+		<p class="text-center fs14b sub-page-headsub">The voice component of Managed Office
 			includes CenturyLink Hosted VoIP service and Polycom IP phones.
 			Hosted Voice over Internet Protocol (VoIP) works over Local Area
 			Network stack (LAN).</p>

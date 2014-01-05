@@ -38,7 +38,7 @@ page_header("CenturyLink Managed Office | Managed Data", "data");
 <div id="contentpagedata">
 	<div class="container">
 		<div class="space38 hidden-xs"></div>
-		<h1 class="text-center">You want more DATA specifics?</h1>
+		<h1 class="text-center sub-page-headline">You want more DATA specifics?</h1>
 		<div class="space38 hidden-xs"></div>
 		<div class="overlay-ethernet">
 			<div class="row">
