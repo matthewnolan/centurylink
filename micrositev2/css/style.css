@@ -768,7 +768,11 @@ a.btreadmore {
 
 #contactfooter {
 	background: #8fc232;
-	padding: 0 0 30px 0;
+	padding: 0 0 0 0;
+}
+#contactfooter .line-break{
+	margin: 30px 0 0 0;
+	height: 10px;
 }
 #contactfooter #set-up-an-apointment {
 	margin-bottom: 30px;

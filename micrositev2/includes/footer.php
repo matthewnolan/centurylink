@@ -1,4 +1,3 @@
-<div class="line-break sprite height10"></div>
 <footer
 	id="footer">
 <div class="container">
@@ -79,7 +78,6 @@
     	<span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
     </div> --> <!-- <div class="space40 hidden-xs"></div> --> </footer>
 
-<div id="div-img-footer" class=""></div>
 
 <div class="legal-copy">
 	<div class="container">Services not available everywhere. Business
@@ -90,6 +88,7 @@
 		of CenturyLink. All other marks are property of their respective
 		owners.</div>
 </div>
+<div id="div-img-footer" class=""></div>
 <!--# Area Scipts #-->
 <script
 	type="text/javascript"

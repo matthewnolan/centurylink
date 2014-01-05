@@ -65,4 +65,6 @@
 			</div>
 		</div>
 	</div>
+	
+<div class="line-break sprite height10"></div>
 </div>
