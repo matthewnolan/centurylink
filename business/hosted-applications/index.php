@@ -75,9 +75,12 @@
 <div class="why-ctl">
 	<div class="container wrapper">
 	<div class="padding-fix">
-		<p class="why-ctl-content">
-			You and your employees are moving your business in one direction: forward. But if the team is going to be as effective as you want, you ll need the latest tools of the trade. Hardworking hosted applications that not only allow employees to communicate and collaborate, but also help protect, support and grow your business.
-		</p>
+		<p class="why-ctl-content">You and your employees are moving your
+					business in one direction: forward. But if the team is going to be
+					as effective as you want, you’ll need the latest tools of the
+					trade. Hardworking hosted applications that not only allow
+					employees to communicate and collaborate, but also help protect,
+					support and grow your business.</p>
 		<p class="why-ctl-content">
 			Think of it this way, the more effective your team is, the greater the impact on the other<br/> driving force in your business&#8212;your customers.
 		</p>
