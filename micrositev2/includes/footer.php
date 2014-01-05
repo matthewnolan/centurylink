@@ -82,7 +82,6 @@
 <script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.sticky.js"></script>
 <script type="text/javascript" src="<?php echo ROOT_URL; ?>/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.scrollTo.js"></script>
 <script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.scrollUp.min.js"></script>
 <script type="text/javascript">
 /*	<![CDATA[	*/
@@ -115,6 +114,9 @@ jQuery(document).ready(function($) {
 	if(viewportwidth >750 && viewportwidth <= 992){
 			$('#div-left-modifferent').css({"padding-left":15});
 	}
+
+	// init scrollspy
+	$('body').scrollspy({ target: '#div-navsticky', offset: $('#div-navsticky').outerHeight() })
 	
 	var slider = $('#testimonial-slider').bxSlider({
 			minSlides: 1,
@@ -181,9 +183,6 @@ jQuery(document).ready(function($) {
 		});
 		*/
 	});
-	
-	
-	
 	
 	$("#formcontact").validate();
 	
