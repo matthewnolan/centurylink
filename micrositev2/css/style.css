@@ -1341,6 +1341,12 @@ form.cmxform .gray * {
 	padding: 25px 14px;
 }
 
+@media (max-width: 991px){
+	#div-navsticky-sticky-wrapper .nav>li>a {
+		padding: 7px 10px;
+	}
+}
+
 .legal-copy{
 	background: #000;
 	color: #333;
