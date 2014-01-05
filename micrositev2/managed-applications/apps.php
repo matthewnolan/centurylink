@@ -27,7 +27,7 @@
                             	<i class="fa fa-calendar fa-lg font-gray-mormal"></i>
                             	Schedule a meeting
                             </a>
-                    </div>   
+                    </div>
                  </div>
             </div>
          </div>
@@ -37,8 +37,8 @@
 <div id="contentpageapps">
 	<div class="container">
     	<div class="space38 hidden-xs"></div>
-        <h2 class="text-center">What APPLICATIONS are included within Managed Office?</h2>
-        <p class="text-center fs14b">Managed Office comes with the software to run everything from email to data backup to security.</p>
+        <h2 class="text-center sub-page-headline">What APPLICATIONS are included within Managed Office?</h2>
+        <p class="text-center fs14b sub-page-headsub">Managed Office comes with the software to run everything from email to data backup to security.</p>
         <div class="overlay-apps">
         	<div class="space40 hidden-xs"></div>
             <div class="row">
