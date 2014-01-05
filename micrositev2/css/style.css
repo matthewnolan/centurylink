@@ -1328,3 +1328,10 @@ form.cmxform .gray * {
 #div-navsticky-sticky-wrapper .nav>li>a {
 	padding: 25px 14px;
 }
+
+.legal-copy{
+	background: #000;
+	color: #333;
+	padding: 10px 0;
+	font-size: 10px;
+}

@@ -1,88 +1,114 @@
 <div class="line-break sprite height10"></div>
-<footer id="footer">
-	<div class="container">
-		<div class="row">
-        	<div class="col-sm-8 col-md-8">
-             <div class="row">
-			  <div class="col-sm-4 col-md-3 col-lg-3">
-			      <a href="<?php echo ROOT_URL; ?>/"> <span><strong>HOME</strong></span></a>
-			  </div>
-			  <div class="space20 visible-sm visible-xs"></div>
-			  <div class="col-sm-8 col-md-5 col-lg-5">
-			      <div><span><strong>PRODUCT COMPONENTS</strong></span></div>
-                  <div class="space20 hidden-xs"></div>
-			      <a href="<?php echo ROOT_URL; ?>/managed-data/"><span><strong>MANAGED DATA</strong></span></a><br>
-			      <a href="<?php echo ROOT_URL; ?>/managed-voice/"><span><strong>MANAGED VOICE</strong></span></a><br>
-			      <a href="<?php echo ROOT_URL; ?>/managed-applications/"><span><strong>MANAGED APPLICATIONS</strong></span></a>
-			  </div>
-			  <div class="space20 visible-sm visible-xs"></div>
-			  <div class="col-md-4 col-lg-4 hidden-sm">
-		          <a href="#set-up-an-apointment" class="btscroll"><span><strong>SCHEDULE A MEETING</strong></span></a>
-			  </div>
-			  <div class="space20 hidden-lg"></div>
-            </div>
-           </div>
-		   <div class="col-sm-4 col-md-4">
-              	  <span class="div-right-social-footer hidden-xs"></span>
-			      <h4 class="hidden-xs">CENTURYLINK<sup>&reg;</sup><br>MANAGED OFFICE</h4>
-                  <div class="fs14b visible-xs"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span><a href="tel:8008509881">800.850.9881</a></span></a></div>
-                  <span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup><br>MANAGED OFFICE</strong></span>
-                  <div class="space20 visible-xs"></div>
-				  <div id="social-footer">
-                      <a href="https://www.facebook.com/CenturyLinkBusiness" title="Follow us on Facebook" class="facebook" target="_blank" rel="nofollow">
-					  	<span class="fa-stack">
-					  		<i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
-					  		<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-					    </span>
-					  </a>
-					                      
-				 	  <a href="https://twitter.com/CenturyLinkBiz" title="Follow us on Twitter" class="twitter" target="_blank" rel="nofollow">
-					  	<span class="fa-stack">
-					    	<i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
-					     	<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-					  	</span>
-					  </a>
-					                      
-					  <a href="http://www.linkedin.com/company/1434913?trk=tyah" title="Follow us on Linkedin" target="_blank" class="linkedin" rel="nofollow">
-					      <span class="fa-stack">
-					          <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
-					          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-					      </span>
-					  </a>
-					                      
-					  <a href="https://plus.google.com/u/0/117080893855557903730/posts" title="Follow us on Google Plus" target="_blank" class="google-plus" rel="nofollow">
-					       <span class="fa-stack">
-					          <i class="fa fa-square fa-stack-2x fa-bg-footer"></i>
-					          <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-					       </span>
-					  </a>
-                   </div>
-			      
+<footer
+	id="footer">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8 col-md-8">
+			<div class="row">
+				<div class="col-sm-4 col-md-3 col-lg-3">
+					<a href="<?php echo ROOT_URL; ?>/"> <span><strong>HOME</strong> </span>
+					</a>
+				</div>
+				<div class="space20 visible-sm visible-xs"></div>
+				<div class="col-sm-8 col-md-5 col-lg-5">
+					<div>
+						<span><strong>PRODUCT COMPONENTS</strong> </span>
+					</div>
+					<div class="space20 hidden-xs"></div>
+					<a href="<?php echo ROOT_URL; ?>/managed-data/"><span><strong>MANAGED
+								DATA</strong> </span> </a><br> <a
+						href="<?php echo ROOT_URL; ?>/managed-voice/"><span><strong>MANAGED
+								VOICE</strong> </span> </a><br> <a
+						href="<?php echo ROOT_URL; ?>/managed-applications/"><span><strong>MANAGED
+								APPLICATIONS</strong> </span> </a>
+				</div>
+				<div class="space20 visible-sm visible-xs"></div>
+				<div class="col-md-4 col-lg-4 hidden-sm">
+					<a href="#set-up-an-apointment" class="btscroll"><span><strong>SCHEDULE
+								A MEETING</strong> </span> </a>
+				</div>
+				<div class="space20 hidden-lg"></div>
 			</div>
 		</div>
-		<div id="copyrighttext">Copyright &copy; CenturyLink, Inc. All Rights Reserved</div>
-		<!-- <div id="div-img-footer" class="hidden-xs"><img src="<?php echo ROOT_URL; ?>/images/img_footer.png" alt="" class="img-responsive copyimg" /></div> -->
+		<div class="col-sm-4 col-md-4">
+			<span class="div-right-social-footer hidden-xs"></span>
+			<h4 class="hidden-xs">
+				CENTURYLINK<sup>&reg;</sup><br>MANAGED OFFICE
+			</h4>
+			<div class="fs14b visible-xs">
+				<a href="callto:123.456.7890"><i class="fa fa-phone"></i> <span><a
+						href="tel:8008509881">800.850.9881</a> </span> </a>
+			</div>
+			<span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup><br>MANAGED
+					OFFICE</strong> </span>
+			<div class="space20 visible-xs"></div>
+			<div id="social-footer">
+				<a href="https://www.facebook.com/CenturyLinkBusiness"
+					title="Follow us on Facebook" class="facebook" target="_blank"
+					rel="nofollow"> <span class="fa-stack"> <i
+						class="fa fa-square fa-stack-2x fa-bg-footer"></i> <i
+						class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span> </a> <a
+					href="https://twitter.com/CenturyLinkBiz"
+					title="Follow us on Twitter" class="twitter" target="_blank"
+					rel="nofollow"> <span class="fa-stack"> <i
+						class="fa fa-square fa-stack-2x fa-bg-footer"></i> <i
+						class="fa fa-twitter fa-stack-1x fa-inverse"></i> </span> </a> <a
+					href="http://www.linkedin.com/company/1434913?trk=tyah"
+					title="Follow us on Linkedin" target="_blank" class="linkedin"
+					rel="nofollow"> <span class="fa-stack"> <i
+						class="fa fa-square fa-stack-2x fa-bg-footer"></i> <i
+						class="fa fa-linkedin fa-stack-1x fa-inverse"></i> </span> </a> <a
+					href="https://plus.google.com/u/0/117080893855557903730/posts"
+					title="Follow us on Google Plus" target="_blank"
+					class="google-plus" rel="nofollow"> <span class="fa-stack"> <i
+						class="fa fa-square fa-stack-2x fa-bg-footer"></i> <i
+						class="fa fa-google-plus fa-stack-1x fa-inverse"></i> </span> </a>
+			</div>
+
+		</div>
 	</div>
+	<div id="copyrighttext">Copyright &copy; CenturyLink, Inc. All Rights
+		Reserved</div>
+	<!-- <div id="div-img-footer" class="hidden-xs"><img src="<?php echo ROOT_URL; ?>/images/img_footer.png" alt="" class="img-responsive copyimg" /></div> -->
+</div>
 <!--     <div class="visible-xs">
     	<div class="space10"></div>
         <div class="space5"></div>
         <img src="<?php echo ROOT_URL; ?>/images/mobi/bgfooter.png" alt="" class="img-responsive" />
-    </div> -->
-<!--     <div class="container visible-xs">
+    </div> --> <!--     <div class="container visible-xs">
     	<span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
-    </div> -->
-    <!-- <div class="space40 hidden-xs"></div> -->
-</footer>
+    </div> --> <!-- <div class="space40 hidden-xs"></div> --> </footer>
 
 <div id="div-img-footer" class=""></div>
 
+<div class="legal-copy">
+	<div class="container">Services not available everywhere. Business
+		customers only. CenturyLink may change or cancel services or
+		substitute similar services at its sole discretion without notice.
+		&copy; 2014 CenturyLink. All Rights Reserved. The CenturyLink mark,
+		pathways logo and certain CenturyLink product names are the property
+		of CenturyLink. All other marks are property of their respective
+		owners.</div>
+</div>
 <!--# Area Scipts #-->
-<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.validate.js"></script>
-<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.sticky.js"></script>
-<script type="text/javascript" src="<?php echo ROOT_URL; ?>/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.scrollUp.min.js"></script>
+<script
+	type="text/javascript"
+	src="<?php echo ROOT_URL; ?>/js/jquery-1.9.1.min.js"></script>
+<script
+	type="text/javascript"
+	src="<?php echo ROOT_URL; ?>/js/jquery.validate.js"></script>
+<script
+	type="text/javascript"
+	src="<?php echo ROOT_URL; ?>/js/jquery.sticky.js"></script>
+<script
+	type="text/javascript"
+	src="<?php echo ROOT_URL; ?>/dist/js/bootstrap.min.js"></script>
+<script
+	type="text/javascript"
+	src="<?php echo ROOT_URL; ?>/js/jquery.bxslider.min.js"></script>
+<script
+	type="text/javascript"
+	src="<?php echo ROOT_URL; ?>/js/jquery.scrollUp.min.js"></script>
 <script type="text/javascript">
 /*	<![CDATA[	*/
 $(window).on('load',function(){
@@ -246,6 +272,7 @@ jQuery(document).ready(function($) {
 
 <!-- BEGIN LivePerson Monitor. -->
 <script> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "56948775",'lpProtocol' : (document.location.toString().indexOf('https:')==0) ? 'https' : 'http'}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);
-</script><!-- END LivePerson Monitor. -->
+</script>
+<!-- END LivePerson Monitor. -->
 </body>
 </html>
