@@ -67,8 +67,10 @@
 
 		</div>
 	</div>
-	<div id="copyrighttext">Copyright &copy; CenturyLink, Inc. All Rights
+	<div id="div-img-footer" class="">
+		<div id="copyrighttext">Copyright &copy; CenturyLink, Inc. All Rights
 		Reserved</div>
+	</div>
 	<!-- <div id="div-img-footer" class="hidden-xs"><img src="<?php echo ROOT_URL; ?>/images/img_footer.png" alt="" class="img-responsive copyimg" /></div> -->
 </div>
 <!--     <div class="visible-xs">
@@ -79,7 +81,6 @@
     	<span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
     </div> --> <!-- <div class="space40 hidden-xs"></div> --> </footer>
 
-<div id="div-img-footer" class=""></div>
 
 <div class="legal-copy">
 	<div class="container">Services not available everywhere. Business
