@@ -1,4 +1,3 @@
-<div class="line-break sprite height10"></div>
 <footer
 	id="footer">
 <div class="container">
