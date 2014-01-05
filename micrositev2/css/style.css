@@ -553,6 +553,7 @@ ul.nav-pills > li.active a,
 
 
 #div-testimonial {
+	display:none;
 	padding: 20px 0 10px 0;
 	background: #757575;
 	width: 100%;
@@ -841,14 +842,15 @@ a.btreadmore {
 }
 
 .overlay-voice {
-	background: url(../images/overlay_voice.png) left bottom no-repeat #fff;
+	/*background: url(../images/overlay_voice.png) left bottom no-repeat #fff;*/
+	background: url(../images/overlay_voice.png) left bottom no-repeat transparent;
 	width: 100%;
 	height: 528px;
 	margin-top: 85px;
 }
 
 .overlay-apps {
-	background: url(../images/overlay_apps.png) right bottom no-repeat #fff;
+	background: url(../images/overlay_apps.png) right bottom no-repeat transparent;
 	width: 100%;
 	height: 647px;
 	margin-top: 85px;
