@@ -61,7 +61,7 @@
 				<div class="video-right col-sm-5">
 					<div>
 						<h3>Wondering how to take the first step to the cloud?</h3>
-						<p>With CenturyLink Cloud Services, your business doesn't have to dive into the pool. You can just stick your toe in the water. Or the cloud.</p>
+						<p>With CenturyLink Cloud Services, your business doesn’t have to dive into the pool. You can just stick your toe in the water. Or the cloud.</p>
 					</div>
 				</div>
 			</div>

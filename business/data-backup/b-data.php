@@ -46,7 +46,7 @@
 				</div>
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">
-						The business world doesn't run smoothly. Your data backups can.
+						The business world doesn’t run smoothly. Your data backups can.
 					</h3>
 					<p class="block-content">
 						Here's one worry you can cross off your list. With our 99.95% uptime service level agreement, you can rest assured that your files are always safe, securely accessible and automatically backed up offsite.
