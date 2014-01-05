@@ -1,5 +1,5 @@
-<div class="line-break sprite" id="set-up-an-apointment"></div>
 <div id="contactfooter">
+<div class="line-break sprite" id="set-up-an-apointment"></div>
 	<div class="container">
     	<div class="row">
         	<div class="col-sm-6 col-md-6">

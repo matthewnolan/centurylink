@@ -24,7 +24,7 @@
            </div>
 		   <div class="col-sm-4 col-md-4">
               	  <span class="div-right-social-footer hidden-xs"></span>
-			      <h4 class="hidden-xs">CENTURYLINK<sup>&reg;</sup> MANAGED OFFICE</h4>
+			      <h4 class="hidden-xs">CENTURYLINK<sup>&reg;</sup><br>MANAGED OFFICE</h4>
                   <div class="fs14b visible-xs"><a href="callto:123.456.7890"><i class="fa fa-phone"></i>  <span><a href="tel:8008509881">800.850.9881</a></span></a></div>
                   <span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup><br>MANAGED OFFICE</strong></span>
                   <div class="space20 visible-xs"></div>
@@ -60,18 +60,22 @@
 			      
 			</div>
 		</div>
-		<div id="div-img-footer" class="hidden-xs"><img src="<?php echo ROOT_URL; ?>/images/img_footer.png" alt="" class="img-responsive copyimg" /></div>
+		<div id="copyrighttext">Copyright &copy; CenturyLink, Inc. All Rights Reserved</div>
+		<!-- <div id="div-img-footer" class="hidden-xs"><img src="<?php echo ROOT_URL; ?>/images/img_footer.png" alt="" class="img-responsive copyimg" /></div> -->
 	</div>
-    <div class="visible-xs">
+<!--     <div class="visible-xs">
     	<div class="space10"></div>
         <div class="space5"></div>
         <img src="<?php echo ROOT_URL; ?>/images/mobi/bgfooter.png" alt="" class="img-responsive" />
-    </div>
-    <div class="container visible-xs">
+    </div> -->
+<!--     <div class="container visible-xs">
     	<span class="mobicopyright">Copyright &copy; 2013 CenturyLink, Inc. All Rights Reserved.</span>
-    </div>
-    <div class="space40 hidden-xs"></div>
+    </div> -->
+    <!-- <div class="space40 hidden-xs"></div> -->
 </footer>
+
+<div id="div-img-footer" class=""></div>
+
 <!--# Area Scipts #-->
 <script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="<?php echo ROOT_URL; ?>/js/jquery.validate.js"></script>

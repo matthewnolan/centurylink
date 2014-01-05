@@ -756,7 +756,10 @@ a.btreadmore {
 
 #contactfooter {
 	background: #8fc232;
-	padding: 30px 0;
+	padding: 0 0 30px 0;
+}
+#contactfooter #set-up-an-apointment {
+	margin-bottom: 30px;
 }
 
 .ico-calendar {
@@ -792,11 +795,17 @@ a.btreadmore {
 }
 
 #div-img-footer {
-	padding-top: 40px;
+	background-color: #393939 ;
+	background-image:url('../images/img_footer.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	height:33px;
+	width:100%;
 }
 
 #footer {
 	background: #000;
+
 	padding: 20px 0 0;
 	color: #9a9b9d;
 }
@@ -1292,4 +1301,13 @@ input.error {
 }
 form.cmxform .gray * {
     color: gray;
+}
+
+
+
+
+#copyrighttext {
+	color:#333;
+	font-size: .9em;
+	margin:30px 0 30px 0;
 }

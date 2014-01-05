@@ -93,8 +93,8 @@
         </div>
 	</div>
 </div>
-<div class="line-break sprite" id="learn-how-with-managed-office"></div>
 <div id="managed-office">
+<div class="line-break sprite" id="learn-how-with-managed-office"></div>
   <div class="overlay-timer">
 	<div class="container">
     	<div class="space38 hidden-xs"></div>
