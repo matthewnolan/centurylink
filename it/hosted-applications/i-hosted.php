@@ -16,12 +16,54 @@
 		}).each(function(){
 			$(this).find('.details').attr('style','display:block;clear:both').height(40);
 		});
-		$('.sreadmore').readmore({
-			maxHeight:320,
+		/*$('.sreadmore').readmore({
+			maxHeight:120,
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
-			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>'
-		});
+			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
+			afterToggle: function(trigger, element, more) {
+				if(more){
+					element.find('.3dot').html('');
+					element.find('.details').attr('style','display:inline');
+				}else{
+					element.find('.3dot').html('');
+					element.find('.details').attr('style','display:block;clear:both').height(40);
+				}
+			}
+		});*/
 
+		function initGroupReadmore(selector) {
+			var $list = $(selector);
+			// hide expand
+			$list.find('[data-expand="true"]').hide();
+			// calculate height
+			var height = 0;
+			$list.find('.sreadmore').each(function(){
+				if(height < $(this).height()) {
+					height = $(this).height();
+				}
+			});
+			// init max-height
+			$list.find('[data-expand="true"]').show();
+			$list.find('.sreadmore').readmore({
+				maxHeight:height,
+				moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
+				lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
+				afterToggle: function(trigger, element, more) {
+					if(more){
+						element.find('.3dot').html('');
+						element.find('.details').attr('style','display:inline');
+						element.find('[data-expand="true"]').show();
+					}else{
+						element.find('.3dot').html('');
+						element.find('.details').attr('style','display:block;clear:both').height(40);
+						element.find('[data-expand="true"]').hide();
+					}
+				}
+			});
+			$list.find('[data-expand="true"]').hide();
+		};
+		initGroupReadmore('#whatweoffer');
+		initGroupReadmore('#securefeatures');
 		
 		$('.desktop-graph-left .gplus').click(function(){
 			$(this).parents('.left-block').find('.closed').hide();
@@ -95,8 +137,8 @@
 				</div>
 			</div>
 			<div class="block-seperator"></div>
-			<div class="row onboard3col">
-				<div class="col-sm-4 ">
+			<div class="row onboard3col" id="whatweoffer">
+				<div class="col-sm-4">
 					<img src="<?php echo ROOT_URL;  ?>/images/exchange.png" alt="GEARS" />
 					<div class="onboard-title">Microsoft Hosted Exchange</div>
 					<div class="onboard-content new-business sreadmore">
@@ -106,11 +148,11 @@
 								laptops and servers.</li>
 							<li>Up-to-date AV/AS/AP and filtering</li>
 							<!--<li class="startread"></li> -->
-							<li>Shared calendar and address book functionality</li>
-							<li>Email access from any Internet connection using Outlook Web
+							<li data-expand="true">Shared calendar and address book functionality</li>
+							<li data-expand="true">Email access from any Internet connection using Outlook Web
 								access</li>
-							<li>Customize mailbox size based on user</li>
-							<li>Add more space with click of a button <br /> <br /> <a
+							<li data-expand="true">Customize mailbox size based on user</li>
+							<li data-expand="true">Add more space with click of a button <br /> <br /> <a
 								href="<?php echo ROOT_URL;  ?>/pdf/it-hosted-apps/Microsoft_Hosted_Exchange.pdf"
 								target="_blank" class="pdflink">Download</a> features and
 								pricing <img src="<?php echo ROOT_URL;  ?>/images/pdf.png"
@@ -128,12 +170,12 @@
 							<li>Maintain complete control over user permissions</li>
 							<li>Fully integrated with Microsoft Office</li>
 							<!--<li class="startread"></li> -->
-							<li>Your server maintained by Microsoft-certified techs in our
+							<li data-expand="true">Your server maintained by Microsoft-certified techs in our
 								data centers</li>
-							<li>Automatic replication duplicates documents across
+							<li data-expand="true">Automatic replication duplicates documents across
 								geographically dispersed data centers, providing complete data
 								redundancy</li>
-							<li>No training required for IT on setup or maintenance <br /> <br />
+							<li data-expand="true">No training required for IT on setup or maintenance <br /> <br />
 								<a
 								href="<?php echo ROOT_URL;  ?>/pdf/it-hosted-apps/Microsoft_Hosted_SharePoint.pdf"
 								target="_blank" class="pdflink">Download</a> features and
@@ -151,12 +193,12 @@
 							<li>Secure environment for all communications</li>
 							<li>Unified, single client on desktop and laptop</li>
 							<!--<li class="startread"></li> -->
-							<li>Consistent Microsoft UX for end users assures fast adoption</li>
-							<li>Integrates with Outlook & Exchange</li>
-							<li>Access to existing directories and contacts</li>
-							<li>Eliminates separate telephony support</li>
-							<li>Reduces help-desk queries</li>
-							<li>Reduces teleconferencing costs <br /> <br /> <a
+							<li data-expand="true">Consistent Microsoft UX for end users assures fast adoption</li>
+							<li data-expand="true">Integrates with Outlook & Exchange</li>
+							<li data-expand="true">Access to existing directories and contacts</li>
+							<li data-expand="true">Eliminates separate telephony support</li>
+							<li data-expand="true">Reduces help-desk queries</li>
+							<li data-expand="true">Reduces teleconferencing costs <br /> <br /> <a
 								href="<?php echo ROOT_URL;  ?>/pdf/it-hosted-apps/Microsoft_Hosted_Lync.pdf"
 								target="_blank" class="pdflink">Download</a> features and
 								pricing <img src="<?php echo ROOT_URL;  ?>/images/pdf.png"
@@ -329,7 +371,7 @@
 					<img src="<?php echo ROOT_URL;  ?>/images/ihosted-fpo4.png" alt="" />
 				</div>
 			</div>
-			<div class="row fivecolumns onboard3col">
+			<div class="row fivecolumns onboard3col" id="securefeatures">
 				<div class="col-sm-2">
 					<img src="<?php echo ROOT_URL;  ?>/images/attra.png" alt="LOGO" />
 					<div class="onboard-title">SEO: Attracta</div>
@@ -338,7 +380,7 @@
 						submits XML reports to all major search engines: Google, Yahoo,
 						Bing and Ask enhancing SEO results.
 						<!--<div class="startread"></div> -->
-						<ul>
+						<ul data-expand="true">
 							<li>Identifies and reports broken links and errors that impact
 								SEO</li>
 							<li>Add JavaScript apps&#8212;like Google Analytics&#8212;with a
@@ -359,7 +401,7 @@
 						A suite of complete, turnkey shopping cart solutions that include
 						direct integrations into the world's most powerful applications.
 						<!--<div class="startread"></div> -->
-						<ul>
+						<ul data-expand="true">
 							<li>Complete turnkey shopping cart solutions</li>
 							<li>Certified PCI compliant environment meets DSS controls &
 								processes</li>
@@ -378,7 +420,7 @@
 						A single integrated content management platform that serves form
 						factors for mobile devices and desktop websites.
 						<!--<div class="startread"></div> -->
-						<ul>
+						<ul data-expand="true">
 							<li>Automatic redirect of mobile users from Web to optimized
 								mobile site</li>
 							<li>Supports redirect code in JavaScript, PHP, JSP, ASP</li>
@@ -395,7 +437,7 @@
 						This application provides vulnerability scanning for network,
 						applications, SQL Injection, and Cross-Site Scripting (XSS).
 						<!--<div class="startread"></div> -->
-						<ul>
+						<ul data-expand="true">
 							<li>Identifies website and application viruses</li>
 							<li>Instant alerts for search engine or SPAM blacklisting</li>
 							<li>Lightweight scan crawls entire site without impacting network
@@ -413,7 +455,7 @@
 						The cost-efficient way to prevent, detect and recover your website
 						from malware and virus attacks.
 						<!--<div class="startread"></div> -->
-						<ul>
+						<ul data-expand="true">
 							<li>Non-intrusive, automatic monitoring that is easy to deploy</li>
 							<li>Scans your site for malicious code, using signature based
 								approach</li>
