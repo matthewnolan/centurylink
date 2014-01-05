@@ -1736,6 +1736,11 @@ h3.easy-title{
 		background-repeat:no-repeat;
 		position:relative;
 	}
+	#business .hero-right img.icon{
+		right: auto;
+		left: 450px;
+	}
+	
 	.hero-left-content{
 		padding-left:60px;	
 	}
