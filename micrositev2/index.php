@@ -127,7 +127,7 @@ page_header('CenturyLink Managed Office','index');
 			<div class="row">
 				<div class="col-sm-6 col-md-5 col-lg-5">
 					<div class="space38 hidden-xs"></div>
-					<h2>What makes Managed Office different?</h2>
+					<h2 class="blockh">What makes Managed Office different?</h2>
 					<p class="fs14b font-gray-mormal">Managed Office is more than just
 						a bundle of products and services. When you have Managed Office,
 						CenturyLink implements, maintains and upgrades a huge amount of
@@ -222,7 +222,7 @@ page_header('CenturyLink Managed Office','index');
 			<div class="col-sm-4 col-md-5">
 				<div class="space100 hidden-xs"></div>
 				<div id="div-left-mobusiness">
-					<h2>How big is your business?</h2>
+					<h2 class="blockh">How big is your business?</h2>
 					<p class="fs14b font-gray-mormal">
 						<strong>No matter what size your business is, Managed Office can
 							add a lot of value and prepare you for the future.</strong>
@@ -312,7 +312,7 @@ page_header('CenturyLink Managed Office','index');
 				<div class="col-sm-6 col-md-5 col-lg-6">
 					<div class="space38 hidden-xs"></div>
 					<div>
-						<h2>How does pricing work?</h2>
+						<h2 class="blockh">How does pricing work?</h2>
 						<div class="visible-xs">
 							<img src="<?php echo ROOT_URL; ?>/images/mobi/simple_answer.png"
 								alt="" />
@@ -355,7 +355,7 @@ page_header('CenturyLink Managed Office','index');
 				<div class="col-xs-12 col-sm-6 col-md-5 col-lg-6">
 					<div class="space38 hidden-xs"></div>
 					<div>
-						<h2>What's in it for you?</h2>
+						<h2 class="blockh">What's in it for you?</h2>
 						<div class="visible-xs">
 							<img src="<?php echo ROOT_URL; ?>/images/mobi/whatinit.png"
 								alt="" usemap="#slideshowmap" class="img-responsive" />
@@ -449,7 +449,7 @@ page_header('CenturyLink Managed Office','index');
 <div id="maofco">
 	<div class="container">
 		<div class="space38 hidden-xs"></div>
-		<h2 class="text-center">Managed Office Components</h2>
+		<h2 class="text-center blockh">Managed Office Components</h2>
 		<div class="space38 hidden-xs"></div>
 		<div class="row">
 			<div class="col-sm-6 col-md-5 col-lg-6">
