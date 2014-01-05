@@ -38,7 +38,7 @@
 <div id="contentpagedata">
         <div class="container">
             <div class="space38 hidden-xs"></div>
-        <h2 class="text-center">You want more DATA specifics ?</h2>
+        <h1 class="text-center">You want more DATA specifics?</h1>
         <div class="space38 hidden-xs"></div>
         <div class="overlay-ethernet">
             <div class="row">

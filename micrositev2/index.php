@@ -28,7 +28,7 @@
                     <li><a href="#how-big-is-your-business" class="btscroll">YOUR BUSINESS</a></li>
                     <li><a href="#how-does-pricing-work" class="btscroll">PRICING</a></li>
                     <li><a href="#what-in-it-for-you" class="btscroll">WHAT YOU GET</a></li>
-                    <li><a href="#managed-office-component" class="btscroll">COMPONENT</a></li>
+                    <li><a href="#managed-office-component" class="btscroll">COMPONENTS</a></li>
                 </ul>
 
 
@@ -93,8 +93,8 @@
         </div>
 	</div>
 </div>
-<div id="managed-office">
 <div class="line-break sprite" id="learn-how-with-managed-office"></div>
+<div id="managed-office">
   <div class="overlay-timer">
 	<div class="container">
     	<div class="space38 hidden-xs"></div>
@@ -443,18 +443,6 @@
                     <p class="fs14b font-gray-mormal">
                     The days of buying and updating software are over. With Managed Applications, you get the essential business applications you need without having to buy licenses or worry about installation.
                     </p>
-                    <table width="100%" class="tbmnapps visible-xs">
-                    	<tr>
-                        	<td><img src="<?php echo ROOT_URL; ?>/images/ico_app_1.png" alt="" class="img-responsive" /></td>
-                            <td><img src="<?php echo ROOT_URL; ?>/images/ico_app_2.png" alt="" class="img-responsive" /></td>
-                            <td><img src="<?php echo ROOT_URL; ?>/images/ico_app_3.png" alt="" class="img-responsive" /></td>
-                        </tr>
-                        <tr>
-                        	<td><img src="<?php echo ROOT_URL; ?>/images/ico_app_4.png" alt="" class="img-responsive" /></td>
-                            <td><img src="<?php echo ROOT_URL; ?>/images/ico_app_5.png" alt="" class="img-responsive" /></td>
-                            <td><img src="<?php echo ROOT_URL; ?>/images/ico_app_6.png" alt="" class="img-responsive" /></td>
-                        </tr>
-                    </table>
                     <a href="<?php echo ROOT_URL; ?>/managed-applications/" class="sprite btreadmore">Read more</a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">

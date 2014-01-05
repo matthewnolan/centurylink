@@ -839,14 +839,14 @@ a.btreadmore {
 }
 
 .overlay-voice {
-	background: url(../images/overlay_voice.png) left bottom no-repeat transparent;
+	background: url(../images/overlay_voice.png) left bottom no-repeat #fff;
 	width: 100%;
 	height: 528px;
 	margin-top: 85px;
 }
 
 .overlay-apps {
-	background: url(../images/overlay_apps.png) right bottom no-repeat transparent;
+	background: url(../images/overlay_apps.png) right bottom no-repeat #fff;
 	width: 100%;
 	height: 647px;
 	margin-top: 85px;
@@ -1318,4 +1318,11 @@ form.cmxform .gray * {
 	color:#333;
 	font-size: .9em;
 	margin:30px 0 30px 0;
+}
+#div-left-welcome i {
+	font-weight: normal;
+}
+
+#div-navsticky-sticky-wrapper .nav>li>a {
+	padding: 25px 14px;
 }

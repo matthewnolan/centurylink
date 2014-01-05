@@ -13,10 +13,10 @@
                             You get: <br />
                             <ul class="fs14b font-gray-mormal padleft15">
                             	<li>10/10Mbps or 100/100Mbps Ethernet connection</li>
-                                <li>IQ<sup>&trade;</sup> Internet or Enhanced Port (based on locations)</li>
+                                <li>IQ<sup>&trade;</sup> Internet or Enhanced Port <i>(based on locations)</i></li>
                                 <li>AdTran wireless access point</li>
                                 <li>AdTran routers and switches</li>
-                                <li>Uninterruptible power supply (optional)</li>
+                                <li>Uninterruptible power supply <i>(optional)</i></li>
                                 <li>Proactive Network Monitoring</li>
                                 <li>Ethernet connection with quality of service (QoS), which prioritizes delay-sensitive voice traffic over other types of data, for crystal clear calls</li>
                             </ul>

@@ -78,7 +78,7 @@
             <div class="row paddingbottom60">
                 <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
-                    <h2>What's included with each seat you purchase?</h2>
+                    <h1>What's included with each seat you purchase?</h1>
                     <p class="fs14b">
                     	With CenturyLink Managed Office, each seat you purchase includes:
                     </p>
@@ -109,7 +109,7 @@
             <div class="row bottomtoppadding40">
                 <div class="col-sm-6 col-md-6">
                     <div class="space38 hidden-xs"></div>
-                    <h2>What kind of phones do we offer?</h2>
+                    <h1>What kind of phones do we offer?</h1>
                     <p class="font-gray-mormal fs14b">
                    CenturyLink Hosted VoIP uses phones from the Polycom SoundPoint IP Series, an enterprise-grade family of IP desktop phones designed to make voice communications effective and productive. The SoundPoint IP family features high-quality IP phones designed for businesses of all sizes. 
                     </p>
