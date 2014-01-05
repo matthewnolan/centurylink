@@ -51,9 +51,9 @@
 								src="<?php echo ROOT_URL;  ?>/images/customer-data.jpg" alt="" />
 							<h3>
 								<i>Only Cloud Backup <br />Service to Receive <br /> <span>FIPS
-										140-2 certification
+										140-2 certification</span>
 								
-								</i></span>
+								</i>
 							</h3>
 							<div class="sreadmore">
 								<p>Asigra's agentless cloud backup and recovery offers and
