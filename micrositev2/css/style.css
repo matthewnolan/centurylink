@@ -664,7 +664,7 @@ ul.nav-pills > li.active a,
 
 .align-middle strong {
 	position: relative;
-	top: 50px;
+	top: 40px;
 	width: 80px;
 	font-weight: 900;
 	display: inline-block;
@@ -1349,3 +1349,4 @@ form.cmxform .gray * {
 .sub-page-headsub{
 	font-size: 18px;
 }
+
