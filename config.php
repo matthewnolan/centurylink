@@ -11,15 +11,34 @@
 		$relative_path = trim($relative_path, '/');
 		$splits = explode('/', $relative_path);
 		$root_url = '.';
+		$root_url_abs = dirname($_SERVER['PHP_SELF']);
 		$num = count($splits);
 		if(!empty($relative_path)) {
 			for($i = 0; $i<$num; $i++) {
 				$root_url .= '/..';
+				$root_url_abs = dirname($root_url_abs);
 			}
 		}
 		defined("ROOT_URL") or define('ROOT_URL', $root_url);
+		define('ROOT_URL_ABS', $root_url_abs);
 	}
 	
+	function curPageURL() {
+ $pageURL = 'http';
+ if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
+ $pageURL .= "://";
+ if ($_SERVER["SERVER_PORT"] != "80") {
+  $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"];
+ } else {
+  $pageURL .= $_SERVER["SERVER_NAME"];
+ }
+ return $pageURL;
+}
+
+	function successURL() {
+		return curPageURL() . ROOT_URL_ABS . '/success.php';
+	}
+
 	function page_header($title=null){
 		if(!$title) {
 			$title = "CenturyLink Cloud";
