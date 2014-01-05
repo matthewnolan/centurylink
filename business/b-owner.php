@@ -49,8 +49,8 @@
 					<p class="block-content">Is your data being backed up? After all,
 						business depends on you having access to the most critical and
 						up-to-date information when and where you need it. Don’t leave
-						backing up your data to chance or someonce's memory. With
-						CentiryLink Cloud Service, data backup is sercure and automatic,
+						backing up your data to chance or someone's memory. With
+						CentiryLink Cloud Service, data backup is secure and automatic,
 						from virtually anywhere.</p>
 					<p class="block-more">
 						Backup data without a second thought. <a
