@@ -810,7 +810,7 @@ a object{
 
 .hero-left-content{
 	margin-top:45px;
-	padding-left:39px;
+	padding-left:60px;
 	
 }
 .hero-left-content .call{
@@ -1495,7 +1495,7 @@ a object{
 
 #it-db .hero-right img.icon{
 	position:absolute;
-	top:70px;
+	top:74px;
 	right:-37px;
 	z-index:5;
 }
@@ -2220,4 +2220,8 @@ h3.easy-title{
 .mes-logo {
 	padding:9px 0 0 0;
 	text-align: left;
+}
+
+#home .hero-left-content {
+	padding-left: 39px;
 }
