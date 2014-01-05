@@ -1303,7 +1303,15 @@ form.cmxform .gray * {
     color: gray;
 }
 
-
+/*SCROLLUP*/
+#scrollUp{
+  bottom: 20px;
+  right: 10px;
+  width: 29px; /* Width of image */
+  height: 60px; /* Height of image */
+  display:none;
+  background: url(../images/totop.png) no-repeat;
+}
 
 
 #copyrighttext {
