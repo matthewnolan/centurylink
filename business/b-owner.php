@@ -58,7 +58,7 @@
 					</p>
 					<div class="testimonial hidden-sm hidden-xs">
 						<div>
-							<p class="first">"A security breach can cost me clients and
+							<p class="first testcolor">"A security breach can cost me clients and
 								revenue. I'm not going to settle for second-rate protection. "</p>
 							<p class="last">John Sommatino, 20 years of network and systems
 								administration</p>
@@ -72,7 +72,7 @@
 				<div class="col-sm-6 copy-block visible-sm visible-xs">
 					<div class="testimonial">
 						<div>
-							<p class="first">"A security breach can cost me clients and
+							<p class="first testcolor">"A security breach can cost me clients and
 								revenue. I'm not going to settle for second-rate protection."</p>
 							<p class="last">John Sommatino, 20 years of network and systems
 								administration</p>
