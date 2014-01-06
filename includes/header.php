@@ -24,6 +24,7 @@
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.sticky.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/readmore.min.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.sidr.min.js"></script>
+<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/modernizr.svg.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
@@ -101,6 +102,10 @@ jQuery(document).ready(function($) {
         var url = $(this).attr("src");
         $(this).attr("src",url+"?wmode=transparent&showinfo=0&controls=0");
     });
+    //SVG Fallback
+    if(!Modernizr.svg) {
+	    $('img.small-cloud').attr('src', './images/small-cloud.png');
+	}
 
 	//Google analytics event trigger
 	$('.twitter').on('click', function() {
