@@ -49,10 +49,10 @@ jQuery(document).ready(function($) {
 	$.scrollUp({
 		  scrollImg: true
 	});
-	$('a#scrollUp').click(function(){
-		setTimeout(function(){
+	$(window).scroll(function(){
+		if($("#sticky-nav-wrap").position().top !=0 ){
 			$('#sticky-nav li.current').removeClass('current');
-		},300);
+		}   
 	});
 
 	//STICKYNAV
