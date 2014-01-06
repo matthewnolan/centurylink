@@ -221,7 +221,7 @@
 						and malware attacks have become the norm, and your business
 						leadership is looking for you to avoid outages and downtime that
 						come with these threats. McAfee provides the industry-leading
-						security and archiving capabilities you need to guard your AV/AS
+						security and archiving capabilities you need to guard your PC&#39;s AV/AS
 						software, proactively protecting your business while you focus on
 						other things.</p>
 
