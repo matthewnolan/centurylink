@@ -1334,10 +1334,6 @@ a object{
 	line-height:17px;
 	color:#131313;
 }
-.desktop-graph.graph-open{
-	background-image:url("../images/graph_desktop_opened.png");
-	min-height: 571px;
-}
 .desktop-graph-left, .desktop-graph-mid{
 	position:relative;
 	float:left;
@@ -1351,10 +1347,7 @@ a object{
 	width:412px;
 	
 }
-.desktop-graph-mid.animated{
-	top:240px;
-	left:180px;
-}
+
 .desktop-graph-mid .mid-block{
 	position: absolute;
 	text-align:center;
@@ -1384,15 +1377,7 @@ a object{
 	left:253px;
 	width:120px;
 }
-.desktop-graph-mid.animated .mid-block.last{
-	top:150px;
-	left:280px;
-	width:160px;
-}
-.desktop-graph-mid.animated .mid-block.first{
-	left:50px;
-	top:5px;
-}
+
 .desktop-graph-mid .mid-block.last h4{
 	margin-bottom:10px;
 }
@@ -1408,9 +1393,16 @@ a object{
 	padding:0 27px;
 	line-height:18px;
 }
+.desktop-graph-mid .mid-block.first p{
+	margin-top:75px;
+	margin-left:10px;
+}
+.desktop-graph-mid .mid-block.mid p{
+	margin-top:25px;
+}
 .desktop-graph-mid .mid-block.last p{
 	padding:0;
-	margin-bottom:5px;
+	margin:15px -25px 5px;
 }
 .desktop-graph-mid .mid-block .gplus, .desktop-graph-mid .mid-block .gminus{
 	float:none;
@@ -1790,9 +1782,7 @@ h3.easy-title{
 	color:#131313;
 	margin:65px auto 0;
 }
-.desktop-graph.graph-open{
-	min-height: 430px;
-}
+
 .desktop-graph-left, .desktop-graph-mid{
 	position:relative;
 	float:left;
@@ -1806,10 +1796,6 @@ h3.easy-title{
 	width:315px;
 	
 }
-.desktop-graph-mid.animated{
-	top:180px;
-	left:137px;
-}
 .desktop-graph-mid .mid-block{
 	position: absolute;
 	text-align:center;
@@ -1818,6 +1804,11 @@ h3.easy-title{
 .desktop-graph-mid .mid-block div, .desktop-graph-mid .mid-block h4{
 	text-align:center;
 }
+.desktop-graph-mid .mid-block p{
+	margin-top:25px;
+	padding:0 18px;
+	line-height:18px;
+}
 .desktop-graph-mid .mid-block.first{
 	position: absolute;
 	width:250px;
@@ -1825,9 +1816,6 @@ h3.easy-title{
 }
 .desktop-graph-mid .mid-block.first h4{
 	margin-top:45px;
-}
-.desktop-graph-mid .mid-block.mid .closed{
-	margin-top:25px;
 }
 .desktop-graph-mid .mid-block.mid{
 	top:137px;
@@ -1840,18 +1828,6 @@ h3.easy-title{
 	left:189px;
 	width:90px;
 }
-.desktop-graph-mid.animated .mid-block.last{
-	top:112px;
-	left:210px;
-	width:120px;
-}
-.desktop-graph-mid.animated .mid-block.first{
-	left:30px;
-	top:0;
-}
-.desktop-graph-mid.animated .mid-block.mid{
-	top:128px;
-}
 .desktop-graph-mid .mid-block.last h4{
 	margin-bottom:10px;
 }
@@ -1862,14 +1838,16 @@ h3.easy-title{
 	margin-bottom:10px;
 	
 }
-.desktop-graph-mid .mid-block p{
-	margin-top:0;
-	padding:0 18px;
-	line-height:18px;
+.desktop-graph-mid .mid-block.first p{
+	margin-top:45px;
+}
+.desktop-graph-mid .mid-block.mid p{
+	margin-top:15px;
 }
 .desktop-graph-mid .mid-block.last p{
-	padding:0;
-	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:-20px;
+	margin-right:-10px;
 }
 .desktop-graph-mid .mid-block .gplus, .desktop-graph-mid .mid-block .gminus{
 	float:none;
