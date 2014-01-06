@@ -564,7 +564,6 @@ page_header('CenturyLink Managed Office','index');
 		<div class="space20"></div>
 	</div>
 </div>
-</div>
 <div id="lpButDivID-1387813736901" class="icolivechat hidden-xs hidden-sm"></div>
 <script
 	type="text/javascript" charset="UTF-8"
