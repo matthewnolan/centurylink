@@ -28,10 +28,8 @@
 <input type="hidden" name="_mkt_disp" value="return" />
 <input type="hidden" name="_mkt_trk" value="id:131-SYO-861&token:_mch-centurylinkforbusiness.com-1388772632708-62405" />
 
-<!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements.  Please uncomment   -->
 <!--  these lines if you wish to test in debug mode.                          -->
-<!-- ----------------------------------------------------------------------  -->
 <input type="hidden" name="Debug" value=1>
 <input type="hidden" name="DebugEmail" value="kevin@lpnyc.com">
 <!-- refcode: $!session.getAttribute("REFCODE") -->
