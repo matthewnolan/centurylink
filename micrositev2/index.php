@@ -117,8 +117,7 @@ page_header('CenturyLink Managed Office','index');
 		</div>
 	</div>
 </div>
-<div
-	class="line-break sprite" id="learn-how-with-managed-office"></div>
+<div class="line-break sprite" id="learn-how-with-managed-office"></div>
 <div id="managed-office">
 	<div class="overlay-timer">
 		<div class="container">
@@ -221,7 +220,7 @@ page_header('CenturyLink Managed Office','index');
 			<div class="col-sm-4 col-md-5">
 				<div class="space100 hidden-xs"></div>
 				<div id="div-left-mobusiness">
-					<h2 class="blockh">How big is your business?</h2>
+					<h2 class="blockh">How big <br /> is your business?</h2>
 					<p class="fs14b font-gray-mormal">
 						<strong>No matter what size your business is, Managed Office can
 							add a lot of value and prepare you for the future.</strong>
@@ -263,9 +262,10 @@ page_header('CenturyLink Managed Office','index');
 							</div>
 							<div class="content-it-mobusiness">
 								<p>They're likely stretched making sure your employees are
-									connected 100% of the time. Managed Office is a full service,
-									full support solution that can help free up your IT staff.</p>
-								<p>We install all your communications and manage your network so
+									connected 100% of the time.</p>
+                                <p>Managed Office is a full service,
+									full support solution that can help free up your IT staff.
+								   We install all your communications and manage your network so
 									they can manage mission critical business technology.</p>
 							</div>
 						</div>
@@ -426,8 +426,7 @@ page_header('CenturyLink Managed Office','index');
 		</div>
 	</div>
 </div>
-<div
-	class="line-break sprite" id="managed-office-component"></div>
+<div class="line-break sprite" id="managed-office-component"></div>
 <div id="maofco">
 	<div class="container">
 		<div class="space38 hidden-xs"></div>
@@ -557,8 +556,7 @@ page_header('CenturyLink Managed Office','index');
 	</div>
 </div>
 </div>
-<div
-	id="lpButDivID-1387813736901" class="icolivechat hidden-xs hidden-sm"></div>
+<div id="lpButDivID-1387813736901" class="icolivechat hidden-xs hidden-sm"></div>
 <script
 	type="text/javascript" charset="UTF-8"
 	src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813736901&amp;bt=1&amp;c=1"></script>

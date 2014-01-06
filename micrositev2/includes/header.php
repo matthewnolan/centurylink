@@ -120,8 +120,10 @@
 
 			<div class="col-xs-0 col-sm-3 col-md-3 nonpaddingall">
 				<ul class="fa-ul hidden-xs">
-					<li><a href="callto:800.850.9881"><i
-							class="fa-li fa fa-phone fa-lg"></i><span>800.850.9881</span> </a>
+					<li>
+                        	<a href="callto:800.850.9881">
+                            <i class="fa-li fa fa-phone fa-lg"></i><span>800.850.9881</span> 
+                            </a>
 					</li>
 					<li><a href="#set-up-an-apointment" class="btscroll"><i
 							class="fa-li fa fa-calendar fa-lg"></i><span>SCHEDULE A MEETING</span>
