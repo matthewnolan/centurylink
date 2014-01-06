@@ -723,8 +723,7 @@ a object{
 .video-container{
 	padding-bottom:50px;
 }
-.video-left{
-}
+
 .video-right{
 }
 .video-right h3{
@@ -2205,6 +2204,15 @@ h3.easy-title{
 	.why-ctl .box{
 		width: auto;
 		max-width:340px;
+	}
+	.isAndroid .video-left.hidden-xs{
+		display:block !important;
+		width:0 !important;
+		height:0 !important;
+		overflow:hidden !important;
+		border:0 !important;
+		margin:0 !important;
+		padding:0 !important;
 	}
 
 }

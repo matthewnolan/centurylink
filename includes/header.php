@@ -37,6 +37,7 @@ jQuery(document).ready(function($) {
 		var winw = $(container).width();
 		$('iframe').css('max-width',winw - 40);
 		$('iframe').css('height','auto');
+		$('html').addClass('isAndroid');
 	}
 	
 
