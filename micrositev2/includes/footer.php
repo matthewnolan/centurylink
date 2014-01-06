@@ -112,6 +112,7 @@
 $(window).on('load',function(){
 	 $('#testimonial-slider > .color-testtimonial').show();
 	 $('.slideshow > .slide').show();
+	 $('a.btscroll').css("display","inline-block");
 });
 
 var ua = navigator.userAgent.toLowerCase();

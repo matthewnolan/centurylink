@@ -484,7 +484,7 @@ ul.font-gray-mormal li a {
 a.btscroll {
 	color: #000;
 	text-decoration: none;
-	display: inline-block;
+	display: none;
 }
 
 .nextpage > a span {
