@@ -362,7 +362,6 @@ page_header('CenturyLink Managed Office','index');
 							
 						</div>
 						<div class="space20 visible-xs"></div>
-						<p>
                         	<ul class="fs14b font-gray-mormal ul-ethernet-connection">
                             	<li> All your phones and hardware are installed and managed foryou.</li>
                                 <li>There are no upfront investments or ongoing
@@ -385,7 +384,6 @@ page_header('CenturyLink Managed Office','index');
                                 operations center is available 24/7 and proactively monitors your
                                 network.</li>
                             </ul>
-						</p>
 						<div class="space20 visible-xs"></div>
 					</div>
 				</div>
