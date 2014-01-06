@@ -36,7 +36,7 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="itdb-secure">
-				<h3 class="secure-title">Secure yet Available</h3>
+				<h3 class="secure-title">Secure yet available</h3>
 				<div class="secure-content">
 					Provide your users with access to the data they need, whenever they
 					need it. Our 100% data center infrastructure availability SLA is
