@@ -66,7 +66,7 @@ page_header("CenturyLink Managed Office | Managed Data", "data");
 						<li>Your Ethernet connection comes with quality of service (QoS),
 							which prioritizes delay-sensitive voice traffic over other types
 							of data, for crystal clear calls</li>
-						<li>ADTRAN wireless access point</li>
+						<li>ADTRAN wireless access point routers and switches</li>
 					</ul>
 					</p>
 

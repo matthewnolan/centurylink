@@ -78,6 +78,21 @@ input:focus {
 	}
 }
 
+@media (max-width:450px){
+	.bgwelcome {
+		min-height: 930px;
+	}
+	
+	.slide {
+		display: none;
+	}
+	
+	.slide img {
+		width: 273px;
+	}
+	
+}
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -525,6 +540,7 @@ ul.dropdown-menu li:hover > a {
 
 .divcallto {
 	background: #1d1d1d;
+	color: #8a8a8a;
 }
 
 .divcallto a,
@@ -791,7 +807,6 @@ a.btreadmore {
 	padding: 0 0 0 0;
 }
 #contactfooter .line-break{
-	margin: 30px 0 0 0;
 	height: 10px;
 }
 #contactfooter #set-up-an-apointment {
@@ -983,21 +998,25 @@ p.lead {
 
 
 @media screen and (max-width:767px){
+	.bx-pager.bx-default-pager {
+		display: none;
+	}
+	
 	.fix-xs-components {
-		margin-top: -60px;
+		margin-top: -240px;
 	}
 	
 	.fix-xs-components-apps {
-		margin-top: -140px;
+		margin-top: -190px;
 	}
 	
 	.overlay-voice {
-		margin-top: 60px;
+		margin-top: 240px;
 		min-height: 528px;
 	}
 	
 	.overlay-apps {
-		margin-top: 140px;
+		margin-top: 190px;
 		min-height: 647px;
 	}
 	
@@ -1128,7 +1147,7 @@ p.lead {
 	#mobile-nav-content li.last .phone span{
 		float:left;
 		display: block;
-		margin-top: 6px;
+		margin-top: 0;
 	}
 	#mobile-nav-content .social-header{
 		text-align:center;
@@ -1481,8 +1500,9 @@ form.cmxform .gray * {
 
 @media (max-width:767px){
 	.whatisinslide{
-		width: 320px;
+		width: 270px;
 		margin: 0 auto;
+		left: -8px;
 	}
 	.whatisinslide .clicker{
 		width: 27%;

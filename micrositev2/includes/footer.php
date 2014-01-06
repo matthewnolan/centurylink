@@ -1,5 +1,4 @@
-<footer
-	id="footer">
+<footer id="footer">
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-md-8">
@@ -126,7 +125,7 @@ if(isAndroid) {
 jQuery(document).ready(function($) {
 	var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod|Android)/g) ? true : false );
 	if (!iOS){
-		$("a[href^='callto']").attr("href", "javascript:void(0)");
+		$('i.fa-phone').unwrap();
 	}
 	
 	var viewportwidth = $(window).width();
