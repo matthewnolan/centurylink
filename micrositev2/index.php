@@ -142,7 +142,7 @@ page_header('CenturyLink Managed Office','index');
 							<div class="sprite bg-circle"></div>
 						</div>
 						<div class="hspaceoff">
-							<div class="align-middle allinone"><strong>YOUR  <span style="display:inline-block;">ALL-IN-ONE</span> SOLUTION</strong>
+							<div class="align-middle allinone"><strong>YOUR  <span class="allinonegroup">ALL-IN-ONE</span> SOLUTION</strong>
 							</div>
 							<table class="tb-managed-office">
 								<tr>
