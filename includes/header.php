@@ -50,9 +50,11 @@ jQuery(document).ready(function($) {
 		  scrollImg: true
 	});
 	$(window).scroll(function(){
-		if($("#sticky-nav-wrap").position().top !=0 ){
-			$('#sticky-nav li.current').removeClass('current');
-		}   
+		if($("#sticky-nav-wrap").position()){
+			if($("#sticky-nav-wrap").position().top !=0 ){
+				$('#sticky-nav li.current').removeClass('current');
+			}  
+		} 
 	});
 
 	//STICKYNAV
