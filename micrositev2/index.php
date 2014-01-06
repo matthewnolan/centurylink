@@ -363,7 +363,7 @@ page_header('CenturyLink Managed Office','index');
 						</div>
 						<div class="space20 visible-xs"></div>
                         	<ul class="fs14b font-gray-mormal ul-ethernet-connection">
-                            	<li> All your phones and hardware are installed and managed foryou.</li>
+                            	<li> All your phones and hardware are installed and managed for you.</li>
                                 <li>There are no upfront investments or ongoing
                                 operational expenses.</li>
                                     <li>CenturyLink's Cloud makes your
