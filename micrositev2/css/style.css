@@ -727,10 +727,14 @@ ul.nav-pills > li.active a,
 .align-middle strong {
 	position: relative;
 	top: 45px;
-	width: 80px;
+	width: 90px;
 	font-weight: 900;
 	display: inline-block;
 	margin: 0 auto;
+}
+
+.allinonegroup {
+	display:inline-block; white-space: nowrap;
 }
 
 a.btprev {
