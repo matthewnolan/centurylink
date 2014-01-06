@@ -94,6 +94,11 @@ jQuery(document).ready(function($) {
 	        $(this).addClass('active');
 	      }
     });
+    //Youtube
+    $('iframe').each(function(){
+        var url = $(this).attr("src");
+        $(this).attr("src",url+"?wmode=transparent&showinfo=0&controls=0");
+    });
 
 	//Google analytics event trigger
 	$('.twitter').on('click', function() {
@@ -121,14 +126,6 @@ jQuery(document).ready(function($) {
 <!--[if IE]>
 	<script src="<?php echo ROOT_URL;  ?>/js/html5shiv.js"></script>
 	<script src="<?php echo ROOT_URL;  ?>/js/respond.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$('iframe').each(function(){
-		        var url = $(this).attr("src");
-		        $(this).attr("src",url+"?wmode=transparent");
-		    });
-	    });
-	</script>
 <![endif]-->
 
 </head>
