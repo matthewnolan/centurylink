@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
     });
     //SVG Fallback
     if(!Modernizr.svg) {
-	    $('img.small-cloud').attr('src', './images/small-cloud.png');
+	    $('img.small-cloud').attr('src', '<?php echo ROOT_URL;?>/images/small-cloud.png');
 	}
 
 	//Google analytics event trigger
