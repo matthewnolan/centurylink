@@ -56,7 +56,7 @@
                     <p>
                     	<ul class="font-gray-mormal fs14b padleft15">
                         	<li>Online data backup: 10GB per seat</li>
-							<li>Fips 140-2 service certified with built-in data redundancy for disaster recovery</li>
+							<li>FIPS 140-2 service certified with built-in data redundancy for disaster recovery</li>
                         </ul>
                     </p>
                     <h3>Our Managed Office Security includes:</h3>
