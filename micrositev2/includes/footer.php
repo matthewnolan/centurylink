@@ -34,8 +34,7 @@
 				CENTURYLINK<sup>&reg;</sup><br>MANAGED OFFICE
 			</h4>
 			<div class="fs14b visible-xs">
-				<a href="callto:123.456.7890"><i class="fa fa-phone"></i> <span><a
-						href="tel:8008509881">800.850.9881</a> </span> </a>
+				<a href="callto:123.456.7890"><i class="fa fa-phone"></i> <span>800.850.9881 </span> </a>
 			</div>
 			<span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup><br>MANAGED
 					OFFICE</strong> </span>
