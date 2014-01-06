@@ -1,5 +1,4 @@
-<footer
-	id="footer">
+<footer id="footer">
 <div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-md-8">
@@ -35,8 +34,7 @@
 				CENTURYLINK<sup>&reg;</sup><br>MANAGED OFFICE
 			</h4>
 			<div class="fs14b visible-xs">
-				<a href="callto:123.456.7890"><i class="fa fa-phone"></i> <span><a
-						href="tel:8008509881">800.850.9881</a> </span> </a>
+				<a href="callto:123.456.7890"><i class="fa fa-phone"></i> <span>800.850.9881 </span> </a>
 			</div>
 			<span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup><br>MANAGED
 					OFFICE</strong> </span>
@@ -113,6 +111,7 @@
 $(window).on('load',function(){
 	 $('#testimonial-slider > .color-testtimonial').show();
 	 $('.slideshow > .slide').show();
+	 $('a.btscroll').css("display","inline-block");
 });
 
 var ua = navigator.userAgent.toLowerCase();
@@ -126,7 +125,7 @@ if(isAndroid) {
 jQuery(document).ready(function($) {
 	var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod|Android)/g) ? true : false );
 	if (!iOS){
-		$("a[href^='callto']").attr("href", "javascript:void(0)");
+		$('i.fa-phone').unwrap();
 	}
 	
 	var viewportwidth = $(window).width();
@@ -255,11 +254,12 @@ jQuery(document).ready(function($) {
 
 	//BACKTOTOP
 	$.scrollUp({
-		  scrollImg: true
+		  scrollImg: true,
+		  scrollDistance: 360
 	});
 	$('a#scrollUp').click(function(){
 		setTimeout(function(){
-			$('#sticky-nav li.current').removeClass('current');
+			$('#div-navsticky li.active').removeClass('active');
 		},300);
 	});
 });

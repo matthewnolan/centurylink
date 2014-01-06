@@ -12,7 +12,7 @@
 			<p class="fs14b font-gray-mormal">Managed Office provides your
 				business with fundamental IT and communication infrastructure, plus
 				a dedicated team to manage it, with a flat rate per seat per month
-				available.</p>
+				available.*</p>
 			<p class="fs14b">You focus on your business. We handle the technology
 				that runs it.</p>
 		</div>
@@ -99,8 +99,14 @@
 					</div>
 				</div>
 			</div>
+            
 		</div>
 	</div>
+</div>
+<div class="additional-asterisk">
+	<p>
+    	*Additional charges may apply
+    </p>
 </div>
 <div class="nextpage visible-md visible-lg">
 	<a href="#learn-how-with-managed-office" class="btscroll"> <i

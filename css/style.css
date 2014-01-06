@@ -38,14 +38,16 @@ a img, a:hover img{
 	pointer-events: none;
 }
 
-a.sticky-logo{
-	display: block;
-	width: 141px; height: 30px;
-	float: left; overflow: visible;
+a.sticky-logo {
+	display: inline-block !important;
+	float: left; 
+	overflow: visible;
+	opacity:1 !important;
 }
 a.sticky-logo object{
 	pointer-events: none;
-	width: 141px; height: 30px;
+	width: 141px; 
+	height: 30px;
 }
 
 .padding-fix{
@@ -632,6 +634,7 @@ a object{
 	padding-left:130px;
 	background-image:url("../images/white-cloud.png");
 	background-image:url("../images/cloud.svg");
+	background-image:none, url("../images/cloud.svg"), url("../images/white-cloud.png");
 	background-repeat:no-repeat;
 	background-position: 0 -44px;
 	z-index:7;
@@ -720,8 +723,7 @@ a object{
 .video-container{
 	padding-bottom:50px;
 }
-.video-left{
-}
+
 .video-right{
 }
 .video-right h3{
@@ -762,7 +764,9 @@ a object{
 	height:363px;
 	margin-left:-185px;
 	padding-left:185px;
+	background-image:url("../images/cloud.png");
 	background-image:url("../images/white-cloud.svg");
+	background-image:  none,url('../images/white-cloud.svg'), url('../images/cloud.png');
 	background-repeat:no-repeat;
 	background-position: 0 -10px;
 }
@@ -793,7 +797,9 @@ a object{
 	height:363px;
 	margin-left:-112px;
 	padding-left:112px;
+	background-image:url("../images/business-cloud.png");
 	background-image:url("../images/apps-cloud.svg");
+	background-image:none, url("../images/apps-cloud.svg"), url("../images/business-cloud.png");
 	background-repeat:no-repeat;
 	background-position: 0 -126px;
 }
@@ -959,7 +965,9 @@ a object{
 	height:363px;
 	margin-left:-112px;
 	padding-left:112px;
+	background-image:url("../images/business-cloud.png");
 	background-image:url("../images/apps-cloud.svg");
+	background-image:none , url("../images/apps-cloud.svg"), url("../images/business-cloud.png");
 	background-repeat:no-repeat;
 	background-position: 0 -126px;
 }
@@ -1115,7 +1123,9 @@ a object{
 	height:363px;
 	margin-left:-123px;
 	padding-left:123px;
+	background-image:url("../images/cloud.png");
 	background-image:url("../images/white-cloud.svg");
+	background-image:none, url("../images/white-cloud.svg"), url("../images/cloud.png");
 	background-repeat:no-repeat;
 	background-position: 0 -90px;
 }
@@ -1204,7 +1214,9 @@ a object{
 	height:363px;
 	margin-left:-160px;
 	padding-left:160px;
+	background-image:url("../images/cloud.png");
 	background-image:url("../images/white-cloud.svg");
+	background-image:none, url("../images/white-cloud.svg"), url("../images/cloud.png");
 	background-repeat:no-repeat;
 	background-position: 0 -96px;
 }
@@ -1332,10 +1344,6 @@ a object{
 	line-height:17px;
 	color:#131313;
 }
-.desktop-graph.graph-open{
-	background-image:url("../images/graph_desktop_opened.png");
-	min-height: 571px;
-}
 .desktop-graph-left, .desktop-graph-mid{
 	position:relative;
 	float:left;
@@ -1349,10 +1357,7 @@ a object{
 	width:412px;
 	
 }
-.desktop-graph-mid.animated{
-	top:240px;
-	left:180px;
-}
+
 .desktop-graph-mid .mid-block{
 	position: absolute;
 	text-align:center;
@@ -1382,15 +1387,7 @@ a object{
 	left:253px;
 	width:120px;
 }
-.desktop-graph-mid.animated .mid-block.last{
-	top:150px;
-	left:280px;
-	width:160px;
-}
-.desktop-graph-mid.animated .mid-block.first{
-	left:50px;
-	top:5px;
-}
+
 .desktop-graph-mid .mid-block.last h4{
 	margin-bottom:10px;
 }
@@ -1406,9 +1403,16 @@ a object{
 	padding:0 27px;
 	line-height:18px;
 }
+.desktop-graph-mid .mid-block.first p{
+	margin-top:75px;
+	margin-left:10px;
+}
+.desktop-graph-mid .mid-block.mid p{
+	margin-top:25px;
+}
 .desktop-graph-mid .mid-block.last p{
 	padding:0;
-	margin-bottom:5px;
+	margin:15px -25px 5px;
 }
 .desktop-graph-mid .mid-block .gplus, .desktop-graph-mid .mid-block .gminus{
 	float:none;
@@ -1485,7 +1489,9 @@ a object{
 	height:363px;
 	margin-left:-112px;
 	padding-left:112px;
+	background-image:url("../images/business-cloud.png");
 	background-image:url("../images/apps-cloud.svg");
+	background-image:none, url("../images/apps-cloud.svg"), url("../images/business-cloud.png");
 	background-repeat:no-repeat;
 	background-position: 0 -126px;
 }
@@ -1788,9 +1794,7 @@ h3.easy-title{
 	color:#131313;
 	margin:65px auto 0;
 }
-.desktop-graph.graph-open{
-	min-height: 430px;
-}
+
 .desktop-graph-left, .desktop-graph-mid{
 	position:relative;
 	float:left;
@@ -1804,10 +1808,6 @@ h3.easy-title{
 	width:315px;
 	
 }
-.desktop-graph-mid.animated{
-	top:180px;
-	left:137px;
-}
 .desktop-graph-mid .mid-block{
 	position: absolute;
 	text-align:center;
@@ -1816,6 +1816,11 @@ h3.easy-title{
 .desktop-graph-mid .mid-block div, .desktop-graph-mid .mid-block h4{
 	text-align:center;
 }
+.desktop-graph-mid .mid-block p{
+	margin-top:25px;
+	padding:0 18px;
+	line-height:18px;
+}
 .desktop-graph-mid .mid-block.first{
 	position: absolute;
 	width:250px;
@@ -1823,9 +1828,6 @@ h3.easy-title{
 }
 .desktop-graph-mid .mid-block.first h4{
 	margin-top:45px;
-}
-.desktop-graph-mid .mid-block.mid .closed{
-	margin-top:25px;
 }
 .desktop-graph-mid .mid-block.mid{
 	top:137px;
@@ -1838,18 +1840,6 @@ h3.easy-title{
 	left:189px;
 	width:90px;
 }
-.desktop-graph-mid.animated .mid-block.last{
-	top:112px;
-	left:210px;
-	width:120px;
-}
-.desktop-graph-mid.animated .mid-block.first{
-	left:30px;
-	top:0;
-}
-.desktop-graph-mid.animated .mid-block.mid{
-	top:128px;
-}
 .desktop-graph-mid .mid-block.last h4{
 	margin-bottom:10px;
 }
@@ -1860,14 +1850,16 @@ h3.easy-title{
 	margin-bottom:10px;
 	
 }
-.desktop-graph-mid .mid-block p{
-	margin-top:0;
-	padding:0 18px;
-	line-height:18px;
+.desktop-graph-mid .mid-block.first p{
+	margin-top:45px;
+}
+.desktop-graph-mid .mid-block.mid p{
+	margin-top:15px;
 }
 .desktop-graph-mid .mid-block.last p{
-	padding:0;
-	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:-20px;
+	margin-right:-10px;
 }
 .desktop-graph-mid .mid-block .gplus, .desktop-graph-mid .mid-block .gminus{
 	float:none;
@@ -2057,7 +2049,7 @@ h3.easy-title{
 	.video-right{
 		margin-bottom:40px;
 	}
-	.sticky-nav{
+	.sticky-wrapper, .sticky-nav{
 		height:auto !important;
 		max-height: 1000px !important;
 	}
@@ -2212,6 +2204,15 @@ h3.easy-title{
 	.why-ctl .box{
 		width: auto;
 		max-width:340px;
+	}
+	.isAndroid .video-left.hidden-xs{
+		display:block !important;
+		width:0 !important;
+		height:0 !important;
+		overflow:hidden !important;
+		border:0 !important;
+		margin:0 !important;
+		padding:0 !important;
 	}
 
 }

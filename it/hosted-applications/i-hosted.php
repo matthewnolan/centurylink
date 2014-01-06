@@ -82,28 +82,10 @@
 			$(this).parents('.desktop-graph-right').find('.closed').show();
 		});
 		$('.desktop-graph-mid .gplus').click(function(){
-			if(!$(this).parents('.desktop-graph').hasClass('graph-open')){
-				$(this).parents('.desktop-graph').addClass('graph-open');
-			}
-			if(!$(this).parents('.desktop-graph-mid').hasClass('animated')){
-				$(this).parents('.desktop-graph-mid').addClass('animated');
-			}
-			$(this).parents('.desktop-graph-mid').find('.first .closed').hide();
-			$(this).parents('.desktop-graph-mid').find('.first .opened').show();
 			$(this).parents('.mid-block').find('.closed').hide();
 			$(this).parents('.mid-block').find('.opened').show();
 		});
-		$('.desktop-graph-mid .first .gminus').click(function(){
-			$(this).parents('.desktop-graph').removeClass('graph-open');
-			$(this).parents('.desktop-graph-mid').removeClass('animated');
-			$(this).parents('.desktop-graph-mid').find('.opened').hide();
-			$(this).parents('.desktop-graph-mid').find('.closed').show();
-		});
-		$('.desktop-graph-mid .mid .gminus').click(function(){
-			$(this).parents('.mid-block').find('.opened').hide();
-			$(this).parents('.mid-block').find('.closed').show();
-		});
-		$('.desktop-graph-mid .last .gminus').click(function(){
+		$('.desktop-graph-mid .gminus').click(function(){
 			$(this).parents('.mid-block').find('.opened').hide();
 			$(this).parents('.mid-block').find('.closed').show();
 		});
@@ -221,7 +203,7 @@
 						and malware attacks have become the norm, and your business
 						leadership is looking for you to avoid outages and downtime that
 						come with these threats. McAfee provides the industry-leading
-						security and archiving capabilities you need to guard your AV/AS
+						security and archiving capabilities you need to guard your PC&#39;s AV/AS
 						software, proactively protecting your business while you focus on
 						other things.</p>
 

@@ -50,8 +50,6 @@ page_header("CenturyLink Managed Office | Managed Data", "data");
 							src="<?php echo ROOT_URL; ?>/images/mobi/ethernet_connection.png"
 							alt="" class="img-responsive" />
 					</div>
-					<p>
-					
 					
 					<ul class="fs14b font-gray-mormal ul-ethernet-connection">
 						<li>Depending on your needs and the number of seats you purchase,
@@ -66,9 +64,8 @@ page_header("CenturyLink Managed Office | Managed Data", "data");
 						<li>Your Ethernet connection comes with quality of service (QoS),
 							which prioritizes delay-sensitive voice traffic over other types
 							of data, for crystal clear calls</li>
-						<li>ADTRAN wireless access point</li>
+						<li>ADTRAN wireless access point routers and switches</li>
 					</ul>
-					</p>
 
 				</div>
 				<div class="col-sm-6 col-md-6">

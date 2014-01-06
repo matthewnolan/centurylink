@@ -4,14 +4,13 @@
 		<div class="row">
 			<div class="col-sm-6 col-md-6">
 				<h2>Can we set up a meeting?</h2>
-				<p class="fs18">Just fill in a form, we'll give you a call back and
-					set up a time to meet and talk about Managed Office.</p>
+				<p class="fs18">Just fill in this form, we'll give you a call back and set up a time to meet and talk about how Managed Office can help your business.</p>
 				<div class="space20 hidden-xs"></div>
 				<div class="sprite ico-calendar hidden-xs"></div>
 			</div>
 			<div class="col-sm-6 col-md-6">
 				<form role="form" action="#" method="post" id="formcontact">
-					<span class="required">* All fields required</span>
+					<span class="required">All fields required</span>
 					<div class="form-group">
 						<label for="txtfirstname">First Name</label> <input type="text"
 							id="txtfirstname" class="form-control" name="txtfirstname"
@@ -62,6 +61,7 @@
 					</div>
 					<button type="submit" class="btnsubmit">SUBMIT</button>
 				</form>
+                <div class="space20"></div>
 			</div>
 		</div>
 	</div>
