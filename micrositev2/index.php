@@ -18,7 +18,7 @@ page_header('CenturyLink Managed Office','index');
 		<div class="row">
 			<div class="col-md-2 col-lg-2 hiddens-xs hidden-sm">
 				<div class="hidden-xs pull-left">
-					<a href="http://www.centurylink.com/small-business/" terget="_blank" title="Century Link"
+					<a href="http://www.centurylink.com/small-business/" target="_blank" title="Century Link"
 						id="logo-sticky" class="sprite">Century Link</a>
 				</div>
 			</div>
@@ -371,16 +371,16 @@ page_header('CenturyLink Managed Office','index');
                                 business's information secure and accessible, virtually anywhere.</li>
                                     <li>You'll always have the latest and greatest, because
                                 we're continually updating your communication, applications, and
-                                network technology.</li> 
+                                network technology.</li>
                                     <li>No need for you to contact a
                                 third-party supplier to upgrade the software or manage the
                                 technology.</li>
                                     <li>Managed Office is a totally scalable
-                                solution.</li> 
+                                solution.</li>
                                     <li>Our fully managed solution can improve
-                                your total cost of ownership.</li>	
+                                your total cost of ownership.</li>
                                     <li>You get one invoice
-                                from one trusted partner.</li> 
+                                from one trusted partner.</li>
                                     <li>A dedicated technical
                                 operations center is available 24/7 and proactively monitors your
                                 network.</li>
