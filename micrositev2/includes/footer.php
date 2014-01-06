@@ -254,11 +254,12 @@ jQuery(document).ready(function($) {
 
 	//BACKTOTOP
 	$.scrollUp({
-		  scrollImg: true
+		  scrollImg: true,
+		  scrollDistance: 360
 	});
 	$('a#scrollUp').click(function(){
 		setTimeout(function(){
-			$('#sticky-nav li.current').removeClass('current');
+			$('#div-navsticky li.active').removeClass('active');
 		},300);
 	});
 });

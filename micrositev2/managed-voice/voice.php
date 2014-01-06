@@ -94,11 +94,11 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 		<div class="visible-xs">
 			<div class="mobi-line-gradient"></div>
 		</div>
-		<div>
+		<div id="section-middle-voice">
 			<div class="row paddingbottom60">
 				<div class="col-sm-6 col-md-6">
 					<div class="space38 hidden-xs"></div>
-					<h1>What's available with each seat you purchase?</h1>
+					<h1>What's available with each seat you purchase?*</h1>
 					<p class="fs14b">With CenturyLink Managed Office, each seat can
 						include:</p>
 					<p>
@@ -128,6 +128,11 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 					</div>
 				</div>
 			</div>
+            <div class="additional-asterisk">
+                <p class="paddingtop10">
+                    *Some features are an additional fee
+                </p>
+            </div>
 		</div>
 		<div class="hidden-xs">
 			<div class="line-gradient"></div>

@@ -1,7 +1,6 @@
 <?php global $uri; ?>
 <header id="header">
-<div
-	class="bgwelcome <?php if(in_array( $uri,array('data','apps','voice') )) echo 'bgdata'; ?>">
+<div class="bgwelcome <?php if(in_array( $uri,array('data','apps','voice') )) echo 'bgdata'; ?>">
 	<div class="container">
 		<div class="space38 hidden-xs"></div>
 		<div class="space10 visible-xs"></div>
@@ -27,10 +26,10 @@
 				<div class="collapse navbar-collapse" id="mobi-nav-collapse">
 					<ul class="nav navbar-nav navbar-mainmenu">
 						<li
-						<?php if($uri == '' || $uri == 'index'){ echo ' class="active"'; }?>><a
+						<?php /*if($uri == '' || $uri == 'index'){ echo ' class="active"'; }*/?>><a
 							href="<?php echo ROOT_URL; ?>/">HOME</a></li>
 						<li
-							class="dropdown<?php if(in_array( $uri,array('data','apps','voice') )){ echo ' active'; }?>"><a
+							class="dropdown<?php /*if(in_array( $uri,array('data','apps','voice') )){ echo ' active'; }*/?>"><a
 							href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCT
 								COMPONENTS <b class="caret"></b> </a>
 							<ul class="dropdown-menu">

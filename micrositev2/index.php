@@ -187,7 +187,7 @@ page_header('CenturyLink Managed Office','index');
 									<td class="text-left"><span class="title-col">One Network</span>
 										<p class="desc-col">When you're on the CenturyLink network,
 											you get a leading provider and an outstanding day-in-day-out
-											performance backed by service level agreement that assure
+											performance backed by service level agreements that assure
 											your business stays up and running.</p>
 									</td>
 								</tr>
@@ -281,9 +281,7 @@ page_header('CenturyLink Managed Office','index');
 							<div class="content-it-mobusiness">
 								<p>You're likely burdened with day-to-day communication and IT
 									support tasks.</p>
-								<p>Moving to Managed Office, we remove the headaches of
-									supporting our solution, including full separation from other
-									IT elements that drive your business every day.</p>
+								<p>Moving to Managed Office, we remove the everyday headaches of supporting your communication solution, including full separation from other IT elements that drive your business.</p>
 							</div>
 						</div>
 					</div>
@@ -322,7 +320,7 @@ page_header('CenturyLink Managed Office','index');
 							from one trusted provider. With the Managed Office cost model,
 							you can move from a capital expense (CapEx), to an operational
 							expense (OpEx). You no longer have to buy equipment; you just pay
-							for usage.</p>
+							for usage.*</p>
 						<p class="fs14b">
 							Need questions answered?<br /> <span class="font-gray-mormal">Schedule
 								a meeting to learn more.</span>
@@ -341,6 +339,11 @@ page_header('CenturyLink Managed Office','index');
 				<a href="#what-in-it-for-you" class="btscroll"> <i
 					class="sprite down-arrow"></i> <span>WHAT'S IN IT FOR YOU?</span> </a>
 			</div>
+            <div class="additional-asterisk">
+                <p class="width300">
+                    *Additional features available at an additional change or ala cate options available for features and services not included in the seat price.
+                </p>
+            </div>
 		</div>
 	</div>
 </div>
@@ -359,21 +362,29 @@ page_header('CenturyLink Managed Office','index');
 							
 						</div>
 						<div class="space20 visible-xs"></div>
-						<p class="fs14b font-gray-mormal">
-							&bull; All your phones and hardware are installed and managed for
-							you. <br /> &bull; There are no upfront investments or ongoing
-							operational expenses.<br /> &bull; CenturyLink's Cloud makes your
-							business's information secure and accessible, virtually anywhere.
-							<br /> &bull; You'll always have the latest and greatest, because
-							we're continually updating your communication, applications, and
-							network technology. <br /> &bull; No need for you to contact a
-							third-party supplier to upgrade the software or manage the
-							technology.<br /> &bull; Managed Office is a totally scalable
-							solution.<br /> &bull; Our fully managed solution can improve
-							your total cost of ownership.<br /> &bull; You get one invoice
-							from one trusted partner.<br /> &bull; A dedicated technical
-							operations center is available 24/7 and proactively monitors your
-							network.
+						<p>
+                        	<ul class="fs14b font-gray-mormal ul-ethernet-connection">
+                            	<li> All your phones and hardware are installed and managed foryou.</li>
+                                <li>There are no upfront investments or ongoing
+                                operational expenses.</li>
+                                    <li>CenturyLink's Cloud makes your
+                                business's information secure and accessible, virtually anywhere.</li>
+                                    <li>You'll always have the latest and greatest, because
+                                we're continually updating your communication, applications, and
+                                network technology.</li> 
+                                    <li>No need for you to contact a
+                                third-party supplier to upgrade the software or manage the
+                                technology.</li>
+                                    <li>Managed Office is a totally scalable
+                                solution.</li> 
+                                    <li>Our fully managed solution can improve
+                                your total cost of ownership.</li>	
+                                    <li>You get one invoice
+                                from one trusted partner.</li> 
+                                    <li>A dedicated technical
+                                operations center is available 24/7 and proactively monitors your
+                                network.</li>
+                            </ul>
 						</p>
 						<div class="space20 visible-xs"></div>
 					</div>
@@ -437,7 +448,7 @@ page_header('CenturyLink Managed Office','index');
 				<div class="space38 hidden-xs"></div>
 				<h2>
 					<span class="font-green-mormal">Managed DATA</span><br />The world
-					of business only works if you're connected to it.
+					of business only works if you're connected <br />to it.
 				</h2>
 				<div class="visible-xs">
 					<img src="<?php echo ROOT_URL; ?>/images/mobi/icon_data.png" alt=""

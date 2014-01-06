@@ -36,6 +36,16 @@ h3 {
 	font-weight: 900;
 }
 
+#section-middle-voice {
+	position: relative;
+}
+
+.additional-asterisk {
+	position: absolute;
+	bottom: 20px;
+	color: #8A8A8A;
+}
+
 a,
 textarea:hover, 
 input:hover, 
@@ -79,8 +89,16 @@ input:focus {
 }
 
 @media (max-width:450px){
+	.overlay-timer {
+		min-height: 720px;
+	}
+	
+	.overlay-chair {
+		min-height: 720px;
+	}
+	
 	.bgwelcome {
-		min-height: 930px;
+		min-height: 970px;
 	}
 	
 	.slide {
@@ -112,6 +130,14 @@ textarea.form-control {
 
 .widtd70 {
 	width: 70px;
+}
+
+.width300 {
+	width: 300px;
+}
+
+.paddingtop10 {
+	padding-top: 10px;
 }
 
 .noborderframe {
@@ -260,12 +286,12 @@ a#logo-sticky {
 	padding-bottom: 8px;
 }
 
-.navbar-default .navbar-mainmenu > .active > a,
+/*.navbar-default .navbar-mainmenu > .active > a,
 .navbar-default .navbar-mainmenu a:hover {
 	background-image: none;
 	background-color: #000;
 	color: #FFF;
-}
+}*/
 
 ul.navbar-mainmenu li:hover{
 	background-image: none;
@@ -1031,7 +1057,7 @@ p.lead {
 	}
 	
 	.bgdata {
-		min-height: 872px;
+		min-height: 1040px;
 	}
 	
 	.video {
@@ -1365,7 +1391,7 @@ form.cmxform .gray * {
   width: 29px; /* Width of image */
   height: 60px; /* Height of image */
   display:none;
-  background: url(../images/totop.png) no-repeat;
+  background: url(../images/totopgreen.png) no-repeat;
 }
 
 
