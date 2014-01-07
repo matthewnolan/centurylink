@@ -34,7 +34,7 @@
 				CENTURYLINK<sup>&reg;</sup><br>MANAGED OFFICE
 			</h4>
 			<div class="fs14b visible-xs">
-				<a href="callto:123.456.7890"><i class="fa fa-phone"></i> <span>800.850.9881 </span> </a>
+				<a href="tel:123.456.7890"><i class="fa fa-phone"></i> <span>800.850.9881 </span> </a>
 			</div>
 			<span class="visible-xs"><strong>CENTURYLINK<sup>&reg;</sup><br>MANAGED
 					OFFICE</strong> </span>
@@ -162,6 +162,7 @@ jQuery(document).ready(function($) {
 		slider.goToNextSlide();
 	});
 	
+	//calc_pheight();
 	/*var ulwidth = $('ul.dropdown-menu').width();
 		ulwidth = ulwidth + 6;
 	var	ulwidth2 = ulwidth + 50;
@@ -173,6 +174,18 @@ jQuery(document).ready(function($) {
 			$(this).find('.lidesc').hide();
 		});
 	});*/
+	
+	var pheightest = 0; 
+	var objbusiness = $('.content-it-mobusiness p:first-child');
+	$.each( objbusiness, function(index){
+		if($(this).height() > pheightest) {
+			pheightest = $(this).height();
+		}
+	});
+	$.each( objbusiness, function(index){
+		$(this).css({height:pheightest});
+	});
+	
 	
     $('iframe').each(function(){
         var url = $(this).attr("src");
@@ -206,6 +219,7 @@ jQuery(document).ready(function($) {
 			}, 'normal');
 		});
 		*/
+	
 
 		$('body').scrollspy({ target: '#div-navsticky', offset: $('#div-navsticky').outerHeight() })
 	});
@@ -255,7 +269,8 @@ jQuery(document).ready(function($) {
 	//BACKTOTOP
 	$.scrollUp({
 		  scrollImg: true,
-		  scrollDistance: 360
+		  scrollDistance: 200,
+		  zIndex: 99
 	});
 	$('a#scrollUp').click(function(){
 		setTimeout(function(){

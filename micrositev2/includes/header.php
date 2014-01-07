@@ -82,7 +82,7 @@
 					</li>
 					<li class="last">
 						<div class="col-xs-6 phone">
-							<a href="callto:800.850.9881"><i class="fa fa-phone"></i> <span>800.850.9881</span>
+							<a href="tel:800.850.9881"><i class="fa fa-phone"></i> <span>800.850.9881</span>
 							</a>
 						</div>
 						<div class="col-xs-6 social-header">
@@ -121,7 +121,7 @@
 			<div class="col-xs-0 col-sm-3 col-md-3 nonpaddingall">
 				<ul class="fa-ul hidden-xs">
 					<li>
-                        	<a href="callto:800.850.9881">
+                        	<a href="tel:800.850.9881">
                             <i class="fa-li fa fa-phone fa-lg"></i><span>800.850.9881</span> 
                             </a>
 					</li>
