@@ -73,7 +73,7 @@ jQuery(document).ready(function($) {
 	});
 	$('#sticky-nav').onePageNav({
 		scrollSpeed: 300, 
-		scrollOffset: 0,
+		scrollOffset: 72,
 		begin: function() {
         //Hack so you can click other menu items after the initial click
 	        $('body').append('<div id="device-dummy" style="height: 1px;"></div>');
@@ -84,7 +84,7 @@ jQuery(document).ready(function($) {
 	});
 
 	if($("#sticky-nav-wrap").height()!==null){
-		$("#sticky-nav-wrap .fix-center").css('top',$("#sticky-nav-wrap").height()-20);
+		$("#sticky-nav-wrap .fix-center").css('top',$("#sticky-nav-wrap").height());
 	};
 	$(window).scroll(function(){
 		if($("#sticky-nav-wrap").position()){
@@ -110,11 +110,11 @@ jQuery(document).ready(function($) {
 		if($("#sticky-nav-wrap").position()){
 			if($("#sticky-nav-wrap").position().top !=0 ){
 				$('#sticky-nav li.current').removeClass('current');
-			}  
+			};
+			if($("#sticky-nav-wrap").height()!==null){
+				$("#sticky-nav-wrap .fix-center").css('top',$("#sticky-nav-wrap").height());
+			}; 	
 		};
-		if($("#sticky-nav-wrap").height()!==null){
-			$("#sticky-nav-wrap .fix-center").css('top',$("#sticky-nav-wrap").height()-20);
-		}; 
 	});
 	
 	//Check active page
