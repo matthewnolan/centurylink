@@ -162,6 +162,11 @@ jQuery(document).ready(function($) {
 	if(viewportwidth >750 && viewportwidth <= 992){
 			$('#div-left-modifferent').css({"padding-left":15});
 	}
+	if(viewportwidth < 970 ){
+		$('#logo-sticky').css({"margin-top":2});
+	}else{
+		$('#logo-sticky').css({"margin-top":20});
+	}
 
 	// init scrollspy
 	$('body').scrollspy({ target: '#div-navsticky', offset: $('#div-navsticky').outerHeight() })
@@ -223,6 +228,12 @@ jQuery(document).ready(function($) {
 		
 		if(viewportwidth >750 && viewportwidth <= 992){
 			$('#div-left-modifferent').css({"padding-left":15});
+		}
+		
+		if(viewportwidth < 970 ){
+			$('#logo-sticky').css({"margin-top":2});
+		}else{
+			$('#logo-sticky').css({"margin-top":20});
 		}
 		
 		/*$('a.btscroll').click(function(e){
