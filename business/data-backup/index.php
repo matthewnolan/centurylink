@@ -96,8 +96,8 @@ page_header("CenturyLink Cloud | Business Owner | Data Backup");
 			<div class="padding-fix">
 				<p class="why-ctl-content">
 					Not only simple, but effective. CenturyLink Data Backup means
-					never worrying <br /> about backing up critical information again.
-					It also means being able to retrieve files, organize them <br />and
+					never worrying about backing up critical information again.
+					It also means being able to retrieve files, organize them and
 					restore data with the press of a button.
 				</p>
 			</div>

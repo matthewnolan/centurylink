@@ -82,11 +82,11 @@
 					employees to communicate and collaborate, but also help protect,
 					support and grow your business.</p>
 		<p class="why-ctl-content">
-			Think of it this way, the more effective your team is, the greater the impact on the other<br/> driving force in your business&#8212;your customers.
+			Think of it this way, the more effective your team is, the greater the impact on the other driving force in your <span class="nowrap">business &#8212; your customers.</span>
 		</p>
 		<p class="why-ctl-content">
 			We've packaged our solutions to help <strong>protect</strong>, <strong>support</strong> and <strong>grow</strong> your business. <br/>
-			<strong>Call now</strong>&#8212;<strong><span class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></span></strong>&#8212;and find out what we can do for you.
+			<strong>Call now</strong> &#8212; <strong><span class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></span></strong> &#8212; and find out what we can do for you.
 			</p>
 	</div>
 	</div>
