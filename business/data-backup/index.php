@@ -65,7 +65,6 @@ page_header("CenturyLink Cloud | Business Owner | Data Backup");
 		</div>
 	</div>
 
-</div>
 	<div id="sticky-nav-wrap" class="sticky-nav">
 		<div class="container wrapper">
 			<div class="padding-fix">
@@ -90,7 +89,7 @@ page_header("CenturyLink Cloud | Business Owner | Data Backup");
 
 	</div>
 
-<div id="business-db">
+
 	<div class="why-ctl">
 		<div class="container wrapper">
 			<div class="padding-fix">
