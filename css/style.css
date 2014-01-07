@@ -1950,6 +1950,9 @@ h3.easy-title{
 		right:-5px;
 		top:50px;
 	}
+	.fivecolumns img{
+		max-height:23px !important;
+	}
 	
 }
 
