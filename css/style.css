@@ -473,7 +473,6 @@ a object{
 .sticky-logo:hover {
 	opacity: 0.5;
 }
-
 .sticky-nav{
 	border-top: 2px solid #fff;
 	min-height:70px;
@@ -481,7 +480,7 @@ a object{
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 	background-color:#8cc63e;
-	z-index:999999;
+	z-index:9999999;
 	text-align:center;
 	width:100%;
 }
@@ -507,7 +506,7 @@ a object{
 	text-align:right;
 	border-left:1px solid #00853f;
 }
-.fix-center a{
+.fix-center a, .fix-center a:hover, .fix-center a:active, .fix-center a:focus{
 	font-size:16px;
 	line-height:30px;
 	color:#ffffff;
@@ -1733,9 +1732,6 @@ h3.easy-title{
 		padding:20px 0;
 		margin:0;
 	}
-	.fix-center{
-		display:none;
-	}
 	.padding-fix{
 		padding: 0 30px;
 	}
@@ -1975,11 +1971,23 @@ h3.easy-title{
 		border:0;
 		border-radius:7px;
 		position:absolute;
-		right:-5px;
+		right:0;
 		top:50px;
+	}
+	.is-sticky .sticky-nav .fix-center{
+		position:fixed !important;
 	}
 	.fivecolumns img{
 		max-height:23px !important;
+	}
+	.is-sticky .sticky-nav .padding-fix, .is-sticky .sticky-nav li, .is-sticky .sticky-nav li a, .is-sticky .sticky-nav li.current, .is-sticky .sticky-nav li.current a, .is-sticky .sticky-nav li.current a:after{
+		position:static !important;
+	}
+	.is-sticky .sticky-nav li.current a:after{
+	    border:0;
+	    height:0;
+	    width:0;
+	    display:none;
 	}
 	
 }
@@ -2025,20 +2033,6 @@ h3.easy-title{
 	.easy-content{
 		padding-bottom:30px;
 	}	
-	.sticky-nav{
-		height:0;
-	}
-	.mobile-sticky-call{
-		background:#ffa02f;
-		font-size:16px;
-		font-weight:bold;
-		color:#ffffff;
-		padding:8px;
-		border-radius:7px;
-	}
-	.sticky-nav ul.collapse{
-		display:none;
-	}
 	.video-right h3{
 		margin-top:40px;
 	}
@@ -2081,9 +2075,6 @@ h3.easy-title{
 	.footer .row div{
 		padding-bottom:10px;
 	}
-	.sticky-nav li.current a:after{
-	    border:0;
-	}
 	.business-selector,.it-selector,.biz-selector{
 		max-width:100%;
 		height:auto;
@@ -2094,15 +2085,9 @@ h3.easy-title{
 	.video-right{
 		margin-bottom:40px;
 	}
-	.sticky-wrapper, .sticky-nav{
+	.sticky-nav{
 		height:auto !important;
 		max-height: 1000px !important;
-	}
-	.sticky-nav .padding-fix, .sticky-nav li.current, .sticky-nav li.current a{
-		position:static !important;
-	}
-	.sticky-nav li.current a:after{
-	    border:0;
 	}
 	#sticky-nav{
 		margin:0;

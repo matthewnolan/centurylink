@@ -80,7 +80,7 @@ page_header("CenturyLink Cloud | IT Leader");
 					<li><a href="#ihosted">Hosted Applications</a></li>
 					<li><a href="#ihdb">Data Backup</a></li>
 				</ul>
-				<div class="fix-center hidden-xs call">
+				<div class="fix-center call">
 					<a href="tel:800.361.0833">Call 800.361.0833</a>
 				</div>
 			</div>

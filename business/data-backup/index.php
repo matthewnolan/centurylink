@@ -65,7 +65,7 @@ page_header("CenturyLink Cloud | Business Owner | Data Backup");
 		</div>
 	</div>
 
-
+</div>
 	<div id="sticky-nav-wrap" class="sticky-nav">
 		<div class="container wrapper">
 			<div class="padding-fix">
@@ -82,7 +82,7 @@ page_header("CenturyLink Cloud | Business Owner | Data Backup");
 					<li><a href="#ffb">FastForward onBoarding</a></li>
 					<li><a href="#pricing">Pricing</a></li>
 				</ul>
-				<div class="fix-center hidden-xs call">
+				<div class="fix-center call">
 					<a href="tel:800.361.0833">Call 800.361.0833</a>
 				</div>
 			</div>
@@ -90,7 +90,7 @@ page_header("CenturyLink Cloud | Business Owner | Data Backup");
 
 	</div>
 
-
+<div id="business-db">
 	<div class="why-ctl">
 		<div class="container wrapper">
 			<div class="padding-fix">
