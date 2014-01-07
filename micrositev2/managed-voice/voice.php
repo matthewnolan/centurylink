@@ -29,6 +29,9 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 					</div>
 				</div>
 			</div>
+            <div id="phone-tablet-mobile" class="hidden-lg hidden-md">
+            	<a href="tel:800.850.9881"><span>Call 800.850.9881</span></a>
+            </div>
 		</div>
 	</div>
 </div>
