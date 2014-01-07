@@ -19,7 +19,7 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 			<div class="visible-lg">
 				<div class="col-md-2 nopadding">
 					<div class="divcallto">
-						<a href="callto:800.850.9881"> <i
+						<a href="tel:800.850.9881"> <i
 							class="fa fa-phone fa-lg font-gray-mormal"></i> 800.850.9881 </a>
 					</div>
 					<div class="divschedule">
@@ -98,7 +98,7 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 			<div class="row paddingbottom60">
 				<div class="col-sm-6 col-md-6">
 					<div class="space38 hidden-xs"></div>
-					<h1>What's available with each seat you purchase?*</h1>
+					<h1>What's available with each seat you <span class="nowrap">purchase?*</span></h1>
 					<p class="fs14b">With CenturyLink Managed Office, each seat can
 						include:</p>
 					<p>

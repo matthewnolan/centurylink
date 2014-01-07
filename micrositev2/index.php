@@ -41,7 +41,7 @@ page_header('CenturyLink Managed Office','index');
 			<div class="visible-lg">
 				<div class="col-lg-2 nopadding">
 					<div class="divcallto">
-						<a href="callto:800.850.9881"> <i
+						<a href="tel:800.850.9881"> <i
 							class="fa fa-phone fa-lg font-gray-mormal"></i> 800.850.9881 </a>
 					</div>
 					<div class="divschedule">
@@ -257,7 +257,7 @@ page_header('CenturyLink Managed Office','index');
 								<img src="<?php echo ROOT_URL; ?>/images/limited_it.png" alt="" />
 							</div>
 							<div class="tile-it-mobusiness">
-								<strong><span class="font-green-mormal">LIMITED</span> <span
+								<strong class="nowrap"><span class="font-green-mormal">LIMITED</span> <span
 									class="font-white-mormal">IT staff?</span> </strong>
 							</div>
 							<div class="content-it-mobusiness">
@@ -547,7 +547,7 @@ page_header('CenturyLink Managed Office','index');
 					<div class="visible-xs text-center">
 
 						<span class="fs13b">To speak with a Centurylink representative</span>
-						<br /> <a href="callto:800.850.9881"><span class="fs13b">Call
+						<br /> <a href="tel:800.850.9881"><span class="fs13b">Call
 								800.850.9881</span> </a>
 						<div class="space10"></div>
 					</div>

@@ -20,7 +20,7 @@ page_header("CenturyLink Managed Office | Managed Data", "data");
 			<div class="visible-lg">
 				<div class="col-md-2 nopadding">
 					<div class="divcallto">
-						<a href="callto:800.850.9881"> <i
+						<a href="tel:800.850.9881"> <i
 							class="fa fa-phone fa-lg font-gray-mormal"></i> 800.850.9881 </a>
 					</div>
 					<div class="divschedule">
