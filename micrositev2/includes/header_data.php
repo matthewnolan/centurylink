@@ -27,7 +27,7 @@
 				<li>CenturyLink IQ<sup>&trade;</sup> Internet or Enhanced Port <i>(based on
 						locations)</i></li>
 				<li>ADTRAN wireless access point</li>
-				<li>ADTRAN wireless access point routers and switches</li>
+				<li>ADTRAN routers and switches</li>
 				<li>Uninterruptible power supply <i>(optional)</i></li>
 				<li>Proactive network monitoring</li>
 				<li>Ethernet connection with quality of service (QoS), which

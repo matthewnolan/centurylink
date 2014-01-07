@@ -202,10 +202,9 @@
 					<p class="block-content">It's a dangerous world out there. Viruses
 						and malware attacks have become the norm, and your business
 						leadership is looking for you to avoid outages and downtime that
-						come with these threats. McAfee provides the industry-leading
-						security and archiving capabilities you need to guard your PC&#39;s AV/AS
-						software, proactively protecting your business while you focus on
-						other things.</p>
+						come with these threats.  McAfee combines industry leading security
+						and archiving capabilities with AV/AS PC protection software, proactively 
+						protecting your business while you focus on other things.</p>
 
 				</div>
 				<div class="col-sm-6 image-block">
@@ -220,7 +219,7 @@
 							malware and spam</li>
 						<li>Automatic updates and patches protect against latest
 							threats&#8212;without any IT oversight</li>
-						<li>Real Time response to threats before they hit your
+						<li>Real-time response to threats before they hit your
 							network&#8212;your environment is not infected and you avoid
 							costly and time-consuming mitigation efforts</li>
 					</ul>

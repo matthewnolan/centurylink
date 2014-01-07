@@ -192,6 +192,9 @@
 			case 'apps':
 				page_inc('includes/header_apps.php');
 				break;
+			case 'contactthanks':
+				page_inc('includes/header_contactthanks.php');
+				break;
 			default:
 				page_inc('includes/header_home.php');
 				break;

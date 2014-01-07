@@ -123,7 +123,7 @@ page_header("CenturyLink Managed Office | Managed Data", "data");
 		<div class="space20 visible-lg"></div>
 	</div>
 </div>
-<!-- BEGIN LivePerson Button Code -->
+<!-- BEGIN LivePerson Button Code
 <div
 	id="lpButDivID-1387813752610" class="icolivechat hidden-xs hidden-sm"></div>
 <script

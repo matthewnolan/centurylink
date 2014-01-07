@@ -56,13 +56,13 @@
 								</i>
 							</h3>
 							<div class="sreadmore">
-								<p>Asigra's agentless cloud backup and recovery offers and
+								<p>Asigra's agentless cloud backup and recovery offers an
 									industry-leading compliant solution:</p>
 								<div>
 									<ul>
 										<li>FIPS 140-2 sercurity certification</li>
 										<li>EAS 256-bit encryption key</li>
-										<li>Comoliance requirements for SOX, HIPAA, Basel II, etc.</li>
+										<li>Compliance requirements for SOX, HIPAA, Basel II, etc.</li>
 										<li>Backup for all files and across all OSs: Windows, Linux &
 											Mac OS</li>
 										<li>Incremental client-side deduplication to reduce network
@@ -114,7 +114,7 @@
 										<li>Staffed 24X7 with sercurity and technical personnel</li>
 										<li>Data stored in geographically diverse centers</li>
 										<li>Dual authentication required for entry</li>
-										<li>Protected with lasted cyber security</li>
+										<li>Protected with lastest cyber security</li>
 										<li>100% center uptime availability</li>
 									</ul>
 								</div>
@@ -143,7 +143,7 @@
 					<h3 class="block-title">Save now. Save down the road.</h3>
 					<p class="block-content">Sure, we deliver a great price, but what's
 						more important is the bigger financial picture. Total Cost of
-						Ownership is all about financial benefits down the road. Not
+						Ownership (TOC) is all about financial benefits down the road. Not
 						having to deal with upfront hardware costs, maintenance, software
 						licensing and so on. By eliminating capital investments, you get a
 						predictable monthly per-user cost that's easy to budget.</p>

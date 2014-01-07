@@ -173,7 +173,7 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 		<div class="space20 hidden-xs"></div>
 	</div>
 </div>
-<!-- BEGIN LivePerson Button Code -->
+<!-- BEGIN LivePerson Button Code
 <div
 	id="lpButDivID-1387813763608" class="icolivechat hidden-xs hidden-sm"></div>
 <script

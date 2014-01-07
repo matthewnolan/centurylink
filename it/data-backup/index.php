@@ -93,11 +93,11 @@ page_header("CenturyLink Cloud | IT Leader | Data Backup");
 			<div class="padding-fix">
 				<p class="why-ctl-content">
 					Get all the efficiencies and cost benefits of a cloud solution that
-					can easily integrate <br />into your existing IT environment. At
-					the same time, this is a solution that meets <br />all of your
+					can easily integrate into your existing IT environment. At
+					the same time, this is a solution that meets all of your
 					security and compliance requirements. CenturyLink Data backup
-					overcomes <br />the challenges of migrating to cloud while
-					providing an easy-to-manage backup and <br />restore process,
+					overcomes the challenges of migrating to cloud while
+					providing an easy-to-manage backup and restore process,
 					ensuring that your data is always available.
 				</p>
 			</div>

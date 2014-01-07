@@ -68,6 +68,10 @@ a.sticky-logo object{
     line-height: 1;
   }
 
+.nowrap {
+    white-space: nowrap;
+}
+
 /*STICKY FOOTER TRICK*/
 #wrapper{
 	min-height: 100%;

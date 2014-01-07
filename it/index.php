@@ -92,9 +92,9 @@ page_header("CenturyLink Cloud | IT Leader");
 			<div class="padding-fix">
 				<p class="why-ctl-content">
 					The way we see it, the greatest gift is technology that actually
-					lightens your load.<br /> That's why our Data Backup and Hosted
-					Apps increase accessibility and security <br /> and decrease IT
-					workload at the same time. If you'd like, <br /> take advantage of
+					lightens your load. That's why our Data Backup and Hosted
+					Apps increase accessibility and security and decrease IT
+					workload at the same time. If you'd like, take advantage of
 					our offer and see what a lighter load feels like.
 				</p>
 				<div class="box">

@@ -364,8 +364,7 @@ page_header('CenturyLink Managed Office','index');
 						<div class="space20 visible-xs"></div>
                         	<ul class="fs14b font-gray-mormal ul-ethernet-connection">
                             	<li> All your phones and hardware are installed and managed for you.</li>
-                                <li>There are no upfront investments or ongoing
-                                operational expenses.</li>
+                                <li>There are no upfront investments, installation costs or ongoing operational expenses.</li>
                                     <li>CenturyLink's Cloud makes your
                                 business's information secure and accessible, virtually anywhere.</li>
                                     <li>You'll always have the latest and greatest, because
@@ -564,10 +563,13 @@ page_header('CenturyLink Managed Office','index');
 		<div class="space20"></div>
 	</div>
 </div>
+
+<!--
 <div id="lpButDivID-1387813736901" class="icolivechat hidden-xs hidden-sm"></div>
 <script
 	type="text/javascript" charset="UTF-8"
 	src="https://sales.liveperson.net/hc/56948775/?cmd=mTagRepstate&amp;site=56948775&amp;buttonID=43&amp;divID=lpButDivID-1387813736901&amp;bt=1&amp;c=1"></script>
+	-->
 <?php
 page_footer();
 ?>
