@@ -2085,7 +2085,7 @@ h3.easy-title{
 	.video-right{
 		margin-bottom:40px;
 	}
-	.sticky-nav{
+	.sticky-nav, .sticky-wrapper{
 		height:auto !important;
 		max-height: 1000px !important;
 	}
