@@ -1968,11 +1968,12 @@ h3.easy-title{
 		width:auto;
 		background-color:#ffa02f;
 		padding:3px 16px;
+		margin:0;
 		border:0;
 		border-radius:7px;
 		position:absolute;
 		right:0;
-		top:50px;
+		top:72px;
 	}
 	.is-sticky .sticky-nav .fix-center{
 		position:fixed !important;
