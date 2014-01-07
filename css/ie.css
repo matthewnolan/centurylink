@@ -32,3 +32,7 @@
 .secure-image{
 	background-image:url("../images/secure-fpo.png");
 }
+a.sticky-logo:hover object{
+	opacity:0;
+	filter: alpha(opacity=0);
+}
