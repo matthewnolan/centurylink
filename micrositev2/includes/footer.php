@@ -107,6 +107,30 @@
 	type="text/javascript"
 	src="<?php echo ROOT_URL; ?>/js/jquery.scrollUp.min.js"></script>
 <script type="text/javascript">
+function setTheHeight() {
+
+    if( $('.content-it-mobusiness p:first-child').length ) {
+
+        //Reset height
+        $('.content-it-mobusiness p:first-child').height('auto');
+
+        //Get value of highest element
+        var maxHeight = Math.max.apply(Math, $('.content-it-mobusiness p:first-child').map (
+            function() {
+                return $(this)[0].scrollHeight;
+            }
+        ));
+        //console.log(maxHeight);
+        $('.content-it-mobusiness p:first-child').height(maxHeight);
+    }
+}
+
+setTheHeight();
+
+$(window).resize(function() {
+    setTheHeight();
+});
+
 /*	<![CDATA[	*/
 $(window).on('load',function(){
 	 $('#testimonial-slider > .color-testtimonial').show();
@@ -162,7 +186,6 @@ jQuery(document).ready(function($) {
 		slider.goToNextSlide();
 	});
 	
-	//calc_pheight();
 	/*var ulwidth = $('ul.dropdown-menu').width();
 		ulwidth = ulwidth + 6;
 	var	ulwidth2 = ulwidth + 50;
@@ -175,17 +198,6 @@ jQuery(document).ready(function($) {
 		});
 	});*/
 	
-	var pheightest = 0; 
-	var objbusiness = $('.content-it-mobusiness p:first-child');
-	$.each( objbusiness, function(index){
-		if($(this).height() > pheightest) {
-			pheightest = $(this).height();
-		}
-	});
-	$.each( objbusiness, function(index){
-		$(this).css({height:pheightest});
-	});
-	
 	
     $('iframe').each(function(){
         var url = $(this).attr("src");
@@ -193,6 +205,8 @@ jQuery(document).ready(function($) {
     });
 	
 	$('#div-navsticky').sticky({topSpacing: 0});
+	
+	$('#phone-tablet-mobile').css({top:$('#div-navsticky').outerHeight()});
 	
 	$(window).resize(function(){
 		var viewportwidth = $(window).width();
@@ -204,6 +218,8 @@ jQuery(document).ready(function($) {
 			var perleft = (100-(navwidth*100/viewportwidth))/2;
 			$(this).css({"position":"absolute","bottom":20,"left":perleft+"%"});
 		});
+		
+		$('#phone-tablet-mobile').css({top:heightwrapsticky});
 		
 		if(viewportwidth >750 && viewportwidth <= 992){
 			$('#div-left-modifferent').css({"padding-left":15});
