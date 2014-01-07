@@ -78,7 +78,7 @@ page_header("CenturyLink Cloud | IT Leader | Hosted Applications");
 					<li><a class="has-padding" href="#graph">How We Deliver</a></li>
 					<li><a href="#ffb">OnBoarding</a></li>
 				</ul>
-				<div class="fix-center hidden-sm hidden-xs call">
+				<div class="fix-center hidden-xs call">
 					<a href="tel:800.361.0833">Call 800.361.0833</a>
 				</div>
 			</div>

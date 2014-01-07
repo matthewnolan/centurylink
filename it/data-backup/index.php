@@ -80,7 +80,7 @@ page_header("CenturyLink Cloud | IT Leader | Data Backup");
 					<li><a href="#console">Management Console</a></li>
 					<li><a href="#ffb">FastForward Onboarding&#8480;</a></li>
 				</ul>
-				<div class="fix-center hidden-sm hidden-xs call">
+				<div class="fix-center hidden-xs call">
 					<a href="tel:800.361.0833">Call 800.361.0833</a>
 				</div>
 			</div>
