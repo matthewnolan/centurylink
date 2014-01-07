@@ -18,7 +18,7 @@ page_header('CenturyLink Managed Office','index');
 		<div class="row">
 			<div class="col-md-2 col-lg-2 hiddens-xs hidden-sm">
 				<div class="hidden-xs pull-left">
-					<a href="http://www.centurylink.com/small-business/" target="_blank" title="Century Link"
+					<a href="https://www.centurylink.com/business/" target="_blank" title="Century Link"
 						id="logo-sticky" class="sprite">Century Link</a>
 				</div>
 			</div>

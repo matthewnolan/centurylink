@@ -117,5 +117,5 @@
 		</div>
 	</div>
 	
-<div class="line-break sprite height10"></div>
+<div class="line-break sprite height10" style="margin-top:20px"></div>
 </div>

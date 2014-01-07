@@ -6,7 +6,7 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 		<div class="row">
 			<div class="col-xs-0 col-sm-4 col-md-2">
 				<div class="hidden-xs pull-left">
-					<a href="http://www.centurylink.com/small-business/" target="_blank" title="Century Link"
+					<a href="https://www.centurylink.com/business/" target="_blank" title="Century Link"
 						id="logo-sticky" class="sprite">Century Link</a>
 				</div>
 			</div>
