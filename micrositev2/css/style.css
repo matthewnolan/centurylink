@@ -1214,7 +1214,7 @@ p.lead {
 	#mobile-nav-content li.last .phone span{
 		float:left;
 		display: block;
-		margin-top: 0;
+		margin-top: 5px;
 	}
 	#mobile-nav-content .social-header{
 		text-align:center;
@@ -1426,6 +1426,10 @@ form.cmxform .gray * {
 }
 
 /*SCROLLUP*/
+a#scrollUp{
+	position: fixed;
+}
+
 #scrollUp{
   bottom: 20px;
   right: 10px;

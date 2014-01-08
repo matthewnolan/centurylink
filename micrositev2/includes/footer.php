@@ -281,7 +281,7 @@ jQuery(document).ready(function($) {
 	//BACKTOTOP
 	$.scrollUp({
 		  scrollImg: true,
-		  scrollDistance: 200,
+		  //scrollDistance: 200,
 		  zIndex: 99
 	});
 	$('a#scrollUp').click(function(){
