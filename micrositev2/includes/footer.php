@@ -107,21 +107,30 @@
 	type="text/javascript"
 	src="<?php echo ROOT_URL; ?>/js/jquery.scrollUp.min.js"></script>
 <script type="text/javascript">
+$('#div-navsticky').sticky({topSpacing: 0});
 function setTheHeight() {
 
     if( $('.content-it-mobusiness p:first-child').length ) {
 
-        //Reset height
         $('.content-it-mobusiness p:first-child').height('auto');
-
-        //Get value of highest element
-        var maxHeight = Math.max.apply(Math, $('.content-it-mobusiness p:first-child').map (
-            function() {
-                return $(this)[0].scrollHeight;
-            }
-        ));
-        //console.log(maxHeight);
-        $('.content-it-mobusiness p:first-child').height(maxHeight);
+		
+		var obj_para = $('.content-it-mobusiness p:first-child');
+		var maxheight = 0;
+       
+		$.each(obj_para,function(){
+			if($(this).outerHeight(true) > maxheight) {
+				maxheight = $(this).outerHeight(true);
+			}
+		});
+		
+		if(/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
+			maxheight = maxheight + 20;
+		}
+		
+		$.each(obj_para,function(){
+			$(this).height(maxheight);
+		});
+    
     }
 }
 
@@ -168,7 +177,6 @@ jQuery(document).ready(function($) {
 		$('#logo-sticky').css({"margin-top":20});
 	}
 
-	// init scrollspy
 	$('body').scrollspy({ target: '#div-navsticky', offset: $('#div-navsticky').outerHeight() })
 	
 	var slider = $('#testimonial-slider').bxSlider({
@@ -191,25 +199,13 @@ jQuery(document).ready(function($) {
 		slider.goToNextSlide();
 	});
 	
-	/*var ulwidth = $('ul.dropdown-menu').width();
-		ulwidth = ulwidth + 6;
-	var	ulwidth2 = ulwidth + 50;
-	
-	$(window).resize(function(){
-		$('ul.dropdown-menu li').hover(function(){
-			$(this).find('.lidesc').css({"display":"block","position":"absolute","top": -3,"left": ulwidth,"width": ulwidth2,"height": "auto"});
-		},function(){
-			$(this).find('.lidesc').hide();
-		});
-	});*/
-	
 	
     $('iframe').each(function(){
         var url = $(this).attr("src");
         $(this).attr("src",url+"?wmode=transparent");
     });
 	
-	$('#div-navsticky').sticky({topSpacing: 0});
+	
 	
 	$('#phone-tablet-mobile').css({top:$('#div-navsticky').outerHeight()});
 	
@@ -235,17 +231,6 @@ jQuery(document).ready(function($) {
 		}else{
 			$('#logo-sticky').css({"margin-top":20});
 		}
-		
-		/*$('a.btscroll').click(function(e){
-			e.preventDefault();
-			var $this = $(this);
-			var targetid = $this.attr('href');
-			var offset = $(targetid).offset().top - heightwrapsticky + 1;
-			$('html, body').animate({
-				scrollTop: offset
-			}, 'normal');
-		});
-		*/
 	
 
 		$('body').scrollspy({ target: '#div-navsticky', offset: $('#div-navsticky').outerHeight() })
@@ -339,7 +324,7 @@ jQuery(document).ready(function($) {
 <!-- START MARKETO FORM SUPPORT -->
 <script type="text/javascript" src="//app.marketo.com/js/mktFormSupport.js"></script>
 <script>var mktVisitorToken = 'VISITOR_MKTTOK_REPLACE'; </script>
-<script>mktoMunchkin('131-SYO-861', {customName: 'ContcatUs-FlowB', wsInfo: 'j1RR'});</script>
+<script>//mktoMunchkin('131-SYO-861', {customName: 'ContcatUs-FlowB', wsInfo: 'j1RR'});</script>
 
 </body>
 </html>
