@@ -1214,7 +1214,7 @@ p.lead {
 	#mobile-nav-content li.last .phone span{
 		float:left;
 		display: block;
-		margin-top: 5px;
+		margin-top: 0;
 	}
 	#mobile-nav-content .social-header{
 		text-align:center;
@@ -1426,9 +1426,6 @@ form.cmxform .gray * {
 }
 
 /*SCROLLUP*/
-a#scrollUp{
-	position: fixed;
-}
 
 #scrollUp{
   bottom: 20px;
@@ -1437,6 +1434,7 @@ a#scrollUp{
   height: 60px; /* Height of image */
   display:none;
   background: url(../images/totopgreen.png) no-repeat;
+  position: fixed;
 }
 
 
