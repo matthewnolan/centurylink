@@ -584,6 +584,8 @@ ul.dropdown-menu li:hover > a {
 	width: 100%;
 	height: auto;
 	position: relative;
+	position: -webkit-sticky;
+    position: sticky;
 	z-index: 9999;
 	border-top: 1px solid #FFF;
 	/*box-shadow: 0 2px 10px #393a3c;*/
@@ -1424,6 +1426,7 @@ form.cmxform .gray * {
 }
 
 /*SCROLLUP*/
+
 #scrollUp{
   bottom: 20px;
   right: 10px;
@@ -1431,6 +1434,7 @@ form.cmxform .gray * {
   height: 60px; /* Height of image */
   display:none;
   background: url(../images/totopgreen.png) no-repeat;
+  position: fixed;
 }
 
 
