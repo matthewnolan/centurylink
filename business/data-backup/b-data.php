@@ -20,10 +20,10 @@
 		$(this).find('.details').attr('style','display:block;clear:both').height(40);
 	});
 </script>
-<div class="bdata sticky-padding" id="easy">
+<div class="bdata">
 	<div class="container wrapper">
 		<div class="padding-fix">
-			<div class="row">
+			<div class="row sticky-padding" id="easy">
 				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">Back up your files like a pro. No
 						experience required.</h3>
@@ -71,10 +71,9 @@
 					<img src="<?php echo ROOT_URL;  ?>/images/fpo4_2x.png" width="380"
 						alt="" />
 				</div>
+				<div class="block-seperator"></div>
+				<hr class="block-hr" />
 			</div>
-
-			<div class="block-seperator"></div>
-			<hr class="block-hr" />
 
 			<div class="row sticky-padding" id="ffb">
 				<div class="col-sm-6 copy-block">

@@ -96,11 +96,9 @@
 						<div class="new-fix-height2 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
+				<div class="block-seperator"></div>
+				<hr class="block-hr" />
 			</div>
-
-			<div class="block-seperator"></div>
-			<hr class="block-hr" />
-
 
 			<div id="safe" class="row sticky-padding">
 				<div class="col-sm-6 image-block hidden-xs">
@@ -166,10 +164,9 @@
 
 
 				</div>
+				<div class="block-seperator"></div>
+				<hr class="block-hr" />
 			</div>
-
-			<div class="block-seperator"></div>
-			<hr class="block-hr" />
 
 			<div id="webmanagement" class="row sticky-padding">
 				<div class="col-sm-6 copy-block">
@@ -262,9 +259,9 @@
 
 
 				</div>
+				<div class="block-seperator"></div>
+				<hr class="block-hr" />
 			</div>
-			<div class="block-seperator"></div>
-			<hr class="block-hr" />
 
 			<div class="row sticky-padding" id="ffb">
 				<div class="col-sm-6 copy-block">

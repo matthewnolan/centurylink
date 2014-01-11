@@ -20,8 +20,6 @@
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.easing.min.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.scrollUp.min.js"></script>
-<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.nav.js"></script>
-<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.scrollTo.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.sticky.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/readmore.min.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.sidr.min.js"></script>
@@ -72,34 +70,42 @@ jQuery(document).ready(function($) {
 	$("#sticky-nav-wrap").sticky({
 			topSpacing:0
 	});
-	$('#sticky-nav').onePageNav({
-		scrollSpeed: 300, 
-		scrollOffset: 72,
-		begin: function() {
-        //Hack so you can click other menu items after the initial click
-	        $('body').append('<div id="device-dummy" style="height: 1px;"></div>');
-		},
-		end: function() {
-			$('#device-dummy').remove();
-		}
+	$('#sticky-nav a').click(function(e){
+		e.preventDefault();
+		var divID = $(this).attr('href');
+	    $('html, body').animate({
+	        scrollTop: $(divID).offset().top - 70
+	    }, 300);
+		return false;
 	});
 
 	if($("#sticky-nav-wrap").height()!==null){
+		if($("#sticky-nav-wrap").height() < 72){
+			$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 20);
+		}else{
+			$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 2);
+		};
 		$("#sticky-nav-wrap .fix-center").css('top',$("#sticky-nav-wrap").height());
 	};
 	$(window).scroll(function(){
 		if($("#sticky-nav-wrap").position()){
-			if($("#sticky-nav-wrap").position().top !=0 ){
-				$('#sticky-nav li.current').removeClass('current');
+			if($("#sticky-nav-wrap").position().top != 0 ){
+				$('#sticky-nav li.active').removeClass('active');
+			}else{
+				if($("#sticky-nav-wrap").height() < 73){
+					$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 20);
+				}else{
+					$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 2);
+				};
 			}  
 		} 
 	});
 
 	// SLIDE MENU
 	 $('#mobilenav-button').sidr({
-	      name: 'mobilenav',
-	      side: 'right'
-    });
+		name: 'mobilenav',
+		side: 'right'
+	});
 	$('#mobilenav-button').click(function(){
 		 return false;
 	});
@@ -108,9 +114,20 @@ jQuery(document).ready(function($) {
 		var winw = $(window).width();
 		$('html').attr('style','width:'+ winw);
 		$('body').attr('style','width:'+ winw);
+		$('[data-spy="scroll"]').each(function () {
+			  var $spy = $(this).scrollspy('refresh')
+		});
 		if($("#sticky-nav-wrap").position()){
 			if($("#sticky-nav-wrap").position().top !=0 ){
-				$('#sticky-nav li.current').removeClass('current');
+				$('#sticky-nav li.active').removeClass('active');
+			}else{
+				if($("#sticky-nav-wrap").height()!==null){
+					if($("#sticky-nav-wrap").height() < 72){
+						$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 20);
+					}else{
+						$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 2);
+					};
+				}; 	
 			};
 			if($("#sticky-nav-wrap").height()!==null){
 				$("#sticky-nav-wrap .fix-center").css('top',$("#sticky-nav-wrap").height());
@@ -127,19 +144,18 @@ jQuery(document).ready(function($) {
 	}
 
 	$('.checkactive a').each(function() {
-	    if ($(this).attr('href')  ===  window.location.pathname) {
-	        $(this).addClass('active');
-	      }
-    });
+		if ($(this).attr('href')  ===  window.location.pathname) {
+			$(this).addClass('active');
+		}
+	});
 	$('#mobilenav a').each(function() {
-	    if ($(this).attr('href')  ===  window.location.pathname) {
-	        $(this).addClass('active');
-	      }
-    });
-    
-    //SVG Fallback
-    if(!Modernizr.svg) {
-	    $('img.small-cloud').attr('src', '<?php echo ROOT_URL;?>/images/small-cloud.png');
+		if ($(this).attr('href')  ===  window.location.pathname) {
+			$(this).addClass('active');
+		}
+	});
+	//SVG Fallback
+	if(!Modernizr.svg) {
+		$('img.small-cloud').attr('src', '<?php echo ROOT_URL;?>/images/small-cloud.png');
 	}
 
 	//Google analytics event trigger
@@ -171,7 +187,7 @@ jQuery(document).ready(function($) {
 <![endif]-->
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".sticky-nav" data-offset="90">
 <div id="wrapper">
 <header id="header" class="navbar" >
 	<div class="container wrapper">

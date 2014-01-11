@@ -91,10 +91,10 @@
 		});
 	});
 </script>
-<div id="ihosted" class="ihosted sticky-padding">
+<div id="ihosted" class="ihosted">
 	<div class="container wrapper">
-		<div class="padding-fix">
-			<div class="row">
+		<div class="padding-fix" id="wwo">
+			<div class="row sticky-padding">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="<?php echo ROOT_URL;  ?>/images/ihosted-fpo1.png"
 						alt="FPO" />

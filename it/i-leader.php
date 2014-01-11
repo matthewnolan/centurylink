@@ -1,7 +1,7 @@
-<div id="ihosted" class="ihosted sticky-padding">
+<div class="ihosted">
 	<div class="container wrapper">
 		<div class="padding-fix">
-			<div class="row">
+			<div class="row sticky-padding" id="ihosted">
 				<div class="col-sm-7 copy-block">
 					<p class="block-link">
 						<a href="<?php echo ROOT_URL;  ?>/it/hosted-applications">CenturyLink
@@ -24,19 +24,14 @@
 					<img src="<?php echo ROOT_URL;  ?>/images/fpo6_2x.png" width="303"
 						alt="IFPO" />
 				</div>
+				<div class="logo">
+					<img class="hidden-xs" src="<?php echo ROOT_URL;  ?>/images/logos.png" alt="" /> 
+					<img class="visible-xs" src="<?php echo ROOT_URL;  ?>/images/mobile_logos.png" width="320" alt="" />
+				</div>
+				<div class="block-seperator"></div>
+				<hr class="block-hr" />
 			</div>
 
-
-			<div class="logo">
-				<img class="hidden-xs"
-					src="<?php echo ROOT_URL;  ?>/images/logos.png" alt="" /> <img
-					class="visible-xs"
-					src="<?php echo ROOT_URL;  ?>/images/mobile_logos.png" width="320"
-					alt="" />
-			</div>
-
-			<div class="block-seperator"></div>
-			<hr class="block-hr" />
 			<div class="row sticky-padding" id="ihdb">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="<?php echo ROOT_URL;  ?>/images/fpo7_2x.png" width="432"

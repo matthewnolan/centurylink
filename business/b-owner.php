@@ -1,7 +1,7 @@
-<div id="bhosted" class="bhosted sticky-padding">
+<div class="bhosted">
 	<div class="container wrapper">
 		<div class="padding-fix">
-			<div class="row">
+			<div class="row sticky-padding" id="bhosted">
 				<div class="col-sm-6 copy-block">
 					<p class="block-link">
 						<a href="<?php echo ROOT_URL;  ?>/business/hosted-applications">CenturyLink
@@ -26,13 +26,11 @@
 					<img src="<?php echo ROOT_URL;  ?>/images/microsoft-cloud.png"
 						alt="MICROSOFT CLOUD" />
 				</div>
+				<div class="block-seperator"></div>
+				<hr class="block-hr" />
 			</div>
 
-			<div class="block-seperator"></div>
-			<hr class="block-hr" />
-
-
-			<div id="bhdb" class="row sticky-padding">
+			<div class="row sticky-padding" id="bhdb">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="<?php echo ROOT_URL;  ?>/images/fpo2_2x.png" width="394"
 						alt="" />

@@ -538,13 +538,22 @@ a object{
 	line-height:30px;
 	color:#ffffff;
 }
-.sticky-nav a{
-	color:#ffffff;
-	padding-right:30px;
-	font-weight:bold;
+.nav>li>a {
+	position: relative;
+	display: inherit;
+	padding: 0;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+	text-decoration: none;
+	background-color: inherit !important;
 }
 .sticky-nav a.sticky-logo{
 	padding-right:0;
+}
+.sticky-nav ul li a{
+	color:#ffffff;
+	padding-right:30px;
+	font-weight:bold;
 }
 .sticky-nav .multi a{
 	padding-right:15px;
@@ -552,14 +561,14 @@ a object{
 .sticky-nav ul li:last-child a{
 	padding-right:0;
 }
-.sticky-nav li.current{
+.sticky-nav li.active{
 	position:relative;
 }
-.sticky-nav li.current a{
+.sticky-nav li.active a{
 	color:#00853f;
 	position:relative;
 }
-.sticky-nav li.current a:after{
+.sticky-nav li.active a:after{
 	position:absolute;
 	top:44px;
 	left:35%;
@@ -570,7 +579,7 @@ a object{
     border-right:12px solid transparent;
     border-top:12px solid #8cc63f;
 }
-.sticky-nav li.current a.short:after{
+.sticky-nav li.active a.short:after{
 	left:15%;
 }
 
@@ -1215,6 +1224,7 @@ a object{
 	margin-top:20px;
 	padding:20px;
 	text-align:center !important;
+	clear:both;
 }
 .logo img{
 	margin:0 auto;
@@ -1575,6 +1585,7 @@ a object{
 	margin-top:10px;
 	font-size:20px;
 	line-height:20px;
+	font-weight: normal;
 }
 .secure-detail h3 i{
 	font-style: italic;
@@ -1788,7 +1799,7 @@ h3.easy-title{
 	.hero-left-content{
 		padding-left:60px;	
 	}
-	.sticky-nav li.current a:after{
+	.sticky-nav li.active a:after{
 	    border:0;
 	}
 			
@@ -1990,10 +2001,10 @@ h3.easy-title{
 	.fivecolumns img{
 		max-height:23px !important;
 	}
-	.is-sticky .sticky-nav .padding-fix, .is-sticky .sticky-nav li, .is-sticky .sticky-nav li a, .is-sticky .sticky-nav li.current, .is-sticky .sticky-nav li.current a, .is-sticky .sticky-nav li.current a:after{
+	.is-sticky .sticky-nav .padding-fix, .is-sticky .sticky-nav li, .is-sticky .sticky-nav li a, .is-sticky .sticky-nav li.active, .is-sticky .sticky-nav li.active a, .is-sticky .sticky-nav li.active a:after{
 		position:static !important;
 	}
-	.is-sticky .sticky-nav li.current a:after{
+	.is-sticky .sticky-nav li.active a:after{
 	    border:0;
 	    height:0;
 	    width:0;

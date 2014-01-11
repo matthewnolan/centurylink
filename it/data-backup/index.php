@@ -74,7 +74,7 @@ page_header("CenturyLink Cloud | IT Leader | Data Backup");
 						<img src="<?php echo ROOT_URL;  ?>/images/nav-logo.png"
 							alt="CENTURYLINK" width="141" height="30" />
 					</object> </a>
-				<ul class="multi" id="sticky-nav">
+				<ul class="multi nav" id="sticky-nav">
 					<li><a href="#safe">Secure & Available</a></li>
 					<li><a class="short" href="#tco">TCO</a></li>
 					<li><a href="#console">Management Console</a></li>

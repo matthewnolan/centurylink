@@ -73,8 +73,8 @@ page_header("CenturyLink Cloud | IT Leader | Hosted Applications");
 						<img src="<?php echo ROOT_URL;  ?>/images/nav-logo.png"
 							alt="CENTURYLINK" width="141" height="30" />
 					</object> </a>
-				<ul id="sticky-nav">
-					<li><a href="#ihosted">What We Offer</a></li>
+				<ul id="sticky-nav" class="nav">
+					<li><a href="#wwo">What We Offer</a></li>
 					<li><a class="has-padding" href="#graph">How We Deliver</a></li>
 					<li><a href="#ffb">Onboarding</a></li>
 				</ul>

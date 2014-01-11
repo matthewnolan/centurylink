@@ -32,10 +32,10 @@
 		});
 	});
 </script>
-<div class="idata sticky-padding" id="safe">
+<div class="idata">
 	<div class="container wrapper">
 		<div class="padding-fix">
-			<div class="itdb-secure">
+			<div class="itdb-secure sticky-padding"  id="safe">
 				<h3 class="secure-title">Secure yet available.</h3>
 				<div class="secure-content">
 					Provide your users with access to the data they need, whenever they
@@ -173,76 +173,78 @@
 </div>
 
 
-<div class="idata sticky-padding" id="console">
+<div class="idata">
 	<div class="container wrapper">
 		<div class="padding-fix">
-
-			<div class="row">
-				<div class="col-sm-6 image-block hidden-xs">
-					<img src="<?php echo ROOT_URL;  ?>/images/fpo3_2x.png" width="450"
-						alt="" />
-				</div>
-				<div class="col-sm-6 copy-block">
-					<h3 class="block-title">Now you can be hands-on and hands-off at
-						the same time.</h3>
-					<p class="block-content">Our Management Console gives you the
-						visibility and control you need over all backup and restore
-						activities. Get a single consolidated view of all aspects of the
-						service, with the ability to drill down on specific parameters.
-						Enable automatic, set-it and forget-it scheduling, so your backups
-						are always up to date.</p>
-				</div>
-				<div class="col-sm-6 image-block visible-xs">
-					<img src="<?php echo ROOT_URL;  ?>/images/fpo3_2x.png" width="450"
-						alt="" />
-				</div>
-			</div>
-
-			<div class="block-seperator"></div>
-
-			<div class="row easy">
-				<div class="col-sm-4">
-					<div class="row">
-						<div class="easy-icon col-sm-3">
-							<i class="fa icon-eye-1"></i>
-						</div>
-						<div class="col-sm-9">
-							<h3 class="easy-title">Manage tickets</h3>
-							<div class="easy-content">Get a quick view of recent high-level
-								ticket statuses and instant access to support pages to manage
-								your service tickets in detail.</div>
-						</div>
+			<div id="console">
+				<div class="row sticky-padding">
+					<div class="col-sm-6 image-block hidden-xs">
+						<img src="<?php echo ROOT_URL;  ?>/images/fpo3_2x.png" width="450"
+							alt="" />
+					</div>
+					<div class="col-sm-6 copy-block">
+						<h3 class="block-title">Now you can be hands-on and hands-off at
+							the same time.</h3>
+						<p class="block-content">Our Management Console gives you the
+							visibility and control you need over all backup and restore
+							activities. Get a single consolidated view of all aspects of the
+							service, with the ability to drill down on specific parameters.
+							Enable automatic, set-it and forget-it scheduling, so your backups
+							are always up to date.</p>
+					</div>
+					<div class="col-sm-6 image-block visible-xs">
+						<img src="<?php echo ROOT_URL;  ?>/images/fpo3_2x.png" width="450"
+							alt="" />
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="row">
-						<div class="easy-icon col-sm-3">
-							<i class="fa fa-cog"></i>
-						</div>
-						<div class="col-sm-9">
-							<h3 class="easy-title">Add services</h3>
-							<div class="easy-content">Add additional infrastructure, users or
-								application services to your cloud and change features on the
-								fly.</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="row">
-						<div class="easy-icon col-sm-3">
-							<i class="fa fa-plus"></i>
-						</div>
-						<div class="col-sm-9">
-							<h3 class="easy-title">Data center health</h3>
-							<div class="easy-content">View the status and health of our data
-								centers, server pods, storage services, SaaS infrastructure and
-								network.</div>
+	
+				<div class="block-seperator"></div>
+	
+				<div class="row easy">
+					<div class="col-sm-4">
+						<div class="row">
+							<div class="easy-icon col-sm-3">
+								<i class="fa icon-eye-1"></i>
+							</div>
+							<div class="col-sm-9">
+								<h3 class="easy-title">Manage tickets</h3>
+								<div class="easy-content">Get a quick view of recent high-level
+									ticket statuses and instant access to support pages to manage
+									your service tickets in detail.</div>
+							</div>
 						</div>
 					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<div class="easy-icon col-sm-3">
+								<i class="fa fa-cog"></i>
+							</div>
+							<div class="col-sm-9">
+								<h3 class="easy-title">Add services</h3>
+								<div class="easy-content">Add additional infrastructure, users or
+									application services to your cloud and change features on the
+									fly.</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="row">
+							<div class="easy-icon col-sm-3">
+								<i class="fa fa-plus"></i>
+							</div>
+							<div class="col-sm-9">
+								<h3 class="easy-title">Data center health</h3>
+								<div class="easy-content">View the status and health of our data
+									centers, server pods, storage services, SaaS infrastructure and
+									network.</div>
+							</div>
+						</div>
+					</div>
+					<div class="block-seperator"></div>
+					<hr class="block-hr" />
 				</div>
-			</div>
-			<div class="block-seperator"></div>
-			<hr class="block-hr" />
+			</div>	
+			
 
 			<div class="itdb-secure sticky-padding" id="ffb">
 				<h3 class="secure-title">Fast Onboarding to Speed Migration.</h3>
@@ -252,77 +254,77 @@
 					setup and system configuration. We continue with 24X7 real-time
 					assistance for technical questions, product application training
 					and incremental setup.</div>
+
+				<div class="block-seperator"></div>
+	
+				<div class="row onboard3col">
+					<div class="col-sm-4 ">
+						<img src="<?php echo ROOT_URL;  ?>/images/gears-g.png" alt="GEARS" />
+						<div class="onboard-title">Self-service Activation</div>
+						<div class="onboard-content readmore">
+							Get online assistance and information to help you deploy and
+							manage your backup. <span class="3dot">...</span>
+							<div class="details"></div>
+							<ul>
+								<li>Support Documentation: User Guides, Manuals and Technical
+									Papers</li>
+								<li>Searchable Articles, Video Demonstrations, Tutorials, FAQs
+									and White Papers</li>
+								<li>Blog: Helpful product tips and industry and product news</li>
+							</ul>
+							<div class="i-readmore-fix1 hidden-xs hidden-sm"></div>
+						</div>
+					</div>
+					<div class="col-sm-4 ">
+						<img src="<?php echo ROOT_URL;  ?>/images/talk-g.png" alt="TALK" />
+						<div class="onboard-title">Guided Activation</div>
+						<div class="onboard-content readmore">
+							Customers who purchase $100 or more in monthly services can use <span
+								class="3dot">...</span>
+							<div class="details"></div>
+							our convenient online scheduling tool to reserve a complimentary,
+							one-on-one appointment with one of our expert cloud engineers.
+							Along with helping you perform your first full backup, you'll
+							learn how to:
+							<ul>
+								<li>Select files to back up</li>
+								<li>Set a backup schedule</li>
+								<li>Initiate a recovery job</li>
+							</ul>
+							<div class="i-readmore-fix2 hidden-xs hidden-sm"></div>
+						</div>
+					</div>
+					<div class="col-sm-4 ">
+						<img src="<?php echo ROOT_URL;  ?>/images/join-g.png" alt="Join" />
+						<div class="onboard-title">Do-it-for-me Onboarding</div>
+						<div class="onboard-content readmore">
+							For users, CenturyLink engineers are assigned to get Secure Online
+							Backup <span class="3dot">...</span>
+							<div class="details"></div>
+							up and running for all of your users. We'll help you:
+							<ul>
+								<li>Install the backup client</li>
+								<li>Select files</li>
+								<li>Set a backup schedule</li>
+								<li>Conduct your first full backup</li>
+							</ul>
+							For IT, CenturyLink experts will conduct a webinar to provide your
+							team with an in-depth walkthrough of your management console. We
+							will help you:
+							<ul>
+								<li>Understand how to use your notifications</li>
+								<li>Keep your backups always up-to-date</li>
+								<li>Keep your data protected</li>
+								<li>Restore your data</li>
+								<li>Conduct a review of all tools</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+	
+	
+				<div class="block-seperator"></div>
 			</div>
-
-			<div class="block-seperator"></div>
-
-			<div class="row onboard3col">
-				<div class="col-sm-4 ">
-					<img src="<?php echo ROOT_URL;  ?>/images/gears-g.png" alt="GEARS" />
-					<div class="onboard-title">Self-service Activation</div>
-					<div class="onboard-content readmore">
-						Get online assistance and information to help you deploy and
-						manage your backup. <span class="3dot">...</span>
-						<div class="details"></div>
-						<ul>
-							<li>Support Documentation: User Guides, Manuals and Technical
-								Papers</li>
-							<li>Searchable Articles, Video Demonstrations, Tutorials, FAQs
-								and White Papers</li>
-							<li>Blog: Helpful product tips and industry and product news</li>
-						</ul>
-						<div class="i-readmore-fix1 hidden-xs hidden-sm"></div>
-					</div>
-				</div>
-				<div class="col-sm-4 ">
-					<img src="<?php echo ROOT_URL;  ?>/images/talk-g.png" alt="TALK" />
-					<div class="onboard-title">Guided Activation</div>
-					<div class="onboard-content readmore">
-						Customers who purchase $100 or more in monthly services can use <span
-							class="3dot">...</span>
-						<div class="details"></div>
-						our convenient online scheduling tool to reserve a complimentary,
-						one-on-one appointment with one of our expert cloud engineers.
-						Along with helping you perform your first full backup, you'll
-						learn how to:
-						<ul>
-							<li>Select files to back up</li>
-							<li>Set a backup schedule</li>
-							<li>Initiate a recovery job</li>
-						</ul>
-						<div class="i-readmore-fix2 hidden-xs hidden-sm"></div>
-					</div>
-				</div>
-				<div class="col-sm-4 ">
-					<img src="<?php echo ROOT_URL;  ?>/images/join-g.png" alt="Join" />
-					<div class="onboard-title">Do-it-for-me Onboarding</div>
-					<div class="onboard-content readmore">
-						For users, CenturyLink engineers are assigned to get Secure Online
-						Backup <span class="3dot">...</span>
-						<div class="details"></div>
-						up and running for all of your users. We'll help you:
-						<ul>
-							<li>Install the backup client</li>
-							<li>Select files</li>
-							<li>Set a backup schedule</li>
-							<li>Conduct your first full backup</li>
-						</ul>
-						For IT, CenturyLink experts will conduct a webinar to provide your
-						team with an in-depth walkthrough of your management console. We
-						will help you:
-						<ul>
-							<li>Understand how to use your notifications</li>
-							<li>Keep your backups always up-to-date</li>
-							<li>Keep your data protected</li>
-							<li>Restore your data</li>
-							<li>Conduct a review of all tools</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="block-seperator"></div>
 
 		</div>
 	</div>

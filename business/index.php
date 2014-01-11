@@ -58,7 +58,7 @@
 					<img  src="<?php echo ROOT_URL;  ?>/images/nav-logo.png" alt="CENTURYLINK" width="141" height="30"/>
 				</object>
 			</a>
-			<ul id="sticky-nav">
+			<ul id="sticky-nav" class="nav">
 				<li><a href="#bhosted">Hosted Applications</a></li>
 				<li><a href="#bhdb">Data Backup</a></li>
 			</ul>

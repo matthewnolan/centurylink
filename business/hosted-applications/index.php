@@ -58,7 +58,7 @@
 					<img  src="<?php echo ROOT_URL;  ?>/images/nav-logo.png" alt="CENTURYLINK" width="141" height="30"/>
 				</object>
 			</a>
-			<ul class="multi" id="sticky-nav">
+			<ul class="multi nav" id="sticky-nav">
 				<li><a href="#email">Email & Collaboration</a></li>
 				<li><a href="#safe">Security</a></li>
 				<li><a href="#webmanagement">Web Management</a></li>
