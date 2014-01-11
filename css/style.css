@@ -1192,7 +1192,7 @@ a object{
 }
 #it .hero-right img.icon2{
 	position:absolute;
-	top:222px;
+	top:225px;
 	right:322px;
 	z-index:3;
 }
@@ -1561,11 +1561,11 @@ a object{
 
 .secure-image{
 	margin-top:65px;
-	height:241px;
+	height:257px;
 	background-image:url("../images/fpo8_2x.png");
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-size:contain;
+	background-size:940px 257px;
 }
 .secure-detail{
 	text-align:center;
