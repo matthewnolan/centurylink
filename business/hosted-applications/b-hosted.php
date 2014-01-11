@@ -66,7 +66,7 @@
 					<div class="onboard-title">Microsoft Hosted SharePoint</div>
 					<div class="onboard-content new-business readmore">
 						This is collaboration at its best. Share ideas and documents,
-						organize, build, manage, <span class="3dot">...</span>
+						organize, build, manage <span class="3dot">...</span>
 						<div class="details"></div>
 						and best of all, discover a new way to work…from anywhere.
 						<p>
@@ -177,7 +177,7 @@
 						Web hosting from CenturyLink Cloud Services provides you with a
 						secure, easy-to-manage and dependable online presence. Add to that
 						the fact that every Web hosting plan includes free 1-year domain
-						name registration, Webmail, FTP access, the Site Builder<sup>SM</sup>
+						name registration, webmail, FTP access, the Site Builder<sup>SM</sup>
 						tool, and 50 or 100GB of storage.
 					</p>
 					<p class="block-content">You can also add capabilities to your
@@ -225,7 +225,7 @@
 						<!-- <span class="3dot">...</span> -->
 						<div class="details"></div>
 						goMobi is an easy-to-use hosted application that allows you to
-						create a high-quality mobile site quickly and cost- efficiently.
+						create a high-quality mobile site quickly and cost-efficiently.
 						<div class="new-fix-height3 hidden-xs hidden-sm"></div>
 					</div>
 
@@ -271,7 +271,7 @@
 						Nothing should stand in the way of your business taking full
 						advantage of our Cloud Services, or getting the convenience and
 						security that comes with hosting your applications in the cloud.
-						With FREE FastForward Onboarding&#8480;, getting started is easy.
+						With FREE FastForward Onboarding,&#8480; getting started is easy.
 						Just choose from one of our three onboarding options based on your
 						timing and budget, and get started with ease. <a class="bstyle"
 							href="<?php echo ROOT_URL;  ?>/pdf/business-hosted-apps/FastForward_Onboarding.pdf">Download
@@ -319,7 +319,7 @@
 					<img src="<?php echo ROOT_URL;  ?>/images/join.png" alt="Join" />
 					<div class="onboard-title">We Take Care of Every Step</div>
 					<div class="onboard-content readmore">
-						Need additional support? A CenturyLink Cloud expert will work
+						Need additional support? A CenturyLink cloud expert will work
 						closely with you to <span class="3dot">...</span>
 						<div class="details"></div>
 						customize a plan that meets all your business needs and
@@ -334,8 +334,8 @@
 				<h3>Want your own IT staff?</h3>
 				<p>
 					Right now, you can upgrade to our <strong>Remote IT Support Pack for
-						only $19.99/month.</strong><br /> CenturyLink will handle
-					maintenance, networking, and troubleshooting for all devices.
+						only $19.99/month</strong><br /> CenturyLink will handle
+					maintenance, networking and troubleshooting for all devices.
 				</p>
 				<p>
 					<strong>Call 800.361.0833</strong> to learn more about our remote

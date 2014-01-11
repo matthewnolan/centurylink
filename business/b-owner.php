@@ -13,7 +13,7 @@
 					<p class="block-content">Access the latest tools of the trade, like
 						Microsoft Hosted Exchange and SharePoint, so you can effortlessly
 						keep up with your customers and employees. Plus, easily add new
-						capabilities to your website, like ecommerce – without having to
+						capabilities to your website, like ecommerce&mdash;without having to
 						spend big bucks on hardware, software, license fees and updates.
 						And all without the headaches of managing software yourself.</p>
 					<p class="block-more">
@@ -50,10 +50,10 @@
 						business depends on you having access to the most critical and
 						up-to-date information when and where you need it. Don’t leave
 						backing up your data to chance or someone's memory. With
-						CentiryLink Cloud Service, data backup is secure and automatic,
+						CenturyLink Cloud Services, data backup is secure and automatic,
 						from virtually anywhere.</p>
 					<p class="block-more">
-						Backup data without a second thought. <a
+						Back up data without a second thought. <a
 							href="<?php echo ROOT_URL;  ?>/business/data-backup">Start Now</a>
 					</p>
 					<div class="testimonial hidden-sm hidden-xs">

@@ -93,12 +93,12 @@ page_header("CenturyLink Cloud | IT Leader");
 				<p class="why-ctl-content">
 					The way we see it, the greatest gift is technology that actually
 					lightens your load. That's why our Data Backup and Hosted
-					Apps increase accessibility and security and decrease IT
+					Apps increase accessibility and security, and decrease IT
 					workload at the same time. If you'd like, take advantage of
 					our offer and see what a lighter load feels like.
 				</p>
 				<div class="box">
-					<h3 class="offer">Start your Free 30-days trial today.</h3>
+					<h3 class="offer">Start your Free 30-day trial today.</h3>
 					<p class="call">
 						<a href="tel:800.361.0833">Call 800.361.0833</a>
 					</p>

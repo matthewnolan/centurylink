@@ -74,10 +74,10 @@
 	<div class="container wrapper">
 	<div class="padding-fix">
 		<p class="why-ctl-content">
-			Just because yours business doesn’t have 1,000 employees doesn’t mean you can’t perform like you do. CenturyLink provides the latest cloud-based software and solutions to help you do just that – easily and cost-effectively. The only thing you’ll be missing is the headache.
+			Just because your business doesn’t have 1,000 employees doesn’t mean you can’t perform like you do. CenturyLink provides the latest cloud-based software and solutions to help you do just that&mdash;easily and cost-effectively. The only thing you’ll be missing is the headache.
 		</p>
 		<div class="box">
-			<h3 class="offer">Start your Free 30-days trial today.</h3>
+			<h3 class="offer">Start your Free 30-day trial today.</h3>
 			<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 		</div>
 	</div>

@@ -72,7 +72,7 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 						or through the user portal (unified messaging)</li>
 					<li>Give your receptionist a Receptionist Portal that's designed to
 						combine the receptionist IP phone with a choose-and-click operator
-						interface on a PC screen; This technology makes it easy for a
+						interface on a PC screen; this technology makes it easy for a
 						receptionist to direct calls to staff, wherever they may be</li>
 					<li>Eliminate the management and expense of on-site hardware and
 						maintenance</li>
@@ -112,7 +112,7 @@ page_header("CenturyLink Managed Office | Managed Voice", "voice");
 						<li>Call forwarding, call waiting, and 3-way calling</li>
 						<li>A personal phone number</li>
 						<li>Unified Messaging: the ability to retrieve voicemail messages
-							by phone, by email, or online</li>
+							by phone, by email or online</li>
 						<li>Outlook Integration: the ability to retrieve contact details
 							from your address book and call contacts by clicking on their
 							phone number in Outlook</li>

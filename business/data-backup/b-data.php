@@ -144,8 +144,8 @@
 				<h3>Want your own IT staff?</h3>
 				<p>
 					Right now, you can upgrade to our <strong>Remote IT Support Pack
-						for only $19.99/month.</strong><br /> CenturyLink will handle
-					maintenance, networking, and troubleshooting for all devices.
+						for only $19.99/month</strong><br /> CenturyLink will handle
+					maintenance, networking and troubleshooting for all devices.
 				</p>
 				<p>
 					<strong>Call 800.361.0833</strong> to learn more about our remote

@@ -36,13 +36,13 @@
 	<div class="container wrapper">
 		<div class="padding-fix">
 			<div class="itdb-secure">
-				<h3 class="secure-title">Secure yet available</h3>
+				<h3 class="secure-title">Secure yet available.</h3>
 				<div class="secure-content">
 					Provide your users with access to the data they need, whenever they
 					need it. Our 100% data center infrastructure availability SLA is
 					backed by the investments we’ve made in our network and data center
 					to provide a secure, compliant environment for your data. We
-					provide end-to-end security from device-based encryption, across
+					provide end-to-end security from device-based encryption across
 					the network and within our carrier grade data centers.
 					<div class="secure-image hidden-xs"></div>
 					<div class="row secure-detail">
@@ -51,7 +51,7 @@
 								src="<?php echo ROOT_URL;  ?>/images/customer-data.jpg" alt="" />
 							<h3>
 								<i>Only Cloud Backup <br />Service to Receive <br /> <span>FIPS
-										140-2 certification</span>
+										140-2 Certification</span>
 								
 								</i>
 							</h3>
@@ -60,8 +60,8 @@
 									industry-leading compliant solution:</p>
 								<div>
 									<ul>
-										<li>FIPS 140-2 sercurity certification</li>
-										<li>EAS 256-bit encryption key</li>
+										<li>FIPS 140-2 security certification</li>
+										<li>AES 256-bit encryption key</li>
 										<li>Compliance requirements for SOX, HIPAA, Basel II, etc.</li>
 										<li>Backup for all files and across all OSs: Windows, Linux &
 											Mac OS</li>
@@ -83,14 +83,14 @@
 								<i>End-to-end</i><br /> <span>SSL Encryption</span>
 							</h3>
 							<div class="sreadmore">
-								<p>SSl connection with X.509 certificate utilizes CenturyLink
+								<p>SSL connection with X.509 certificate utilizes CenturyLink
 									network with:</p>
 								<div>
 									<ul>
 										<li>Data sent over private facilities</li>
 										<li>Direct connection to data center</li>
 										<li>Fully owned and managed by single provider</li>
-										<li>Core MPLS network with 99.9999% availability</li>
+										<li>Core MPLS network with 99.999% availability</li>
 										<li>Range of connectivity options, including secure VPNs</li>
 									</ul>
 								</div>
@@ -111,7 +111,7 @@
 										<li>SSAE 16/SAE 3402 Type II compliant</li>
 										<li>Built to Tier 3 standards</li>
 										<li>Fully redundant systems</li>
-										<li>Staffed 24X7 with sercurity and technical personnel</li>
+										<li>Staffed 24X7 with security and technical personnel</li>
 										<li>Data stored in geographically diverse centers</li>
 										<li>Dual authentication required for entry</li>
 										<li>Protected with lastest cyber security</li>
@@ -143,7 +143,7 @@
 					<h3 class="block-title">Save now. Save down the road.</h3>
 					<p class="block-content">Sure, we deliver a great price, but what's
 						more important is the bigger financial picture. Total Cost of
-						Ownership (TOC) is all about financial benefits down the road. Not
+						Ownership (TCO) is all about financial benefits down the road. Not
 						having to deal with upfront hardware costs, maintenance, software
 						licensing and so on. By eliminating capital investments, you get a
 						predictable monthly per-user cost that's easy to budget.</p>
@@ -190,7 +190,7 @@
 						activities. Get a single consolidated view of all aspects of the
 						service, with the ability to drill down on specific parameters.
 						Enable automatic, set-it and forget-it scheduling, so your backups
-						are always up-to-date.</p>
+						are always up to date.</p>
 				</div>
 				<div class="col-sm-6 image-block visible-xs">
 					<img src="<?php echo ROOT_URL;  ?>/images/fpo3_2x.png" width="450"
@@ -244,7 +244,7 @@
 			<hr class="block-hr" />
 
 			<div class="itdb-secure sticky-padding" id="ffb">
-				<h3 class="secure-title">Fast Onboarding to Speed Migration</h3>
+				<h3 class="secure-title">Fast Onboarding to Speed Migration.</h3>
 				<div class="secure-content">When it comes to onboarding, the faster
 					and easier, the better. The CenturyLink team of experts can take
 					you through the onboarding process, beginning with the initial user
@@ -280,7 +280,7 @@
 						Customers who purchase $100 or more in monthly services can use <span
 							class="3dot">...</span>
 						<div class="details"></div>
-						our convenient online scheduling tool to reserve a complimentary
+						our convenient online scheduling tool to reserve a complimentary,
 						one-on-one appointment with one of our expert cloud engineers.
 						Along with helping you perform your first full backup, you'll
 						learn how to:

@@ -49,9 +49,9 @@
 			Offer, plans and stated rates are subject to change and may vary by service area. All services may require payment by credit card with U.S. based billing address.
 			Monthly recurring charges will be assessed in advance and are non-refundable under any circumstances and usage-based and non-recurring charges will be assessed when incurred or on the first day of the next billing cycle, at CenturyLink's sole discretion.
 			Offers may not be combined. Additional restrictions may apply.
-			 Plans Terms and Conditions&#8212;Customer must accept savvisdirect terms and conditions and all applicable third party terms and conditions, as required.
+			 Plans Terms and Conditions&#8212;Customer must accept savvisdirect terms and conditions and all applicable third-party terms and conditions, as required.
 			 Service level agreements (SLAs)  in the terms and conditions describe customer's sole remedy for service quality or performance issues of any kind. All rates exclude taxes, fees and surcharges, as applicable.
-			  Monthly recurring charges include listed features and service may have a bundle term commitment.  First Month Free OfferNew or existing savvisdirect customers making a new Software-as-a-Service (SaaS) purchase.
+			  Monthly recurring charges include listed features and service may have a bundle term commitment.  First Month Free Offer &mdash; New or existing savvisdirect customers making a new Software-as-a-Service (SaaS) purchase.
 			   Available on qualifying SaaS applications except DNR/T and SSL Certificate. Customer may need to input valid credit card number and qualifying promo code at time of purchase. Customer will be billed the monthly service charge 30 days after purchase and each month until service is cancelled by customer.
 			   &copy;2014 CenturyLink. All Rights Reserved.
 			</div>
@@ -70,8 +70,6 @@
   ga('send', 'pageview');
 
 </script>
-
-<?php require_once dirname(__FILE__) . '/mkto.php';?>
 
 </body>
 </html>

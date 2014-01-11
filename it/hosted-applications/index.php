@@ -76,7 +76,7 @@ page_header("CenturyLink Cloud | IT Leader | Hosted Applications");
 				<ul id="sticky-nav">
 					<li><a href="#ihosted">What We Offer</a></li>
 					<li><a class="has-padding" href="#graph">How We Deliver</a></li>
-					<li><a href="#ffb">OnBoarding</a></li>
+					<li><a href="#ffb">Onboarding</a></li>
 				</ul>
 				<div class="fix-center call">
 					<a href="tel:800.361.0833">Call 800.361.0833</a>
@@ -110,7 +110,7 @@ page_header("CenturyLink Cloud | IT Leader | Hosted Applications");
 							<li>Full-feature sets</li>
 							<li>Compatible with all major OS environments&#8212;works with
 								your server and end-point devices</li>
-							<li>All end-users access a single, consistent application
+							<li>All end users access a single, consistent application
 								platform at the office and on the road</li>
 						</ul>
 					</div>
@@ -129,7 +129,7 @@ page_header("CenturyLink Cloud | IT Leader | Hosted Applications");
 						<h3>How we support:</h3>
 						<ul>
 							<li>Detailed migration processes</li>
-							<li>Rapid onboarding of end-users</li>
+							<li>Rapid onboarding of end users</li>
 							<li>Ongoing end-user and IT staff support</li>
 							<li>Choice of support level to fit into your existing IT
 								management model</li>

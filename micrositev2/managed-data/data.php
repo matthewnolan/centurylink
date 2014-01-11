@@ -58,8 +58,8 @@ page_header("CenturyLink Managed Office | Managed Data", "data");
 						<li>Depending on your needs and the number of seats you purchase,
 							Managed Office comes with either a 10/10Mbps Ethernet connection
 							(10-20 seats) or a 100/100Mbps Ethernet connection (21+ seats).
-							There are also other connection options available based upon
-							availability.</li>
+							There are also other connection options offered based upon
+							availability</li>
 						<li>For single-site installations, Managed Office uses CenturyLink
 							Internet Port offering Tier 1 reliability</li>
 						<li>For multi-site installations, Managed Office uses dedicated
@@ -67,7 +67,7 @@ page_header("CenturyLink Managed Office | Managed Data", "data");
 						<li>Your Ethernet connection comes with quality of service (QoS),
 							which prioritizes delay-sensitive voice traffic over other types
 							of data, for crystal clear calls</li>
-						<li>ADTRAN wireless access point routers and switches</li>
+						<li>ADTRAN wireless access point, routers and switches</li>
 					</ul>
 
 				</div>

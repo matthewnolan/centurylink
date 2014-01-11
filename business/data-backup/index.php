@@ -78,7 +78,7 @@ page_header("CenturyLink Cloud | Business Owner | Data Backup");
 				<ul class="multi" id="sticky-nav">
 					<li><a href="#easy">Easy Management</a></li>
 					<li><a href="#safe">Safe & Available</a></li>
-					<li><a href="#ffb">FastForward onBoarding</a></li>
+					<li><a href="#ffb">FastForward Onboarding</a></li>
 					<li><a href="#pricing">Pricing</a></li>
 				</ul>
 				<div class="fix-center call">

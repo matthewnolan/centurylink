@@ -251,8 +251,8 @@ a#logo-sticky {
 .hspace {
 	position: absolute;
 	left: 60px;
-	animation: opacityup 2s;
-	-webkit-animation: opacityup 2s; /* Safari and Chrome */
+/* 	animation: opacityup 2s; */
+/* 	-webkit-animation: opacityup 2s; /* Safari and Chrome */ 
 }
 
 .hspaceoff {
@@ -439,6 +439,7 @@ ul.font-gray-mormal li a {
 #layer-mvoice-welcome img {
 	position: relative;
 	z-index: 3;
+	opacity: 0;
 }
 
 #text-layer-mdata-welcom {
@@ -446,6 +447,7 @@ ul.font-gray-mormal li a {
 	z-index: 4;
 	top: 60px;
 	left: 146px;
+	opacity: 0;
 }
 
 #text-layer-mapps-welcom {
@@ -453,6 +455,7 @@ ul.font-gray-mormal li a {
 	z-index: 4;
 	top: 200px;
 	left: 20px;
+	opacity: 0;
 }
 
 #text-layer-mvoice-welcom {
@@ -460,6 +463,7 @@ ul.font-gray-mormal li a {
 	z-index: 4;
 	top: 130px;
 	left: 23px;
+	opacity: 0;
 }
 
 #mobi-layer-mdata-welcome img,
@@ -657,7 +661,21 @@ ul.nav-pills > li.active a,
 	background-position: 0 -2988px;
 	background-repeat: repeat-x;
 	width: 100%;
-	height: 17px;
+	height: 30px;
+}
+
+.line-break-grey {
+	background-position: 0 -3018px;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 30px;
+}
+
+.line-break-green {
+	background-position: 0 -3059px;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 30px;
 }
 
 .color-testtimonial {
@@ -1215,6 +1233,7 @@ p.lead {
 		float:left;
 		display: block;
 		margin-top: 0;
+		padding-top: 6px;
 	}
 	#mobile-nav-content .social-header{
 		text-align:center;

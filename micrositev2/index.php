@@ -120,7 +120,7 @@ page_header('CenturyLink Managed Office','index');
 		</div>
 	</div>
 </div>
-<div class="line-break sprite" id="learn-how-with-managed-office"></div>
+<div class="line-break-grey sprite" id="learn-how-with-managed-office"></div>
 <div id="managed-office">
 	<div class="overlay-timer">
 		<div class="container">
@@ -134,7 +134,7 @@ page_header('CenturyLink Managed Office','index');
 						a bundle of products and services. When you have Managed Office,
 						CenturyLink implements, maintains and upgrades a huge amount of
 						advanced business information technology, so that you don't have
-						to worry about it. You get one provider, one network, and one
+						to worry about it. You get one provider, one network and one
 						number to call for White Glove Service.</p>
 					<p class="fs14b">With Managed Office, it's all-in-one and done.</p>
 				</div>
@@ -154,7 +154,7 @@ page_header('CenturyLink Managed Office','index');
 									<td class="text-left"><span class="title-col">White Glove
 											Service</span>
 										<p class="desc-col">From the moment you sign up for Managed
-											Office you get 24/7 full-service support.</p>
+											Office, you get 24/7 full-service support.</p>
 									</td>
 								</tr>
 								<tr>
@@ -260,7 +260,7 @@ page_header('CenturyLink Managed Office','index');
 								<img src="<?php echo ROOT_URL; ?>/images/limited_it.png" alt="" />
 							</div>
 							<div class="tile-it-mobusiness">
-								<strong class="nowrap"><span class="font-green-mormal">LIMITED</span> <span
+								<strong><span class="font-green-mormal">LIMITED</span> <span
 									class="font-white-mormal">IT staff?</span> </strong>
 							</div>
 							<div class="content-it-mobusiness">
@@ -303,7 +303,7 @@ page_header('CenturyLink Managed Office','index');
 	</div>
 </div>
 <div
-	class="line-break sprite" id="how-does-pricing-work"></div>
+	class="line-break-grey sprite" id="how-does-pricing-work"></div>
 <div id="priccingwork">
 	<div class="overlay-chair">
 		<div class="container">
@@ -344,14 +344,14 @@ page_header('CenturyLink Managed Office','index');
 			</div>
             <div class="additional-asterisk">
                 <p class="width300">
-                    *Additional features available at an additional change or ala cate options available for features and services not included in the seat price.
+                    *Additional features available at an additional change or &#224; la carte options available for features and services not included in the seat price.
                 </p>
             </div>
 		</div>
 	</div>
 </div>
 <div
-	class="line-break sprite" id="what-in-it-for-you"></div>
+	class="line-break-grey sprite" id="what-in-it-for-you"></div>
 <div id="whatinit">
 	<div class="container">
 		<div class="overlay-circle">
@@ -371,7 +371,7 @@ page_header('CenturyLink Managed Office','index');
                                     <li>CenturyLink's Cloud makes your
                                 business's information secure and accessible, virtually anywhere.</li>
                                     <li>You'll always have the latest and greatest, because
-                                we're continually updating your communication, applications, and
+                                we're continually updating your communication, applications and
                                 network technology.</li>
                                     <li>No need for you to contact a
                                 third-party supplier to upgrade the software or manage the
@@ -456,9 +456,8 @@ page_header('CenturyLink Managed Office','index');
 				</div>
 				<div class="space20 visible-xs"></div>
 				<p class="fs14b font-gray-mormal">Managed Office not only makes sure
-					your employees are connected to the Internet, CenturyLink makes sure
-					everyone in your office is connected to our privately owned and
-					operated network.</p>
+					your employees are connected to the internet, it makes sure everyone
+					in your office is connected to CenturyLink's privately owned and operated network.</p>
 				<a href="<?php echo ROOT_URL; ?>/managed-data/"
 					class="sprite btreadmore">Read more</a>
 			</div>
@@ -496,7 +495,7 @@ page_header('CenturyLink Managed Office','index');
 					<div class="space20 visible-xs"></div>
 					<p class="fs14b font-gray-mormal">Managed Office gives you
 						everything you need to make calls, including the phones
-						themselves, and a wide variety of advanced features.</p>
+						themselves and a wide variety of advanced features.</p>
 					<a href="<?php echo ROOT_URL; ?>/managed-voice/"
 						class="sprite btreadmore">Read more</a>
 				</div>

@@ -107,7 +107,7 @@
 						setup and troubleshooting&#8212;CenturyLink Hosted Applications
 						bring your business deployment, installation and maintenance in
 						one package. With a complete set of email and collaboration tools,
-						we offer the connectivity and interactivity your users need, all
+						we offer the connectivity and integration your users need, all
 						in a secure, protected environment. Best of all, these services
 						reduce the burden for IT, providing flexible options that are easy
 						to manage.</p>
@@ -127,7 +127,7 @@
 						<ul>
 							<li>ActivSync provides consistent experience across iOS, Android
 								and BlackBerry devices, as well as across OS X and Windows PCs,
-								laptops and servers.</li>
+								laptops and servers</li>
 							<li>Up-to-date AV/AS/AP and filtering</li>
 							<!--<li class="startread"></li> -->
 							<li data-expand="true">Shared calendar and address book functionality</li>
@@ -201,8 +201,8 @@
 						online pests.</h3>
 					<p class="block-content">It's a dangerous world out there. Viruses
 						and malware attacks have become the norm, and your business
-						leadership is looking for you to avoid outages and downtime that
-						come with these threats.  McAfee combines industry leading security
+						leadership is looking for you to avoid the outages and downtime that
+						come with these threats.  McAfee combines industry leading security 
 						and archiving capabilities with AV/AS PC protection software, proactively 
 						protecting your business while you focus on other things.</p>
 
@@ -220,7 +220,7 @@
 						<li>Automatic updates and patches protect against latest
 							threats&#8212;without any IT oversight</li>
 						<li>Real-time response to threats before they hit your
-							network&#8212;your environment is not infected and you avoid
+							network&#8212;your environment is not infected, and you avoid
 							costly and time-consuming mitigation efforts</li>
 					</ul>
 				</div>
@@ -293,7 +293,7 @@
 						<h3>Email Archiving and Retention:</h3>
 						<ul>
 							<li>Optimized archiving reduces storage space up to 80%</li>
-							<li>Meet compliance requirements without relying on end-users
+							<li>Meet compliance requirements without relying on end-users'
 								actions</li>
 							<li>Centralize all capture and storage for quick restore and
 								recovery</li>
@@ -359,7 +359,7 @@
 					<div class="onboard-content new-business sreadmore">
 						Crawls all pages of your site&#8212;even hidden ones&#8212;and
 						submits XML reports to all major search engines: Google, Yahoo,
-						Bing and Ask enhancing SEO results.
+						Bing and Ask&mdash;enhancing SEO results.
 						<!--<div class="startread"></div> -->
 						<ul data-expand="true">
 							<li>Identifies and reports broken links and errors that impact
@@ -416,7 +416,7 @@
 					<div class="onboard-title">Protect your website</div>
 					<div class="onboard-content new-business sreadmore">
 						This application provides vulnerability scanning for network,
-						applications, SQL Injection, and Cross-Site Scripting (XSS).
+						applications, SQL Injection, and Cross-site Scripting (XSS).
 						<!--<div class="startread"></div> -->
 						<ul data-expand="true">
 							<li>Identifies website and application viruses</li>
@@ -438,11 +438,11 @@
 						<!--<div class="startread"></div> -->
 						<ul data-expand="true">
 							<li>Non-intrusive, automatic monitoring that is easy to deploy</li>
-							<li>Scans your site for malicious code, using signature based
+							<li>Scans your site for malicious code, using signature-based
 								approach</li>
 							<li>Comprehensive daily check on search, malware, DNS, phishing
 								and spam blacklists</li>
-							<li>Examines HTML, JavaScript, php, iframes. http links, Ads,
+							<li>Examines HTML, JavaScript, PHP, iframes. http links, Ads,
 								redirects, Flash, pdfs, .exe files</li>
 						</ul>
 					</div>
@@ -457,7 +457,7 @@
 			<div class="padding-fix">
 				<div class="hidden-xs">
 					<h3>How CenturyLink delivers a better hosted application
-						environment</h3>
+						environment.</h3>
 					<div class="excerpt">Our integrated, end-to-end platform provides a
 						robust infrastructure solution that ensures application
 						availability, security and business continuity. We deliver this
@@ -657,9 +657,9 @@
 					</h3>
 					<p class="block-content">
 						Nothing should stand in the way of your business taking full
-						advantage of our cloud services, or getting the convenience and
-						security that comes with backing up your data to the Cloud. With
-						FREE FastForward Onboarding&#8480;, getting started is easy. Just
+						advantage of our Cloud services, or getting the convenience and
+						security that comes with backing up your data to the cloud. With
+						FREE FastForward Onboarding,&#8480; getting started is easy. Just
 						choose from one of our three onboarding options based on your
 						timing and budget, and get started with ease.<br /> <br> <a
 							class="istyle"
@@ -683,7 +683,7 @@
 					<div class="onboard-title center">Do it Yourself</div>
 					<div class="onboard-content readmore">
 						Maybe you want the flexibility to set up and activate our Cloud
-						services on your own. <span class="3dot">...</span>
+						Services on your own. <span class="3dot">...</span>
 						<div class="details"></div>
 						Well, we'll still make it easy. Using nothing more than an
 						Internet connection, you can start backing up your files to the
@@ -696,7 +696,7 @@
 					<img src="<?php echo ROOT_URL;  ?>/images/talk-g.png" alt="TALK" />
 					<div class="onboard-title center">We Help You Get Started</div>
 					<div class="onboard-content readmore">
-						With our guided activation, one of our Cloud experts will walk you
+						With our guided activation, one of our cloud experts will walk you
 						through the <span class="3dot">...</span>
 						<div class="details"></div>
 						initial steps of setup in order to make sure your business is

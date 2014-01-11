@@ -1007,7 +1007,7 @@ a object{
 }
 #business-db .hero-right img.icon{
 	position:absolute;
-	top:16px;
+	top:18px;
 	right:-60px;
 	z-index:5;
 }
@@ -1970,7 +1970,6 @@ h3.easy-title{
 		padding:3px 16px;
 		margin:0;
 		border:0;
-		border-radius:7px;
 		position:absolute;
 		right:0;
 		top:72px;

@@ -23,7 +23,7 @@
 			
 			<ul class="fs14b font-gray-mormal padleft15">
 				<li>10/10Mbps or 100/100Mbps Ethernet connection with other options
-					available based upon availability</li>
+					offered based upon availability</li>
 				<li>CenturyLink IQ<sup>&trade;</sup> Internet or Enhanced Port <i>(based on
 						locations)</i></li>
 				<li>ADTRAN wireless access point</li>

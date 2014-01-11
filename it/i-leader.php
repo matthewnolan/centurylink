@@ -10,7 +10,7 @@
 					<h3 class="block-title">Give users more access, and give yourself
 						more control.</h3>
 					<p class="block-content">Managing your company's applications can
-						be a full-time job all by itself. Time intensive and problematic.
+						be a full-time job, all by itself. It's time intensive and problematic.
 						Our Hosted Microsoft Exchange gives employees the performance and
 						access they demand, and gives you the security you demand. We
 						have a whole family of cloud-based applications that you can put

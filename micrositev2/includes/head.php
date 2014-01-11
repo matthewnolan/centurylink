@@ -3,8 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title><?php  echo $title;	?></title>
-    <meta name="keywords" content="Keywords Site" />
-    <meta name="description" content="Description Site" />
+    <meta name="keywords" content="Managed Office provides your business with fundamental IT and communication infrastructure, plus a dedicated team to manage it, with a flat rate per seat per month available." />
+    <meta name="description" content="Managed Office provides your business with fundamental IT and communication infrastructure, plus a dedicated team to manage it, with a flat rate per seat per month available." />
     <meta name="robots" content="follow,index" />
     <meta name="robots" content="follow,index" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

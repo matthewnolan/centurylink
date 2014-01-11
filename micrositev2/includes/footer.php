@@ -288,6 +288,58 @@ jQuery(document).ready(function($) {
 			$('#div-navsticky li.active').removeClass('active');
 		},300);
 	});
+	
+
+	// homepage hero animation
+	$( "#welcome-server" ).css("top",-50);
+	$( "#welcome-server" ).animate({
+			opacity: 1,
+			top: 0,
+		}, 500
+	);
+	
+	$( "#welcome-computer" ).css("top",20);
+	$( "#welcome-computer" ).css("left",-50);
+	$( "#welcome-computer" ).animate({
+			opacity: 1,
+			top: 0,
+			left: 0
+		}, 500
+	);
+	
+	$( "#welcome-phone" ).css("top", 20);
+	$( "#welcome-phone" ).css("left",50);
+	$( "#welcome-phone" ).animate({
+			opacity: 1,
+			top: 0,
+			left: 0
+		}, 500, function() {
+			// Animation complete.
+			showHeroCopy();
+			}
+	);
+	
+	function showHeroCopy()
+	{
+		$( "#text-layer-mdata-welcom" ).animate({
+			opacity: 1
+		}, 500, function() {
+			// Animation complete.
+			$( "#text-layer-mapps-welcom" ).animate({
+				opacity: 1
+			}, 500, function() {
+				// Animation complete.
+				$( "#text-layer-mvoice-welcom" ).animate({
+					opacity: 1
+				}, 500, function() {
+					// Animation complete.
+				});
+			});
+		});
+	}
+	
+	
+	
 });
 /*	]]>	*/
 </script>

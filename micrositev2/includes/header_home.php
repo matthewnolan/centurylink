@@ -26,7 +26,7 @@
 			<div class="hspace">
 				<div id="layer-mdata-welcome">
 					<img src="<?php echo ROOT_URL; ?>/images/data_server.png" alt=""
-						class="img-responsive" />
+						class="img-responsive" id="welcome-server" />
 					<div class="text-layer-welcom" id="text-layer-mdata-welcom">
 						<span class="font-green-mormal block"><strong>Managed DATA</strong>
 						</span>
@@ -36,7 +36,7 @@
 
 				<div id="layer-mapps-welcome">
 					<img src="<?php echo ROOT_URL; ?>/images/computer.png" width="216"
-						height="221" alt="" class="" />
+						height="221" alt="" class="" id="welcome-computer"/>
 					<div class="text-layer-welcom" id="text-layer-mapps-welcom">
 						<span class="font-green-mormal block"><strong>Managed APPLICATIONS</strong>
 						</span>
@@ -47,7 +47,7 @@
 
 				<div id="layer-mvoice-welcome">
 					<img src="<?php echo ROOT_URL; ?>/images/phone.png" alt=""
-						class="img-responsive" />
+						class="img-responsive" id="welcome-phone"/>
 					<div class="text-layer-welcom" id="text-layer-mvoice-welcom">
 						<span class="font-green-mormal block"><strong>Managed VOICE</strong>
 						</span>
