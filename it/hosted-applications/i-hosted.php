@@ -729,7 +729,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-sm-7 hidden-xs">
-					<iframe width="560" height="315"
+					<iframe width="560" height="300"
 						src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0"
 						allowfullscreen></iframe>
 				</div>
@@ -742,7 +742,7 @@
 					</div>
 				</div>
 				<div class="video-left col-sm-7 visible-xs">
-					<iframe width="560" height="315"
+					<iframe width="560" height="300"
 						src="//www.youtube.com/embed/ZqpxHipyB-c" frameBorder="0"
 						allowfullscreen></iframe>
 				</div>

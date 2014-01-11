@@ -90,7 +90,7 @@
 		<div class="padding-fix">
 			<div class="row video-container">
 				<div class="video-left col-sm-7 hidden-xs">
-					<iframe id="business-video" width="560" height="315"
+					<iframe id="business-video" width="560" height="300"
 						src="//www.youtube.com/embed/T8xJ3w0BIHQ" frameBorder="0" 
 						allowfullscreen></iframe>
 					<div class="clearfix"></div>
@@ -104,7 +104,7 @@
 					</div>
 				</div>
 				<div class="video-left col-sm-7 visible-xs">
-					<iframe id="mobile-business-video" width="560" height="315"
+					<iframe id="mobile-business-video" width="560" height="300"
 						src="//www.youtube.com/embed/T8xJ3w0BIHQ" frameBorder="0"
 						allowfullscreen></iframe>
 					<div class="clearfix"></div>
