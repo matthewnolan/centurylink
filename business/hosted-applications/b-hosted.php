@@ -114,10 +114,13 @@
 					<p class="block-content">It's just human nature. The things we
 						can't see, we tend to take for granted. Like computer viruses and
 						our network security. That's why McAfee is so important. It makes
-						your security automatic. This is a hosted app that proactively
+						your security automatic.</p>
+					<p class="block-content">This is a hosted app that proactively
 						checks anti-virus software, updates patches and protects against
-						threats to open applications. Put it this way, McAfee is software
+						threats to open applications. </p>
+						<p class="block-content">Put it this way, McAfee is software
 						that's vigilant&#8212;even when you and your employees aren't.</p>
+						
 
 				</div>
 				<div class="col-sm-6 image-block visible-xs">

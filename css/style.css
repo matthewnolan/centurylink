@@ -2000,6 +2000,10 @@ h3.easy-title{
 	    width:0;
 	    display:none;
 	}
+	.secure-image{
+		height:241px;
+		background-size:contain;
+	}
 	
 }
 

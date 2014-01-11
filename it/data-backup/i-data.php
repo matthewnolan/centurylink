@@ -241,6 +241,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="block-seperator"></div>
 			<hr class="block-hr" />
 
 			<div class="itdb-secure sticky-padding" id="ffb">
