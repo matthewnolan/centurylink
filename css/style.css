@@ -545,6 +545,9 @@ a object{
 	padding-right:30px;
 	font-weight:bold;
 }
+.sticky-nav a.sticky-logo{
+	padding-right:0;
+}
 .sticky-nav .multi a{
 	padding-right:15px;
 }
@@ -1720,8 +1723,10 @@ h3.easy-title{
 
 /*RESPONSIVE*/
 
-@media screen and (max-width:1200px){
-	.hero-container{
+@media screen and (min-width:992px){
+	.fix-center{
+		margin-right:-30px;
+		width:181px;
 	}	
 }
 
