@@ -103,10 +103,12 @@ page_header("CenturyLink Cloud | IT Leader");
 						<a href="tel:800.361.0833">Call 800.361.0833</a>
 					</p>
 				</div>
+				<div class="why-ctl-seperator"></div>
+				<hr class="block-hr" />
 			</div>
 		</div>
 	</div>
-
+	
 	<div id="iapps">
 		<?php page_inc("it/i-leader.php"); ?>
 	</div>

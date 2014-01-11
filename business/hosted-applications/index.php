@@ -88,6 +88,8 @@
 			We've packaged our solutions to help <strong>protect</strong>, <strong>support</strong> and <strong>grow</strong> your business. <br/>
 			<strong>Call now</strong>&#8212;<strong><span class="call"><a href="tel:800.361.0833">800.361.0833</a></span></strong>&#8212;and find out what we can do for you.
 			</p>
+		<div class="why-ctl-seperator"></div>
+		<hr class="block-hr" />
 	</div>
 	</div>
 </div>

@@ -99,6 +99,8 @@ page_header("CenturyLink Cloud | Business Owner | Data Backup");
 					It also means being able to retrieve files, organize them and
 					restore data with the press of a button.
 				</p>
+				<div class="why-ctl-seperator"></div>
+				<hr class="block-hr" />
 			</div>
 		</div>
 	</div>

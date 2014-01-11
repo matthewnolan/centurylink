@@ -100,6 +100,8 @@ page_header("CenturyLink Cloud | IT Leader | Data Backup");
 					providing an easy-to-manage backup and restore process,
 					ensuring that your data is always available.
 				</p>
+				<div class="why-ctl-seperator"></div>
+				<hr class="block-hr" />
 			</div>
 		</div>
 	</div>

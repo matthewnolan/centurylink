@@ -80,6 +80,8 @@
 			<h3 class="offer">Start your Free 30-day trial today.</h3>
 			<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 		</div>
+		<div class="why-ctl-seperator"></div>
+		<hr class="block-hr" />
 	</div>
 	</div>
 </div>
