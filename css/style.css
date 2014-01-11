@@ -945,18 +945,20 @@ a object{
 .copy-block .block-link, .copy-block .block-link a{	
 	font-size:16px;
 	line-height:20px;
-	font-weight:bold;
 	color:#2882b3;
+	margin-bottom:0;
 }
 .copy-block  h3.block-title{
 	font-size:35px;
 	line-height:36px;
 	color:#282828;
-	margin-bottom:25px;
+	margin-bottom:20px;
+	margin-top:15px;
+	font-weight:normal;
 }
 .copy-block  .block-more{
-	color:#646464;
-	line-height:20px;	
+	line-height:20px;
+	font-weight:bold;	
 }
 .copy-block  .block-more a{
 	text-decoration: underline;
