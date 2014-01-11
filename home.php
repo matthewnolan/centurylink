@@ -5,7 +5,7 @@
 			<div class="hero-left clearfix">
 				<div class="hero-left-content">
 					<p class="headline">Cloud solutions that <br/> deliver greater access<br/> and greater control.</p>
-					<h3 class="offer">Try CenturyLink Cloud FREE for<br/> 30 Days.* </h3>
+					<h3 class="offer">Try CenturyLink Cloud FREE <br/> for 30 Days.* </h3>
 					<p class="call"><a href="tel:800.361.0833">Call 800.361.0833</a></p>
 				</div>
 			</div>

@@ -850,7 +850,7 @@ a object{
 	padding-left:60px;
 	
 }
-.hero-left-content .call{
+.hero-left-content .call, .mobile-hero-content .call{
 	max-width:246px;
 	font-size:23px;
 	color:#ffffff;
@@ -858,26 +858,29 @@ a object{
 	background-color:#ffa02f;
 	font-weight:bold;
 }
-.hero-left-content .call a{
+.hero-left-content .call a, .mobile-hero-content .call a{
 	font-size:23px;
 	color:#ffffff;
 	font-weight:bold;
 }
-.hero-left-content .headline{
+.hero-left-content .headline, .mobile-hero-content .headline{
 	font-size:36px;
 	line-height:40px;
 	color:#727272;
 	font-weight:300;
+	margin:0;
 }
-.hero-left-content .offer {
+.hero-left-content .offer, .mobile-hero-content .offer {
 	font-size:28px;
 	line-height:37px;
 	color:#00853f;
 	font-weight:bold;
+	margin:24px 0;
 }
 .mobile-hero-content{
 	margin-top:15px;
 }
+/*
 .mobile-hero-content .headline{
 	font-size:28px;
 	line-height:32px;
@@ -902,7 +905,7 @@ a object{
 	font-size:18px;
 	color:#ffffff;
 	font-weight:bold;
-}
+}*/
 .why-ctl{
 	background:#ffffff;
 	padding-top:80px;
