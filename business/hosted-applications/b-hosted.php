@@ -264,7 +264,7 @@
 			<hr class="block-hr" />
 
 			<div class="row sticky-padding" id="ffb">
-				<div class="col-sm-7 copy-block">
+				<div class="col-sm-6 copy-block">
 					<h3 class="block-title">Onboard effortlessly and get started today.
 					</h3>
 					<p class="block-content">
@@ -280,9 +280,9 @@
 					</p>
 
 				</div>
-				<div class="col-sm-5 image-block">
+				<div class="col-sm-6 image-block">
 					<img id="onboard-image"
-						src="<?php echo ROOT_URL;  ?>/images/onboard_2x.png" width="374"
+						src="<?php echo ROOT_URL;  ?>/images/onboard_2x.png" width="420"
 						alt="ONBOARD" />
 				</div>
 			</div>
