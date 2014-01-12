@@ -85,6 +85,29 @@ a.sticky-logo object{
 .nowrap {
     white-space: nowrap;
 }
+.details{
+	display:block;
+	height:0;
+	width:100%;
+}
+.more{
+	display:inline !important;
+}
+.fix-height{
+	height:42px;
+}
+.fix-height-1{
+	height:21px;
+}
+.fix-height-2{
+	height:6px;
+}
+.fix-height-3{
+	height:43px;
+}
+.fix-height-4{
+	height:63px;
+}
 
 /*STICKY FOOTER TRICK*/
 #wrapper{
@@ -161,9 +184,6 @@ a:hover img{
 	clear: both;
 	position:relative;
 }
-.fix-readmore-height{
-	height:42px;
-}
 
 .video-list, .video-list li{
 	margin:0;
@@ -223,7 +243,6 @@ li.startread{
 .sticky-padding{
 	padding-top:90px;
 }
-
 /*HEADER*/
 #header{
 	height:64px;
@@ -1708,18 +1727,6 @@ h3.easy-title{
 	color:#8cc63f;
 	text-decoration:underline;
 	font-weight:bold;
-}
-.new-fix-height1{
-	height:21px;
-}
-.new-fix-height2{
-	height:6px;
-}
-.new-fix-height3{
-	height:43px;
-}
-.new-fix-height4{
-	height:63px;
 }
 /*SCROLLUP*/
 #scrollUp{

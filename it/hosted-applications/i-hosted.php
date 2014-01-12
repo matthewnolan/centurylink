@@ -1,69 +1,89 @@
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$('.readmore').readmore({
+			speed:150,
 			maxHeight:40,
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
 					element.find('.3dot').html('');
-					element.find('.details').attr('style','display:inline');
+					if(!element.find('.details').hasClass('more')){
+						element.find('.details').addClass('more');
+					};
+					setTimeout(function(){
+						if(!element.hasClass('fix-fixed-height')){
+							element.addClass('fix-fixed-height');
+						}
+					}, 150 );
 				}else{
 					element.find('.3dot').html('...');
-					element.find('.details').attr('style','display:block;clear:both').height(40);
+					setTimeout(function(){
+						element.find('.details').removeClass('more');
+					}, 200 );
+					element.removeClass('fix-fixed-height');
 				}
 			}
-		}).each(function(){
-			$(this).find('.details').attr('style','display:block;clear:both').height(40);
 		});
-		/*$('.sreadmore').readmore({
+		$('.sreadmore').readmore({
+			speed:150,
 			maxHeight:120,
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
 					element.find('.3dot').html('');
-					element.find('.details').attr('style','display:inline');
+					if(!element.find('.details').hasClass('more')){
+						element.find('.details').addClass('more');
+					};
+					setTimeout(function(){
+						if(!element.hasClass('fix-fixed-height')){
+							element.addClass('fix-fixed-height');
+						}
+					}, 150 );
 				}else{
-					element.find('.3dot').html('');
-					element.find('.details').attr('style','display:block;clear:both').height(40);
+					element.find('.3dot').html('...');
+					setTimeout(function(){
+						element.find('.details').removeClass('more');
+					}, 200 );
+					element.removeClass('fix-fixed-height');
 				}
 			}
-		});*/
+		});
 
-		function initGroupReadmore(selector) {
-			var $list = $(selector);
-			// hide expand
-			$list.find('[data-expand="true"]').hide();
-			// calculate height
-			var height = 0;
-			$list.find('.sreadmore').each(function(){
-				if(height < $(this).height()) {
-					height = $(this).height();
-				}
-			});
-			// init max-height
-			$list.find('[data-expand="true"]').show();
-			$list.find('.sreadmore').readmore({
-				maxHeight:height,
-				moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
-				lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
-				afterToggle: function(trigger, element, more) {
-					if(more){
-						element.find('.3dot').html('');
-						element.find('.details').attr('style','display:inline');
-						element.find('[data-expand="true"]').show();
-					}else{
-						element.find('.3dot').html('');
-						element.find('.details').attr('style','display:block;clear:both').height(40);
-						element.find('[data-expand="true"]').hide();
-					}
-				}
-			});
-			$list.find('[data-expand="true"]').hide();
-		};
-		initGroupReadmore('#whatweoffer');
-		initGroupReadmore('#securefeatures');
+// 		function initGroupReadmore(selector) {
+// 			var $list = $(selector);
+// 			// hide expand
+// 			$list.find('[data-expand="true"]').hide();
+// 			// calculate height
+// 			var height = 0;
+// 			$list.find('.sreadmore').each(function(){
+// 				if(height < $(this).height()) {
+// 					height = $(this).height();
+// 				}
+// 			});
+// 			// init max-height
+// 			$list.find('[data-expand="true"]').show();
+// 			$list.find('.sreadmore').readmore({
+// 				maxHeight:height,
+// 				moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
+// 				lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
+// 				afterToggle: function(trigger, element, more) {
+// 					if(more){
+// 						element.find('.3dot').html('');
+// 						element.find('.details').attr('style','display:inline');
+// 						element.find('[data-expand="true"]').show();
+// 					}else{
+// 						element.find('.3dot').html('');
+// 						element.find('.details').attr('style','display:block;clear:both').height(40);
+// 						element.find('[data-expand="true"]').hide();
+// 					}
+// 				}
+// 			});
+// 			$list.find('[data-expand="true"]').hide();
+// 		};
+// 		initGroupReadmore('#whatweoffer');
+// 		initGroupReadmore('#securefeatures');
 		
 		$('.desktop-graph-left .gplus').click(function(){
 			$(this).parents('.left-block').find('.closed').hide();
@@ -435,7 +455,6 @@
 					<div class="onboard-content new-business sreadmore">
 						The cost-efficient way to prevent, detect and recover your website
 						from malware and virus attacks.
-						<!--<div class="startread"></div> -->
 						<ul data-expand="true">
 							<li>Non-intrusive, automatic monitoring that is easy to deploy</li>
 							<li>Scans your site for malicious code, using signature-based
@@ -688,7 +707,7 @@
 						Well, we'll still make it easy. Using nothing more than an
 						Internet connection, you can start backing up your files to the
 						cloud quickly, whenever you want. CenturyLink provides easy access
-						to your data with our intuitive online Management Console.
+						to your data with our intuitive online Management Console. &nbsp;&nbsp;
 
 					</div>
 				</div>

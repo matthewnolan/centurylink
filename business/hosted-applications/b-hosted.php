@@ -1,23 +1,31 @@
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$('.readmore').readmore({
+			speed:150,
 			maxHeight:40,
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
 					element.find('.3dot').html('');
-					element.find('.details').attr('style','display:inline').height(0);
-					element.addClass('fix-fixed-height');
+					if(!element.find('.details').hasClass('more')){
+						element.find('.details').addClass('more');
+					};
+					setTimeout(function(){
+						if(!element.hasClass('fix-fixed-height')){
+							element.addClass('fix-fixed-height');
+						}
+					}, 150 );
 				}else{
 					element.find('.3dot').html('...');
-					element.find('.details').attr('style','display:block;clear:both').height(40);
+					setTimeout(function(){
+						element.find('.details').removeClass('more');
+					}, 200 );
 					element.removeClass('fix-fixed-height');
 				}
 			}
-		}).each(function(){
-			$(this).find('.details').attr('style','display:block;clear:both').height(40);
-		});
+		})
+		
 	});
 </script>
 <div class="bhosted">
@@ -49,15 +57,16 @@
 					<div class="onboard-content new-business readmore">
 						Emails, invites, calendars, the works. Enjoy bigger and more
 						reliable mailboxes <span class="3dot">...</span>
-						<div class="details"></div>
-						and added security. Wherever you work, you’ll work smarter even
-						though you’re working offsite or away from home.
-						<p>
-							<a
-								href="<?php echo ROOT_URL;  ?>/pdf/business-hosted-apps/Microsoft_Hosted_Exchange.pdf"
-								target="_blank" class="pdflink">Download</a> the details <img
-								src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt="" />
-						</p>
+						<div class="details">
+							and added security. Wherever you work, you’ll work smarter even
+							though you’re working offsite or away from home.
+							<p>
+								<a
+									href="<?php echo ROOT_URL;  ?>/pdf/business-hosted-apps/Microsoft_Hosted_Exchange.pdf"
+									target="_blank" class="pdflink">Download</a> the details <img
+									src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt="" />
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
@@ -68,14 +77,14 @@
 						This is collaboration at its best. Share ideas and documents,
 						organize, build, manage <span class="3dot">...</span>
 						<div class="details"></div>
-						and best of all, discover a new way to work…from anywhere.
-						<p>
-							<a
-								href="<?php echo ROOT_URL;  ?>/pdf/business-hosted-apps/Microsoft_Hosted_SharePoint.pdf"
-								target="_blank" class="pdflink">Download</a> the details <img
-								src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt="" />
-						</p>
-						<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+							and best of all, discover a new way to work…from anywhere. &nbsp; &nbsp; &nbsp;
+							<p>
+								<a
+									href="<?php echo ROOT_URL;  ?>/pdf/business-hosted-apps/Microsoft_Hosted_SharePoint.pdf"
+									target="_blank" class="pdflink">Download</a> the details <img
+									src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt="" />
+							</p>
+						<div class="fix-height-1 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
@@ -83,7 +92,7 @@
 					<div class="onboard-title">Microsoft Hosted Lync</div>
 					<div class="onboard-content new-business readmore">
 						Now you can host online meetings, video calls and instant
-						messages. <span class="3dot">...</span>
+						messages.
 						<div class="details"></div>
 						<p>This is the capability to meet in person, without being there
 							in person.</p>
@@ -93,7 +102,7 @@
 								target="_blank" class="pdflink">Download</a> the details <img
 								src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt="" />
 						</p>
-						<div class="new-fix-height2 hidden-xs hidden-sm"></div>
+						<div class="fix-height-2 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 				<div class="block-seperator"></div>
@@ -143,7 +152,7 @@
 								target="_blank" class="pdflink">Download</a> the details <img
 								src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt="" />
 						</p>
-						<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+						<div class="fix-height-1 hidden-xs hidden-sm"></div>
 					</div>
 
 
@@ -212,7 +221,7 @@
 						on the Web. Pinnacle gives you an immediate plug-in ecommerce
 						capability. So now, your business has a prime location on the
 						Web's Main Street.
-						<div class="new-fix-height1 hidden-xs hidden-sm"></div>
+						<div class="fix-height1 hidden-xs hidden-sm"></div>
 					</div>
 
 
@@ -226,7 +235,7 @@
 						<div class="details"></div>
 						goMobi is an easy-to-use hosted application that allows you to
 						create a high-quality mobile site quickly and cost-efficiently.
-						<div class="new-fix-height3 hidden-xs hidden-sm"></div>
+						<div class="fix-height-3 hidden-xs hidden-sm"></div>
 					</div>
 
 
@@ -240,7 +249,6 @@
 						other threats. In other words, this is a service that safeguards
 						your website. It's like a healthcare plan for your business and
 						your online reputation.
-						<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 					</div>
 
 
@@ -254,7 +262,6 @@
 						insures the security of your website. It not only protects, it
 						also detects any hacking, including all subdomains and all pages
 						of your website.
-						<div class="new-fix-height1 hidden-xs hidden-sm"></div>
 					</div>
 
 
@@ -312,7 +319,7 @@
 						<div class="details"></div>
 						initial steps of setup in order to make sure your business is
 						taking full advantage of the cloud.
-						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
+						<div class="fix-height-4 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
@@ -325,7 +332,7 @@
 						customize a plan that meets all your business needs and
 						requirements while getting you to the cloud quickly and
 						affordably.
-						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
+						<div class="fix-height hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 			</div>

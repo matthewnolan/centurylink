@@ -1,30 +1,42 @@
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$('.readmore').readmore({
+			speed:150,
 			maxHeight:40,
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
 					element.find('.3dot').html('');
-					element.find('.details').attr('style','display:inline');
-					element.addClass('fix-fixed-height');
+					if(!element.find('.details').hasClass('more')){
+						element.find('.details').addClass('more');
+					};
+					setTimeout(function(){
+						if(!element.hasClass('fix-fixed-height')){
+							element.addClass('fix-fixed-height');
+						}
+					}, 150 );
 				}else{
 					element.find('.3dot').html('...');
-					element.find('.details').attr('style','display:block;clear:both').height(40);
+					setTimeout(function(){
+						element.find('.details').removeClass('more');
+					}, 200 );
 					element.removeClass('fix-fixed-height');
 				}
 			}
-		}).each(function(){
-			$(this).find('.details').attr('style','display:block;clear:both').height(40);
 		});
 		$('.sreadmore').readmore({
+			speed:250,
 			maxHeight:0,
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
-					element.addClass('fix-fixed-height');
+					setTimeout(function(){
+						if(!element.hasClass('fix-fixed-height')){
+							element.addClass('fix-fixed-height');
+						}
+					}, 250 );
 				}else{
 					element.removeClass('fix-fixed-height');
 				}

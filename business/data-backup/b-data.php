@@ -1,24 +1,31 @@
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$('.readmore').readmore({
+			speed:150,
 			maxHeight:40,
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
 			afterToggle: function(trigger, element, more) {
 				if(more){
 					element.find('.3dot').html('');
-					element.find('.details').attr('style','display:inline');
-					element.addClass('fix-fixed-height');
+					if(!element.find('.details').hasClass('more')){
+						element.find('.details').addClass('more');
+					};
+					setTimeout(function(){
+						if(!element.hasClass('fix-fixed-height')){
+							element.addClass('fix-fixed-height');
+						}
+					}, 150 );
 				}else{
 					element.find('.3dot').html('...');
-					element.find('.details').attr('style','display:block;clear:both').height(40);
+					setTimeout(function(){
+						element.find('.details').removeClass('more');
+					}, 200 );
 					element.removeClass('fix-fixed-height');
 				}
 			}
 		});
-	}).each(function(){
-		$(this).find('.details').attr('style','display:block;clear:both').height(40);
-	});
+	})
 </script>
 <div class="bdata">
 	<div class="container wrapper">
@@ -121,7 +128,7 @@
 						initial steps of setup in order to make sure your business is
 						taking full advantage of the cloud and can back up all of your
 						files safely and securely.
-						<div class="new-fix-height4 hidden-xs hidden-sm"></div>
+						<div class="fix-height hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
@@ -134,7 +141,7 @@
 						customize a plan that meets all your business needs and data
 						backup requirements while getting you to the cloud quickly and
 						affordably.
-						<div class="new-fix-height4 hidden-xs hidden-sm"></div>
+						<div class="fix-height hidden-xs hidden-sm"></div>
 					</div>
 				</div>
 			</div>
