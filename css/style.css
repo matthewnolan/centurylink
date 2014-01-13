@@ -856,8 +856,8 @@ a object{
 
 #business-apps .hero-left{
 	height:363px;
-	margin-left:-112px;
-	padding-left:112px;
+	margin-left:-130px;
+	padding-left:130px;
 	background-image:url("../images/business-cloud.png");
 	background-image:url("../images/apps-cloud.svg");
 	background-image:none, url("../images/apps-cloud.svg"), url("../images/business-cloud.png");
@@ -905,7 +905,7 @@ a object{
 	line-height:37px;
 	color:#00853f;
 	font-weight:bold;
-	margin:24px 0;
+	margin:18px 0 23px;
 }
 .mobile-hero-content{
 	margin-top:15px;
@@ -1037,8 +1037,8 @@ a object{
 }
 #business-db .hero-left{
 	height:363px;
-	margin-left:-112px;
-	padding-left:112px;
+	margin-left:-130px;
+	padding-left:130px;
 	background-image:url("../images/business-cloud.png");
 	background-image:url("../images/apps-cloud.svg");
 	background-image:none , url("../images/apps-cloud.svg"), url("../images/business-cloud.png");
@@ -1562,8 +1562,8 @@ a object{
 }
 #it-db .hero-left{
 	height:363px;
-	margin-left:-112px;
-	padding-left:112px;
+	margin-left:-130px;
+	padding-left:130px;
 	background-image:url("../images/business-cloud.png");
 	background-image:url("../images/apps-cloud.svg");
 	background-image:none, url("../images/apps-cloud.svg"), url("../images/business-cloud.png");
