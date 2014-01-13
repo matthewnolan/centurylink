@@ -15,7 +15,7 @@
 						if(!element.hasClass('fix-fixed-height')){
 							element.addClass('fix-fixed-height');
 						}
-					}, 150 );
+					}, 200 );
 				}else{
 					element.find('.3dot').html('...');
 					setTimeout(function(){
