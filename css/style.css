@@ -505,7 +505,7 @@ a object{
 }
 #sticky-nav-wrap {
 	transition: top 2s;
-
+	-webkit-transition: top 2s;
 }
 .sticky-nav a, .sticky-nav a:hover, .sticky-nav a:focus, .sticky-nav a:active{
 	text-decoration: none;
