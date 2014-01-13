@@ -57,7 +57,7 @@
 					<div class="onboard-content new-business readmore">
 						Emails, invites, calendars, the works. Enjoy bigger and more
 						reliable mailboxes <span class="3dot">...</span>
-						<div class="details">
+						<div class="details"></div>
 							and added security. Wherever you work, you’ll work smarter even
 							though you’re working offsite or away from home.
 							<p>
@@ -66,7 +66,6 @@
 									target="_blank" class="pdflink">Download</a> the details <img
 									src="<?php echo ROOT_URL;  ?>/images/pdf.png" alt="" />
 							</p>
-						</div>
 					</div>
 				</div>
 				<div class="col-sm-4 ">
