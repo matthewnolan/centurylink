@@ -238,7 +238,7 @@ li.startread{
 	list-style-type:none !important;
 }
 .sticky-padding{
-	padding-top:90px;
+	padding-top:90px !important;
 }
 /*HEADER*/
 #header{
@@ -1586,7 +1586,8 @@ a object{
 	font-size:35px;
 	line-height:40px;
 	color:#282828;
-	padding-bottom:20px;
+	padding-bottom:10px;
+	font-weight: normal;
 }
 .secure-content{
 	font-size:14px;
@@ -2291,7 +2292,7 @@ h3.easy-title{
 		padding:0 !important;
 	}
 	.sticky-padding{
-		padding-top:40px;
+		padding-top:40px !important;
 	}
 	.block-seperator{
 		height:30px;
