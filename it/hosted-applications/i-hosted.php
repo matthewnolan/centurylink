@@ -1,7 +1,7 @@
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$('.readmore').readmore({
-			speed:150,
+			speed:200,
 			maxHeight:40,
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
@@ -26,7 +26,7 @@
 			}
 		});
 		$('.sreadmore').readmore({
-			speed:150,
+			speed:200,
 			maxHeight:120,
 			moreLink: '<a href="javascript:;"><div class="plus"><i class="fa fa-plus"></i></div></a>',
 			lessLink: '<a href="javascript:;"><div class="minus"><i class="fa fa-minus"></i></div></a>',
