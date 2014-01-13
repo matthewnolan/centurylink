@@ -178,7 +178,7 @@
 			</div>
 
 			<div id="webmanagement" class="row sticky-padding">
-				<div class="col-sm-6 copy-block">
+				<div class="col-sm-5 copy-block">
 					<p class="block-link mobile-trick-padding">Grow your business</p>
 					<h3 class="block-title">Your website should work as hard as you do.
 					</h3>
@@ -193,8 +193,8 @@
 						website with any of these hosted applications.</p>
 
 				</div>
-				<div class="col-sm-6 image-block">
-					<img src="<?php echo ROOT_URL;  ?>/images/fpo1_2x.png" width="450"
+				<div class="col-sm-7 image-block">
+					<img src="<?php echo ROOT_URL;  ?>/images/fpo1_2x.png" width="527"
 						alt="" />
 				</div>
 			</div>
