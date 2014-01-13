@@ -113,14 +113,14 @@
 </script>
 <div id="ihosted" class="ihosted">
 	<div class="container wrapper">
-		<div class="padding-fix" id="wwo">
-			<div class="row sticky-padding">
+		<div class="padding-fix sticky-padding" id="wwo">
+			<div class="row">
 				<div class="col-sm-6 image-block hidden-xs">
 					<img src="<?php echo ROOT_URL;  ?>/images/ihosted-fpo1.png"
 						alt="FPO" />
 				</div>
 				<div class="col-sm-6 copy-block">
-					<p class="block-link">Microsoft Suite Exchange, SharePoint, Lync</p>
+					<p class="block-link mobile-trick-padding">Microsoft Suite Exchange, SharePoint, Lync</p>
 					<h3 class="block-title">Increase control and decrease workload at
 						the same time.</h3>
 					<p class="block-content">Forget the hassles of software licensing,

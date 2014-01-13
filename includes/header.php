@@ -20,7 +20,6 @@
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.easing.min.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.scrollUp.min.js"></script>
-<script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.sticky.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/readmore.min.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/jquery.sidr.min.js"></script>
 <script type="text/javascript"  src="<?php echo ROOT_URL;  ?>/js/modernizr.svg.js"></script>
@@ -66,38 +65,24 @@ jQuery(document).ready(function($) {
 	});
 	
 
-	//STICKYNAV
-	$("#sticky-nav-wrap").sticky({
-			topSpacing:0
-	});
-	$('#sticky-nav a').click(function(e){
-		e.preventDefault();
-		var divID = $(this).attr('href');
-	    $('html, body').animate({
-	        scrollTop: $(divID).offset().top - 70
-	    }, 300);
-		return false;
-	});
-
-	if($("#sticky-nav-wrap").height()!==null){
-		if($("#sticky-nav-wrap").height() < 72){
-			$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 20);
-		}else{
-			$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 2);
-		};
+	// STICKYNAV
+	if($("#sticky-nav-wrap").height() !== null){
+		var offset = $("#sticky-nav-wrap").offset().top;
+		$("#sticky-nav-wrap").attr('data-offset-top', offset);
 		$("#sticky-nav-wrap .fix-center").css('top',$("#sticky-nav-wrap").height());
+		var wrapHeight = $("#sticky-nav-wrap").height();
+		var pOffset = wrapHeight + 1;
+		$('body').attr('data-offset', pOffset);
 	};
 	$(window).scroll(function(){
 		if($("#sticky-nav-wrap").position()){
-			if($("#sticky-nav-wrap").position().top != 0 ){
+			if($("#sticky-nav-wrap").position().top !== 0 ){
 				$('#sticky-nav li.active').removeClass('active');
 			}else{
-				if($("#sticky-nav-wrap").height() < 73){
-					$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 20);
-				}else{
-					$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 2);
-				};
-			}  
+				$('[data-spy="scroll"]').each(function () {
+					  var $spy = $(this).scrollspy('refresh')
+					})
+			}
 		} 
 	});
 
@@ -114,25 +99,32 @@ jQuery(document).ready(function($) {
 		var winw = $(window).width();
 		$('html').attr('style','width:'+ winw);
 		$('body').attr('style','width:'+ winw);
-		$('[data-spy="scroll"]').each(function () {
-			  var $spy = $(this).scrollspy('refresh')
-		});
 		if($("#sticky-nav-wrap").position()){
-			if($("#sticky-nav-wrap").position().top !=0 ){
+			if($("#sticky-nav-wrap").position().top !== 0 ){
 				$('#sticky-nav li.active').removeClass('active');
-			}else{
-				if($("#sticky-nav-wrap").height()!==null){
-					if($("#sticky-nav-wrap").height() < 72){
-						$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 20);
-					}else{
-						$('body').attr('data-offset',$("#sticky-nav-wrap").height() + 2);
-					};
-				}; 	
-			};
+			}
 			if($("#sticky-nav-wrap").height()!==null){
+				var offset = $("#sticky-nav-wrap").offset().top;
+				$("#sticky-nav-wrap").attr('data-offset-top', offset);
+				var wrapHeight = $("#sticky-nav-wrap").height();
+				var pOffset = wrapHeight + 1;
+				$('body').attr('data-offset', pOffset);
 				$("#sticky-nav-wrap .fix-center").css('top',$("#sticky-nav-wrap").height());
 			}; 	
 		};
+		$('[data-spy="scroll"]').each(function () {
+			  var $spy = $(this).scrollspy('refresh')
+		});
+	});
+
+	$('#sticky-nav a').click(function(e){
+		e.preventDefault();
+		var divID = $(this).attr('href');
+		var wrapHeight = $('#sticky-nav-wrap').height();
+		$('html, body').animate({
+			scrollTop: $(divID).offset().top - wrapHeight
+		}, 300);
+		return false;
 	});
 	
 	//Check active page
@@ -187,7 +179,7 @@ jQuery(document).ready(function($) {
 <![endif]-->
 
 </head>
-<body data-spy="scroll" data-target=".sticky-nav" data-offset="90">
+<body data-spy="scroll" data-target="#sticky-nav-wrap">
 <div id="wrapper">
 <header id="header" class="navbar" >
 	<div class="container wrapper">

@@ -164,10 +164,7 @@ a:hover img{
 	background:-webkit-linear-gradient(left, #FFFFFF 0%,#cccccc 50%,#FFFFFF 100%); 
 	background:linear-gradient(left, #FFFFFF 0%,#cccccc 50%,#FFFFFF 100%);
 }
-.block-seperator{
-	height:100px;
-	clear:both;
-}
+
 .videohr{
 	margin:0 0 45px;
 	border: 0; 
@@ -500,6 +497,10 @@ a object{
 	z-index:9999999;
 	text-align:center;
 	width:100%;
+}
+.affix {
+	position: fixed;
+	top: 0;
 }
 .sticky-nav a, .sticky-nav a:hover, .sticky-nav a:focus, .sticky-nav a:active{
 	text-decoration: none;
@@ -2144,9 +2145,7 @@ h3.easy-title{
 	#sticky-nav  li a.has-padding{
 		padding-right:10px !important;
 	}
-	.mobile-trick-padding{
-		padding-top:20px;
-	}
+	
 	.mobile-graph{
 		width:280px;
 		height:653px;
@@ -2281,6 +2280,24 @@ h3.easy-title{
 		border:0 !important;
 		margin:0 !important;
 		padding:0 !important;
+	}
+	.sticky-padding{
+		padding-top:40px;
+	}
+	.block-seperator{
+		height:30px;
+	}
+	.why-ctl{
+		padding-top:40px;
+	}
+	.why-ctl-seperator{
+		height:50px;
+	}
+	.video-right h3{
+		margin-top:0;
+	}
+	.mobile-trick-padding{
+		padding-top:20px;
 	}
 
 }

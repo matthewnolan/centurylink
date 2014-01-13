@@ -66,7 +66,7 @@ page_header("CenturyLink Cloud | IT Leader");
 		</div>
 	</div>
 
-	<div id="sticky-nav-wrap" class="sticky-nav">
+	<div id="sticky-nav-wrap" class="sticky-nav" data-spy="affix">
 		<div class="container wrapper">
 			<div class="padding-fix">
 				<a href="http://www.centurylink.com/small-business/" target="_blank"
