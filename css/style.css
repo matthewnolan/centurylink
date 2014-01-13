@@ -905,7 +905,7 @@ a object{
 	line-height:37px;
 	color:#00853f;
 	font-weight:bold;
-	margin:18px 0 23px;
+	margin:16px 0 23px;
 }
 .mobile-hero-content{
 	margin-top:15px;
@@ -1237,7 +1237,6 @@ a object{
 
 #ihosted .copy-block .block-more{
 	font-weight:bold;
-	color:#000;
 }
 
 #ihosted .copy-block .block-more a{
@@ -1306,6 +1305,7 @@ a object{
 }
 .ihosted-why-ctl{
 	text-align:left;
+	margin-top: 30px;
 	
 }
 .ihosted-why-ctl h3{
@@ -1592,6 +1592,15 @@ a object{
 	font-size:14px;
 	line-height:21px;
 	color:#535353;
+}
+.secure-content .first{
+	margin-left:4px;
+}
+.secure-content .mid{
+	margin-left:-18px;
+}
+.secure-content .last{
+	margin-left:-10px;
 }
 
 .secure-image{
