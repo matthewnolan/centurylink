@@ -1057,7 +1057,7 @@ a object{
 	background-image:url("../images/apps-cloud.svg");
 	background-image:none , url("../images/apps-cloud.svg"), url("../images/business-cloud.png");
 	background-repeat:no-repeat;
-	background-position: 0 -126px;
+	background-position: -10px -126px;
 }
 #business-db .hero-container{
 	position:relative;
@@ -2349,4 +2349,8 @@ h3.easy-title{
 
 .testcolor {
 	color:#064b73 !important;
+}
+
+#faston {
+	margin-bottom: 6px;
 }
