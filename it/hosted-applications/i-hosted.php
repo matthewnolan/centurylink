@@ -697,7 +697,7 @@
 
 			<div class="block-seperator"></div>
 			<div class="row onboard3col">
-				<div class="col-sm-4 center">
+				<div class="col-sm-4 col-sm-offset-2 center">
 					<img src="<?php echo ROOT_URL;  ?>/images/gears-g.png" alt="GEARS" />
 					<div class="onboard-title center">Do it Yourself</div>
 					<div class="onboard-content readmore">
@@ -723,7 +723,7 @@
 						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
 					</div>
 				</div>
-				<div class="col-sm-4 center">
+				<!--<div class="col-sm-4 center">
 					<img src="<?php echo ROOT_URL;  ?>/images/join-g.png" alt="Join" />
 					<div class="onboard-title center">We Take Care of Every Step</div>
 					<div class="onboard-content readmore">
@@ -735,7 +735,7 @@
 						affordably.
 						<div class="fix-readmore-height hidden-xs hidden-sm"></div>
 					</div>
-				</div>
+				</div>  -->
 			</div>
 
 		</div>

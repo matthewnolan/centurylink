@@ -270,7 +270,7 @@
 				<div class="block-seperator"></div>
 	
 				<div class="row onboard3col">
-					<div class="col-sm-4 ">
+					<div class="col-sm-4  col-sm-offset-2">
 						<img src="<?php echo ROOT_URL;  ?>/images/gears-g.png" alt="GEARS" />
 						<div class="onboard-title">Self-service Activation</div>
 						<div class="onboard-content readmore">
@@ -306,7 +306,7 @@
 							<div class="i-readmore-fix2 hidden-xs hidden-sm"></div>
 						</div>
 					</div>
-					<div class="col-sm-4 ">
+					<!--<div class="col-sm-4 ">
 						<img src="<?php echo ROOT_URL;  ?>/images/join-g.png" alt="Join" />
 						<div class="onboard-title">Do-it-for-me Onboarding</div>
 						<div class="onboard-content readmore">
@@ -331,7 +331,7 @@
 								<li>Conduct a review of all tools</li>
 							</ul>
 						</div>
-					</div>
+					</div>-->
 				</div>
 	
 	

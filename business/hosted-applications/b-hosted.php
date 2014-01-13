@@ -296,7 +296,7 @@
 
 			<div class="block-seperator"></div>
 			<div class="row onboard3col">
-				<div class="col-sm-4 ">
+				<div class="col-sm-4 col-sm-offset-2">
 					<img src="<?php echo ROOT_URL;  ?>/images/gears.png" alt="GEARS" />
 					<div class="onboard-title">Do it Yourself</div>
 					<div class="onboard-content readmore">
@@ -310,7 +310,7 @@
 
 					</div>
 				</div>
-				<div class="col-sm-4 ">
+				<div class="col-sm-4">
 					<img src="<?php echo ROOT_URL;  ?>/images/talk.png" alt="TALK" />
 					<div class="onboard-title">We Help You Get Started</div>
 					<div class="onboard-content readmore">
@@ -322,7 +322,7 @@
 						<div class="fix-height-4 hidden-xs hidden-sm"></div>
 					</div>
 				</div>
-				<div class="col-sm-4 ">
+				<!-- <div class="col-sm-4 ">
 					<img src="<?php echo ROOT_URL;  ?>/images/join.png" alt="Join" />
 					<div class="onboard-title">We Take Care of Every Step</div>
 					<div class="onboard-content readmore">
@@ -334,7 +334,7 @@
 						affordably.
 						<div class="fix-height hidden-xs hidden-sm"></div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 
 			<div class="it-present">
