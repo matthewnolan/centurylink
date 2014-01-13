@@ -1692,6 +1692,9 @@ h3.easy-title{
 .fivecolumns div.col-sm-2, .fivecolumns div.onboard-title{
 	text-align:left !important;
 }
+.fivecolumns.center-logos div.col-sm-2{
+	text-align:center !important;
+}
 
 /*FOOTER*/
 

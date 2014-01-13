@@ -372,7 +372,7 @@
 					<img src="<?php echo ROOT_URL;  ?>/images/ihosted-fpo4.png" alt="" />
 				</div>
 			</div>
-			<div class="row fivecolumns onboard3col" id="securefeatures">
+			<div class="row fivecolumns onboard3col center-logos" id="securefeatures">
 				<div class="col-sm-2">
 					<img src="<?php echo ROOT_URL;  ?>/images/attra.png" alt="LOGO" />
 					<div class="onboard-title">SEO: Attracta</div>
