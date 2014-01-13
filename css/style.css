@@ -238,7 +238,7 @@ li.startread{
 	list-style-type:none !important;
 }
 .sticky-padding{
-	padding-top:90px;
+	padding-top:90px !important;
 }
 /*HEADER*/
 #header{
@@ -1407,7 +1407,7 @@ a object{
 #graph h3{
 	font-size:32px;
 	line-height:36px;
-	margin:0 0 20px;
+	margin:0 0 15px;
 	
 }
 #graph .excerpt{
@@ -1591,7 +1591,8 @@ a object{
 	font-size:35px;
 	line-height:40px;
 	color:#282828;
-	padding-bottom:20px;
+	padding-bottom:10px;
+	font-weight: normal;
 }
 .secure-content{
 	font-size:14px;
@@ -1692,6 +1693,12 @@ h3.easy-title{
 .easy-content{
 	font-size:14px;
 	color:#282828;
+}
+.fivecolumns div.col-sm-2, .fivecolumns div.onboard-title{
+	text-align:left !important;
+}
+.fivecolumns.center-logos div.col-sm-2{
+	text-align:center !important;
 }
 
 /*FOOTER*/
@@ -2296,7 +2303,7 @@ h3.easy-title{
 		padding:0 !important;
 	}
 	.sticky-padding{
-		padding-top:40px;
+		padding-top:40px !important;
 	}
 	.block-seperator{
 		height:30px;
