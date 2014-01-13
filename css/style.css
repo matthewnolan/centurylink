@@ -497,10 +497,15 @@ a object{
 	z-index:9999999;
 	text-align:center;
 	width:100%;
+	top:-80px;
 }
 .affix {
 	position: fixed;
 	top: 0;
+}
+#sticky-nav-wrap {
+	transition: top 2s;
+
 }
 .sticky-nav a, .sticky-nav a:hover, .sticky-nav a:focus, .sticky-nav a:active{
 	text-decoration: none;
