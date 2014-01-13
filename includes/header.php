@@ -116,7 +116,6 @@ jQuery(document).ready(function($) {
 			  var $spy = $(this).scrollspy('refresh')
 		});
 	});
-
 	$('#sticky-nav a').click(function(e){
 		e.preventDefault();
 		var divID = $(this).attr('href');

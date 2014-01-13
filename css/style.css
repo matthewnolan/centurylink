@@ -1689,6 +1689,9 @@ h3.easy-title{
 	font-size:14px;
 	color:#282828;
 }
+.fivecolumns div.col-sm-2, .fivecolumns div.onboard-title{
+	text-align:left !important;
+}
 
 /*FOOTER*/
 
